@@ -22,38 +22,36 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:898d0449199ca638-2@daily.newissueiq
-DTSTAMP:20260519T123135Z
+DTSTAMP:20260519T131619Z
 DTSTART;TZID=America/New_York:20260519T120000
 DTEND;TZID=America/New_York:20260519T124500
 SUMMARY:MBGL — Call #2
 DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
  Issuer: MOBILITY GLOBAL INC (MBGL)\nRoadshow: Direct Link: https://dealroa
  dshow.com/e/MBGL2026 | Website: https://dealroadshow.finsight.com/ | Passc
- ode: MBGL2026\n\nDeal context:\nMobility Global Inc. (MBGL)\, a newly form
- ed automotive data and insights company being spun off from S&P Global\, i
- s arranging a series of fixed income investor calls on May 18\, 2026\, ahe
- ad of a potential 144A/Reg S senior unsecured notes offering with registra
- tion rights. The deal is expected to consist of 3-\, 5-\, and 10-year tran
- ches\, subject to market conditions\, with anticipated ratings of Baa3 (st
- able) at Moody's and BBB (stable) at Fitch\, placing it firmly in investme
- nt grade territory. Goldman Sachs & Co. LLC\, Morgan Stanley\, and BofA Se
- curities have been mandated as joint bookrunners\, with Morgan Stanley coo
- rdinating logistics for the investor call series.
+ ode: MBGL2026\n\nDeal context:\nMobility Global Inc (MBGL) is launching a 
+ USD 2 billion three-tranche senior unsecured note offering (144A/Reg S wit
+ h registration rights) rated Baa3/Stable (Moody's) and BBB/Stable (Fitch).
+  The deal comprises three fixed-rate tranches: a 3-year (Jun 2029)\, 5-yea
+ r (Jun 2031)\, and 10-year (Jun 2036)\, each sized at USD benchmark with I
+ PTs of T+120a\, T+145a\, and T+170a respectively\, targeting today's busin
+ ess for pricing. The deal features an escrow structure with proceeds held 
+ pending a separation transaction from S&P Global\, with a special mandator
+ y redemption at 101% if escrow conditions are not met by June 30\, 2027.
 X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
  h out to your dealer to confirm timing and availability</p><p><strong>Issu
  er:</strong> MOBILITY GLOBAL INC (MBGL)</p><p><strong>Roadshow:</strong> D
  irect Link: https://dealroadshow.com/e/MBGL2026 | Website: https://dealroa
  dshow.finsight.com/ | Passcode: MBGL2026</p><p><strong>Deal context:</stro
- ng><br>Mobility Global Inc. (MBGL)\, a newly formed automotive data and in
- sights company being spun off from S&amp\;P Global\, is arranging a series
-  of fixed income investor calls on May 18\, 2026\, ahead of a potential 14
- 4A/Reg S senior unsecured notes offering with registration rights. The dea
- l is expected to consist of 3-\, 5-\, and 10-year tranches\, subject to ma
- rket conditions\, with anticipated ratings of Baa3 (stable) at Moody's and
-  BBB (stable) at Fitch\, placing it firmly in investment grade territory. 
- Goldman Sachs &amp\; Co. LLC\, Morgan Stanley\, and BofA Securities have b
- een mandated as joint bookrunners\, with Morgan Stanley coordinating logis
- tics for the investor call series.</p>
+ ng><br>Mobility Global Inc (MBGL) is launching a USD 2 billion three-tranc
+ he senior unsecured note offering (144A/Reg S with registration rights) ra
+ ted Baa3/Stable (Moody's) and BBB/Stable (Fitch). The deal comprises three
+  fixed-rate tranches: a 3-year (Jun 2029)\, 5-year (Jun 2031)\, and 10-yea
+ r (Jun 2036)\, each sized at USD benchmark with IPTs of T+120a\, T+145a\, 
+ and T+170a respectively\, targeting today's business for pricing. The deal
+  features an escrow structure with proceeds held pending a separation tran
+ saction from S&amp\;P Global\, with a special mandatory redemption at 101%
+  if escrow conditions are not met by June 30\, 2027.</p>
 LOCATION:Conference Call
 END:VEVENT
 END:VCALENDAR
