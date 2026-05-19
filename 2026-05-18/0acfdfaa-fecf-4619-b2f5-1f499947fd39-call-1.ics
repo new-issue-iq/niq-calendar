@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1f53f3e479da3d77-1@daily.newissueiq
+DTSTAMP:20260519T122329Z
+DTSTART;TZID=America/New_York:20260519T110000
+DTEND;TZID=America/New_York:20260519T114500
+SUMMARY:MBGL — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MOBILITY GLOBAL INC (MBGL)\nRoadshow: Direct Link: https://dealroa
+ dshow.com/e/MBGL2026 | Website: https://dealroadshow.finsight.com/ | Passc
+ ode: MBGL2026\n\nDeal context:\nMobility Global Inc. (MBGL)\, a newly form
+ ed automotive data and insights company being spun off from S&P Global\, i
+ s arranging a series of fixed income investor calls on May 18\, 2026\, ahe
+ ad of a potential 144A/Reg S senior unsecured notes offering with registra
+ tion rights. The deal is expected to consist of 3-\, 5-\, and 10-year tran
+ ches\, subject to market conditions\, with anticipated ratings of Baa3 (st
+ able) at Moody's and BBB (stable) at Fitch\, placing it firmly in investme
+ nt grade territory. Goldman Sachs & Co. LLC\, Morgan Stanley\, and BofA Se
+ curities have been mandated as joint bookrunners\, with Morgan Stanley coo
+ rdinating logistics for the investor call series.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MOBILITY GLOBAL INC (MBGL)</p><p><strong>Roadshow:</strong> D
+ irect Link: https://dealroadshow.com/e/MBGL2026 | Website: https://dealroa
+ dshow.finsight.com/ | Passcode: MBGL2026</p><p><strong>Deal context:</stro
+ ng><br>Mobility Global Inc. (MBGL)\, a newly formed automotive data and in
+ sights company being spun off from S&amp\;P Global\, is arranging a series
+  of fixed income investor calls on May 18\, 2026\, ahead of a potential 14
+ 4A/Reg S senior unsecured notes offering with registration rights. The dea
+ l is expected to consist of 3-\, 5-\, and 10-year tranches\, subject to ma
+ rket conditions\, with anticipated ratings of Baa3 (stable) at Moody's and
+  BBB (stable) at Fitch\, placing it firmly in investment grade territory. 
+ Goldman Sachs &amp\; Co. LLC\, Morgan Stanley\, and BofA Securities have b
+ een mandated as joint bookrunners\, with Morgan Stanley coordinating logis
+ tics for the investor call series.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

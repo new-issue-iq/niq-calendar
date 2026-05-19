@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b95c3a33aa290df6-6@daily.newissueiq
+DTSTAMP:20260519T122329Z
+DTSTART;TZID=America/New_York:20260519T113000
+DTEND;TZID=America/New_York:20260519T121500
+SUMMARY:VEON — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VEON (VEON)\nRoadshow: URL: https://dealroadshow.com | Entry Code 
+ (Active Now): VEON2026 | Direct Link: https://dealroadshow.com/e/VEON2026\
+ n\nDeal context:\nVEON Midco B.V. (guaranteed by VEON Amsterdam B.V.) is l
+ aunching a dual-tranche US dollar benchmark senior unsecured offering unde
+ r Reg S / Rule 144A format\, comprising a 5NC2 tranche due June 1\, 2031 a
+ nd a 7NC3 tranche due June 1\, 2033\, both rated BB-/BB- (S&P/Fitch\, Stab
+ le). IPTs are 7.375-7.500% on the 5-year and 7.875% area on the 7-year\, w
+ ith proceeds earmarked for refinancing existing indebtedness including a c
+ oncurrent tender for the issuer's 3.375% Senior Notes due 2027. The deal i
+ s led by joint global coordinators Barclays and Citi (B&D)\, alongside joi
+ nt lead managers ICBC and Jefferies\, with books open for today's business
+ .
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VEON (VEON)</p><p><strong>Roadshow:</strong> URL: https://dea
+ lroadshow.com | Entry Code (Active Now): VEON2026 | Direct Link: https://d
+ ealroadshow.com/e/VEON2026</p><p><strong>Deal context:</strong><br>VEON Mi
+ dco B.V. (guaranteed by VEON Amsterdam B.V.) is launching a dual-tranche U
+ S dollar benchmark senior unsecured offering under Reg S / Rule 144A forma
+ t\, comprising a 5NC2 tranche due June 1\, 2031 and a 7NC3 tranche due Jun
+ e 1\, 2033\, both rated BB-/BB- (S&amp\;P/Fitch\, Stable). IPTs are 7.375-
+ 7.500% on the 5-year and 7.875% area on the 7-year\, with proceeds earmark
+ ed for refinancing existing indebtedness including a concurrent tender for
+  the issuer's 3.375% Senior Notes due 2027. The deal is led by joint globa
+ l coordinators Barclays and Citi (B&amp\;D)\, alongside joint lead manager
+ s ICBC and Jefferies\, with books open for today's business.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

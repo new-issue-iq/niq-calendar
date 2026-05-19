@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b9fbf87e48952428-1@daily.newissueiq
+DTSTAMP:20260519T122329Z
+DTSTART;TZID=America/New_York:20260519T110000
+DTEND;TZID=America/New_York:20260519T114500
+SUMMARY:RRD — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: R R DONNELLEY & SONS CO (RRD)\nRoadshow: https://www.netroadshow.c
+ om/events/login/1PeTHmojEjVHeCejRoaBK5KT78pwQWuNRjAi0\n\nDeal context:\nR.
+ R. Donnelley & Sons Company (RRD) is bringing a $750 million Senior Unsecu
+ red PIK Notes due 2031 to market\, rated Caa2/B-/B- (Moody's/S&P/Fitch)\, 
+ reflecting a deeply sub-investment grade credit profile. The deal features
+  a hybrid coupon structure of 50% cash pay / 50% PIK (with issuer option f
+ or all cash pay)\, with the first coupon being all cash\, and is structure
+ d as a 5NC2 with the first call at par plus 50% of coupon. IPT is set at a
+ n 11.00% coupon at a price of 95.00\, with a roadshow running May 18-19 an
+ d pricing expected Wednesday\, May 20\, 2025\; the deal is distributed as 
+ 144A/Reg S for life via Wells Fargo (left)\, J.P. Morgan\, and Apollo.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> R R DONNELLEY &amp\; SONS CO (RRD)</p><p><strong>Roadshow:</s
+ trong> https://www.netroadshow.com/events/login/1PeTHmojEjVHeCejRoaBK5KT78
+ pwQWuNRjAi0</p><p><strong>Deal context:</strong><br>R.R. Donnelley &amp\; 
+ Sons Company (RRD) is bringing a $750 million Senior Unsecured PIK Notes d
+ ue 2031 to market\, rated Caa2/B-/B- (Moody's/S&amp\;P/Fitch)\, reflecting
+  a deeply sub-investment grade credit profile. The deal features a hybrid 
+ coupon structure of 50% cash pay / 50% PIK (with issuer option for all cas
+ h pay)\, with the first coupon being all cash\, and is structured as a 5NC
+ 2 with the first call at par plus 50% of coupon. IPT is set at an 11.00% c
+ oupon at a price of 95.00\, with a roadshow running May 18-19 and pricing 
+ expected Wednesday\, May 20\, 2025\; the deal is distributed as 144A/Reg S
+  for life via Wells Fargo (left)\, J.P. Morgan\, and Apollo.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

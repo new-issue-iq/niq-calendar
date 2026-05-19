@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:efa484ad09ecd8f1-2@daily.newissueiq
+DTSTAMP:20260519T122329Z
+DTSTART;TZID=America/New_York:20260519T130000
+DTEND;TZID=America/New_York:20260519T134500
+SUMMARY:XYL — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: XYLEM INC (XYL)\nRoadshow: https://dealroadshow.com/e/XYL2026 | En
+ try Code: XYL2026\n\nDeal context:\nXylem Inc. (XYL)\, rated Baa2 (positiv
+ e outlook) / BBB (positive outlook)\, has mandated BNP PARIBAS\, Citigroup
+ \, ING\, J.P. Morgan\, and Wells Fargo Securities to arrange fixed income 
+ investor calls on May 18\, 2026\, ahead of a potential USD-denominated\, S
+ EC-registered dual-tranche offering. The deal includes a potential inaugur
+ al Blue Bond tranche\, supported by a Blue and Green Finance Framework wit
+ h a Second Party Opinion from Sustainable Fitch\, with BNP PARIBAS acting 
+ as Blue Bond Coordinator. No pricing terms\, size\, or tenors have been di
+ sclosed at this mandate stage\, with the offering subject to market condit
+ ions following the investor call series.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> XYLEM INC (XYL)</p><p><strong>Roadshow:</strong> https://deal
+ roadshow.com/e/XYL2026 | Entry Code: XYL2026</p><p><strong>Deal context:</
+ strong><br>Xylem Inc. (XYL)\, rated Baa2 (positive outlook) / BBB (positiv
+ e outlook)\, has mandated BNP PARIBAS\, Citigroup\, ING\, J.P. Morgan\, an
+ d Wells Fargo Securities to arrange fixed income investor calls on May 18\
+ , 2026\, ahead of a potential USD-denominated\, SEC-registered dual-tranch
+ e offering. The deal includes a potential inaugural Blue Bond tranche\, su
+ pported by a Blue and Green Finance Framework with a Second Party Opinion 
+ from Sustainable Fitch\, with BNP PARIBAS acting as Blue Bond Coordinator.
+  No pricing terms\, size\, or tenors have been disclosed at this mandate s
+ tage\, with the offering subject to market conditions following the invest
+ or call series.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
