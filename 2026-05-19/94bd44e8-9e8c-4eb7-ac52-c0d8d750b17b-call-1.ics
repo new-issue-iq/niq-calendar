@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6e476302953664bd-1@daily.newissueiq
+DTSTAMP:20260520T133753Z
+DTSTART;TZID=America/New_York:20260520T130000
+DTEND;TZID=America/New_York:20260520T134500
+SUMMARY:HYDONE — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HYDRO ONE INC (HYDONE)\nRoadshow: Direct Link: www.netroadshow.com
+ /nrs/home/#!/?show=4819d3ca (Recommended) | Website: www.netroadshow.com |
+  Passcode: HYDRO26 (not case-sensitive)\n\nDeal context:\nHydro One Inc (H
+ YDONE) is bringing a USD Benchmark 5-year Senior Unsecured Note to market 
+ via SEC Registered format\, with initial price talk of T+80-85bps. The dea
+ l is rated A3/Stable (Moody's)\, A/Stable (S&P)\, and AH/Stable (DBRS)\, f
+ irmly investment grade\, with proceeds earmarked to repay maturing long-te
+ rm debt\, short-term indebtedness (including commercial paper)\, and for g
+ eneral corporate purposes. The transaction is being led by Barclays (B&D)\
+ , Mizuho\, and RBC Capital Markets\, with settlement expected T+3 on May 2
+ 6\, 2026\, and maturity on May 30\, 2031.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HYDRO ONE INC (HYDONE)</p><p><strong>Roadshow:</strong> Direc
+ t Link: www.netroadshow.com/nrs/home/#!/?show=4819d3ca (Recommended) | Web
+ site: www.netroadshow.com | Passcode: HYDRO26 (not case-sensitive)</p><p><
+ strong>Deal context:</strong><br>Hydro One Inc (HYDONE) is bringing a USD 
+ Benchmark 5-year Senior Unsecured Note to market via SEC Registered format
+ \, with initial price talk of T+80-85bps. The deal is rated A3/Stable (Moo
+ dy's)\, A/Stable (S&amp\;P)\, and AH/Stable (DBRS)\, firmly investment gra
+ de\, with proceeds earmarked to repay maturing long-term debt\, short-term
+  indebtedness (including commercial paper)\, and for general corporate pur
+ poses. The transaction is being led by Barclays (B&amp\;D)\, Mizuho\, and 
+ RBC Capital Markets\, with settlement expected T+3 on May 26\, 2026\, and 
+ maturity on May 30\, 2031.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

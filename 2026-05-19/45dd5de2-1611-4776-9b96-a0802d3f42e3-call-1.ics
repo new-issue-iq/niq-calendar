@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:715b2c7ad9e35142-1@daily.newissueiq
+DTSTAMP:20260520T133753Z
+DTSTART;TZID=America/New_York:20260519T100000
+DTEND;TZID=America/New_York:20260519T104500
+SUMMARY:FMC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FMC CORP (FMC)\nRoadshow: https://www.netroadshow.com/events/login
+ /1PeTHmohH9Mq3hAyNcKYr0OhTndniW3jQaBQQ\n\nDeal context:\nFMC Corporation\,
+  a Ba1/BB+/BB+ rated agricultural sciences company\, is bringing a $750 mi
+ llion 5-year Senior Secured Notes offering to market via 144A/Reg S for li
+ fe format\, with initial price talk in the mid-to-high 8s. The deal is str
+ uctured with NC-2 call protection (subject to T+50 make whole)\, a 40% equ
+ ity clawback\, and is secured by stock pledges and asset collateral across
+  FMC's U.S.\, Canadian\, Swiss\, and other subsidiary guarantors. Proceeds
+  will be used to refinance FMC's $500mm 3.20% Notes due 2026\, partially t
+ erm out revolver borrowings\, and pay transaction-related fees and expense
+ s\, with pricing expected Thursday\, May 21st following an investor call o
+ n Tuesday\, May 19th\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FMC CORP (FMC)</p><p><strong>Roadshow:</strong> https://www.n
+ etroadshow.com/events/login/1PeTHmohH9Mq3hAyNcKYr0OhTndniW3jQaBQQ</p><p><s
+ trong>Deal context:</strong><br>FMC Corporation\, a Ba1/BB+/BB+ rated agri
+ cultural sciences company\, is bringing a $750 million 5-year Senior Secur
+ ed Notes offering to market via 144A/Reg S for life format\, with initial 
+ price talk in the mid-to-high 8s. The deal is structured with NC-2 call pr
+ otection (subject to T+50 make whole)\, a 40% equity clawback\, and is sec
+ ured by stock pledges and asset collateral across FMC's U.S.\, Canadian\, 
+ Swiss\, and other subsidiary guarantors. Proceeds will be used to refinanc
+ e FMC's $500mm 3.20% Notes due 2026\, partially term out revolver borrowin
+ gs\, and pay transaction-related fees and expenses\, with pricing expected
+  Thursday\, May 21st following an investor call on Tuesday\, May 19th\, 20
+ 26.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

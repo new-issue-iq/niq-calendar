@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a416752514504159-1@daily.newissueiq
+DTSTAMP:20260520T133753Z
+DTSTART;TZID=America/New_York:20260519T110000
+DTEND;TZID=America/New_York:20260519T114500
+SUMMARY:TAP — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MOLSON COORS BEVERAGE CO (TAP)\nRoadshow: Direct Link: https://dea
+ lroadshow.com/e/MOLSONCOORS26 (recommended) | Website: https://dealroadsho
+ w.com | Passcode: MOLSONCOORS26 (not case-sensitive)\n\nDeal context:\nMol
+ son Coors Beverage Co (TAP) is bringing a two-tranche SEC Registered senio
+ r unsecured benchmark offering consisting of a 5-year note (maturing July 
+ 8\, 2031) and a 10-year note (maturing July 8\, 2036)\, with initial price
+  talk of T+105 area and T+125 area respectively. The deal is rated Baa1/St
+ able (Moody's) and BBB/Stable (S&P)\, placing it firmly in investment grad
+ e territory\, and settles T+4 on May 27\, 2026. Proceeds are intended for 
+ general corporate purposes including repayment of the 3.00% Senior Notes a
+ nd 3.44% Senior Notes both maturing July 15\, 2026\, with books open for t
+ oday's business.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MOLSON COORS BEVERAGE CO (TAP)</p><p><strong>Roadshow:</stron
+ g> Direct Link: https://dealroadshow.com/e/MOLSONCOORS26 (recommended) | W
+ ebsite: https://dealroadshow.com | Passcode: MOLSONCOORS26 (not case-sensi
+ tive)</p><p><strong>Deal context:</strong><br>Molson Coors Beverage Co (TA
+ P) is bringing a two-tranche SEC Registered senior unsecured benchmark off
+ ering consisting of a 5-year note (maturing July 8\, 2031) and a 10-year n
+ ote (maturing July 8\, 2036)\, with initial price talk of T+105 area and T
+ +125 area respectively. The deal is rated Baa1/Stable (Moody's) and BBB/St
+ able (S&amp\;P)\, placing it firmly in investment grade territory\, and se
+ ttles T+4 on May 27\, 2026. Proceeds are intended for general corporate pu
+ rposes including repayment of the 3.00% Senior Notes and 3.44% Senior Note
+ s both maturing July 15\, 2026\, with books open for today's business.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
