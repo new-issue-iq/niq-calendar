@@ -248,5 +248,10 @@
     "id": "601195a9-68b7-4a37-a3a5-40d7bbcc89af",
     "issuerName": "VERALTO CORP",
     "alertedAt": "2026-05-26T13:11:11.712Z"
+  },
+  {
+    "id": "9491be6a-a02f-4440-9df5-dee7dc5f3b5e",
+    "issuerName": "NGPL PIPECO LLC",
+    "alertedAt": "2026-05-26T13:21:05.630Z"
   }
 ]
