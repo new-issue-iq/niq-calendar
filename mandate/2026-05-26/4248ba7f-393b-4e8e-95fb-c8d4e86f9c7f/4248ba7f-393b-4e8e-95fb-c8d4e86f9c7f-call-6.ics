@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cc3bc12204e83083-6@daily.newissueiq
+DTSTAMP:20260526T131102Z
+DTSTART;TZID=America/New_York:20260527T073000
+DTEND;TZID=America/New_York:20260527T081500
+SUMMARY:STLA — Call #6
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STELLANTIS FINL SVCS US CORP (STLA)\nRoadshow: URL: https://dealro
+ adshow.com | Entry Code: SFS2026 | Direct Link: https://dealroadshow.com/e
+ /SFS2026\n\nDeal context:\nStellantis Financial Services US Corp. (SFS)\, 
+ the wholly-owned captive finance subsidiary of global automaker Stellantis
+  N.V. (STLA)\, rated Baa3 (Stable)/BBB- (Negative)\, has mandated eight jo
+ int active bookrunners — Citigroup\, Credit Agricole CIB\, Deutsche Bank S
+ ecurities\, Mizuho\, Morgan Stanley\, RBC Capital Markets\, Societe Genera
+ le\, and SMBC Nikko — to arrange fixed income investor calls beginning May
+  26\, 2026\, ahead of a potential multi-tranche USD benchmark 144A/Reg S s
+ enior unsecured note offering targeting front-end tenors. The deal is at t
+ he Mandate stage with six investor calls scheduled across two days (May 26
+ –27\, 2026)\, and a Preliminary Offering Memorandum and electronic present
+ ation with voiceover have been made available. No specific tranche sizes\,
+  tenors\, or pricing have been disclosed at this stage\, with the transact
+ ion subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STELLANTIS FINL SVCS US CORP (STLA)</p><p><strong>Roadshow:</
+ strong> URL: https://dealroadshow.com | Entry Code: SFS2026 | Direct Link:
+  https://dealroadshow.com/e/SFS2026</p><p><strong>Deal context:</strong><b
+ r>Stellantis Financial Services US Corp. (SFS)\, the wholly-owned captive 
+ finance subsidiary of global automaker Stellantis N.V. (STLA)\, rated Baa3
+  (Stable)/BBB- (Negative)\, has mandated eight joint active bookrunners — 
+ Citigroup\, Credit Agricole CIB\, Deutsche Bank Securities\, Mizuho\, Morg
+ an Stanley\, RBC Capital Markets\, Societe Generale\, and SMBC Nikko — to 
+ arrange fixed income investor calls beginning May 26\, 2026\, ahead of a p
+ otential multi-tranche USD benchmark 144A/Reg S senior unsecured note offe
+ ring targeting front-end tenors. The deal is at the Mandate stage with six
+  investor calls scheduled across two days (May 26–27\, 2026)\, and a Preli
+ minary Offering Memorandum and electronic presentation with voiceover have
+  been made available. No specific tranche sizes\, tenors\, or pricing have
+  been disclosed at this stage\, with the transaction subject to market con
+ ditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -238,5 +238,15 @@
     "id": "0c69a4c1-0cc0-409b-a7d3-57f2894d9268",
     "issuerName": "PROVINCE OF ONTARIO",
     "alertedAt": "2026-05-20T13:21:12.121Z"
+  },
+  {
+    "id": "4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f",
+    "issuerName": "STELLANTIS FINL SVCS US CORP",
+    "alertedAt": "2026-05-26T13:11:08.835Z"
+  },
+  {
+    "id": "601195a9-68b7-4a37-a3a5-40d7bbcc89af",
+    "issuerName": "VERALTO CORP",
+    "alertedAt": "2026-05-26T13:11:11.712Z"
   }
 ]

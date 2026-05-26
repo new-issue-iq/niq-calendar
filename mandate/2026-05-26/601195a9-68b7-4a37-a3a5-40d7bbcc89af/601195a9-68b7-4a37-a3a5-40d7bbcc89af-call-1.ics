@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:28a4df480f7e7ae1-1@daily.newissueiq
+DTSTAMP:20260526T131108Z
+DTSTART;TZID=America/New_York:20260526T120000
+DTEND;TZID=America/New_York:20260526T124500
+SUMMARY:VLTO — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VERALTO CORP (VLTO)\nRoadshow: https://dealroadshow.com/e/WATER202
+ 6 | https://dealroadshow.com | Entry code: WATER2026\n\nDeal context:\nVer
+ alto Corporation (VLTO)\, rated Baa1 (stable) / BBB (stable)\, is conducti
+ ng a series of fixed income investor calls on May 26\, 2026\, arranged by 
+ BofA Securities\, Citigroup\, and J.P. Morgan\, ahead of a potential senio
+ r unsecured SEC registered bond transaction subject to market conditions. 
+ The deal is at the Mandate stage with no specific size\, tenor\, or pricin
+ g terms disclosed. Company participants include CFO Sameer Ralhan and VP o
+ f Investor Relations Ryan Taylor.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VERALTO CORP (VLTO)</p><p><strong>Roadshow:</strong> https://
+ dealroadshow.com/e/WATER2026 | https://dealroadshow.com | Entry code: WATE
+ R2026</p><p><strong>Deal context:</strong><br>Veralto Corporation (VLTO)\,
+  rated Baa1 (stable) / BBB (stable)\, is conducting a series of fixed inco
+ me investor calls on May 26\, 2026\, arranged by BofA Securities\, Citigro
+ up\, and J.P. Morgan\, ahead of a potential senior unsecured SEC registere
+ d bond transaction subject to market conditions. The deal is at the Mandat
+ e stage with no specific size\, tenor\, or pricing terms disclosed. Compan
+ y participants include CFO Sameer Ralhan and VP of Investor Relations Ryan
+  Taylor.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
