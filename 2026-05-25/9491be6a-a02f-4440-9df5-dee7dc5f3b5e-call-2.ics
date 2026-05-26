@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4b69a130c7784dfa-2@daily.newissueiq
+DTSTAMP:20260526T133957Z
+DTSTART;TZID=America/New_York:20260526T130000
+DTEND;TZID=America/New_York:20260526T134500
+SUMMARY:NGPLCO — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NGPL PIPECO LLC (NGPLCO)\nRoadshow: URL: www.netroadshow.com/nrs/h
+ ome/#!/?show=b3b0bdd6 | Entry Code: NGPL2026\n\nDeal context:\nNGPL PipeCo
+  LLC (NGPLCO)\, rated Baa3/BBB- (Stable) by Moody's/S&P\, is arranging a s
+ eries of fixed income investor calls on May 26th ahead of a potential USD-
+ denominated 144A/Reg S for Life senior unsecured notes offering\, subject 
+ to market conditions. The deal is at the Mandate stage with no size\, teno
+ r\, or pricing terms disclosed\, with Barclays\, J.P. Morgan\, RBC Capital
+  Markets\, and Wells Fargo Securities acting as arrangers. NGPL PipeCo is 
+ one of the largest natural gas transporters in the U.S.\, with approximate
+ ly 9\,100 miles of pipeline\, and is owned in part by Kinder Morgan and Ar
+ cLight Capital Partners.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NGPL PIPECO LLC (NGPLCO)</p><p><strong>Roadshow:</strong> URL
+ : www.netroadshow.com/nrs/home/#!/?show=b3b0bdd6 | Entry Code: NGPL2026</p
+ ><p><strong>Deal context:</strong><br>NGPL PipeCo LLC (NGPLCO)\, rated Baa
+ 3/BBB- (Stable) by Moody's/S&amp\;P\, is arranging a series of fixed incom
+ e investor calls on May 26th ahead of a potential USD-denominated 144A/Reg
+  S for Life senior unsecured notes offering\, subject to market conditions
+ . The deal is at the Mandate stage with no size\, tenor\, or pricing terms
+  disclosed\, with Barclays\, J.P. Morgan\, RBC Capital Markets\, and Wells
+  Fargo Securities acting as arrangers. NGPL PipeCo is one of the largest n
+ atural gas transporters in the U.S.\, with approximately 9\,100 miles of p
+ ipeline\, and is owned in part by Kinder Morgan and ArcLight Capital Partn
+ ers.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

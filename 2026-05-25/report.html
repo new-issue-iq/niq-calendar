@@ -1,0 +1,2087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>New Issue Daily — Tuesday, May 26, 2026</title>
+<style>
+  body { margin:0; padding:0; background:#ffffff; color:#1B2541;
+    font-family: Lato, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  a { text-decoration: none; }
+
+  /* DEAL TABLE
+     - Column headers in navy with a 1px navy underline — readable
+       without being shouty.
+     - Tranche-row borders within an issuer block stay faint.
+     - Issuer-block boundary uses a 1px ink rule so the eye reads it
+       as a clear (but not heavy) separation between issuers. */
+  .data { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .data th { text-align:left; padding: 14px 10px 8px; color:#0B1739;
+    font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: .14em;
+    background:#ffffff; border-bottom: 1px solid #0B1739; }
+  .data td { padding: 16px 10px; vertical-align: top;
+    border-bottom: 1px solid #F1F3F6; font-weight: 500; }
+  .data tbody.col-headers { border-bottom: none; }
+  /* Live + Mandated table: NO inter-row / inter-issuer line — the
+     asset-class strip and bucket gaps already separate buckets, and
+     deals within a bucket flow tightly without a horizontal rule. */
+  .data:not(.data-priced) tbody td,
+  .data:not(.data-priced) tbody td.issuer-cell { border-bottom: none; }
+  .data:not(.data-priced) tbody.sector-label,
+  .data:not(.data-priced) tbody.sector-body { border-bottom: none; }
+  /* Priced table: faint border between tranches inside a deal, 1px
+     ink line below the LAST tranche of each deal that spans the full
+     row width. The issuer-cell rule keeps the line under the issuer
+     column on multi-tranche deals; with border-collapse the two
+     borders merge into one continuous line. */
+  .data-priced tbody tr:last-child td { border-bottom: 1px solid #1B2541; }
+  .data-priced tbody td.issuer-cell { border-bottom: 1px solid #1B2541; }
+  .data-priced tbody.col-headers tr:last-child td,
+  .data-priced tbody.col-headers tr:last-child th { border-bottom: 1px solid #0B1739; }
+
+  /* Parent section header (Deal Calendar / Priced — Month to Date) */
+  .section-head td { background:#ffffff; padding:34px 0 8px; font-size:18px;
+    text-transform:uppercase; letter-spacing:.2em; font-weight:700; color:#0B1739;
+    border-bottom:1px solid #1B2541; }
+  .section-head .count { color:#F58220; font-weight:700; margin-left:14px;
+    letter-spacing:.08em; font-size:12px; text-transform:uppercase; }
+
+  /* Sub-section header (Live Deals / Mandated Deals) — pronounced */
+  .subsection-head td { background:#ffffff; padding:30px 0 10px; font-size:15.5px;
+    text-transform:uppercase; letter-spacing:.22em; font-weight:800;
+    color:#0B1739; border-bottom:1px solid #1B2541; }
+  .subsection-head .count { color:#F58220; font-weight:700; margin-left:14px;
+    letter-spacing:.08em; font-size:11.5px; text-transform:uppercase; }
+
+  /* Status / asset-class cell */
+  .status-cell { vertical-align:top; padding:16px 14px; min-width:64px; }
+  .issuer-cell { vertical-align:top; }
+  .issuer { font-weight:700; color:#0B1739; }
+  .ticker { color:#94A3B8; font-weight:600; margin-left:6px; font-size:11.5px; letter-spacing:.04em; text-transform:uppercase; }
+  .when { display:block; font-size:11.5px; color:#94A3B8; margin-top:4px; font-weight:500; }
+  /* Data tables (Live / Mandated / Priced): all text left-justified.
+     Tabular-nums + nowrap retained so size figures align cleanly even
+     when left-aligned. The volume-recap summary table at the top has
+     its own right-alignment via inline styles — unchanged. */
+  .num { text-align:left; font-variant-numeric:tabular-nums; white-space:nowrap; font-weight:600; }
+  .mat { color:#94A3B8; font-size:11px; }
+  .muted { color:#94A3B8; font-weight:500; }
+</style>
+</head>
+<body>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#ffffff">
+<tr><td align="center">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;max-width:1240px;background:#ffffff;margin:0 auto">
+
+    <!-- PREHEADER (view in browser) -->
+    <tr><td style="padding:10px 28px;background:#FAFBFC;border-bottom:1px solid #E5E7EB;color:#475569;font-size:12px">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+      <td align="left" style="color:#475569;font-size:12px">Forwarded this email? <a href="*|UPDATE_PROFILE|*" style="color:#1F3864;font-weight:600;text-decoration:underline">Subscribe here</a></td>
+      <td align="right" style="color:#475569;font-size:12px">Having trouble viewing? <a href="*|ARCHIVE|*" style="color:#1F3864;font-weight:600;text-decoration:underline">Open in browser</a></td>
+    </tr></table>
+  </td></tr>
+
+    <!-- MASTHEAD — centered logo + date + scope tag + "as of" timestamp -->
+    <tr><td style="padding:36px 36px 24px;text-align:center;border-bottom:1px solid #E5E7EB">
+      <img src="https://mcusercontent.com/0cc9b67fab4736b1e5f034dd3/images/ddfe220e-a4ba-b25b-4d15-41f966c50f2d.png" alt="New Issue IQ" width="238" height="44" style="display:block;margin:0 auto;height:44px;width:238px;border:0;outline:none">
+      <div style="margin:18px 0 0;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#475569;font-weight:600">Tuesday, May 26, 2026</div>
+      <div style="margin:6px 0 0;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#F58220;font-weight:700">US Issuance</div>
+      <div style="margin:8px 0 0;font-size:11px;color:#94A3B8;font-style:italic;font-family:Georgia,'Times New Roman',serif">As of 9:39 AM ET</div>
+    </td></tr>
+
+    <!-- ASSET-CLASS SUMMARY -->
+    <tr><td style="padding:24px 36px 18px;border-bottom:1px solid #E5E7EB;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse">
+    <thead>
+      <tr>
+        <th></th>
+        <th colspan="2" style="text-align:center;padding:0 14px 8px;font-size:13px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:#1B2541;border-bottom:1px solid #1B2541">Total</th><th style="padding:0;width:14px;border:none">&nbsp;</th>
+        <th colspan="2" style="text-align:center;padding:0 14px 8px;font-size:13px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:#1F3864;border-bottom:1px solid #1F3864">IG</th><th style="padding:0;width:14px;border:none">&nbsp;</th>
+        <th colspan="2" style="text-align:center;padding:0 14px 8px;font-size:13px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:#B86A1F;border-bottom:1px solid #B86A1F">HY</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th style="text-align:right;padding:8px 8px 12px;padding-left:18px;font-size:9.5px;text-transform:uppercase;letter-spacing:.16em;color:#94A3B8;font-weight:600;font-style:italic;font-family:Georgia,'Times New Roman',serif">Volume</th><th style="text-align:right;padding:8px 8px 12px;font-size:9.5px;text-transform:uppercase;letter-spacing:.16em;color:#94A3B8;font-weight:600;font-style:italic;font-family:Georgia,'Times New Roman',serif">Deals</th><th style="padding:0;width:14px;border:none">&nbsp;</th>
+        <th style="text-align:right;padding:8px 8px 12px;padding-left:18px;font-size:9.5px;text-transform:uppercase;letter-spacing:.16em;color:#94A3B8;font-weight:600;font-style:italic;font-family:Georgia,'Times New Roman',serif">Volume</th><th style="text-align:right;padding:8px 8px 12px;font-size:9.5px;text-transform:uppercase;letter-spacing:.16em;color:#94A3B8;font-weight:600;font-style:italic;font-family:Georgia,'Times New Roman',serif">Deals</th><th style="padding:0;width:14px;border:none">&nbsp;</th>
+        <th style="text-align:right;padding:8px 8px 12px;padding-left:18px;font-size:9.5px;text-transform:uppercase;letter-spacing:.16em;color:#94A3B8;font-weight:600;font-style:italic;font-family:Georgia,'Times New Roman',serif">Volume</th><th style="text-align:right;padding:8px 8px 12px;font-size:9.5px;text-transform:uppercase;letter-spacing:.16em;color:#94A3B8;font-weight:600;font-style:italic;font-family:Georgia,'Times New Roman',serif">Deals</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td style="color:#94A3B8;text-transform:uppercase;letter-spacing:.16em;font-weight:600;font-size:11px;padding:10px 18px 10px 0;width:60px;padding-top:14px">Last</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;padding-top:14px">—</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;padding-top:14px">0</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;padding-top:14px">—</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;padding-top:14px">0</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;padding-top:14px">—</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;padding-top:14px">0</td>
+    </tr>
+      <tr>
+      <td style="color:#94A3B8;text-transform:uppercase;letter-spacing:.16em;font-weight:600;font-size:11px;padding:10px 18px 10px 0;width:60px;border-top:1px solid #F1F3F6">WTD</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">—</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">0</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">—</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">0</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">—</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">0</td>
+    </tr>
+      <tr>
+      <td style="color:#94A3B8;text-transform:uppercase;letter-spacing:.16em;font-weight:600;font-size:11px;padding:10px 18px 10px 0;width:60px;border-top:1px solid #F1F3F6">MTD</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">$144.3B</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">121</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">$117.7B</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">81</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">$26.6B</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">40</td>
+    </tr>
+      <tr>
+      <td style="color:#94A3B8;text-transform:uppercase;letter-spacing:.16em;font-weight:600;font-size:11px;padding:10px 18px 10px 0;width:60px;border-top:1px solid #F1F3F6">YTD</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">$1038.8B</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">509</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">$890.1B</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">371</td>
+      <td style="padding:0;width:14px;border:none">&nbsp;</td>
+      <td style="text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:#1B2541;padding:10px 8px 10px 18px;font-size:13px;border-top:1px solid #F1F3F6">$148.7B</td><td style="text-align:right;font-variant-numeric:tabular-nums;color:#94A3B8;font-size:12px;padding:10px 14px 10px 8px;border-top:1px solid #F1F3F6">143</td>
+    </tr>
+    </tbody>
+  </table>
+    </td></tr>
+
+    <!-- DEAL CALENDAR + MANDATED -->
+    <tr><td style="padding:0 36px">
+      <table class="data" role="presentation" cellpadding="0" cellspacing="0" border="0">
+
+        <tbody><tr class="section-head"><td colspan="11">Deal Calendar <span class="count">17 deals</span></td></tr></tbody>
+
+        <tbody><tr class="subsection-head"><td colspan="11">Live Deals <span class="count">12 deals</span></td></tr></tbody>
+        <tbody class="col-headers"><tr>
+    <th></th>
+    <th>Issuer</th><th>Rating</th><th>Sen.</th><th>Tenor</th>
+    <th>Cpn</th><th class="num">Size</th><th>IPT</th><th>Guidance</th>
+    <th>Launch</th><th>Format</th>
+  </tr></tbody>
+        <tbody><tr>
+        <td rowspan="17" style="width:52px;padding:0;vertical-align:middle;text-align:center;color:#ffffff;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;background:#1F3864">IG</td><td class="issuer-cell" rowspan="1" style="vertical-align:top;"><div><span class="issuer">NORTHWESTERN MUTUAL GLOBAL FUNDING</span>&nbsp;&nbsp;<span class="ticker">NOMUTU</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>JPM<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / BofA / GS / PNC</div></div></td>
+        <td>Aa1/AA+/AAA</td>
+        <td style="white-space:nowrap">Snr Sec</td>
+        <td>5Y<span style="color:undefined;font-size:11px"> 06/30/31</span></td>
+        <td>FXD</td>
+        <td class="num">US$ Benchmark</td>
+        <td>T+80A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="2" style="vertical-align:middle;"><div><span class="issuer">CHENIERE ENERGY PARTNERS LP</span>&nbsp;&nbsp;<span class="ticker">CQP</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>BofA<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / TFC / BBVA / Citi / SMBC / StanChart</div></div></td>
+        <td>Baa2/BBB+/BBB</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>10Y<span style="color:undefined;font-size:11px"> 11/30/36</span></td>
+        <td>FXD</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+120A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        
+        <td>Baa2/BBB+/BBB</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>30Y<span style="color:undefined;font-size:11px"> 11/30/56</span></td>
+        <td>FXD</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+140A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="1" style="vertical-align:top;"><div><span class="issuer">UBS GROUP AG</span>&nbsp;&nbsp;<span class="ticker">UBSGRO</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>UBS<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span></div></div></td>
+        <td>Aa2/A+/AA</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>4.5Y<span style="color:undefined;font-size:11px"> 11/29/30</span></td>
+        <td>F2F</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+85A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">Other</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="2" style="vertical-align:middle;"><div><span class="issuer">REGIONS BANK</span>&nbsp;&nbsp;<span class="ticker">RF</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>MS<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / Citi / GS / TD / RF</div></div></td>
+        <td>Baa1/A-/A-</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>3Y<span style="color:undefined;font-size:11px"> 07/27/29</span></td>
+        <td>F2F</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+95A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">3a2</td>
+      </tr><tr>
+        
+        <td>Baa1/A-/A-</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>3Y<span style="color:undefined;font-size:11px"> 07/27/29</span></td>
+        <td>FRN</td>
+        <td class="num">USD Benchmark</td>
+        <td>SOFR Equiv</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">3a2</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="2" style="vertical-align:middle;"><div><span class="issuer">NUTRIEN LTD</span>&nbsp;&nbsp;<span class="ticker">NTRCN</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>Scotia<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / CIBC / JPM / MS</div></div></td>
+        <td>Baa2/BBB</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>5Y<span style="color:undefined;font-size:11px"> 05/29/31</span></td>
+        <td>FXD</td>
+        <td class="num"></td>
+        <td>T+95A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr><tr>
+        
+        <td>Baa2/BBB</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>10Y<span style="color:undefined;font-size:11px"> 05/29/36</span></td>
+        <td>FXD</td>
+        <td class="num"></td>
+        <td>T+115A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="2" style="vertical-align:middle;"><div><span class="issuer">COREBRIDGE FINL INC</span>&nbsp;&nbsp;<span class="ticker">COREFIN</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>BofA<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / WFS / DB / GS</div></div></td>
+        <td>A2,A+</td>
+        <td style="white-space:nowrap">Snr Sec</td>
+        <td>3Y<span style="color:undefined;font-size:11px"> 05/29/29</span></td>
+        <td>FXD</td>
+        <td class="num"></td>
+        <td>T+95-100</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        
+        <td>A2,A+</td>
+        <td style="white-space:nowrap">Snr Sec</td>
+        <td>3Y<span style="color:undefined;font-size:11px"> 05/29/29</span></td>
+        <td>FRN</td>
+        <td class="num"></td>
+        <td>SOFR Equiv</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="1" style="vertical-align:top;"><div><span class="issuer">AEP TRANSMISSION CO LLC</span>&nbsp;&nbsp;<span class="ticker">AEP</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>PNC<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / Scotia / TFC / USB</div></div></td>
+        <td>A2/BBB+/A</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>10Y<span style="color:undefined;font-size:11px"> 06/01/36</span></td>
+        <td>FXD</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+105A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="1" style="vertical-align:top;"><div><span class="issuer">ELEMENT FLEET MANAGEMENT CORP</span>&nbsp;&nbsp;<span class="ticker">ELEMFLE</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>JPM<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / CIBC / MUFG / PNC / Scotia</div></div><div style="margin-top:6px"><div style="font-size:12px"><a href="https://www.netroadshow.com/nrs/home/#!/?show=e1bbbd2c" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a>&nbsp;<span style="color:#94A3B8;font-weight:500;font-size:11px">·&nbsp;Entry Code: EFN3875 (not case-sensitive)</span></div></div></td>
+        <td>NR/BBB/BBB+/A(low)</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>3Y<span style="color:undefined;font-size:11px"> 05/29/29</span></td>
+        <td>FXD</td>
+        <td class="num">benchmark</td>
+        <td>T+100A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="2" style="vertical-align:middle;"><div><span class="issuer">BPCE SA</span>&nbsp;&nbsp;<span class="ticker">BPCEGP</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>Citi<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / BofA / BMO / Barc / GS / NATIX / RBC / JEF / JPM / MIZUHO / SMBC</div></div></td>
+        <td>Baa1/BBB+/A</td>
+        <td style="white-space:nowrap">Jr Unsec/Jr Sub</td>
+        <td>6Y<span style="color:undefined;font-size:11px"> 06/02/32</span></td>
+        <td>F2F</td>
+        <td class="num">US$ Benchmark</td>
+        <td>T+125A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        
+        <td>Baa1/BBB+/A</td>
+        <td style="white-space:nowrap">Jr Unsec/Jr Sub</td>
+        <td>11Y<span style="color:undefined;font-size:11px"> 06/02/37</span></td>
+        <td>F2F</td>
+        <td class="num">US$ Benchmark</td>
+        <td>T+155A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="3" style="vertical-align:middle;"><div><span class="issuer">FLORIDA POWER &amp; LIGHT CO</span>&nbsp;&nbsp;<span class="ticker">NEE</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>BNY<span style="color:#94A3B8;font-size:11px;font-weight:500"> (B&amp;D)</span> / USB / BBVA / BNP / CACIB / KEY / SMBC</div></div></td>
+        <td>Aa2,A+,AA-</td>
+        <td style="white-space:nowrap">Snr Sec</td>
+        <td>10Y<span style="color:undefined;font-size:11px"> 06/01/36</span></td>
+        <td>FXD</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+90A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr><tr>
+        
+        <td>Aa2,A+,AA-</td>
+        <td style="white-space:nowrap">Snr Sec</td>
+        <td>30Y<span style="color:undefined;font-size:11px"> 06/01/56</span></td>
+        <td>FXD</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+100A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr><tr>
+        
+        <td>Aa2,A+,AA-</td>
+        <td style="white-space:nowrap">Snr Sec</td>
+        <td>40Y<span style="color:undefined;font-size:11px"> 06/01/66</span></td>
+        <td>FXD</td>
+        <td class="num">USD Benchmark</td>
+        <td>T+112.5A</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr></tbody><tbody><tr><td colspan="11" style="background:#fff;height:8px;padding:0;line-height:0;font-size:0;border:none">&nbsp;</td></tr></tbody><tbody><tr>
+        <td rowspan="2" style="width:52px;padding:0;vertical-align:middle;text-align:center;color:#ffffff;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;background:#B86A1F">HY</td><td class="issuer-cell" rowspan="1" style="vertical-align:top;"><div><span class="issuer">PBF HOLDING CO LLC &amp; PBF FINANCE CORP</span>&nbsp;&nbsp;<span class="ticker">PBFENE</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>MUFG<span style="color:#94A3B8;font-size:11px;font-weight:500"> (Left)</span> / WFS / BofA / Citi / GS / Barc / TFC / RABOBK / SMBC / PNC / RF / USB</div></div><div style="margin-top:6px"><div style="font-size:12px"><a href="https://dealroadshow.com/e/PBFENERGY26" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a>&nbsp;<span style="color:#94A3B8;font-weight:500;font-size:11px">·&nbsp;Passcode: PBFENERGY26</span></div><div style="margin-top:6px;font-size:11.5px;color:#475569"><span style="color:#94A3B8">📅 Add to calendar:</span> <a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/911f7b0f-5628-4fed-848b-576aa00fada3-call-1.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 10:30a</a></div></div></td>
+        <td>B1/BB/BB</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>8Y<span style="color:undefined;font-size:11px"> 06/01/34</span></td>
+        <td>FXD</td>
+        <td class="num">$500mm</td>
+        <td>Mid 7s</td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">144A Reg S</td>
+      </tr><tr>
+        <td class="issuer-cell" rowspan="1" style="vertical-align:top;"><div><span class="issuer">NAVIENT CORP</span>&nbsp;&nbsp;<span class="ticker">NAVIECO</span>&nbsp;&nbsp;<span style="color:#475569;font-weight:600;font-size:11.5px">Prices 05/26</span></div><div style="margin-top:5px;font-size:11.5px;color:#475569"><div>BofA<span style="color:#94A3B8;font-size:11px;font-weight:500"> (Left)</span> / Barc / JPM / RBC</div></div><div style="margin-top:6px"><div style="font-size:12px"><a href="https://www.netroadshow.com/events/login/1PeTHmohJzQC7GW1pC4USsi0CdLVWacKEgLYL" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a></div><div style="margin-top:6px;font-size:11.5px;color:#475569"><span style="color:#94A3B8">📅 Add to calendar:</span> <a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/3cda176e-7cd3-4961-bd96-0af9f79636b4-call-1.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 10:30a</a></div></div></td>
+        <td>Ba3/BB-/BB-</td>
+        <td style="white-space:nowrap">Snr Unsec</td>
+        <td>5Y<span style="color:undefined;font-size:11px"> 10/15/31</span></td>
+        <td>FXD</td>
+        <td class="num">$500mm</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="white-space:nowrap">SEC Reg</td>
+      </tr></tbody>
+
+        <tbody><tr class="subsection-head"><td colspan="11">Mandated Deals <span class="count">5 deals</span></td></tr></tbody>
+        <tbody><tr>
+      <td rowspan="5" style="width:52px;padding:0;vertical-align:middle;text-align:center;color:#ffffff;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;background:#1F3864">IG</td>
+      <td class="issuer-cell" colspan="4" style="padding:14px 10px;vertical-align:middle"><span class="issuer">STELLANTIS FINL SVCS US CORP</span>&nbsp;&nbsp;<span class="ticker">STLA</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px">Pricing 05/26/26</span></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle;font-size:12.5px;color:#0B1739;line-height:1.5"><div>Citi / CACIB / DB / MIZUHO / MS / RBC / SOCGEN / SMBC</div></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle"><div style="font-size:12px"><a href="https://dealroadshow.com/e/SFS2026" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a>&nbsp;<span style="color:#94A3B8;font-weight:500;font-size:11px">·&nbsp;Entry Code: SFS2026</span></div><div style="margin-top:6px;font-size:11.5px;color:#475569"><span style="color:#94A3B8">📅 Add to calendar:</span> <a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f-call-1.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 12:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f-call-2.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 1:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f-call-3.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 2:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f-call-4.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 3:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f-call-5.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/27 6:30a</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f-call-6.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/27 7:30a</a></div></td>
+    </tr><tr>
+      
+      <td class="issuer-cell" colspan="4" style="padding:14px 10px;vertical-align:middle"><span class="issuer">VERALTO CORP</span>&nbsp;&nbsp;<span class="ticker">VLTO</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px">Pricing 05/26/26</span></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle;font-size:12.5px;color:#0B1739;line-height:1.5"><div>BofA / Citi / JPM</div></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle"><div style="font-size:12px"><a href="https://dealroadshow.com/e/WATER2026" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a>&nbsp;<span style="color:#94A3B8;font-weight:500;font-size:11px">·&nbsp;Entry code: WATER2026</span></div><div style="margin-top:6px;font-size:11.5px;color:#475569"><span style="color:#94A3B8">📅 Add to calendar:</span> <a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/601195a9-68b7-4a37-a3a5-40d7bbcc89af-call-1.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 12:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/601195a9-68b7-4a37-a3a5-40d7bbcc89af-call-2.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 1:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/601195a9-68b7-4a37-a3a5-40d7bbcc89af-call-3.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 2:00p</a></div></td>
+    </tr><tr>
+      
+      <td class="issuer-cell" colspan="4" style="padding:14px 10px;vertical-align:middle"><span class="issuer">NGPL PIPECO LLC</span>&nbsp;&nbsp;<span class="ticker">NGPLCO</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px">Pricing 05/26/26</span></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle;font-size:12.5px;color:#0B1739;line-height:1.5"><div>Barc / JPM / RBC / WFS</div></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle"><div style="font-size:12px"><a href="https://www.netroadshow.com/nrs/home/#!/?show=b3b0bdd6" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a>&nbsp;<span style="color:#94A3B8;font-weight:500;font-size:11px">·&nbsp;Entry Code: NGPL2026</span></div><div style="margin-top:6px;font-size:11.5px;color:#475569"><span style="color:#94A3B8">📅 Add to calendar:</span> <a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/9491be6a-a02f-4440-9df5-dee7dc5f3b5e-call-1.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 12:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/9491be6a-a02f-4440-9df5-dee7dc5f3b5e-call-2.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 1:00p</a></div></td>
+    </tr><tr>
+      
+      <td class="issuer-cell" colspan="4" style="padding:14px 10px;vertical-align:middle"><span class="issuer">NATL FUEL GAS CO</span>&nbsp;&nbsp;<span class="ticker">NFG</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px">Pricing 05/26/26</span></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle;font-size:12.5px;color:#0B1739;line-height:1.5"><div>TD / WFS / BofA / JPM</div></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle"><div style="font-size:12px"><a href="https://dealroadshow.com/e/NFG2026" style="color:#1F3864;font-weight:600;text-decoration:none">🎥 Roadshow</a>&nbsp;<span style="color:#94A3B8;font-weight:500;font-size:11px">·&nbsp;Entry Code: NFG2026</span></div><div style="margin-top:6px;font-size:11.5px;color:#475569"><span style="color:#94A3B8">📅 Add to calendar:</span> <a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/13337919-8de6-425b-8c2f-04f0442df044-call-1.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 12:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/13337919-8de6-425b-8c2f-04f0442df044-call-2.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 1:00p</a><span style="color:#94A3B8"> · </span><a href="https://new-issue-iq.github.io/niq-calendar/2026-05-25/13337919-8de6-425b-8c2f-04f0442df044-call-3.ics" style="color:#1F3864;text-decoration:none;font-weight:600">5/26 3:00p</a></div></td>
+    </tr><tr>
+      
+      <td class="issuer-cell" colspan="4" style="padding:14px 10px;vertical-align:middle"><span class="issuer">POSCO HOLDINGS INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px">Pricing TBA</span></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle;font-size:12.5px;color:#0B1739;line-height:1.5"><div>BNP / Citi / CACIB / HSBC / KDB / MIZUHO</div></td>
+      <td colspan="3" style="padding:14px 10px;vertical-align:middle"><span style="color:#94A3B8">—</span></td>
+    </tr></tbody>
+      </table>
+    </td></tr>
+
+    <!-- PRICED — MTD (own table, 9 cols, no strip, no Status column) -->
+    <tr><td style="padding:0 36px">
+      <table class="data data-priced" role="presentation" cellpadding="0" cellspacing="0" border="0">
+        <tbody><tr class="section-head"><td colspan="6">Priced — Last 30 Days <span class="count">152 deals</span></td></tr></tbody>
+        <tbody class="col-headers"><tr>
+    <th>Issuer</th><th>Security</th><th>Rating</th><th>Sen.</th>
+    <th class="num">Size</th><th>Format</th>
+  </tr></tbody>
+        <tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FMC CORP</span>&nbsp;&nbsp;<span class="ticker">FMC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/20/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">8% 05/31/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1/BBB-/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1200mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">COLUMBIA PIPELINES OPERATING CO LLC</span>&nbsp;&nbsp;<span class="ticker">CPGX</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/20/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.507% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HYDRO ONE INC</span>&nbsp;&nbsp;<span class="ticker">HYDONE</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/20/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.75% 05/30/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A/AH</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SOUTHERN CO GAS CAPITAL CORP</span>&nbsp;&nbsp;<span class="ticker">SO</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/20/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.05% 09/15/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">MOLSON COORS BEVERAGE CO</span>&nbsp;&nbsp;<span class="ticker">TAP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/20/26</span></td>
+          <td>4.9% 07/08/2031</td>
+          <td>Baa1/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.5% 07/08/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">THE PNC FINL SVCS GROUP INC</span>&nbsp;&nbsp;<span class="ticker">PNC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/20/26</span></td>
+          <td>4.618% 10/26/2029</td>
+          <td>A3/A-/A/AAL</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1350mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">Float 10/26/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-/A/AAL</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">GEORGIA POWER CO</span>&nbsp;&nbsp;<span class="ticker">SO-GAPower</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td>Float 11/22/2027</td>
+          <td>A3/A/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$600mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.6% 06/15/2029</td>
+          <td>A3/A/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$550mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.85% 03/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$150mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">XYLEM INC</span>&nbsp;&nbsp;<span class="ticker">XYL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td>5.2% 06/01/2033</td>
+          <td>Baa2/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.45% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">MOBILITY GLOBAL INC</span>&nbsp;&nbsp;<span class="ticker">MBGL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td>5.05% 06/15/2029</td>
+          <td>Baa3/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$650mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td>5.45% 06/15/2031</td>
+          <td>Baa3/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$650mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.05% 06/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">KENNAMETAL INC</span>&nbsp;&nbsp;<span class="ticker">KMT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.8% 05/28/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FEDERATION DES CAISSES DESJARDINS DU QUEBEC</span>&nbsp;&nbsp;<span class="ticker">FCDQ</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.021% 05/27/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/A-/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PRICOA GLOBAL FUNDING I</span>&nbsp;&nbsp;<span class="ticker">PRU-GblFund</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5% 05/27/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3/AA-/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$450mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SOCIETE GENERALE</span>&nbsp;&nbsp;<span class="ticker">SOCGEN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.371% 05/27/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">BALTIMORE GAS &amp; ELECTRIC CO</span>&nbsp;&nbsp;<span class="ticker">EXC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td>5.15% 06/01/2033</td>
+          <td>A3/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.05% 06/01/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$425mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="4" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">ECOLAB INC</span>&nbsp;&nbsp;<span class="ticker">ECL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td>4.6% 06/15/2029</td>
+          <td>A3/A-/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1200mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.8% 06/15/2031</td>
+          <td>A3/A-/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$900mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.15% 06/15/2033</td>
+          <td>A3/A-/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.35% 06/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">TRINITY CAPITAL INC</span>&nbsp;&nbsp;<span class="ticker">TRIN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7% 05/21/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBBL/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">GOLUB CAPITAL BDC INC</span>&nbsp;&nbsp;<span class="ticker">GBDC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% 06/01/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">R R DONNELLEY &amp; SONS CO</span>&nbsp;&nbsp;<span class="ticker">RRD</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">11% 05/31/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Caa2/B-/B-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$900mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FORD MOTOR CREDIT CO LLC</span>&nbsp;&nbsp;<span class="ticker">F</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.467% 05/22/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1,BBB-,BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">VEON</span>&nbsp;&nbsp;<span class="ticker">VEON</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/19/26</span></td>
+          <td>6.95% 06/01/2031</td>
+          <td>BB-/BB-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$700mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">7.45% 06/01/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">BB-/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">RGA GLOBAL FUNDING</span>&nbsp;&nbsp;<span class="ticker">RGAGLO</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.1% 05/26/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="7" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">MERCK &amp; CO INC</span>&nbsp;&nbsp;<span class="ticker">MRK</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td>4.3% 05/22/2028</td>
+          <td>Aa3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>Float 05/22/2028</td>
+          <td>Aa3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.65% 05/22/2031</td>
+          <td>Aa3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.95% 05/22/2033</td>
+          <td>Aa3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.2% 05/22/2036</td>
+          <td>Aa3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.75% 05/22/2046</td>
+          <td>Aa3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.85% 05/22/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">EVERGY MISSOURI WEST INC</span>&nbsp;&nbsp;<span class="ticker">EVERMIS</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.7% 05/21/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">THE CHARLES SCHWAB CORPORATION</span>&nbsp;&nbsp;<span class="ticker">SCH</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td>4.744% 05/21/2030</td>
+          <td>A2/A-/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.493% 05/21/2037</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A-/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BLUE OWL CAPITAL CORP</span>&nbsp;&nbsp;<span class="ticker">OBDC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.3% 08/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">NORTHWESTERN MUTUAL LIFE INSURANCE CO</span>&nbsp;&nbsp;<span class="ticker">NORMUT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.05% 06/30/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3/AA-/AA</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">—</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">GRANITE CONSTRUCTION INC</span>&nbsp;&nbsp;<span class="ticker">GVA</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.375% 05/31/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/BB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">CHUBB INA HOLDINGS LLC</span>&nbsp;&nbsp;<span class="ticker">CHUBINAB</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.3% 05/20/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AMERICAN WATER CAPITAL CORP</span>&nbsp;&nbsp;<span class="ticker">AWCC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/18/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.625% 06/01/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">LINCOLN FINL GLOBAL FUNDING</span>&nbsp;&nbsp;<span class="ticker">LNC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/14/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.95% 05/21/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A2,A+,A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BLACKSTONE SECURED LENDING FUND</span>&nbsp;&nbsp;<span class="ticker">BLACSEC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/14/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.9% 05/21/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$650mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="4" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">GILEAD SCIENCES INC</span>&nbsp;&nbsp;<span class="ticker">GILD</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/14/26</span></td>
+          <td>4.25% 05/20/2028</td>
+          <td>A3/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.4% 05/20/2029</td>
+          <td>A3/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.6% 05/20/2031</td>
+          <td>A3/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.9% 05/20/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PAMPA ENERGIA SA</span>&nbsp;&nbsp;<span class="ticker">PAMPAEN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/14/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.75% 11/14/2037</td>
+          <td style="border-bottom:1px solid #1B2541;">B-/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ENCOMPASS HEALTH CORP</span>&nbsp;&nbsp;<span class="ticker">EHC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/14/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.875% 06/01/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">CUMBERLAND COMBINED CYCLE GENERATION LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.821% 05/15/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa1/AA-/AA</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1800mm</td>
+          <td style="border-bottom:1px solid #1B2541;">3a2</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">THE NARRAGANSETT ELECTRIC CO</span>&nbsp;&nbsp;<span class="ticker">PPL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6% 05/15/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">MEDLINE BORROWER LP &amp; MEDLINE CO-ISSUER INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td>5% 06/15/2031</td>
+          <td>Ba1/BBB-/BBB</td>
+          <td style="white-space:nowrap">Snr Sec</td>
+          <td class="num">$1250mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.25% 06/15/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">DIRECTV FINANCING LLC &amp; DIRECTV FINANCING CO-OBLIGOR INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">9.25% 05/31/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/B+/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">US BANK NA</span>&nbsp;&nbsp;<span class="ticker">USB</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td>Float 05/20/2029</td>
+          <td>A2/A+/AA-/AA</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$350mm</td>
+          <td>3a2</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.535% 05/20/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A+/AA-/AA</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">3a2</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">WELLS FARGO &amp; COMPANY</span>&nbsp;&nbsp;<span class="ticker">WFC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td>Float 05/19/2029</td>
+          <td>A1/BBB+/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.577% 05/19/2029</td>
+          <td>A1/BBB+/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$2250mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.844% 05/19/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/BBB+/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$3250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">KENNEDY-WILSON INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td>7% 06/01/2031</td>
+          <td>B2/B</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1100mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">7.25% 06/01/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/B</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">US BANCORP</span>&nbsp;&nbsp;<span class="ticker">USB</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.723% 05/20/2041</td>
+          <td style="border-bottom:1px solid #1B2541;">A3</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">—</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">COBANK ACB</span>&nbsp;&nbsp;<span class="ticker">COBKAC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.75% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">BBB+/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">3a2</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">OLD REPUBLIC INTL CORP</span>&nbsp;&nbsp;<span class="ticker">ORI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.7% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">WAYFAIR LLC</span>&nbsp;&nbsp;<span class="ticker">WAYFLLC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/13/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.125% 05/31/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/BB-/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HPS CORPORATE LENDING FUND</span>&nbsp;&nbsp;<span class="ticker">HPSCOR</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.3% 08/19/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PRINCIPAL LIFE GLOBAL FUNDING II</span>&nbsp;&nbsp;<span class="ticker">PFG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.65% 05/18/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">A1,A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">—</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">PAYPAL HOLDINGS INC</span>&nbsp;&nbsp;<span class="ticker">PYPL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td>4.55% 06/01/2028</td>
+          <td>A3/A-/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$650mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.95% 06/01/2031</td>
+          <td>A3/A-/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$850mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.55% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">RITHM CAPITAL CORP</span>&nbsp;&nbsp;<span class="ticker">RITHCAP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">8.5% 05/31/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/B-/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">TRUIST FINL CORP</span>&nbsp;&nbsp;<span class="ticker">TFC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3,BBB-,BBB-,AL</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PINNACLE FINL PARTNERS INC</span>&nbsp;&nbsp;<span class="ticker">PNFP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.596% 05/19/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PPL ELECTRIC UTILITIES CORP</span>&nbsp;&nbsp;<span class="ticker">PPL-ElecUtil</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.75% 05/15/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="5" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">SERVICENOW INC</span>&nbsp;&nbsp;<span class="ticker">NOW</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td>4.25% 05/15/2028</td>
+          <td>A2/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.7% 08/15/2031</td>
+          <td>A2/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$600mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.05% 05/15/2033</td>
+          <td>A2/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$650mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.4% 05/15/2036</td>
+          <td>A2/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1250mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.3% 05/15/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BLUEWATER HOLDING BV</span>&nbsp;&nbsp;<span class="ticker">BLUEWA</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">9.875% 05/28/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Unrated</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$175mm</td>
+          <td style="border-bottom:1px solid #1B2541;">Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">NORDEA BANK ABP</span>&nbsp;&nbsp;<span class="ticker">NORDEA</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td>Float 05/21/2029</td>
+          <td>Aa2/AA-/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$300mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.4% 05/21/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa2/AA-/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">FORTIVE CORP</span>&nbsp;&nbsp;<span class="ticker">FTV</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td>4.75% 05/15/2031</td>
+          <td>Baa1/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$600mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.25% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ARCELORMITTAL SA</span>&nbsp;&nbsp;<span class="ticker">ARMLL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.375% 05/19/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">LIBERTY UTILITIES CO</span>&nbsp;&nbsp;<span class="ticker">AQNCN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td>5.1% 05/15/2031</td>
+          <td>Baa2/BBB+/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$650mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.65% 05/15/2035</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB+/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">CONSTELLATION ENERGY GENERATION LLC</span>&nbsp;&nbsp;<span class="ticker">CEG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td>4.55% 06/01/2029</td>
+          <td>Baa1/BBB+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.8% 01/15/2032</td>
+          <td>Baa1/BBB+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$600mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.3% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$850mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ABSA GROUP LTD</span>&nbsp;&nbsp;<span class="ticker">ABGSJ</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.375% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">B2</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">MURPHY OIL CORP</span>&nbsp;&nbsp;<span class="ticker">MUR</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/12/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.875% 06/01/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">MONONGAHELA POWER CO</span>&nbsp;&nbsp;<span class="ticker">FE</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.45% 08/15/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">VALLEY NATL BANCORP</span>&nbsp;&nbsp;<span class="ticker">VLY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.219% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBBH/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">STARWOOD PROPERTY TR INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.125% 05/31/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba3/BB-/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AMERIGAS PARTNERS LP</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.875% 05/31/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PAR PETROLEUM LLC</span>&nbsp;&nbsp;<span class="ticker">PARR</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.375% 10/01/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/BB-/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="4" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">CATERPILLAR FINL SVCS CORP</span>&nbsp;&nbsp;<span class="ticker">CAT-FinServ</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td>Float 05/15/2028</td>
+          <td>A1/A/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$400mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.2% 05/15/2028</td>
+          <td>A1/A/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.3% 05/15/2029</td>
+          <td>A1/A/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1100mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.5% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/A/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ENCORE CAPITAL</span>&nbsp;&nbsp;<span class="ticker">ECPG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.625% 05/31/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba3/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AFLAC INC</span>&nbsp;&nbsp;<span class="ticker">AFL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.15% 05/14/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">NSTAR ELECTRIC CO</span>&nbsp;&nbsp;<span class="ticker">NST-EC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td>4.65% 05/15/2031</td>
+          <td>A2/A-/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$350mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.2% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A-/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$350mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">ENI SPA</span>&nbsp;&nbsp;<span class="ticker">ENI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td>5.25% 05/18/2036</td>
+          <td>A3/A-/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1500mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6% 05/18/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">VERIZON COMM INC</span>&nbsp;&nbsp;<span class="ticker">VZ</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td>6.2% 05/14/2056</td>
+          <td>Baa2/BBB-/BBB</td>
+          <td style="white-space:nowrap">Jr Unsec/Jr Sub</td>
+          <td class="num">$2000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.05% 05/14/2058</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$2000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">NISOURCE INC</span>&nbsp;&nbsp;<span class="ticker">NI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td>4.75% 05/18/2031</td>
+          <td>Baa2,BBB+,BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.3% 05/18/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2,BBB+,BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SOUTHERN CALIFORNIA GAS CO</span>&nbsp;&nbsp;<span class="ticker">SRE-SouCalGas</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.9% 06/01/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3/A/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$650mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">TRAVEL + LEISURE CO</span>&nbsp;&nbsp;<span class="ticker">TRAVLEI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% 05/31/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba3/BB-/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$900mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ENTERGY TEXAS INC</span>&nbsp;&nbsp;<span class="ticker">ETR</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.2% 06/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$425mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HSBC HOLDINGS PLC</span>&nbsp;&nbsp;<span class="ticker">HSBC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/11/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.75% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SIBANYE STILLWATER LTD</span>&nbsp;&nbsp;<span class="ticker">SBSW</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/08/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% 11/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB/BB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">API GROUP DE INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.75% 06/01/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/B+/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">CANADIAN NATL RAILWAY CO</span>&nbsp;&nbsp;<span class="ticker">CNRCN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td>4.35% 05/12/2029</td>
+          <td>A2/A-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$300mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.95% 05/12/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$450mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HARVEST MIDSTREAM I LP</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.75% 05/15/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/BB-/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ALASKA AIRLINES INC</span>&nbsp;&nbsp;<span class="ticker">ALK</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.5% 06/01/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1/BB-/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">HSBC HOLDINGS PLC</span>&nbsp;&nbsp;<span class="ticker">HSBC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td>4.711% 05/12/2030</td>
+          <td>A3/A-/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$2250mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.208% 05/12/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$2250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HILTON DOMESTIC OPERATING CO INC</span>&nbsp;&nbsp;<span class="ticker">HLT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.5% 09/01/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">COMMONWEALTH EDISON CO</span>&nbsp;&nbsp;<span class="ticker">EXC-CommEd</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td>4.55% 06/01/2031</td>
+          <td>A1/A</td>
+          <td style="white-space:nowrap">Snr Sec</td>
+          <td class="num">$600mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.85% 06/01/2056</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$825mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SIXTH STREET SPECIALTY LENDING INC</span>&nbsp;&nbsp;<span class="ticker">TSLX</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/07/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.65% 08/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="4" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">WESTPAC BANKING CORP</span>&nbsp;&nbsp;<span class="ticker">WSTP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td>Float 05/11/2028</td>
+          <td>Aa2/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td>4.15% 05/11/2028</td>
+          <td>Aa2/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1250mm</td>
+          <td>3a2</td>
+        </tr><tr>
+          
+          <td>4.45% 06/12/2031</td>
+          <td>Aa2/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>3a2</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">Float 06/12/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa2/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">THE CLOROX CO</span>&nbsp;&nbsp;<span class="ticker">CLX</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td>4.7% 05/15/2031</td>
+          <td>Baa1/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$550mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.95% 05/15/2033</td>
+          <td>Baa1/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$400mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.25% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$550mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BLUENORD ASA</span>&nbsp;&nbsp;<span class="ticker">BLUEASA</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.875% 05/19/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Unrated</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PAREX RESOURCES INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">8.5% 05/11/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">B+/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$550mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SLM CORP</span>&nbsp;&nbsp;<span class="ticker">SLM</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.495% 05/15/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1/BB+/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PODS LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">8.75% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">B3/B-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">LEVEL 3 FINANCING INC</span>&nbsp;&nbsp;<span class="ticker">LVLT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.5% 02/01/2037</td>
+          <td style="border-bottom:1px solid #1B2541;">B3/B-/B-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">KRAKEN OIL &amp; GAS PARTNERS LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.125% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">BB-/B3</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="8" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">ELI LILLY &amp; CO</span>&nbsp;&nbsp;<span class="ticker">LLY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td>Float 05/20/2028</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>Float 05/20/2029</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.15% 05/20/2029</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.375% 05/20/2031</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.65% 05/20/2033</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1250mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.85% 05/20/2036</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.6% 05/20/2056</td>
+          <td>Aa3,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.7% 05/20/2066</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3,AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">MGM CHINA HOLDINGS LTD</span>&nbsp;&nbsp;<span class="ticker">MGMCHI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/06/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% 05/15/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/B+/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BOOKING HOLDINGS INC</span>&nbsp;&nbsp;<span class="ticker">BOOKIHO</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.375% 05/07/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AP CORE HOLDINGS II LLC</span>&nbsp;&nbsp;<span class="ticker">COLLPA</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">11% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/B+/B-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$800mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PATTERSON-UTI ENERGY</span>&nbsp;&nbsp;<span class="ticker">PTEN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.05% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB-/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BLACKSTONE MTG TR INC</span>&nbsp;&nbsp;<span class="ticker">BXMT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% 06/01/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/B+/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$450mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">VSP OPTICAL GROUP INC</span>&nbsp;&nbsp;<span class="ticker">VPOT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td>5.4% 06/01/2033</td>
+          <td>Baa2/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.65% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">HUMANA INC</span>&nbsp;&nbsp;<span class="ticker">HUM</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td>6.062% 02/15/2036</td>
+          <td>Baa2,BBB,BBB-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>144A</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.887% 11/15/2055</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2,BBB,BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BREAD FINL HOLDINGS INC</span>&nbsp;&nbsp;<span class="ticker">BREAFIN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">8.875% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/B-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$120mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FLOWSERVE CORP</span>&nbsp;&nbsp;<span class="ticker">FLS</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.7% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB-/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BANK OF IRELAND GROUP PLC</span>&nbsp;&nbsp;<span class="ticker">BKIR</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/05/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.997% 11/12/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BROADRIDGE FINL SOLUTIONS INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.75% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SOUTHERN CALIFORNIA EDISON CO</span>&nbsp;&nbsp;<span class="ticker">EIX</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.95% 09/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/BBB+/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BOMBARDIER INC</span>&nbsp;&nbsp;<span class="ticker">BOMB</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.875% 01/15/2035</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba3/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ACADEMY LTD</span>&nbsp;&nbsp;<span class="ticker">ASO</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.875% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">JERSEY CENTRAL POWER &amp; LIGHT</span>&nbsp;&nbsp;<span class="ticker">FE</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.6% 01/15/2030</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/BBB+/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$350mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">THE VENETIAN RESORT LAS VEGAS PIONEER OPCO LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7% 05/15/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/B</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FIRST EAGLE HOLDINGS INC</span>&nbsp;&nbsp;<span class="ticker">FRSEAG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.25% 08/15/2032</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba3/BB-/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$575mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ARES CAPITAL CORP</span>&nbsp;&nbsp;<span class="ticker">ARECP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.55% 01/15/2030</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$800mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">OTIS WORLDWIDE CORP</span>&nbsp;&nbsp;<span class="ticker">OTISWOR</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.488% 05/07/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">LAS VEGAS SANDS CORP</span>&nbsp;&nbsp;<span class="ticker">LVS</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td>5.3% 05/15/2031</td>
+          <td>Baa3/BBB-/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.65% 05/18/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB-/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">OWENS-BROCKWAY GLASS CONTAINER INC</span>&nbsp;&nbsp;<span class="ticker">OI-Brockway</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">9.5% 06/01/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B3/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">MORGAN STANLEY BANK NA</span>&nbsp;&nbsp;<span class="ticker">MS</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td>Float 05/10/2030</td>
+          <td>Aa3,A+,AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>3a2</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.788% 05/10/2030</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3,A+,AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$2500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">3a2</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AUTOMATIC DATA PROCESSING INC</span>&nbsp;&nbsp;<span class="ticker">ADP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5% 05/07/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3,AA-,AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">CONSTELLATION BRANDS INC</span>&nbsp;&nbsp;<span class="ticker">STZ</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.85% 05/06/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BASF COATINGS</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.125% 06/15/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/B/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">DELEK LOGISTICS PARTNERS LP &amp; DELEK LOGISTICS FINANCE CORP</span>&nbsp;&nbsp;<span class="ticker">DKL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/04/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.875% 06/01/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">B2/BB-/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$800mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FULTON FINL CORP</span>&nbsp;&nbsp;<span class="ticker">FULT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">05/01/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.95% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBBH</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AEGON FUNDING CO LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.625% 05/07/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BANCO NACIONAL DE MEXICO SA</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.7% 08/07/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1300mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">GEORGIA-PACIFIC LLC</span>&nbsp;&nbsp;<span class="ticker">GPCLLC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td>4.4% 05/15/2029</td>
+          <td>A3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$700mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td>4.6% 05/15/2031</td>
+          <td>A3/A+</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$700mm</td>
+          <td>144A Reg S</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.9% 05/15/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">A3/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">NATL RURAL UTILITIES COOPERATIVE FINANCE CORP</span>&nbsp;&nbsp;<span class="ticker">NRUC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.4% 05/11/2029</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$450mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">CONSUMERS ENERGY</span>&nbsp;&nbsp;<span class="ticker">CMS</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.125% 05/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/A/A+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$850mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BBVASM</span>&nbsp;&nbsp;<span class="ticker">BBVASM</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.125% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1/BB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BBVASM</span>&nbsp;&nbsp;<span class="ticker">BBVASM</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.968% 05/08/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/A-/A-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">JPMORGAN CHASE &amp; CO</span>&nbsp;&nbsp;<span class="ticker">JPM</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.1% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$3000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="6" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">META PLATFORMS INC</span>&nbsp;&nbsp;<span class="ticker">METAPL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td>4.55% 05/15/2031</td>
+          <td>Aa3/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$3000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.875% 05/15/2033</td>
+          <td>Aa3/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$2000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.25% 05/15/2036</td>
+          <td>Aa3/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$6000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>6.2% 05/15/2046</td>
+          <td>Aa3/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$4000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>6.3% 05/15/2056</td>
+          <td>Aa3/AA-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$6000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.45% 05/15/2066</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa3/AA-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$4000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">SCHLUMBERGER INVT SA</span>&nbsp;&nbsp;<span class="ticker">SLB</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td>4.55% 05/07/2031</td>
+          <td>A1/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.8% 05/07/2033</td>
+          <td>A1/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$500mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.15% 05/07/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A1/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">GENERADORA DE GATUN SA</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.875% 09/30/2044</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1050mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">EDISON INTERNATIONAL</span>&nbsp;&nbsp;<span class="ticker">EIX</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5% 05/05/2028</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2,BB+,BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">BRIXMOR OPERATING PTNRSHP LP</span>&nbsp;&nbsp;<span class="ticker">BRIXOPE</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.375% 06/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">SE COSMOS LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/30/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">8.875% 05/01/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$999mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">A&amp;K TRAVEL GROUP HOLDINGS LTD</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/29/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.5% 05/15/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">B1/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$700mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">EMIRATES NBD BANK PJSC</span>&nbsp;&nbsp;<span class="ticker">EBIUH</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/28/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.25% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">Unrated</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">OXFORD FINANCE LLC &amp; OXFORD FINANCE CO-ISSUER II INC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/28/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.75% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba3/B/BB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">FIRSTCASH INC</span>&nbsp;&nbsp;<span class="ticker">FCFS</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/28/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.125% 05/01/2034</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">PR RNO PROPERTY OWNER 1 LLC</span>&nbsp;&nbsp;<span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/28/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.5% 05/01/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba1/BB/BB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$4585mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="3" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">HCA INC</span>&nbsp;&nbsp;<span class="ticker">HCA</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td>4.7% 05/15/2031</td>
+          <td>Baa2/BBB-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5% 05/15/2033</td>
+          <td>Baa2/BBB-</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">5.3% 05/15/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HUT 8 DC LLC</span>&nbsp;&nbsp;<span class="ticker">HUT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">6.192% 11/15/2042</td>
+          <td style="border-bottom:1px solid #1B2541;">BBB-/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Sec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$3250mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="5" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">WALMART INC</span>&nbsp;&nbsp;<span class="ticker">WMT</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td>Float 04/30/2029</td>
+          <td>Aa2/AA/AA</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$350mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4% 04/30/2029</td>
+          <td>Aa2/AA/AA</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$650mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.15% 04/30/2031</td>
+          <td>Aa2/AA/AA</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>4.45% 04/30/2033</td>
+          <td>Aa2/AA/AA</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1250mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.75% 04/30/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa2/AA/AA</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">QUEST DIAGNOSTICS</span>&nbsp;&nbsp;<span class="ticker">DGX</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5% 06/30/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB+/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">ALLY FINL INC</span>&nbsp;&nbsp;<span class="ticker">ALLYFI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">HY</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">7.1% Perp</td>
+          <td style="border-bottom:1px solid #1B2541;">Ba2/BB-/B+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Jr Unsec/Jr Sub</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1000mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">CBRE GROUP INC</span>&nbsp;&nbsp;<span class="ticker">CBRE</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">5.25% 06/01/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa1/BBB+/BBB+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">GUARDIAN LIFE GLOBAL FUNDING</span>&nbsp;&nbsp;<span class="ticker">GUARDN</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.916% 04/30/2033</td>
+          <td style="border-bottom:1px solid #1B2541;">Aa1/AA+</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">—</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$600mm</td>
+          <td style="border-bottom:1px solid #1B2541;">144A Reg S</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">HEXCEL CORP</span>&nbsp;&nbsp;<span class="ticker">HXL</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.9% 05/15/2031</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa3/BB+/BBB-</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$400mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="1" style="vertical-align:top;border-bottom:1px solid #1B2541;"><span class="issuer">AMERICAN EXPRESS CO</span>&nbsp;&nbsp;<span class="ticker">AXP</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td style="border-bottom:1px solid #1B2541;">4.444% 05/03/2030</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A-/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$1750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="5" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">INTEL CORP</span>&nbsp;&nbsp;<span class="ticker">INTC</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td>4.65% 06/01/2031</td>
+          <td>Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5% 08/15/2033</td>
+          <td>Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1000mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>5.3% 05/15/2036</td>
+          <td>Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$2250mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td>6.125% 05/15/2056</td>
+          <td>Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$1750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">6.2% 05/15/2066</td>
+          <td style="border-bottom:1px solid #1B2541;">Baa2/BBB/BBB</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$500mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody><tbody><tr>
+          <td class="issuer-cell" rowspan="2" style="vertical-align:middle;border-bottom:1px solid #1B2541;"><span class="issuer">PHILIP MORRIS INTL INC</span>&nbsp;&nbsp;<span class="ticker">MO-PHMI</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase">IG</span><span style="color:#E5E7EB;margin:0 6px">|</span><span style="color:#94A3B8;font-weight:600;font-size:11.5px">04/27/26</span></td>
+          <td>4.125% 04/27/2029</td>
+          <td>A2/A-/A</td>
+          <td style="white-space:nowrap">Snr Unsec</td>
+          <td class="num">$750mm</td>
+          <td>SEC Reg</td>
+        </tr><tr>
+          
+          <td style="border-bottom:1px solid #1B2541;">4.875% 04/29/2036</td>
+          <td style="border-bottom:1px solid #1B2541;">A2/A-/A</td>
+          <td style="white-space:nowrap;border-bottom:1px solid #1B2541;">Snr Unsec</td>
+          <td class="num" style="border-bottom:1px solid #1B2541;">$750mm</td>
+          <td style="border-bottom:1px solid #1B2541;">SEC Reg</td>
+        </tr></tbody>
+      </table>
+    </td></tr>
+
+    <!-- FOOTER -->
+    <tr><td style="padding:20px 36px 28px;border-top:1px solid #E5E7EB;margin-top:24px">
+      <p style="margin:0 0 14px;color:#475569;font-size:12px;text-align:center">Forwarded this email? <a href="*|UPDATE_PROFILE|*" style="color:#1F3864;font-weight:600;text-decoration:underline">Subscribe here</a></p>
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td style="color:#475569;font-size:11px">Source: New Issue IQ</td>
+          <td style="color:#94A3B8;font-size:11px;font-style:italic;text-align:right">Generated 2026-05-26 13:39 UTC</td>
+        </tr>
+      </table>
+      <!-- Mailchimp compliance — merge tags get replaced server-side
+           when sent via Mailchimp. Harmless literal text in any other
+           context (SendGrid debug send, browser preview, etc.). -->
+      <p style="margin:18px 0 0;color:#94A3B8;font-size:10.5px;text-align:center;line-height:1.6">
+        *|HTML:LIST_ADDRESS_HTML|*<br>
+        <a href="*|UNSUB|*" style="color:#94A3B8;text-decoration:underline">Unsubscribe</a> ·
+        <a href="*|UPDATE_PROFILE|*" style="color:#94A3B8;text-decoration:underline">Update preferences</a>
+      </p>
+      <p style="margin:8px 0 0;text-align:center">*|REWARDS|*</p>
+    </td></tr>
+  </table>
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e6de35e35c92650d-1@daily.newissueiq
+DTSTAMP:20260526T133957Z
+DTSTART;TZID=America/New_York:20260526T103000
+DTEND;TZID=America/New_York:20260526T111500
+SUMMARY:PBFENE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PBF HOLDING CO LLC & PBF FINANCE CORP (PBFENE)\nRoadshow: https://
+ dealroadshow.com/e/PBFENERGY26 | Passcode: PBFENERGY26\n\nDeal context:\nP
+ BF Holding Co LLC / PBF Finance Corp (PBFENE) is bringing a $500 million 8
+ NC3 Senior Unsecured Notes offering in 144A/Reg S for Life format\, with i
+ nitial price talk in the mid-7s area. The proceeds will be used to redeem 
+ the company's existing $802 million Senior Notes due 2028\, with the remai
+ nder funded from available cash\, representing a liability management exer
+ cise for this B1/BB/BB-rated petroleum refiner. Pricing is expected today\
+ , May 26\, with an investor call at 10:30 am ET and a virtual roadshow ava
+ ilable at dealroadshow.com/e/PBFENERGY26.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PBF HOLDING CO LLC &amp\; PBF FINANCE CORP (PBFENE)</p><p><st
+ rong>Roadshow:</strong> https://dealroadshow.com/e/PBFENERGY26 | Passcode:
+  PBFENERGY26</p><p><strong>Deal context:</strong><br>PBF Holding Co LLC / 
+ PBF Finance Corp (PBFENE) is bringing a $500 million 8NC3 Senior Unsecured
+  Notes offering in 144A/Reg S for Life format\, with initial price talk in
+  the mid-7s area. The proceeds will be used to redeem the company's existi
+ ng $802 million Senior Notes due 2028\, with the remainder funded from ava
+ ilable cash\, representing a liability management exercise for this B1/BB/
+ BB-rated petroleum refiner. Pricing is expected today\, May 26\, with an i
+ nvestor call at 10:30 am ET and a virtual roadshow available at dealroadsh
+ ow.com/e/PBFENERGY26.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

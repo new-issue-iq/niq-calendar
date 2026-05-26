@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:da10aeaab2aa40e5-2@daily.newissueiq
+DTSTAMP:20260526T133957Z
+DTSTART;TZID=America/New_York:20260526T130000
+DTEND;TZID=America/New_York:20260526T134500
+SUMMARY:NFG — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NATL FUEL GAS CO (NFG)\nRoadshow: URL: https://dealroadshow.com | 
+ Entry Code: NFG2026 | Direct Link: https://dealroadshow.com/e/NFG2026\n\nD
+ eal context:\nNational Fuel Gas Company (NFG)\, an integrated energy compa
+ ny rated Baa3/BBB-/BBB (Stable) by Moody's/S&P/Fitch\, has mandated TD Sec
+ urities\, Wells Fargo Securities\, BofA Securities\, and J.P. Morgan to ar
+ range a series of fixed income investor calls on Tuesday\, May 26th\, ahea
+ d of a potential USD-denominated\, SEC-registered senior unsecured notes o
+ ffering. The deal is at the Mandate stage with no size\, tenor\, or pricin
+ g terms disclosed\, subject to market conditions. Wells Fargo Securities i
+ s coordinating logistics\, and a roadshow presentation with voiceover reco
+ rding has been made available via dealroadshow.com.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NATL FUEL GAS CO (NFG)</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.com | Entry Code: NFG2026 | Direct Link: https://deal
+ roadshow.com/e/NFG2026</p><p><strong>Deal context:</strong><br>National Fu
+ el Gas Company (NFG)\, an integrated energy company rated Baa3/BBB-/BBB (S
+ table) by Moody's/S&amp\;P/Fitch\, has mandated TD Securities\, Wells Farg
+ o Securities\, BofA Securities\, and J.P. Morgan to arrange a series of fi
+ xed income investor calls on Tuesday\, May 26th\, ahead of a potential USD
+ -denominated\, SEC-registered senior unsecured notes offering. The deal is
+  at the Mandate stage with no size\, tenor\, or pricing terms disclosed\, 
+ subject to market conditions. Wells Fargo Securities is coordinating logis
+ tics\, and a roadshow presentation with voiceover recording has been made 
+ available via dealroadshow.com.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

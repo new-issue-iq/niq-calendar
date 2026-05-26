@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bd001ff838505556-1@daily.newissueiq
+DTSTAMP:20260526T133957Z
+DTSTART;TZID=America/New_York:20260526T103000
+DTEND;TZID=America/New_York:20260526T111500
+SUMMARY:NAVIECO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NAVIENT CORP (NAVIECO)\nRoadshow: https://www.netroadshow.com/even
+ ts/login/1PeTHmohJzQC7GW1pC4USsi0CdLVWacKEgLYL\n\nDeal context:\nNavient C
+ orporation (NASDAQ: NAVI\, ~$793M market cap) is bringing a $500 million 5
+ -year Senior Notes offering\, maturing October 15\, 2031\, rated Ba3/BB-/B
+ B- (High Yield) with joint bookrunners BofA (B&D)\, Barclays\, J.P. Morgan
+ \, and RBC. The deal is SEC Registered with a NC-L structure (3-month par 
+ call prior to maturity) and a standard 101% change of control put\; procee
+ ds are intended for general corporate purposes including debt repurchases.
+  An investor call is scheduled for Tuesday\, May 26th at 10:30 AM ET with 
+ pricing expected today's business.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NAVIENT CORP (NAVIECO)</p><p><strong>Roadshow:</strong> https
+ ://www.netroadshow.com/events/login/1PeTHmohJzQC7GW1pC4USsi0CdLVWacKEgLYL<
+ /p><p><strong>Deal context:</strong><br>Navient Corporation (NASDAQ: NAVI\
+ , ~$793M market cap) is bringing a $500 million 5-year Senior Notes offeri
+ ng\, maturing October 15\, 2031\, rated Ba3/BB-/BB- (High Yield) with join
+ t bookrunners BofA (B&amp\;D)\, Barclays\, J.P. Morgan\, and RBC. The deal
+  is SEC Registered with a NC-L structure (3-month par call prior to maturi
+ ty) and a standard 101% change of control put\; proceeds are intended for 
+ general corporate purposes including debt repurchases. An investor call is
+  scheduled for Tuesday\, May 26th at 10:30 AM ET with pricing expected tod
+ ay's business.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
