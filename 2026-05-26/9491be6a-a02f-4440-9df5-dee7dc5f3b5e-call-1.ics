@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7044525925a7e2dd-1@daily.newissueiq
+DTSTAMP:20260527T135728Z
+DTSTART;TZID=America/New_York:20260527T120000
+DTEND;TZID=America/New_York:20260527T124500
+SUMMARY:NGPLCO — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NGPL PIPECO LLC (NGPLCO)\nRoadshow: URL: www.netroadshow.com/nrs/h
+ ome/#!/?show=b3b0bdd6 | Entry Code: NGPL2026\n\nDeal context:\nNGPL PipeCo
+  LLC (NGPLCO)\, rated Baa3/BBB- (Stable) by Moody's/S&P\, is arranging a s
+ eries of fixed income investor calls on Tuesday\, May 26th\, 2026\, with B
+ arclays\, J.P. Morgan\, RBC Capital Markets\, and Wells Fargo Securities a
+ s arrangers. The company is exploring a USD-denominated\, 144A/Reg S for L
+ ife\, senior unsecured notes offering\, subject to market conditions\, wit
+ h no size or tenor yet specified. This is a pre-deal investor engagement (
+ Mandate stage)\, with J.P. Morgan coordinating logistics and an electronic
+  investor presentation with voiceover recording available via NetRoadshow.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NGPL PIPECO LLC (NGPLCO)</p><p><strong>Roadshow:</strong> URL
+ : www.netroadshow.com/nrs/home/#!/?show=b3b0bdd6 | Entry Code: NGPL2026</p
+ ><p><strong>Deal context:</strong><br>NGPL PipeCo LLC (NGPLCO)\, rated Baa
+ 3/BBB- (Stable) by Moody's/S&amp\;P\, is arranging a series of fixed incom
+ e investor calls on Tuesday\, May 26th\, 2026\, with Barclays\, J.P. Morga
+ n\, RBC Capital Markets\, and Wells Fargo Securities as arrangers. The com
+ pany is exploring a USD-denominated\, 144A/Reg S for Life\, senior unsecur
+ ed notes offering\, subject to market conditions\, with no size or tenor y
+ et specified. This is a pre-deal investor engagement (Mandate stage)\, wit
+ h J.P. Morgan coordinating logistics and an electronic investor presentati
+ on with voiceover recording available via NetRoadshow.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

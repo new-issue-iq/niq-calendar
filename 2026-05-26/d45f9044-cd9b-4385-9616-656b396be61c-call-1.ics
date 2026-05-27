@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:38a3fa886eceb6b0-1@daily.newissueiq
+DTSTAMP:20260527T135728Z
+DTSTART;TZID=America/New_York:20260526T123000
+DTEND;TZID=America/New_York:20260526T131500
+SUMMARY:BORRNO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BORR IHC LTD (BORRNO)\nRoadshow: https://www.netroadshow.com/event
+ s/login/1PeTHmohVhpPpksosOuJJm07HbJ9b5ldhgbWW\n\nDeal context:\nBorr IHC L
+ imited (co-issued with Borr Finance LLC) is bringing a $1\,600 million dua
+ l-tranche Senior Secured Notes offering split equally between a 5.5-year (
+ 2032 maturity) and a 7.5-year (2034 maturity) tranche at $800 million each
+ \, rated B3/B/B- at the facility level\, with initial price talk at Low-Mi
+ d 9s yield for the 5.5-year and +25bps over the 5.5-year for the 7.5-year.
+  Proceeds are earmarked to refinance existing 2028 Notes and a portion of 
+ the 2030 Notes\, with the deal featuring NC-2 and NC-3 call protection res
+ pectively\, 5% per annum amortization at 102.5 starting with the second in
+ terest payment date\, and offered in 144A/Reg S for Life format. Expected 
+ pricing is Thursday\, May 28th following an investor call on Tuesday\, May
+  26th\, 2026\, with Citi acting as Left Lead Global Coordinator alongside 
+ CLARKSONS\, DNB\, and GS.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BORR IHC LTD (BORRNO)</p><p><strong>Roadshow:</strong> https:
+ //www.netroadshow.com/events/login/1PeTHmohVhpPpksosOuJJm07HbJ9b5ldhgbWW</
+ p><p><strong>Deal context:</strong><br>Borr IHC Limited (co-issued with Bo
+ rr Finance LLC) is bringing a $1\,600 million dual-tranche Senior Secured 
+ Notes offering split equally between a 5.5-year (2032 maturity) and a 7.5-
+ year (2034 maturity) tranche at $800 million each\, rated B3/B/B- at the f
+ acility level\, with initial price talk at Low-Mid 9s yield for the 5.5-ye
+ ar and +25bps over the 5.5-year for the 7.5-year. Proceeds are earmarked t
+ o refinance existing 2028 Notes and a portion of the 2030 Notes\, with the
+  deal featuring NC-2 and NC-3 call protection respectively\, 5% per annum 
+ amortization at 102.5 starting with the second interest payment date\, and
+  offered in 144A/Reg S for Life format. Expected pricing is Thursday\, May
+  28th following an investor call on Tuesday\, May 26th\, 2026\, with Citi 
+ acting as Left Lead Global Coordinator alongside CLARKSONS\, DNB\, and GS.
+ </p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

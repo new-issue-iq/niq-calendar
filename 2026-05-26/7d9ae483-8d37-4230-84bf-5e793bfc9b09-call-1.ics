@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a894ca22974e6a36-1@daily.newissueiq
+DTSTAMP:20260527T135728Z
+DTSTART;TZID=America/New_York:20260527T110000
+DTEND;TZID=America/New_York:20260527T114500
+SUMMARY:AVISBU — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AVIS BUDGET CAR RENTAL LLC & AVIS BUDGET FINANCE INC (AVISBU)\nRoa
+ dshow: URL: https://dealroadshow.com | Entry Code: CAR2026 | Direct Link: 
+ https://dealroadshow.com/e/CAR2026 (available 10 minutes prior)\n\nDeal co
+ ntext:\nAvis Budget Car Rental\, LLC and Avis Budget Finance\, Inc. are la
+ unching a $300 million add-on to their existing 8.000% Senior Notes due 20
+ 31\, rated B1/B (High Yield). The deal is being offered at an IPT of $100.
+ 00–$100.50 on a dollar-price basis\, consistent with an add-on to an exist
+ ing coupon\, with proceeds intended to partially redeem the 5.750% Notes d
+ ue 2027. The transaction is distributed as 144A immediately fungible / Reg
+  S fungible after 40 days\, with a broad syndicate led by JPM\, BofA\, Bar
+ clays\, Morgan Stanley\, Société Générale\, Truist\, Mizuho\, and MUFG\, t
+ argeting today's business.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AVIS BUDGET CAR RENTAL LLC &amp\; AVIS BUDGET FINANCE INC (AV
+ ISBU)</p><p><strong>Roadshow:</strong> URL: https://dealroadshow.com | Ent
+ ry Code: CAR2026 | Direct Link: https://dealroadshow.com/e/CAR2026 (availa
+ ble 10 minutes prior)</p><p><strong>Deal context:</strong><br>Avis Budget 
+ Car Rental\, LLC and Avis Budget Finance\, Inc. are launching a $300 milli
+ on add-on to their existing 8.000% Senior Notes due 2031\, rated B1/B (Hig
+ h Yield). The deal is being offered at an IPT of $100.00–$100.50 on a doll
+ ar-price basis\, consistent with an add-on to an existing coupon\, with pr
+ oceeds intended to partially redeem the 5.750% Notes due 2027. The transac
+ tion is distributed as 144A immediately fungible / Reg S fungible after 40
+  days\, with a broad syndicate led by JPM\, BofA\, Barclays\, Morgan Stanl
+ ey\, Société Générale\, Truist\, Mizuho\, and MUFG\, targeting today's bus
+ iness.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
