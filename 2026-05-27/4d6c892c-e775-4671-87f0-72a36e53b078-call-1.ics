@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:42e5d52542fc41d4-1@daily.newissueiq
+DTSTAMP:20260527T134709Z
+DTSTART;TZID=America/New_York:20260527T120000
+DTEND;TZID=America/New_York:20260527T124500
+SUMMARY:WS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: WORTHINGTON STEEL INC (WS)\nRoadshow: https://www.netroadshow.com/
+ events/login/1PeTHmohQpayh9oYQmcGP8eORJMx8vyYRMPZR\n\nDeal context:\nWorth
+ ington Steel (NYSE: WS) is bringing a $900 million Senior Secured Notes du
+ e 2033 (7NC3 structure) via its escrow entity WS Escrow LLC\, rated B2/BB-
+ /BB+ (Moody's/S&P/Fitch)\, to finance the $2.4 billion acquisition of Kloe
+ ckner & Co SE alongside a $500 million Senior Secured Term Loan B. The dea
+ l was announced with IPT of 8.25% area\, with pricing expected Thursday\, 
+ May 28\, and an investor call scheduled for May 26th at 12:00PM ET. The 14
+ 4A/Reg S for Life structure features a 3-year non-call period with a 10% a
+ nnual optional redemption at 103% plus accrued interest during the NC peri
+ od\, and is subject to a Special Mandatory Redemption if the Kloeckner acq
+ uisition is not consummated by March 12\, 2027.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> WORTHINGTON STEEL INC (WS)</p><p><strong>Roadshow:</strong> h
+ ttps://www.netroadshow.com/events/login/1PeTHmohQpayh9oYQmcGP8eORJMx8vyYRM
+ PZR</p><p><strong>Deal context:</strong><br>Worthington Steel (NYSE: WS) i
+ s bringing a $900 million Senior Secured Notes due 2033 (7NC3 structure) v
+ ia its escrow entity WS Escrow LLC\, rated B2/BB-/BB+ (Moody's/S&amp\;P/Fi
+ tch)\, to finance the $2.4 billion acquisition of Kloeckner &amp\; Co SE a
+ longside a $500 million Senior Secured Term Loan B. The deal was announced
+  with IPT of 8.25% area\, with pricing expected Thursday\, May 28\, and an
+  investor call scheduled for May 26th at 12:00PM ET. The 144A/Reg S for Li
+ fe structure features a 3-year non-call period with a 10% annual optional 
+ redemption at 103% plus accrued interest during the NC period\, and is sub
+ ject to a Special Mandatory Redemption if the Kloeckner acquisition is not
+  consummated by March 12\, 2027.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
