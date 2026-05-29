@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5dbc729b0c722834-2@daily.newissueiq
+DTSTAMP:20260529T132710Z
+DTSTART;TZID=America/New_York:20260528T120000
+DTEND;TZID=America/New_York:20260528T124500
+SUMMARY:CHPE — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CHPE LLC (CHPE)\nRoadshow: URL: https://dealroadshow.com | Entry C
+ ode: CHPE2026 | Direct Link: https://dealroadshow.com/e/CHPE2026\n\nDeal c
+ ontext:\nCHPE LLC\, a wholly owned subsidiary of TDI-USA Holdings LLC (a B
+ lackstone portfolio company)\, is arranging fixed income investor calls on
+  May 28-29\, 2026 ahead of a potential USD-denominated 144A/Reg S senior s
+ ecured note offering with expected tenors of 5-\, 7-\, 10-\, and 20-years.
+  The issuer carries expected ratings of Baa1/A- (Moody's/Fitch)\, placing 
+ it firmly in investment grade territory\, and operates a ~339-mile HVDC tr
+ ansmission line connecting Quebec's renewable energy resources to New York
+  City's power grid (Zone J) under the Champlain Hudson Power Express proje
+ ct. No size\, pricing\, or spread guidance has been provided at this manda
+ te stage\; the deal is subject to market conditions following the investor
+  call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CHPE LLC (CHPE)</p><p><strong>Roadshow:</strong> URL: https:/
+ /dealroadshow.com | Entry Code: CHPE2026 | Direct Link: https://dealroadsh
+ ow.com/e/CHPE2026</p><p><strong>Deal context:</strong><br>CHPE LLC\, a who
+ lly owned subsidiary of TDI-USA Holdings LLC (a Blackstone portfolio compa
+ ny)\, is arranging fixed income investor calls on May 28-29\, 2026 ahead o
+ f a potential USD-denominated 144A/Reg S senior secured note offering with
+  expected tenors of 5-\, 7-\, 10-\, and 20-years. The issuer carries expec
+ ted ratings of Baa1/A- (Moody's/Fitch)\, placing it firmly in investment g
+ rade territory\, and operates a ~339-mile HVDC transmission line connectin
+ g Quebec's renewable energy resources to New York City's power grid (Zone 
+ J) under the Champlain Hudson Power Express project. No size\, pricing\, o
+ r spread guidance has been provided at this mandate stage\; the deal is su
+ bject to market conditions following the investor call process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
