@@ -22,34 +22,36 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:38524c03fab964fc-1@daily.newissueiq
-DTSTAMP:20260601T131817Z
+DTSTAMP:20260601T132320Z
 DTSTART;TZID=America/New_York:20260601T103000
 DTEND;TZID=America/New_York:20260601T111500
 SUMMARY:FSKKR — Investor Call
 DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
  Issuer: FS KKR CAPITAL CORP (FSKKR)\nRoadshow: https://www.netroadshow.com
  /events/login/1PeTHmohYCllHwHBIExtNXzSneXMw5RroybFS\n\nDeal context:\nFS K
- KR Capital Corp. (NYSE: FSK)\, an externally managed BDC\, is bringing a b
- enchmark-sized 5-year senior notes offering to market with a maturity of A
- ugust 1\, 2031\, rated Ba1/BB+/BBB- (Moody's/Fitch/Kroll) — a split-rated 
- deal straddling the IG/HY boundary. The deal is SEC Registered with T+5 se
- ttlement\, features a make-whole call and a 3-month par call prior to matu
- rity\, and is being led by a six-bank syndicate including BofA (B&D)\, BMO
- \, JPM\, KCM\, RBC\, and SMBC. An investor call is scheduled for Monday\, 
- June 1st at 10:30 AM ET with pricing expected today.
+ KR Capital Corp (FSK)\, a BDC externally managed and regulated under the 1
+ 940 Act\, is launching a 5-year SEC Registered senior unsecured note offer
+ ing with initial price talk of 7.5-7.75%\, targeting today's business for 
+ pricing. The deal carries split ratings of Ba1/BB+/BBB- (Moody's/S&P/Fitch
+ )\, placing it at the crossover/high-yield boundary\, with BofA acting as 
+ B&D alongside BMO\, JPM\, KEYBCM\, RBCCM\, and SMBC as active bookrunners.
+  Proceeds are intended for general corporate purposes including potential 
+ repayment of outstanding indebtedness under credit facilities and certain 
+ notes\, with settlement expected T+5 on June 8\, 2026.
 X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
  h out to your dealer to confirm timing and availability</p><p><strong>Issu
  er:</strong> FS KKR CAPITAL CORP (FSKKR)</p><p><strong>Roadshow:</strong> 
  https://www.netroadshow.com/events/login/1PeTHmohYCllHwHBIExtNXzSneXMw5Rro
- ybFS</p><p><strong>Deal context:</strong><br>FS KKR Capital Corp. (NYSE: F
- SK)\, an externally managed BDC\, is bringing a benchmark-sized 5-year sen
- ior notes offering to market with a maturity of August 1\, 2031\, rated Ba
- 1/BB+/BBB- (Moody's/Fitch/Kroll) — a split-rated deal straddling the IG/HY
-  boundary. The deal is SEC Registered with T+5 settlement\, features a mak
- e-whole call and a 3-month par call prior to maturity\, and is being led b
- y a six-bank syndicate including BofA (B&amp\;D)\, BMO\, JPM\, KCM\, RBC\,
-  and SMBC. An investor call is scheduled for Monday\, June 1st at 10:30 AM
-  ET with pricing expected today.</p>
+ ybFS</p><p><strong>Deal context:</strong><br>FS KKR Capital Corp (FSK)\, a
+  BDC externally managed and regulated under the 1940 Act\, is launching a 
+ 5-year SEC Registered senior unsecured note offering with initial price ta
+ lk of 7.5-7.75%\, targeting today's business for pricing. The deal carries
+  split ratings of Ba1/BB+/BBB- (Moody's/S&amp\;P/Fitch)\, placing it at th
+ e crossover/high-yield boundary\, with BofA acting as B&amp\;D alongside B
+ MO\, JPM\, KEYBCM\, RBCCM\, and SMBC as active bookrunners. Proceeds are i
+ ntended for general corporate purposes including potential repayment of ou
+ tstanding indebtedness under credit facilities and certain notes\, with se
+ ttlement expected T+5 on June 8\, 2026.</p>
 LOCATION:Conference Call
 END:VEVENT
 END:VCALENDAR
