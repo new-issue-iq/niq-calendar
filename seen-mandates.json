@@ -293,5 +293,15 @@
     "id": "d9aae48d-5cb0-4200-b254-c70f4b60d64f",
     "issuerName": "DUKE ENERGY CAROLINAS LLC",
     "alertedAt": "2026-06-01T13:31:08.030Z"
+  },
+  {
+    "id": "a8ddb82a-aa22-4173-bcd5-7410a1926069",
+    "issuerName": "ARCH CAPITAL GROUP LTD",
+    "alertedAt": "2026-06-01T13:41:11.426Z"
+  },
+  {
+    "id": "aa45341d-c694-44cf-bff4-b1374ace1042",
+    "issuerName": "NATL SECURITIES CLEARING CORP",
+    "alertedAt": "2026-06-01T13:41:14.556Z"
   }
 ]

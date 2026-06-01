@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6ec74596fe72976b-3@daily.newissueiq
+DTSTAMP:20260601T134106Z
+DTSTART;TZID=America/New_York:20260601T140000
+DTEND;TZID=America/New_York:20260601T145000
+SUMMARY:ACGL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ARCH CAPITAL GROUP LTD (ACGL)\nRoadshow: URL: https://dealroadshow
+ .com | Password: ACGL2026 | Direct Link: https://dealroadshow.com/e/ACGL20
+ 26\n\nDeal context:\nArch Capital Group Ltd. (ACGL)\, a Bermuda-based insu
+ rance\, reinsurance\, and mortgage insurance holding company with approxim
+ ately $26.9 billion in capital\, has mandated Wells Fargo Securities\, Bof
+ A Securities\, J.P. Morgan\, and Lloyds Securities to arrange a series of 
+ fixed income investor calls on Monday\, June 1st\, 2026. The deal is at th
+ e Mandate stage\, with an SEC-registered senior unsecured notes offering p
+ otentially to follow subject to market conditions. No size\, tenor\, prici
+ ng\, or ratings information has been disclosed at this stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ARCH CAPITAL GROUP LTD (ACGL)</p><p><strong>Roadshow:</strong
+ > URL: https://dealroadshow.com | Password: ACGL2026 | Direct Link: https:
+ //dealroadshow.com/e/ACGL2026</p><p><strong>Deal context:</strong><br>Arch
+  Capital Group Ltd. (ACGL)\, a Bermuda-based insurance\, reinsurance\, and
+  mortgage insurance holding company with approximately $26.9 billion in ca
+ pital\, has mandated Wells Fargo Securities\, BofA Securities\, J.P. Morga
+ n\, and Lloyds Securities to arrange a series of fixed income investor cal
+ ls on Monday\, June 1st\, 2026. The deal is at the Mandate stage\, with an
+  SEC-registered senior unsecured notes offering potentially to follow subj
+ ect to market conditions. No size\, tenor\, pricing\, or ratings informati
+ on has been disclosed at this stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

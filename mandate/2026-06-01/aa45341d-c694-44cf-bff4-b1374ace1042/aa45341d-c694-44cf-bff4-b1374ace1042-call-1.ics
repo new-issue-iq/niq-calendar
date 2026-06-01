@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c8f11ed458df935e-1@daily.newissueiq
+DTSTAMP:20260601T134111Z
+DTSTART;TZID=America/New_York:20260601T110000
+DTEND;TZID=America/New_York:20260601T115000
+SUMMARY:NSCCLF — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NATL SECURITIES CLEARING CORP (NSCCLF)\nRoadshow: URL: www.netroad
+ show.com/nrs/home/#!/?show=494e6a7c | Password: NSCCLF2026 | Direct Link: 
+ www.netroadshow.com\n\nDeal context:\nNational Securities Clearing Corpora
+ tion (NSCCLF)\, rated Aa1 (Stable) / AA (Stable) by Moody's and S&P\, is c
+ onducting a series of fixed income investor calls on June 1st\, 2026\, arr
+ anged by BofA Securities\, TD Securities\, and Wells Fargo Securities. A p
+ otential offering of 144A/Reg S (without Registration Rights) senior unsec
+ ured notes may follow subject to market conditions\, with no size\, tenor\
+ , or pricing details disclosed at this stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NATL SECURITIES CLEARING CORP (NSCCLF)</p><p><strong>Roadshow
+ :</strong> URL: www.netroadshow.com/nrs/home/#!/?show=494e6a7c | Password:
+  NSCCLF2026 | Direct Link: www.netroadshow.com</p><p><strong>Deal context:
+ </strong><br>National Securities Clearing Corporation (NSCCLF)\, rated Aa1
+  (Stable) / AA (Stable) by Moody's and S&amp\;P\, is conducting a series o
+ f fixed income investor calls on June 1st\, 2026\, arranged by BofA Securi
+ ties\, TD Securities\, and Wells Fargo Securities. A potential offering of
+  144A/Reg S (without Registration Rights) senior unsecured notes may follo
+ w subject to market conditions\, with no size\, tenor\, or pricing details
+  disclosed at this stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
