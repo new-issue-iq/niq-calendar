@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c42ccecd99401f32-1@daily.newissueiq
+DTSTAMP:20260601T131817Z
+DTSTART;TZID=America/New_York:20260601T110000
+DTEND;TZID=America/New_York:20260601T114500
+SUMMARY:GT — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: THE GOODYEAR TIRE & RUBBER CO (GT)\nRoadshow: URL: https://dealroa
+ dshow.com | Entry Code: GOODYEAR26 | Direct Link: https://dealroadshow.com
+ /e/GOODYEAR26 (available 10 minutes prior)\n\nDeal context:\nThe Goodyear 
+ Tire & Rubber Company is bringing a $750M 6NC3 Senior Notes offering (July
+  15\, 2032 maturity) rated B2/B+/BB-\, classified as High Yield\, via SEC 
+ Registered format. The deal is led by a broad syndicate of joint bookrunne
+ rs including JPM\, BOFA\, and CITI\, with proceeds primarily earmarked to 
+ repay\, redeem\, or repurchase the 4.875% Notes due 2027\, with any remain
+ ing proceeds for general corporate purposes. Initial price talk is set at 
+ Low-Mid 9%\, with the deal expected to price today.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> THE GOODYEAR TIRE &amp\; RUBBER CO (GT)</p><p><strong>Roadsho
+ w:</strong> URL: https://dealroadshow.com | Entry Code: GOODYEAR26 | Direc
+ t Link: https://dealroadshow.com/e/GOODYEAR26 (available 10 minutes prior)
+ </p><p><strong>Deal context:</strong><br>The Goodyear Tire &amp\; Rubber C
+ ompany is bringing a $750M 6NC3 Senior Notes offering (July 15\, 2032 matu
+ rity) rated B2/B+/BB-\, classified as High Yield\, via SEC Registered form
+ at. The deal is led by a broad syndicate of joint bookrunners including JP
+ M\, BOFA\, and CITI\, with proceeds primarily earmarked to repay\, redeem\
+ , or repurchase the 4.875% Notes due 2027\, with any remaining proceeds fo
+ r general corporate purposes. Initial price talk is set at Low-Mid 9%\, wi
+ th the deal expected to price today.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

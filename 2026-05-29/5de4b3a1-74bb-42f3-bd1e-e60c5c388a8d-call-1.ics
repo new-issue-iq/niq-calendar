@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:STANDARD
+DTSTART:19710101T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19710101T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c6bef8e54f62592b-1@daily.newissueiq
+DTSTAMP:20260601T131817Z
+DTSTART;TZID=Europe/London:20260601T120000
+DTEND;TZID=Europe/London:20260601T125000
+SUMMARY:MARGRO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MAREX GROUP PLC (MARGRO)\nRoadshow: DIRECT LINK: www.netroadshow.c
+ om/nrs/home/#!/?show=d075eeca (Recommended) OR Visit www.netroadshow.com a
+ nd enter the entry code: Zeus_26 (not case-sensitive)\n\nDeal context:\nMa
+ rex Group plc (MARGRO)\, a UK-based financial services firm rated BBB- (St
+ able) by S&P and BBB- (Positive) by Fitch at the issuer level\, is launchi
+ ng a Reg S USD Benchmark Perpetual Non-Call 6.5-year hybrid offering with 
+ expected ratings of BB/BB (S&P/Fitch)\, mandating Barclays\, Goldman Sachs
+  International\, and Jefferies as Joint Bookrunners following a series of 
+ fixed income investor calls commencing June 1\, 2026. The hybrid structure
+  is accompanied by a concurrent tender offer for Marex's existing USD 100m
+ n 13.25% AT1 Notes (ISIN: XS2484112524)\, suggesting the new issuance is i
+ ntended to refinance or replace the existing capital instrument.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MAREX GROUP PLC (MARGRO)</p><p><strong>Roadshow:</strong> DIR
+ ECT LINK: www.netroadshow.com/nrs/home/#!/?show=d075eeca (Recommended) OR 
+ Visit www.netroadshow.com and enter the entry code: Zeus_26 (not case-sens
+ itive)</p><p><strong>Deal context:</strong><br>Marex Group plc (MARGRO)\, 
+ a UK-based financial services firm rated BBB- (Stable) by S&amp\;P and BBB
+ - (Positive) by Fitch at the issuer level\, is launching a Reg S USD Bench
+ mark Perpetual Non-Call 6.5-year hybrid offering with expected ratings of 
+ BB/BB (S&amp\;P/Fitch)\, mandating Barclays\, Goldman Sachs International\
+ , and Jefferies as Joint Bookrunners following a series of fixed income in
+ vestor calls commencing June 1\, 2026. The hybrid structure is accompanied
+  by a concurrent tender offer for Marex's existing USD 100mn 13.25% AT1 No
+ tes (ISIN: XS2484112524)\, suggesting the new issuance is intended to refi
+ nance or replace the existing capital instrument.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

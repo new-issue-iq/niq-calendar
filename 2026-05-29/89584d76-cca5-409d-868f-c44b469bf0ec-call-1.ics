@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2342582389b257aa-1@daily.newissueiq
+DTSTAMP:20260601T131817Z
+DTSTART;TZID=America/New_York:20260601T110000
+DTEND;TZID=America/New_York:20260601T114500
+SUMMARY:VENTURE GLOBAL LNG INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VENTURE GLOBAL LNG INC\nRoadshow: URL: https://dealroadshow.com | 
+ Entry Code: VGLNG2026 | Direct Link: https://dealroadshow.com/e/VGLNG2026 
+ (Available 10 minutes prior)\n\nDeal context:\nVenture Global LNG\, Inc. i
+ s bringing a two-tranche senior secured notes offering totaling $2.25 bill
+ ion\, consisting of a $1.125 billion 8.5NC3.5 tranche and a $1.125 billion
+  10NC5 tranche\, both rated B1/BB/BB (High Yield). Initial price talk on t
+ he 8.5NC3.5 tranche is 6.5%-6.75% and on the 10NC5 tranche is 6.75%-7.0%\,
+  with both tranches distributed via 144A/Reg S for life format. Proceeds w
+ ill be used to redeem the outstanding 8.125% 2028 Notes and pay the associ
+ ated call premium plus fees and expenses\, representing a refinancing tran
+ saction for this U.S.-based LNG production and export company.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VENTURE GLOBAL LNG INC</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.com | Entry Code: VGLNG2026 | Direct Link: https://de
+ alroadshow.com/e/VGLNG2026 (Available 10 minutes prior)</p><p><strong>Deal
+  context:</strong><br>Venture Global LNG\, Inc. is bringing a two-tranche 
+ senior secured notes offering totaling $2.25 billion\, consisting of a $1.
+ 125 billion 8.5NC3.5 tranche and a $1.125 billion 10NC5 tranche\, both rat
+ ed B1/BB/BB (High Yield). Initial price talk on the 8.5NC3.5 tranche is 6.
+ 5%-6.75% and on the 10NC5 tranche is 6.75%-7.0%\, with both tranches distr
+ ibuted via 144A/Reg S for life format. Proceeds will be used to redeem the
+  outstanding 8.125% 2028 Notes and pay the associated call premium plus fe
+ es and expenses\, representing a refinancing transaction for this U.S.-bas
+ ed LNG production and export company.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

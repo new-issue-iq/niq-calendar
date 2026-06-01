@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cfdb13123e4ca0fe-1@daily.newissueiq
+DTSTAMP:20260601T131817Z
+DTSTART;TZID=America/New_York:20260601T103000
+DTEND;TZID=America/New_York:20260601T111500
+SUMMARY:NE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NOBLE FINANCE II LLC (NE)\nRoadshow: https://www.netroadshow.com/e
+ vents/login/1PeTHmohCFqGZBqfwWq5doyj2imM5oU8D2V1t\n\nDeal context:\nNoble 
+ Finance II LLC\, the financing subsidiary of Noble Corporation PLC (NYSE: 
+ NE\, $7.4B market cap)\, is bringing a $500 million 8NC3 Senior Unsecured 
+ Notes due 2034 to market via a 144A/Reg S for Life offering rated B1/BB-/B
+ B-. The deal is being led by WFS as left lead alongside a broad syndicate 
+ of 10 joint book-running managers including HSBC\, Barclays\, Citi\, DNB\,
+  JPM\, Santander\, Morgan Stanley\, SBI\, and TCB\, with pricing expected 
+ this afternoon (June 1\, 2026). Proceeds will be used alongside cash on ha
+ nd to fund a conditional call for the 8.500% 2L Diamond Notes due 2030\, e
+ ffectively refinancing second lien debt with senior unsecured notes\, with
+  settlement expected T+8 on June 11\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NOBLE FINANCE II LLC (NE)</p><p><strong>Roadshow:</strong> ht
+ tps://www.netroadshow.com/events/login/1PeTHmohCFqGZBqfwWq5doyj2imM5oU8D2V
+ 1t</p><p><strong>Deal context:</strong><br>Noble Finance II LLC\, the fina
+ ncing subsidiary of Noble Corporation PLC (NYSE: NE\, $7.4B market cap)\, 
+ is bringing a $500 million 8NC3 Senior Unsecured Notes due 2034 to market 
+ via a 144A/Reg S for Life offering rated B1/BB-/BB-. The deal is being led
+  by WFS as left lead alongside a broad syndicate of 10 joint book-running 
+ managers including HSBC\, Barclays\, Citi\, DNB\, JPM\, Santander\, Morgan
+  Stanley\, SBI\, and TCB\, with pricing expected this afternoon (June 1\, 
+ 2026). Proceeds will be used alongside cash on hand to fund a conditional 
+ call for the 8.500% 2L Diamond Notes due 2030\, effectively refinancing se
+ cond lien debt with senior unsecured notes\, with settlement expected T+8 
+ on June 11\, 2026.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e2c494865d9736ed-1@daily.newissueiq
+DTSTAMP:20260601T131817Z
+DTSTART;TZID=America/New_York:20260601T103000
+DTEND;TZID=America/New_York:20260601T111500
+SUMMARY:ELK GROVE VILLAGE PROPERTY LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ELK GROVE VILLAGE PROPERTY LLC\nRoadshow: https://www.netroadshow.
+ com/events/login/1PeTHmohVhEkCFdHmxAJJOqtLoWnETRuOPDOu\n\nDeal context:\nP
+ rime Data Centers LLC's subsidiary Elk Grove Village Property\, LLC is bri
+ nging an $850 million 5-year (5NC2) Senior Secured Notes offering rated Ba
+ 3/BB-/BB-\, with Santander acting as Sole Bookrunner (B&D). The deal carri
+ es a price whisper of 'High 7s' and proceeds will be used to repay existin
+ g construction debt at the ORD01-01 data center in Chicago (a 72MW facilit
+ y with 3 of 6 data halls already delivered)\, fund remaining construction\
+ , build debt service reserves\, fund a distribution\, and pay fees. The in
+ vestor call is scheduled for June 1\, 2026 at 10:30 AM EST with pricing ex
+ pected the following day\, June 2\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ELK GROVE VILLAGE PROPERTY LLC</p><p><strong>Roadshow:</stron
+ g> https://www.netroadshow.com/events/login/1PeTHmohVhEkCFdHmxAJJOqtLoWnET
+ RuOPDOu</p><p><strong>Deal context:</strong><br>Prime Data Centers LLC's s
+ ubsidiary Elk Grove Village Property\, LLC is bringing an $850 million 5-y
+ ear (5NC2) Senior Secured Notes offering rated Ba3/BB-/BB-\, with Santande
+ r acting as Sole Bookrunner (B&amp\;D). The deal carries a price whisper o
+ f 'High 7s' and proceeds will be used to repay existing construction debt 
+ at the ORD01-01 data center in Chicago (a 72MW facility with 3 of 6 data h
+ alls already delivered)\, fund remaining construction\, build debt service
+  reserves\, fund a distribution\, and pay fees. The investor call is sched
+ uled for June 1\, 2026 at 10:30 AM EST with pricing expected the following
+  day\, June 2\, 2026.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
