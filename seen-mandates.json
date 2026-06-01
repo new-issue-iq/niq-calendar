@@ -303,5 +303,10 @@
     "id": "aa45341d-c694-44cf-bff4-b1374ace1042",
     "issuerName": "NATL SECURITIES CLEARING CORP",
     "alertedAt": "2026-06-01T13:41:14.556Z"
+  },
+  {
+    "id": "0d4fe5d5-f28a-48f0-8f1e-6992ba5f861a",
+    "issuerName": "SAMMONS FINL GROUP INC",
+    "alertedAt": "2026-06-01T14:41:11.288Z"
   }
 ]
