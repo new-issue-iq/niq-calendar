@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f052a18d922239fe-2@daily.newissueiq
+DTSTAMP:20260601T133103Z
+DTSTART;TZID=America/New_York:20260601T124500
+DTEND;TZID=America/New_York:20260601T133000
+SUMMARY:DUKECO — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: DUKE ENERGY CAROLINAS LLC (DUKECO)\nRoadshow: Direct Link: www.net
+ roadshow.com/nrs/home/#!/?show=2de4d35b (Recommended) | Website: www.netro
+ adshow.com | Passcode: OneUtility2027 (not case-sensitive)\n\nDeal context
+ :\nDuke Energy Carolinas\, LLC and Duke Energy Progress\, LLC (collectivel
+ y 'Duke Energy Carolinas Utilities\,' Debt Ticker: DUK) are conducting a s
+ eries of fixed income investor calls on June 1\, 2026\, arranged by RBC Ca
+ pital Markets\, CIBC Capital Markets\, J.P. Morgan\, PNC Capital Markets\,
+  SMBC Nikko\, TD Securities\, Truist Securities\, and US Bancorp. The purp
+ ose of the calls is to update fixed income investors on the expected Janua
+ ry 2027 combination of Duke Energy Corp's two Carolinas utilities into a s
+ ingle entity\, with Duke Energy Progress merging into Duke Energy Carolina
+ s as the surviving entity. No specific bond deal terms have been announced
+ \; this is a pre-deal investor engagement ahead of a potential future offe
+ ring\, with both entities carrying secured debt ratings of Aa3 (stable) / 
+ A (stable) from Moody's / S&P.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> DUKE ENERGY CAROLINAS LLC (DUKECO)</p><p><strong>Roadshow:</s
+ trong> Direct Link: www.netroadshow.com/nrs/home/#!/?show=2de4d35b (Recomm
+ ended) | Website: www.netroadshow.com | Passcode: OneUtility2027 (not case
+ -sensitive)</p><p><strong>Deal context:</strong><br>Duke Energy Carolinas\
+ , LLC and Duke Energy Progress\, LLC (collectively 'Duke Energy Carolinas 
+ Utilities\,' Debt Ticker: DUK) are conducting a series of fixed income inv
+ estor calls on June 1\, 2026\, arranged by RBC Capital Markets\, CIBC Capi
+ tal Markets\, J.P. Morgan\, PNC Capital Markets\, SMBC Nikko\, TD Securiti
+ es\, Truist Securities\, and US Bancorp. The purpose of the calls is to up
+ date fixed income investors on the expected January 2027 combination of Du
+ ke Energy Corp's two Carolinas utilities into a single entity\, with Duke 
+ Energy Progress merging into Duke Energy Carolinas as the surviving entity
+ . No specific bond deal terms have been announced\; this is a pre-deal inv
+ estor engagement ahead of a potential future offering\, with both entities
+  carrying secured debt ratings of Aa3 (stable) / A (stable) from Moody's /
+  S&amp\;P.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

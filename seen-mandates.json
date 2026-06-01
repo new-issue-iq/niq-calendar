@@ -288,5 +288,10 @@
     "id": "acea7d95-0622-449a-b4c8-bc40f0ba71fd",
     "issuerName": "CEMEX SAB DE C V",
     "alertedAt": "2026-06-01T12:31:18.096Z"
+  },
+  {
+    "id": "d9aae48d-5cb0-4200-b254-c70f4b60d64f",
+    "issuerName": "DUKE ENERGY CAROLINAS LLC",
+    "alertedAt": "2026-06-01T13:31:08.030Z"
   }
 ]
