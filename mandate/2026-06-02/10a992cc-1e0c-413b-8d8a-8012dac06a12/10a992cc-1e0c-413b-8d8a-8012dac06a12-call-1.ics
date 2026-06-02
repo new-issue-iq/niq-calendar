@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c488c10c52258b13-1@daily.newissueiq
+DTSTAMP:20260602T152054Z
+DTSTART;TZID=America/New_York:20260602T130000
+DTEND;TZID=America/New_York:20260602T134500
+SUMMARY:ANTHOL — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ANTARES HOLDINGS LP (ANTHOL)\nRoadshow: Call #1: https://www.netro
+ adshow.com/events/login/1PeTHmoj7tnbeet7zbTtWxerEVRBaWetyRJBx | Call #2: h
+ ttps://www.netroadshow.com/events/login/1PeTHmojEk67bXkLd4gozovu643dHsxyJF
+ gy8\n\nDeal context:\nAntares Holdings LP (ANTHOL)\, rated Baa2/BBB-/BBBH 
+ (all Stable) by Moody's/Fitch/DBRS\, is conducting fixed income investor c
+ alls on June 2nd\, 2026\, arranged by RBC Capital Markets\, J.P. Morgan\, 
+ and Scotiabank\, ahead of a potential 144A/3(c)(7) 5-year senior unsecured
+  notes offering. The deal is at the Mandate stage with no size\, pricing\,
+  or spread guidance disclosed\; a transaction may follow subject to market
+  conditions. RBC Capital Markets is coordinating logistics\, with two inve
+ stor calls scheduled for 1:00pm ET and 3:00pm ET on June 2nd\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ANTARES HOLDINGS LP (ANTHOL)</p><p><strong>Roadshow:</strong>
+  Call #1: https://www.netroadshow.com/events/login/1PeTHmoj7tnbeet7zbTtWxe
+ rEVRBaWetyRJBx | Call #2: https://www.netroadshow.com/events/login/1PeTHmo
+ jEk67bXkLd4gozovu643dHsxyJFgy8</p><p><strong>Deal context:</strong><br>Ant
+ ares Holdings LP (ANTHOL)\, rated Baa2/BBB-/BBBH (all Stable) by Moody's/F
+ itch/DBRS\, is conducting fixed income investor calls on June 2nd\, 2026\,
+  arranged by RBC Capital Markets\, J.P. Morgan\, and Scotiabank\, ahead of
+  a potential 144A/3(c)(7) 5-year senior unsecured notes offering. The deal
+  is at the Mandate stage with no size\, pricing\, or spread guidance discl
+ osed\; a transaction may follow subject to market conditions. RBC Capital 
+ Markets is coordinating logistics\, with two investor calls scheduled for 
+ 1:00pm ET and 3:00pm ET on June 2nd\, 2026.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
