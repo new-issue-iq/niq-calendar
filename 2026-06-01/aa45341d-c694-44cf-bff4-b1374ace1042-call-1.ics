@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c8f11ed458df935e-1@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260601T110000
+DTEND;TZID=America/New_York:20260601T115000
+SUMMARY:NSCCLF — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NATL SECURITIES CLEARING CORP (NSCCLF)\nRoadshow: URL: www.netroad
+ show.com/nrs/home/#!/?show=494e6a7c | Password: NSCCLF2026 | Direct Link: 
+ www.netroadshow.com\n\nDeal context:\nNational Securities Clearing Corp (N
+ SCCLF) is launching a three-tranche USD benchmark senior unsecured note of
+ fering under 144A/Reg S format\, comprising a 2-year fixed-rate note (IPT:
+  T+60a)\, a 2-year floating-rate note (SOFR equivalent)\, and a 5-year fix
+ ed-rate note (IPT: T+80a)\, all settling June 9\, 2026\, with expected rat
+ ings of Aa1/Stable (Moody's) and AA/Stable (S&P). Proceeds will be used to
+  repay $625M of 5.150% Senior Notes due June 2026 and $400M of Floating Ra
+ te Senior Notes due May 2027\, with remaining proceeds serving as liquidit
+ y resources to effect settlement in the event of a member default. The dea
+ l is led by BofA (B&D)\, TD Securities\, and Wells Fargo as active bookrun
+ ners.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NATL SECURITIES CLEARING CORP (NSCCLF)</p><p><strong>Roadshow
+ :</strong> URL: www.netroadshow.com/nrs/home/#!/?show=494e6a7c | Password:
+  NSCCLF2026 | Direct Link: www.netroadshow.com</p><p><strong>Deal context:
+ </strong><br>National Securities Clearing Corp (NSCCLF) is launching a thr
+ ee-tranche USD benchmark senior unsecured note offering under 144A/Reg S f
+ ormat\, comprising a 2-year fixed-rate note (IPT: T+60a)\, a 2-year floati
+ ng-rate note (SOFR equivalent)\, and a 5-year fixed-rate note (IPT: T+80a)
+ \, all settling June 9\, 2026\, with expected ratings of Aa1/Stable (Moody
+ 's) and AA/Stable (S&amp\;P). Proceeds will be used to repay $625M of 5.15
+ 0% Senior Notes due June 2026 and $400M of Floating Rate Senior Notes due 
+ May 2027\, with remaining proceeds serving as liquidity resources to effec
+ t settlement in the event of a member default. The deal is led by BofA (B&
+ amp\;D)\, TD Securities\, and Wells Fargo as active bookrunners.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7e8670b2d9b80811-4@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260602T140000
+DTEND;TZID=America/New_York:20260602T145000
+SUMMARY:BEACON POINT DC LLC — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BEACON POINT DC LLC\nRoadshow: www.netroadshow.com/nrs/home/#!/?sh
+ ow=b628cdfa (Recommended) OR www.netroadshow.com\; Entry Code: BEACONDEBT2
+ 6 (not case-sensitive)\n\nDeal context:\nBeacon Point DC LLC\, an indirect
+  subsidiary of Hut 8 Corp.\, has mandated J.P. Morgan and Goldman Sachs & 
+ Co. LLC to arrange a series of fixed income investor calls ahead of a pote
+ ntial Rule 144A/Reg S offering\, with ratings to follow from Moody's. The 
+ issuer is developing a 352 MW hyperscale data center in Nueces County\, Te
+ xas\, 100% leased to a high-investment-grade tenant (rated AA- or higher) 
+ under a 15-year triple-net lease structure with three 5-year extension opt
+ ions\, providing strong credit support. The deal is at the Mandate stage w
+ ith no size\, tenor\, or pricing terms disclosed\; investor calls are sche
+ duled across June 2nd and 3rd\, 2026\, accompanied by a draft preliminary 
+ offering memorandum and pre-recorded investor presentation.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BEACON POINT DC LLC</p><p><strong>Roadshow:</strong> www.netr
+ oadshow.com/nrs/home/#!/?show=b628cdfa (Recommended) OR www.netroadshow.co
+ m\; Entry Code: BEACONDEBT26 (not case-sensitive)</p><p><strong>Deal conte
+ xt:</strong><br>Beacon Point DC LLC\, an indirect subsidiary of Hut 8 Corp
+ .\, has mandated J.P. Morgan and Goldman Sachs &amp\; Co. LLC to arrange a
+  series of fixed income investor calls ahead of a potential Rule 144A/Reg 
+ S offering\, with ratings to follow from Moody's. The issuer is developing
+  a 352 MW hyperscale data center in Nueces County\, Texas\, 100% leased to
+  a high-investment-grade tenant (rated AA- or higher) under a 15-year trip
+ le-net lease structure with three 5-year extension options\, providing str
+ ong credit support. The deal is at the Mandate stage with no size\, tenor\
+ , or pricing terms disclosed\; investor calls are scheduled across June 2n
+ d and 3rd\, 2026\, accompanied by a draft preliminary offering memorandum 
+ and pre-recorded investor presentation.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7f551e1bd6670a3f-6@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260601T144500
+DTEND;TZID=America/New_York:20260601T153000
+SUMMARY:DUKECO — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: DUKE ENERGY CAROLINAS LLC (DUKECO)\nRoadshow: Direct Link: www.net
+ roadshow.com/nrs/home/#!/?show=2de4d35b (Recommended) | Website: www.netro
+ adshow.com | Passcode: OneUtility2027 (not case-sensitive)\n\nDeal context
+ :\nDuke Energy Carolinas LLC (DUK) is bringing a three-tranche SEC Registe
+ red First Mortgage Bond offering to market\, with tranches maturing June 1
+ 5\, 2031 (5-year)\, June 15\, 2036 (10-year)\, and June 15\, 2056 (30-year
+ )\, all at USD Benchmark size. The deal is rated Aa3/Stable (Moody's) and 
+ A/Stable (S&P)\, reflecting strong investment-grade credit quality\, with 
+ IPTs of T+75a\, T+95a\, and T+105a for the 5-\, 10-\, and 30-year tranches
+  respectively. Proceeds will primarily be used to repay $600M of 2.95% Fir
+ st and Refunding Mortgage Bonds due 2026\, repay a portion of a $1.5B vari
+ able rate term loan maturing March 2027\, pay down intercompany short-term
+  debt\, and for general corporate purposes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> DUKE ENERGY CAROLINAS LLC (DUKECO)</p><p><strong>Roadshow:</s
+ trong> Direct Link: www.netroadshow.com/nrs/home/#!/?show=2de4d35b (Recomm
+ ended) | Website: www.netroadshow.com | Passcode: OneUtility2027 (not case
+ -sensitive)</p><p><strong>Deal context:</strong><br>Duke Energy Carolinas 
+ LLC (DUK) is bringing a three-tranche SEC Registered First Mortgage Bond o
+ ffering to market\, with tranches maturing June 15\, 2031 (5-year)\, June 
+ 15\, 2036 (10-year)\, and June 15\, 2056 (30-year)\, all at USD Benchmark 
+ size. The deal is rated Aa3/Stable (Moody's) and A/Stable (S&amp\;P)\, ref
+ lecting strong investment-grade credit quality\, with IPTs of T+75a\, T+95
+ a\, and T+105a for the 5-\, 10-\, and 30-year tranches respectively. Proce
+ eds will primarily be used to repay $600M of 2.95% First and Refunding Mor
+ tgage Bonds due 2026\, repay a portion of a $1.5B variable rate term loan 
+ maturing March 2027\, pay down intercompany short-term debt\, and for gene
+ ral corporate purposes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

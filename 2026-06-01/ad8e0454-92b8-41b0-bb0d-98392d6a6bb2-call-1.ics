@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2f8995c8b0437765-1@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260601T110000
+DTEND;TZID=America/New_York:20260601T114500
+SUMMARY:WHR — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: WHIRLPOOL CORP (WHR)\nRoadshow: https://www.netroadshow.com/events
+ /login/1PeTHmohYavW3wDKvpC8OpwAr2t8Q65snxF11 | US Toll-Free: +1 646 844 63
+ 83 | US Toll/International: +1 833 470 1428 | Access Code: 259 989\n\nDeal
+  context:\nWhirlpool Corporation is bringing a two-tranche $1.5 billion Se
+ nior Secured Second Lien Notes offering to market\, consisting of a $750 m
+ illion 5-year NC-2 tranche with IPT in the low 8s and a $750 million 8-yea
+ r NC-3 tranche with IPT in the mid 8s. The deal is rated Ba3/BB- at the co
+ rporate level and Ba1/BB+ at the issue level (Moody's/S&P)\, reflecting th
+ e secured second-lien structure\, with proceeds earmarked to repay EUR Sen
+ ior Unsecured Notes due 2026 and 2027\, revolver borrowings\, and transact
+ ion fees. The offering is structured as 144A/Reg S with expected pricing o
+ n Wednesday\, June 3rd\, with Citi acting as Left Lead alongside a broad s
+ yndicate of nine joint bookrunners and eight co-managers.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> WHIRLPOOL CORP (WHR)</p><p><strong>Roadshow:</strong> https:/
+ /www.netroadshow.com/events/login/1PeTHmohYavW3wDKvpC8OpwAr2t8Q65snxF11 | 
+ US Toll-Free: +1 646 844 6383 | US Toll/International: +1 833 470 1428 | A
+ ccess Code: 259 989</p><p><strong>Deal context:</strong><br>Whirlpool Corp
+ oration is bringing a two-tranche $1.5 billion Senior Secured Second Lien 
+ Notes offering to market\, consisting of a $750 million 5-year NC-2 tranch
+ e with IPT in the low 8s and a $750 million 8-year NC-3 tranche with IPT i
+ n the mid 8s. The deal is rated Ba3/BB- at the corporate level and Ba1/BB+
+  at the issue level (Moody's/S&amp\;P)\, reflecting the secured second-lie
+ n structure\, with proceeds earmarked to repay EUR Senior Unsecured Notes 
+ due 2026 and 2027\, revolver borrowings\, and transaction fees. The offeri
+ ng is structured as 144A/Reg S with expected pricing on Wednesday\, June 3
+ rd\, with Citi acting as Left Lead alongside a broad syndicate of nine joi
+ nt bookrunners and eight co-managers.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

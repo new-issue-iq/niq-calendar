@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:36aaf6c2b02a2aec-1@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260602T110000
+DTEND;TZID=America/New_York:20260602T114500
+SUMMARY:QXO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: QXO BUILDING PRODUCTS INC (QXO)\nRoadshow: https://www.netroadshow
+ .com/nrs/home/#!/?show=915022a1 | Domestic: +1 833 470 1428 | Internationa
+ l: +44 808 189 6484 | PIN#: 840356\n\nDeal context:\nQXO Building Products
+ \, Inc. is launching a $3Bn two-tranche senior unsecured high yield offeri
+ ng under 144A-for-Life / Reg S format\, consisting of a $1.5Bn 5-year NC2 
+ tranche and a $1.5Bn 8-year NC3 tranche. The proceeds\, alongside a new $3
+ Bn Term Loan Facility\, cash on hand\, preferred equity\, and common stock
+ \, will fund the acquisition of TopBuild Corp. The deal is expected to pri
+ ce on Wednesday\, June 3\, 2026\, with a conference call scheduled for Tue
+ sday\, June 2\, 2026 at 11:00AM ET\; bookrunners include Morgan Stanley\, 
+ WFS\, BARC\, APOLLO\, CITI\, and CACIB.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> QXO BUILDING PRODUCTS INC (QXO)</p><p><strong>Roadshow:</stro
+ ng> https://www.netroadshow.com/nrs/home/#!/?show=915022a1 | Domestic: +1 
+ 833 470 1428 | International: +44 808 189 6484 | PIN#: 840356</p><p><stron
+ g>Deal context:</strong><br>QXO Building Products\, Inc. is launching a $3
+ Bn two-tranche senior unsecured high yield offering under 144A-for-Life / 
+ Reg S format\, consisting of a $1.5Bn 5-year NC2 tranche and a $1.5Bn 8-ye
+ ar NC3 tranche. The proceeds\, alongside a new $3Bn Term Loan Facility\, c
+ ash on hand\, preferred equity\, and common stock\, will fund the acquisit
+ ion of TopBuild Corp. The deal is expected to price on Wednesday\, June 3\
+ , 2026\, with a conference call scheduled for Tuesday\, June 2\, 2026 at 1
+ 1:00AM ET\; bookrunners include Morgan Stanley\, WFS\, BARC\, APOLLO\, CIT
+ I\, and CACIB.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

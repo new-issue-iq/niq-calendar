@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a6fbe1f8f984e83c-1@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260602T103000
+DTEND;TZID=America/New_York:20260602T111500
+SUMMARY:DORM — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: DORMAN PRODUCTS INC (DORM)\nRoadshow: Registration Link: https://w
+ ww.netroadshow.com/events/login/1PeTHmohYAXBYCayLDKH3uRu8mwoXjvx8fWTO | Re
+ play Link: https://www.netroadshow.com/events/login/1PeTHmohYAXBYCayLDKH3u
+ Ru8mwoXjvx8fWTO | Slides Only: www.netroadshow.com | Entry Code: Dorman202
+ 6\n\nDeal context:\nDorman Products\, Inc. (NASDAQ: DORM)\, a leading supp
+ lier of replacement and upgrade parts in the motor vehicle aftermarket ind
+ ustry with a market cap of approximately $3.67 billion\, is bringing a $45
+ 0 million 8-year Senior Notes offering to market via a 144A/Reg S format. 
+ The deal features an NC-3 structure with a 40% equity claw provision and a
+  101% change of control put\, with BofA serving as left lead alongside BMO
+ \, PNC\, TD\, WFS\, and Barclays as joint bookrunners. Proceeds are intend
+ ed to repay indebtedness under existing credit facilities\, with any remai
+ nder for general corporate purposes\, with a roadshow running through Wedn
+ esday\, June 3rd and an investor call on June 2nd at 10:30 AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> DORMAN PRODUCTS INC (DORM)</p><p><strong>Roadshow:</strong> R
+ egistration Link: https://www.netroadshow.com/events/login/1PeTHmohYAXBYCa
+ yLDKH3uRu8mwoXjvx8fWTO | Replay Link: https://www.netroadshow.com/events/l
+ ogin/1PeTHmohYAXBYCayLDKH3uRu8mwoXjvx8fWTO | Slides Only: www.netroadshow.
+ com | Entry Code: Dorman2026</p><p><strong>Deal context:</strong><br>Dorma
+ n Products\, Inc. (NASDAQ: DORM)\, a leading supplier of replacement and u
+ pgrade parts in the motor vehicle aftermarket industry with a market cap o
+ f approximately $3.67 billion\, is bringing a $450 million 8-year Senior N
+ otes offering to market via a 144A/Reg S format. The deal features an NC-3
+  structure with a 40% equity claw provision and a 101% change of control p
+ ut\, with BofA serving as left lead alongside BMO\, PNC\, TD\, WFS\, and B
+ arclays as joint bookrunners. Proceeds are intended to repay indebtedness 
+ under existing credit facilities\, with any remainder for general corporat
+ e purposes\, with a roadshow running through Wednesday\, June 3rd and an i
+ nvestor call on June 2nd at 10:30 AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

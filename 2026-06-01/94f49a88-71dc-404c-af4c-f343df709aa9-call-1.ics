@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f8104752d662a835-1@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260603T110000
+DTEND;TZID=America/New_York:20260603T114500
+SUMMARY:BGS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: B&G FOODS INC (BGS)\nRoadshow: https://www.netroadshow.com/events/
+ login/1PeTHmohVlMpqRc83lhYIfjUvg7nWMkgwkZgF\n\nDeal context:\nB&G Foods\, 
+ Inc. (BGS) is bringing a $475 million 5-year Senior Notes offering (Non-ca
+ ll 2) to market\, rated B3/B- at the corporate level and Caa2/CCC at the u
+ nsecured level\, with initial price talk in the 'Mid 11s area.' The deal i
+ s being led by Barclays as Lead Left\, with a broad syndicate including DB
+ \, BOFA\, RBC\, GS\, JPM\, MS\, and RABO as joint bookrunners\, and procee
+ ds will be used alongside revolver draws and cash on hand to refinance all
+  outstanding Senior Unsecured Notes due 2027. The investor call is schedul
+ ed for June 2nd at 11:00am ET with pricing expected on Wednesday\, June 3r
+ d\, formatted as 144A/Reg S with a 101% change of control put.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> B&amp\;G FOODS INC (BGS)</p><p><strong>Roadshow:</strong> htt
+ ps://www.netroadshow.com/events/login/1PeTHmohVlMpqRc83lhYIfjUvg7nWMkgwkZg
+ F</p><p><strong>Deal context:</strong><br>B&amp\;G Foods\, Inc. (BGS) is b
+ ringing a $475 million 5-year Senior Notes offering (Non-call 2) to market
+ \, rated B3/B- at the corporate level and Caa2/CCC at the unsecured level\
+ , with initial price talk in the 'Mid 11s area.' The deal is being led by 
+ Barclays as Lead Left\, with a broad syndicate including DB\, BOFA\, RBC\,
+  GS\, JPM\, MS\, and RABO as joint bookrunners\, and proceeds will be used
+  alongside revolver draws and cash on hand to refinance all outstanding Se
+ nior Unsecured Notes due 2027. The investor call is scheduled for June 2nd
+  at 11:00am ET with pricing expected on Wednesday\, June 3rd\, formatted a
+ s 144A/Reg S with a 101% change of control put.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

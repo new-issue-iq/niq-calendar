@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:df4670ff88f9d57b-1@daily.newissueiq
+DTSTAMP:20260602T140214Z
+DTSTART;TZID=America/New_York:20260422T150000
+DTEND;TZID=America/New_York:20260422T160000
+SUMMARY:SAMMON — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SAMMONS FINL GROUP INC (SAMMON)\nRoadshow: URL: https://dealroadsh
+ ow.com | Entry Code: SAMMON2026 | Direct Link: https://dealroadshow.com/e/
+ SAMMON2026\n\nDeal context:\nSammons Financial Group\, Inc. (SAMMON) has a
+ rranged a semi-annual fixed income investor update call scheduled for Wedn
+ esday\, April 22nd\, 2026\, at 3:00PM–4:00PM ET\, coordinated by Wells Far
+ go Securities. This is not a new bond issuance announcement but rather an 
+ investor relations update call where management will review 2025 financial
+  results and discuss 2026 priorities\, with an investor presentation avail
+ able via Deal Roadshow. As of December 31st\, 2025\, the Company reported 
+ $145.2 billion in assets under management and $12.2 billion in adjusted GA
+ AP shareholders' equity.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SAMMONS FINL GROUP INC (SAMMON)</p><p><strong>Roadshow:</stro
+ ng> URL: https://dealroadshow.com | Entry Code: SAMMON2026 | Direct Link: 
+ https://dealroadshow.com/e/SAMMON2026</p><p><strong>Deal context:</strong>
+ <br>Sammons Financial Group\, Inc. (SAMMON) has arranged a semi-annual fix
+ ed income investor update call scheduled for Wednesday\, April 22nd\, 2026
+ \, at 3:00PM–4:00PM ET\, coordinated by Wells Fargo Securities. This is no
+ t a new bond issuance announcement but rather an investor relations update
+  call where management will review 2025 financial results and discuss 2026
+  priorities\, with an investor presentation available via Deal Roadshow. A
+ s of December 31st\, 2025\, the Company reported $145.2 billion in assets 
+ under management and $12.2 billion in adjusted GAAP shareholders' equity.<
+ /p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
