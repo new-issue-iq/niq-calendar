@@ -318,5 +318,15 @@
     "id": "10a992cc-1e0c-413b-8d8a-8012dac06a12",
     "issuerName": "ANTARES HOLDINGS LP",
     "alertedAt": "2026-06-02T15:20:59.289Z"
+  },
+  {
+    "id": "09f4a9c8-ba94-4a47-a309-56894ffaa040",
+    "issuerName": "QBE INSURANCE GROUP LTD",
+    "alertedAt": "2026-06-03T13:31:05.542Z"
+  },
+  {
+    "id": "dab5aec9-acf1-4577-acad-bcf6060d87eb",
+    "issuerName": "AMERIPRISE FINL",
+    "alertedAt": "2026-06-03T13:31:08.558Z"
   }
 ]
