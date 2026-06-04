@@ -328,5 +328,15 @@
     "id": "dab5aec9-acf1-4577-acad-bcf6060d87eb",
     "issuerName": "AMERIPRISE FINL",
     "alertedAt": "2026-06-03T13:31:08.558Z"
+  },
+  {
+    "id": "f4c448a6-3844-4353-a01d-1f909b5275c9",
+    "issuerName": "ONCOR ELECTRIC DELIVERY",
+    "alertedAt": "2026-06-04T13:20:57.726Z"
+  },
+  {
+    "id": "e173114a-85d1-4a59-b0d0-b28b3d246730",
+    "issuerName": "FORTITUDE RE",
+    "alertedAt": "2026-06-04T13:21:00.881Z"
   }
 ]

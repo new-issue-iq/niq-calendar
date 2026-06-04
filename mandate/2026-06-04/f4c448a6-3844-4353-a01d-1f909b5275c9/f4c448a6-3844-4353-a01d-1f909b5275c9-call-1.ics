@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+DTSTART:20080406T030000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+TZNAME:AEST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20081005T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=10
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+TZNAME:AEDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f4bfb8c14ce77287-1@daily.newissueiq
+DTSTAMP:20260604T132050Z
+DTSTART;TZID=Australia/Sydney:20260609T113000
+DTEND;TZID=Australia/Sydney:20260609T121500
+SUMMARY:ONCRTX — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ONCOR ELECTRIC DELIVERY (ONCRTX)\n\nDeal context:\nOncor Electric 
+ Delivery Company LLC\, a regulated electricity transmission and distributi
+ on business headquartered in Dallas\, Texas (the largest T&D system in Tex
+ as\, serving 4.1 million customers)\, has mandated Citi\, RBC Capital Mark
+ ets\, SMBC\, and The Toronto-Dominion Bank to arrange fixed income investo
+ r meetings commencing June 8\, 2026\, with a group investor call on June 9
+ \, 2026 at 11:30am AEST / 9:30am SGT. A potential 7-year and/or 10-year AU
+ D-denominated fixed rate senior secured benchmark transaction under Oncor'
+ s A$ Note Issuance Programme may follow\, subject to market conditions. Th
+ e deal carries strong investment grade ratings of A2/A/A (Moody's/S&P/Fitc
+ h) and represents an Australian dollar AMTN format issuance by a US utilit
+ y issuer.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ONCOR ELECTRIC DELIVERY (ONCRTX)</p><p><strong>Deal context:<
+ /strong><br>Oncor Electric Delivery Company LLC\, a regulated electricity 
+ transmission and distribution business headquartered in Dallas\, Texas (th
+ e largest T&amp\;D system in Texas\, serving 4.1 million customers)\, has 
+ mandated Citi\, RBC Capital Markets\, SMBC\, and The Toronto-Dominion Bank
+  to arrange fixed income investor meetings commencing June 8\, 2026\, with
+  a group investor call on June 9\, 2026 at 11:30am AEST / 9:30am SGT. A po
+ tential 7-year and/or 10-year AUD-denominated fixed rate senior secured be
+ nchmark transaction under Oncor's A$ Note Issuance Programme may follow\, 
+ subject to market conditions. The deal carries strong investment grade rat
+ ings of A2/A/A (Moody's/S&amp\;P/Fitch) and represents an Australian dolla
+ r AMTN format issuance by a US utility issuer.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
