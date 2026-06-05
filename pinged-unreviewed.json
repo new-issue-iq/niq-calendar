@@ -63,5 +63,10 @@
     "id": "f4c448a6-3844-4353-a01d-1f909b5275c9",
     "issuerName": "ONCOR ELECTRIC DELIVERY",
     "pingedAt": "2026-06-04T11:10:50.369Z"
+  },
+  {
+    "id": "a638a424-1b18-4bbe-ad39-c14e16878f17",
+    "issuerName": "INTUIT INC",
+    "pingedAt": "2026-06-05T13:30:48.563Z"
   }
 ]
