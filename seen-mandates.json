@@ -338,5 +338,15 @@
     "id": "e173114a-85d1-4a59-b0d0-b28b3d246730",
     "issuerName": "FORTITUDE RE",
     "alertedAt": "2026-06-04T13:21:00.881Z"
+  },
+  {
+    "id": "4d684f14-09da-4dee-80ae-a4c0a01e1255",
+    "issuerName": "TENCENT HOLDINGS LTD",
+    "alertedAt": "2026-06-08T12:40:32.650Z"
+  },
+  {
+    "id": "c03d4496-f66d-4327-93d5-c26008b4f5fb",
+    "issuerName": "EUROPEAN UNION",
+    "alertedAt": "2026-06-08T12:40:35.817Z"
   }
 ]
