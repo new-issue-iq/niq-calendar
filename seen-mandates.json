@@ -358,5 +358,10 @@
     "id": "ac3f58fa-0d9f-46d1-a3cf-75c849100766",
     "issuerName": "TEACHERS INSURANCE & ANNUITY ASSN OF AMERICA",
     "alertedAt": "2026-06-08T13:30:32.306Z"
+  },
+  {
+    "id": "fc1432bc-3115-423f-8539-07c5066b7458",
+    "issuerName": "AES CORP",
+    "alertedAt": "2026-06-08T18:50:32.372Z"
   }
 ]
