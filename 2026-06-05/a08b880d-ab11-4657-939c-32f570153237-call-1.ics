@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c9188a910dc4b7f5-1@daily.newissueiq
+DTSTAMP:20260608T134350Z
+DTSTART;TZID=America/New_York:20260608T103000
+DTEND;TZID=America/New_York:20260608T111500
+SUMMARY:STINGRAY COMPUTE LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STINGRAY COMPUTE LLC\nRoadshow: https://www.netroadshow.com/nrs/ho
+ me/#!/?show=0a5be659 | Passcode: STINGRAY26\n\nDeal context:\nStingray Com
+ pute LLC is bringing an $810 million 5-year non-call 2 (5NC2) senior secur
+ ed deal to market with Morgan Stanley as underwriter\, with initial price 
+ talk of 6.375% area. The deal is expected to price tomorrow and proceeds w
+ ill be used to finance the cost of a data center. The deal is rated TBA/BB
+ \, placing it firmly in high-yield territory.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STINGRAY COMPUTE LLC</p><p><strong>Roadshow:</strong> https:/
+ /www.netroadshow.com/nrs/home/#!/?show=0a5be659 | Passcode: STINGRAY26</p>
+ <p><strong>Deal context:</strong><br>Stingray Compute LLC is bringing an $
+ 810 million 5-year non-call 2 (5NC2) senior secured deal to market with Mo
+ rgan Stanley as underwriter\, with initial price talk of 6.375% area. The 
+ deal is expected to price tomorrow and proceeds will be used to finance th
+ e cost of a data center. The deal is rated TBA/BB\, placing it firmly in h
+ igh-yield territory.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

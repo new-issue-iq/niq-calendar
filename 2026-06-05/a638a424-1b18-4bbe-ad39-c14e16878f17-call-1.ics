@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e4814fabf77c4102-1@daily.newissueiq
+DTSTAMP:20260608T134350Z
+DTSTART;TZID=America/New_York:20260608T130000
+DTEND;TZID=America/New_York:20260608T134500
+SUMMARY:INTU — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: INTUIT INC (INTU)\nRoadshow: https://markets.jpmorgan.com/event_bo
+ oking/loadEvent?eventToken=136221_d3e6ad53-ebc7-40a4-be84-cf2b729ed616\n\n
+ Deal context:\nIntuit Inc (INTU)\, rated A3/Stable (Moody's) and A/Stable 
+ (S&P)\, is bringing a two-tranche SEC-registered senior unsecured benchmar
+ k offering consisting of a 5-year (due June 15\, 2031) and a 10-year (due 
+ June 15\, 2036)\, both with make-whole calls and par calls (1 month and 3 
+ months prior to maturity\, respectively). Initial price talk is T+100 area
+  on the 5-year and T+125 area on the 10-year\, with proceeds intended for 
+ general corporate purposes including potential refinancing of the $750mm 5
+ .25% Notes due 2026 and the $500mm 1.35% Notes due 2027. The deal is expec
+ ted to price today (June 8\, 2026) with T+3 settlement on June 11\, 2026\,
+  with BofA acting as B&D on the 5-year and JPM acting as B&D on the 10-yea
+ r\, alongside SCOTIA as a joint bookrunner on both tranches.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> INTUIT INC (INTU)</p><p><strong>Roadshow:</strong> https://ma
+ rkets.jpmorgan.com/event_booking/loadEvent?eventToken=136221_d3e6ad53-ebc7
+ -40a4-be84-cf2b729ed616</p><p><strong>Deal context:</strong><br>Intuit Inc
+  (INTU)\, rated A3/Stable (Moody's) and A/Stable (S&amp\;P)\, is bringing 
+ a two-tranche SEC-registered senior unsecured benchmark offering consistin
+ g of a 5-year (due June 15\, 2031) and a 10-year (due June 15\, 2036)\, bo
+ th with make-whole calls and par calls (1 month and 3 months prior to matu
+ rity\, respectively). Initial price talk is T+100 area on the 5-year and T
+ +125 area on the 10-year\, with proceeds intended for general corporate pu
+ rposes including potential refinancing of the $750mm 5.25% Notes due 2026 
+ and the $500mm 1.35% Notes due 2027. The deal is expected to price today (
+ June 8\, 2026) with T+3 settlement on June 11\, 2026\, with BofA acting as
+  B&amp\;D on the 5-year and JPM acting as B&amp\;D on the 10-year\, alongs
+ ide SCOTIA as a joint bookrunner on both tranches.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

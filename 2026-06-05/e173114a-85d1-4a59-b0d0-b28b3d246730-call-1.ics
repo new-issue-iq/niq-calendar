@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:07cceba2ae67ace2-1@daily.newissueiq
+DTSTAMP:20260608T134350Z
+DTSTART;TZID=America/New_York:20260604T130000
+DTEND;TZID=America/New_York:20260604T134500
+SUMMARY:FORTRE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FORTITUDE RE (FORTRE)\nRoadshow: www.netroadshow.com/nrs/home/#!/?
+ show=589b21bf (Recommended) or visit www.netroadshow.com and enter entry c
+ ode: Fortitude26 (not case-sensitive)\n\nDeal context:\nFortitude Re ("FOR
+ TRE") has mandated BNP PARIBAS and Wells Fargo Securities to arrange a fix
+ ed income investor update call on June 4\, 2026\, ahead of a potential bon
+ d offering by FGH Parent\, L.P.\, Fortitude Group Holdings\, LLC\, or Fort
+ itude Global Funding. No specific bond terms\, size\, tenor\, or pricing h
+ ave been disclosed\, indicating an early Mandate stage. The offering is ex
+ pected to be structured as 144A/Reg S\, restricted to Qualified Institutio
+ nal Buyers and non-U.S. persons.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FORTITUDE RE (FORTRE)</p><p><strong>Roadshow:</strong> www.ne
+ troadshow.com/nrs/home/#!/?show=589b21bf (Recommended) or visit www.netroa
+ dshow.com and enter entry code: Fortitude26 (not case-sensitive)</p><p><st
+ rong>Deal context:</strong><br>Fortitude Re (&quot\;FORTRE&quot\;) has man
+ dated BNP PARIBAS and Wells Fargo Securities to arrange a fixed income inv
+ estor update call on June 4\, 2026\, ahead of a potential bond offering by
+  FGH Parent\, L.P.\, Fortitude Group Holdings\, LLC\, or Fortitude Global 
+ Funding. No specific bond terms\, size\, tenor\, or pricing have been disc
+ losed\, indicating an early Mandate stage. The offering is expected to be 
+ structured as 144A/Reg S\, restricted to Qualified Institutional Buyers an
+ d non-U.S. persons.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

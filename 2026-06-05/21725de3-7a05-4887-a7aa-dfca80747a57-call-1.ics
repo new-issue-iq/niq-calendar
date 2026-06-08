@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5be24dadd30d03ac-1@daily.newissueiq
+DTSTAMP:20260608T134350Z
+DTSTART;TZID=America/New_York:20260608T130000
+DTEND;TZID=America/New_York:20260608T135000
+SUMMARY:MSINTM — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MSD INVT CORP (MSINTM)\nRoadshow: URL: www.netroadshow.com | Entry
+  Code: MSD356 | Direct link: www.netroadshow.com/nrs/home/#!/?show=fcd88b2
+ 3 (Recommended)\n\nDeal context:\nMSD Investment Corp. (rated Baa3/BBB- st
+ able by Moody's and Fitch\, respectively)\, a business development company
+ \, has mandated J.P. Morgan\, BNP PARIBAS\, Deutsche Bank Securities\, Gol
+ dman Sachs & Co. LLC\, RBC Capital Markets\, and SMBC Nikko to arrange fix
+ ed income investor calls on Monday\, June 8th ahead of a potential capital
+  markets transaction. The deal is at the Mandate stage with no specific si
+ ze\, tenor\, coupon\, or pricing terms disclosed\, as the transaction rema
+ ins subject to market conditions. Investor calls are scheduled for 1:00–1:
+ 50 PM and 2:00–2:50 PM ET\, with an electronic presentation available via 
+ NetRoadshow (entry code MSD356).
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MSD INVT CORP (MSINTM)</p><p><strong>Roadshow:</strong> URL: 
+ www.netroadshow.com | Entry Code: MSD356 | Direct link: www.netroadshow.co
+ m/nrs/home/#!/?show=fcd88b23 (Recommended)</p><p><strong>Deal context:</st
+ rong><br>MSD Investment Corp. (rated Baa3/BBB- stable by Moody's and Fitch
+ \, respectively)\, a business development company\, has mandated J.P. Morg
+ an\, BNP PARIBAS\, Deutsche Bank Securities\, Goldman Sachs &amp\; Co. LLC
+ \, RBC Capital Markets\, and SMBC Nikko to arrange fixed income investor c
+ alls on Monday\, June 8th ahead of a potential capital markets transaction
+ . The deal is at the Mandate stage with no specific size\, tenor\, coupon\
+ , or pricing terms disclosed\, as the transaction remains subject to marke
+ t conditions. Investor calls are scheduled for 1:00–1:50 PM and 2:00–2:50 
+ PM ET\, with an electronic presentation available via NetRoadshow (entry c
+ ode MSD356).</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
