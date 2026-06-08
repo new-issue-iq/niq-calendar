@@ -348,5 +348,10 @@
     "id": "c03d4496-f66d-4327-93d5-c26008b4f5fb",
     "issuerName": "EUROPEAN UNION",
     "alertedAt": "2026-06-08T12:40:35.817Z"
+  },
+  {
+    "id": "21725de3-7a05-4887-a7aa-dfca80747a57",
+    "issuerName": "MSD INVT CORP",
+    "alertedAt": "2026-06-08T13:10:31.678Z"
   }
 ]
