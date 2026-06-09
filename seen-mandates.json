@@ -363,5 +363,10 @@
     "id": "fc1432bc-3115-423f-8539-07c5066b7458",
     "issuerName": "AES CORP",
     "alertedAt": "2026-06-08T18:50:32.372Z"
+  },
+  {
+    "id": "13ad1f94-5bf0-4f88-be77-8c5527525300",
+    "issuerName": "HELLENIC REPUBLIC",
+    "alertedAt": "2026-06-09T13:50:36.286Z"
   }
 ]
