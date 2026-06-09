@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a73fe527b371828f-1@daily.newissueiq
+DTSTAMP:20260609T135548Z
+DTSTART;TZID=America/New_York:20260609T100000
+DTEND;TZID=America/New_York:20260609T104500
+SUMMARY:APLD — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: APLD COMPUTECO LLC (APLD)\nRoadshow: https://evercall.co/oacc/5603
+ 0\n\nDeal context:\nAPLD ComputeCo 3 LLC (Applied Digital) is bringing a $
+ 1\,590 million Senior Secured Notes offering with a 5-year tenor\, structu
+ red as a 144A/Reg S for life deal with NC2 call protection. The deal is be
+ ing led by Goldman Sachs (left) with a broad syndicate including WFS\, Nor
+ thland\, BNP\, Citi\, Mizuho\, RBC\, Santander\, and TD as bookrunners\, p
+ lus JPM\, MUFG\, and Texas Capital as senior co-managers. IPT is in the lo
+ w-7% area\, with proceeds earmarked for construction of ELN-04 (an Eligibl
+ e Green Project)\, repayment of a Bridge Facility\, funding debt service r
+ eserves\, and transaction expenses — suggesting this is a project finance-
+ adjacent data center infrastructure deal for Applied Digital's compute cam
+ pus expansion.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> APLD COMPUTECO LLC (APLD)</p><p><strong>Roadshow:</strong> ht
+ tps://evercall.co/oacc/56030</p><p><strong>Deal context:</strong><br>APLD 
+ ComputeCo 3 LLC (Applied Digital) is bringing a $1\,590 million Senior Sec
+ ured Notes offering with a 5-year tenor\, structured as a 144A/Reg S for l
+ ife deal with NC2 call protection. The deal is being led by Goldman Sachs 
+ (left) with a broad syndicate including WFS\, Northland\, BNP\, Citi\, Miz
+ uho\, RBC\, Santander\, and TD as bookrunners\, plus JPM\, MUFG\, and Texa
+ s Capital as senior co-managers. IPT is in the low-7% area\, with proceeds
+  earmarked for construction of ELN-04 (an Eligible Green Project)\, repaym
+ ent of a Bridge Facility\, funding debt service reserves\, and transaction
+  expenses — suggesting this is a project finance-adjacent data center infr
+ astructure deal for Applied Digital's compute campus expansion.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3cf0ea4f3d395c4d-1@daily.newissueiq
+DTSTAMP:20260609T135548Z
+DTSTART;TZID=America/New_York:20260609T110000
+DTEND;TZID=America/New_York:20260609T114500
+SUMMARY:AES — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AES CORP (AES)\nRoadshow: https://markets.jpmorgan.com/event_booki
+ ng/loadEvent?eventToken=136314_39f923c3-0648-4ada-b396-f4ff4da55323\n\nDea
+ l context:\nAES Corporation is arranging a series of fixed income investor
+  calls on Tuesday\, June 9th\, coordinated by J.P. Morgan and Wells Fargo 
+ Securities\, signaling a potential upcoming bond offering. The calls are b
+ eing held in the context of AES's pending merger with a consortium includi
+ ng Global Infrastructure Partners (GIP) and EQT affiliates\, announced Mar
+ ch 1\, 2026\, and expected to close in late 2026 or early 2027. No specifi
+ c deal terms\, size\, tenor\, or pricing have been disclosed at this stage
+  — this is a pre-deal investor engagement.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AES CORP (AES)</p><p><strong>Roadshow:</strong> https://marke
+ ts.jpmorgan.com/event_booking/loadEvent?eventToken=136314_39f923c3-0648-4a
+ da-b396-f4ff4da55323</p><p><strong>Deal context:</strong><br>AES Corporati
+ on is arranging a series of fixed income investor calls on Tuesday\, June 
+ 9th\, coordinated by J.P. Morgan and Wells Fargo Securities\, signaling a 
+ potential upcoming bond offering. The calls are being held in the context 
+ of AES's pending merger with a consortium including Global Infrastructure 
+ Partners (GIP) and EQT affiliates\, announced March 1\, 2026\, and expecte
+ d to close in late 2026 or early 2027. No specific deal terms\, size\, ten
+ or\, or pricing have been disclosed at this stage — this is a pre-deal inv
+ estor engagement.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

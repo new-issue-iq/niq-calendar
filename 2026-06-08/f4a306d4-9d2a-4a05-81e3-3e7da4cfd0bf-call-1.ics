@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5ed1c250ea66cca2-1@daily.newissueiq
+DTSTAMP:20260609T135548Z
+DTSTART;TZID=America/New_York:20260609T110000
+DTEND;TZID=America/New_York:20260609T114500
+SUMMARY:RKTHOL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ROCKET COMPANIES INC (RKTHOL)\nRoadshow: https://evercall.co/oacc/
+ 25528\n\nDeal context:\nRocket Companies\, Inc. is launching a two-tranche
+  senior unsecured high-yield offering totaling $1.2 billion\, comprising a
+  $600 million 5-year (2031) NC2 tranche and a $600 million 8-year (2034) N
+ C3 tranche\, both distributed via 144A/Reg S. Initial price talk is Mid-6%
+  on the 5-year and High-6% on the 8-year\, with the deal announced on June
+  9\, 2026\, alongside a same-day global investor call. Proceeds are intend
+ ed to repay the 2026 Rocket Mortgage Notes and certain other indebtedness\
+ , with Goldman Sachs acting as left lead alongside BofA\, JPM\, MS\, and W
+ FS as joint bookrunners.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ROCKET COMPANIES INC (RKTHOL)</p><p><strong>Roadshow:</strong
+ > https://evercall.co/oacc/25528</p><p><strong>Deal context:</strong><br>R
+ ocket Companies\, Inc. is launching a two-tranche senior unsecured high-yi
+ eld offering totaling $1.2 billion\, comprising a $600 million 5-year (203
+ 1) NC2 tranche and a $600 million 8-year (2034) NC3 tranche\, both distrib
+ uted via 144A/Reg S. Initial price talk is Mid-6% on the 5-year and High-6
+ % on the 8-year\, with the deal announced on June 9\, 2026\, alongside a s
+ ame-day global investor call. Proceeds are intended to repay the 2026 Rock
+ et Mortgage Notes and certain other indebtedness\, with Goldman Sachs acti
+ ng as left lead alongside BofA\, JPM\, MS\, and WFS as joint bookrunners.<
+ /p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

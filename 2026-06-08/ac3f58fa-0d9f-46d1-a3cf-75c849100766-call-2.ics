@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bc95db765d887815-2@daily.newissueiq
+DTSTAMP:20260609T135548Z
+DTSTART;TZID=America/New_York:20260608T133000
+DTEND;TZID=America/New_York:20260608T142000
+SUMMARY:TIAAGL — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: TEACHERS INSURANCE & ANNUITY ASSN OF AMERICA (TIAAGL)\nRoadshow: U
+ RL: https://dealroadshow.com | Password: TIAA2026 | Direct Link: https://d
+ ealroadshow.com/e/TIAA2026\n\nDeal context:\nTIAA (Teachers Insurance and 
+ Annuity Association of America\; Bloomberg Ticker: TIAAGL) is arranging a 
+ series of fixed income investor calls on Monday\, June 8th\, 2026\, ahead 
+ of a potential 144A/Reg S surplus notes offering. The deal carries expecte
+ d ratings of Aa3 (Negative) by Moody's\, AA- (Stable) by S&P\, and AA (Sta
+ ble) by Fitch\, placing it firmly in investment grade territory. No size\,
+  tenor\, or pricing terms have been disclosed at this stage\, as the annou
+ ncement is a pre-deal investor call mandate with the offering subject to m
+ arket conditions\; BofA Securities\, BNP PARIBAS\, and Citigroup are the a
+ rranging banks.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> TEACHERS INSURANCE &amp\; ANNUITY ASSN OF AMERICA (TIAAGL)</p
+ ><p><strong>Roadshow:</strong> URL: https://dealroadshow.com | Password: T
+ IAA2026 | Direct Link: https://dealroadshow.com/e/TIAA2026</p><p><strong>D
+ eal context:</strong><br>TIAA (Teachers Insurance and Annuity Association 
+ of America\; Bloomberg Ticker: TIAAGL) is arranging a series of fixed inco
+ me investor calls on Monday\, June 8th\, 2026\, ahead of a potential 144A/
+ Reg S surplus notes offering. The deal carries expected ratings of Aa3 (Ne
+ gative) by Moody's\, AA- (Stable) by S&amp\;P\, and AA (Stable) by Fitch\,
+  placing it firmly in investment grade territory. No size\, tenor\, or pri
+ cing terms have been disclosed at this stage\, as the announcement is a pr
+ e-deal investor call mandate with the offering subject to market condition
+ s\; BofA Securities\, BNP PARIBAS\, and Citigroup are the arranging banks.
+ </p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

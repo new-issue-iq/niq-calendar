@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:69a0a4c88f97f8f0-1@daily.newissueiq
+DTSTAMP:20260609T135548Z
+DTSTART;TZID=America/New_York:20260609T110000
+DTEND;TZID=America/New_York:20260609T114500
+SUMMARY:ALGT — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ALLEGIANT TRAVEL CO (ALGT)\nRoadshow: https://www.netroadshow.com/
+ events/login/1PeTHmojAMO6crKmRR7m0dPIqNtzPRfUxkHdz\n\nDeal context:\nAlleg
+ iant Travel Company (ALGT) is bringing a $500 million First Lien Senior Se
+ cured Notes offering with a 5-year tenor\, structured as 144A/Reg S\, with
+  Barclays acting as Lead Left and DB and CACIB as Joint Bookrunners. The p
+ roceeds will be used to refinance existing Senior Secured Notes due 2027\,
+  pay transaction-related fees and expenses\, and for general corporate pur
+ poses. The deal features a Non-Call 2 structure with a 103% special call p
+ rovision allowing redemption of up to 10% of aggregate principal per annum
+  during the non-call period\, and a Change of Control put at 101%\, consis
+ tent with the existing notes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ALLEGIANT TRAVEL CO (ALGT)</p><p><strong>Roadshow:</strong> h
+ ttps://www.netroadshow.com/events/login/1PeTHmojAMO6crKmRR7m0dPIqNtzPRfUxk
+ Hdz</p><p><strong>Deal context:</strong><br>Allegiant Travel Company (ALGT
+ ) is bringing a $500 million First Lien Senior Secured Notes offering with
+  a 5-year tenor\, structured as 144A/Reg S\, with Barclays acting as Lead 
+ Left and DB and CACIB as Joint Bookrunners. The proceeds will be used to r
+ efinance existing Senior Secured Notes due 2027\, pay transaction-related 
+ fees and expenses\, and for general corporate purposes. The deal features 
+ a Non-Call 2 structure with a 103% special call provision allowing redempt
+ ion of up to 10% of aggregate principal per annum during the non-call peri
+ od\, and a Change of Control put at 101%\, consistent with the existing no
+ tes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
