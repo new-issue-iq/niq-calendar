@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:490125ea3f992511-1@daily.newissueiq
+DTSTAMP:20260611T144313Z
+DTSTART;TZID=America/New_York:20260611T070000
+DTEND;TZID=America/New_York:20260611T074500
+SUMMARY:CRWV — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: COREWEAVE INC (CRWV)\nRoadshow: www.netroadshow.com/nrs/home/#!/?s
+ how=b0560767 OR Visit www.netroadshow.com and enter the entry code: CoreWe
+ ave26 (not case-sensitive)\n\nDeal context:\nCoreWeave\, Inc. is launching
+  a dual-tranche senior note offering totaling $3.5 billion equivalent\, co
+ mprising USD and EUR tranches with the split TBD\, structured as 6NC3 call
+ able bonds with a declining call schedule (50%\, 25%\, par). The deal is r
+ ated B1/B/BB- (HY) across both tranches\, with IPT in the high 9s for USD 
+ and high 8s for EUR\, and is being led by JPMorgan as B&D with a broad syn
+ dicate including Goldman Sachs\, Morgan Stanley\, and MUFG on both tranche
+ s\, plus Credit Agricole and Deutsche Bank on the EUR tranche. Proceeds ar
+ e designated for general corporate purposes\, with timing set for today's 
+ business and an investor call scheduled at 7 AM ET / 12 PM BST.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> COREWEAVE INC (CRWV)</p><p><strong>Roadshow:</strong> www.net
+ roadshow.com/nrs/home/#!/?show=b0560767 OR Visit www.netroadshow.com and e
+ nter the entry code: CoreWeave26 (not case-sensitive)</p><p><strong>Deal c
+ ontext:</strong><br>CoreWeave\, Inc. is launching a dual-tranche senior no
+ te offering totaling $3.5 billion equivalent\, comprising USD and EUR tran
+ ches with the split TBD\, structured as 6NC3 callable bonds with a declini
+ ng call schedule (50%\, 25%\, par). The deal is rated B1/B/BB- (HY) across
+  both tranches\, with IPT in the high 9s for USD and high 8s for EUR\, and
+  is being led by JPMorgan as B&amp\;D with a broad syndicate including Gol
+ dman Sachs\, Morgan Stanley\, and MUFG on both tranches\, plus Credit Agri
+ cole and Deutsche Bank on the EUR tranche. Proceeds are designated for gen
+ eral corporate purposes\, with timing set for today's business and an inve
+ stor call scheduled at 7 AM ET / 12 PM BST.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
