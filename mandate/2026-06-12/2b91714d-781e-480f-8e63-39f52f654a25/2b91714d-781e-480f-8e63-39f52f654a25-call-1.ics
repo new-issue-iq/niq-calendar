@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:678bd5da9934ffdc-1@daily.newissueiq
+DTSTAMP:20260612T134051Z
+DTSTART;TZID=America/New_York:20260612T125000
+DTEND;TZID=America/New_York:20260612T133500
+SUMMARY:HASUS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HA SUSTAINABLE INFRASTRUCTURE CAPITAL INC (HASUS)\nRoadshow: URL: 
+ https://dealroadshow.com | Entry Code: HASI26 | Direct Link: https://dealr
+ oadshow.com/e/HASI26\n\nDeal context:\nHASI (HA Sustainable Infrastructure
+  Capital\, Inc.) is arranging fixed income investor calls on June 12\, 202
+ 6\, ahead of a potential SEC Registered Green Senior Unsecured Notes offer
+ ing with expected ratings of Baa3 (Stable) / BBB- (Stable) / BBB- (Stable)
+  from Moody's\, S&P\, and Fitch\, respectively. The deal is at the Mandate
+  stage — no size\, tenor\, coupon\, or pricing terms have been disclosed —
+  with BMO Capital Markets\, Citigroup\, J.P. Morgan\, and RBC Capital Mark
+ ets arranging the calls\, and Citigroup coordinating logistics. The offeri
+ ng is subject to market conditions\, and an investor presentation is avail
+ able via DealRoadshow (entry code: HASI26).
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HA SUSTAINABLE INFRASTRUCTURE CAPITAL INC (HASUS)</p><p><stro
+ ng>Roadshow:</strong> URL: https://dealroadshow.com | Entry Code: HASI26 |
+  Direct Link: https://dealroadshow.com/e/HASI26</p><p><strong>Deal context
+ :</strong><br>HASI (HA Sustainable Infrastructure Capital\, Inc.) is arran
+ ging fixed income investor calls on June 12\, 2026\, ahead of a potential 
+ SEC Registered Green Senior Unsecured Notes offering with expected ratings
+  of Baa3 (Stable) / BBB- (Stable) / BBB- (Stable) from Moody's\, S&amp\;P\
+ , and Fitch\, respectively. The deal is at the Mandate stage — no size\, t
+ enor\, coupon\, or pricing terms have been disclosed — with BMO Capital Ma
+ rkets\, Citigroup\, J.P. Morgan\, and RBC Capital Markets arranging the ca
+ lls\, and Citigroup coordinating logistics. The offering is subject to mar
+ ket conditions\, and an investor presentation is available via DealRoadsho
+ w (entry code: HASI26).</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
