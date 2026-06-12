@@ -373,5 +373,10 @@
     "id": "fd5ee493-3dfb-42ff-bb3b-aa3df17b52c9",
     "issuerName": "VEDANTA RESOURCES FINANCE II PLC",
     "alertedAt": "2026-06-09T17:20:38.015Z"
+  },
+  {
+    "id": "9e503d5b-56d0-4352-9b36-56498ed91731",
+    "issuerName": "BANCO MERCANTIL DEL NORTE SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO BANORTE",
+    "alertedAt": "2026-06-12T12:20:53.868Z"
   }
 ]
