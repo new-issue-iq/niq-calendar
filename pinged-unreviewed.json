@@ -78,5 +78,10 @@
     "id": "9e503d5b-56d0-4352-9b36-56498ed91731",
     "issuerName": "BANCO MERCANTIL DEL NORTE SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO BANORTE",
     "pingedAt": "2026-06-12T12:10:48.552Z"
+  },
+  {
+    "id": "ae54ab86-8e42-456f-ad7b-29d3b14c28c7",
+    "issuerName": "EXPERIAN FINANCE US INC",
+    "pingedAt": "2026-06-15T13:20:28.457Z"
   }
 ]
