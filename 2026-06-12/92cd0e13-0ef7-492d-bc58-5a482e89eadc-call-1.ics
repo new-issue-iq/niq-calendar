@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ea0e3e275192ced3-1@daily.newissueiq
+DTSTAMP:20260615T131952Z
+DTSTART;TZID=America/New_York:20260615T100000
+DTEND;TZID=America/New_York:20260615T104500
+SUMMARY:ADI GLOBAL DISTRIBUTION FUNDING LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ADI GLOBAL DISTRIBUTION FUNDING LLC\nRoadshow: https://www.netroad
+ show.com/events/login/1PeTHmojClRSp7xh3o4MBNHZ7uzUknaFtf1E3\n\nDeal contex
+ t:\nADI Escrow Issuer LLC (ultimate issuer: ADI Global Distribution Fundin
+ g LLC) is bringing a $500 million 8-year Senior Notes offering in connecti
+ on with the planned spin-off of Resideo's ADI Global Distribution business
+  into an independent public company. The deal is structured as NC-3 with a
+  first call at par plus 50% of the coupon\, and proceeds will be used alon
+ gside concurrent Senior Secured Credit Facilities to fund a ~$900 million 
+ one-time cash dividend to Resideo as partial consideration for the contrib
+ ution of ADI's assets and liabilities. The transaction is distributed as 1
+ 44A/Reg S for life with an investor call on June 15th and pricing expected
+  the following day.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ADI GLOBAL DISTRIBUTION FUNDING LLC</p><p><strong>Roadshow:</
+ strong> https://www.netroadshow.com/events/login/1PeTHmojClRSp7xh3o4MBNHZ7
+ uzUknaFtf1E3</p><p><strong>Deal context:</strong><br>ADI Escrow Issuer LLC
+  (ultimate issuer: ADI Global Distribution Funding LLC) is bringing a $500
+  million 8-year Senior Notes offering in connection with the planned spin-
+ off of Resideo's ADI Global Distribution business into an independent publ
+ ic company. The deal is structured as NC-3 with a first call at par plus 5
+ 0% of the coupon\, and proceeds will be used alongside concurrent Senior S
+ ecured Credit Facilities to fund a ~$900 million one-time cash dividend to
+  Resideo as partial consideration for the contribution of ADI's assets and
+  liabilities. The transaction is distributed as 144A/Reg S for life with a
+ n investor call on June 15th and pricing expected the following day.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

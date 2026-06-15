@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b1032f8cb454630b-1@daily.newissueiq
+DTSTAMP:20260615T131952Z
+DTSTART;TZID=America/New_York:20260615T110000
+DTEND;TZID=America/New_York:20260615T114500
+SUMMARY:SDRL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SEADRILL FINANCE LTD (SDRL)\nRoadshow: URL: https://dealroadshow.c
+ om | Entry Code: SDRL26 | Direct Link: https://dealroadshow.com/e/SDRL26 (
+ Available 10 min. prior)\n\nDeal context:\nSeadrill Finance Limited is bri
+ nging a $600M senior unsecured 8NC3 offering to market via 144A/Reg S for 
+ life distribution\, with initial price talk of 7% area. Proceeds will be u
+ sed to redeem the company's existing 8.375% senior secured second lien not
+ es due 2030\, including any related redemption premium\, representing a re
+ financing of secured debt into unsecured paper. The deal is being led by a
+  six-bank syndicate (JPM/CITI/DB/DNB/BARC/CLARKSON) with ratings TBD and i
+ s expected to price today with an investor call at 11 AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SEADRILL FINANCE LTD (SDRL)</p><p><strong>Roadshow:</strong> 
+ URL: https://dealroadshow.com | Entry Code: SDRL26 | Direct Link: https://
+ dealroadshow.com/e/SDRL26 (Available 10 min. prior)</p><p><strong>Deal con
+ text:</strong><br>Seadrill Finance Limited is bringing a $600M senior unse
+ cured 8NC3 offering to market via 144A/Reg S for life distribution\, with 
+ initial price talk of 7% area. Proceeds will be used to redeem the company
+ 's existing 8.375% senior secured second lien notes due 2030\, including a
+ ny related redemption premium\, representing a refinancing of secured debt
+  into unsecured paper. The deal is being led by a six-bank syndicate (JPM/
+ CITI/DB/DNB/BARC/CLARKSON) with ratings TBD and is expected to price today
+  with an investor call at 11 AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

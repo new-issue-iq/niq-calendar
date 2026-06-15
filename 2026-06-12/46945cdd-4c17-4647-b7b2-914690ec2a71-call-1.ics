@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:65dc3e4bb3969121-1@daily.newissueiq
+DTSTAMP:20260615T131952Z
+DTSTART;TZID=America/New_York:20260615T110000
+DTEND;TZID=America/New_York:20260615T114500
+SUMMARY:IRMD — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: IRON MOUNTAIN INC (IRMD)\nRoadshow: https://www.netroadshow.com/ev
+ ents/login/1PeTHmohEhqgo0xiYCQIZIFTvOU7his3MB58C | United States Toll-Free
+ : +1 833 470 1428 | United States Toll/International: +1 646 844 6383 | Pa
+ rticipant Access Code: 942232\n\nDeal context:\nIron Mountain Incorporated
+  (NYSE: IRM\, $37.9B market cap)\, a global leader in information manageme
+ nt and storage solutions rated Ba3/BB- (Stable/Stable)\, is bringing a $1.
+ 0 billion 8.5NC3 Senior Notes offering due January 15\, 2035 to market via
+  144A/Reg S for Life distribution. The deal is structured with a first cal
+ l at par plus 50% of coupon\, with proceeds earmarked to repay borrowings 
+ under the company's Revolving Credit Facility and for general corporate pu
+ rposes. Pricing is expected this afternoon (June 15\, 2026)\, with an inve
+ stor call scheduled for 11:00 AM ET the same day\; WFS is acting as left l
+ ead bookrunner alongside a broad 15-bank syndicate.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> IRON MOUNTAIN INC (IRMD)</p><p><strong>Roadshow:</strong> htt
+ ps://www.netroadshow.com/events/login/1PeTHmohEhqgo0xiYCQIZIFTvOU7his3MB58
+ C | United States Toll-Free: +1 833 470 1428 | United States Toll/Internat
+ ional: +1 646 844 6383 | Participant Access Code: 942232</p><p><strong>Dea
+ l context:</strong><br>Iron Mountain Incorporated (NYSE: IRM\, $37.9B mark
+ et cap)\, a global leader in information management and storage solutions 
+ rated Ba3/BB- (Stable/Stable)\, is bringing a $1.0 billion 8.5NC3 Senior N
+ otes offering due January 15\, 2035 to market via 144A/Reg S for Life dist
+ ribution. The deal is structured with a first call at par plus 50% of coup
+ on\, with proceeds earmarked to repay borrowings under the company's Revol
+ ving Credit Facility and for general corporate purposes. Pricing is expect
+ ed this afternoon (June 15\, 2026)\, with an investor call scheduled for 1
+ 1:00 AM ET the same day\; WFS is acting as left lead bookrunner alongside 
+ a broad 15-bank syndicate.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

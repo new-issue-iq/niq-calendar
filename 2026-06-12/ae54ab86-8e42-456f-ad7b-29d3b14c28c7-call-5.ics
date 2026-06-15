@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e661c28f21688c3b-5@daily.newissueiq
+DTSTAMP:20260615T131952Z
+DTSTART;TZID=America/New_York:20260615T140000
+DTEND;TZID=America/New_York:20260615T144500
+SUMMARY:EXPNLN — Call #5
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: EXPERIAN FINANCE US INC (EXPNLN)\nRoadshow: https://dealroadshow.c
+ om/e/Experian2026 (Recommended) or visit https://dealroadshow.com and ente
+ r the entry code: Experian2026\n\nDeal context:\nExperian Finance US\, Inc
+ . (EXPNLN)\, rated A3/A- (stable) by Moody's and S&P respectively\, has ma
+ ndated BNP Paribas\, J.P. Morgan\, Santander\, and TD Securities as Joint 
+ Bookrunners to arrange fixed income investor calls commencing June 15\, 20
+ 26\, ahead of a potential USD-denominated benchmark-size Rule 144A/Reg S L
+ ong 10-year senior unsecured fixed rate offering. The notes will be issued
+  by Experian Finance US\, Inc. and guaranteed by Experian plc\, with Santa
+ nder coordinating marketing logistics. No pricing terms have been disclose
+ d at this stage\, as the deal remains subject to market conditions followi
+ ng the investor call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> EXPERIAN FINANCE US INC (EXPNLN)</p><p><strong>Roadshow:</str
+ ong> https://dealroadshow.com/e/Experian2026 (Recommended) or visit https:
+ //dealroadshow.com and enter the entry code: Experian2026</p><p><strong>De
+ al context:</strong><br>Experian Finance US\, Inc. (EXPNLN)\, rated A3/A- 
+ (stable) by Moody's and S&amp\;P respectively\, has mandated BNP Paribas\,
+  J.P. Morgan\, Santander\, and TD Securities as Joint Bookrunners to arran
+ ge fixed income investor calls commencing June 15\, 2026\, ahead of a pote
+ ntial USD-denominated benchmark-size Rule 144A/Reg S Long 10-year senior u
+ nsecured fixed rate offering. The notes will be issued by Experian Finance
+  US\, Inc. and guaranteed by Experian plc\, with Santander coordinating ma
+ rketing logistics. No pricing terms have been disclosed at this stage\, as
+  the deal remains subject to market conditions following the investor call
+  process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

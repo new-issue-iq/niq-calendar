@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:83e031bef6f8631b-1@daily.newissueiq
+DTSTAMP:20260615T131952Z
+DTSTART;TZID=America/New_York:20260615T110000
+DTEND;TZID=America/New_York:20260615T114500
+SUMMARY:ALTERAI — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SYNERGY INFRASTRUCTURE HOLDINGS LLC (ALTERAI)\nRoadshow: URL: http
+ s://dealroadshow.com | Entry Code: SYNERGY26 | Direct Link: https://dealro
+ adshow.com/e/SYNERGY26 (available 10 minutes prior) | OM: https://verisend
+ .com/explore\n\nDeal context:\nSynergy Infrastructure Holdings\, LLC is br
+ inging a $400 million Senior Secured Second Lien Notes offering to market\
+ , structured as an 8NC3 with a call schedule of 50%\, 25%\, and par. The d
+ eal is distributed as 144A/Reg S for life\, rated B3/B (HY)\, with initial
+  price talk of 7.5% area\, and is expected to price today (June 15\, 2026)
+ . Proceeds will be used to repay outstanding borrowings under the ABL Faci
+ lity\, pay related fees and expenses\, and for general corporate purposes 
+ including funding growth capital expenditures\; the issuer is described as
+  a leading equipment rental company in the Southeastern United States and 
+ Texas.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SYNERGY INFRASTRUCTURE HOLDINGS LLC (ALTERAI)</p><p><strong>R
+ oadshow:</strong> URL: https://dealroadshow.com | Entry Code: SYNERGY26 | 
+ Direct Link: https://dealroadshow.com/e/SYNERGY26 (available 10 minutes pr
+ ior) | OM: https://verisend.com/explore</p><p><strong>Deal context:</stron
+ g><br>Synergy Infrastructure Holdings\, LLC is bringing a $400 million Sen
+ ior Secured Second Lien Notes offering to market\, structured as an 8NC3 w
+ ith a call schedule of 50%\, 25%\, and par. The deal is distributed as 144
+ A/Reg S for life\, rated B3/B (HY)\, with initial price talk of 7.5% area\
+ , and is expected to price today (June 15\, 2026). Proceeds will be used t
+ o repay outstanding borrowings under the ABL Facility\, pay related fees a
+ nd expenses\, and for general corporate purposes including funding growth 
+ capital expenditures\; the issuer is described as a leading equipment rent
+ al company in the Southeastern United States and Texas.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
