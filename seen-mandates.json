@@ -403,5 +403,10 @@
     "id": "509484b0-01b8-4d8b-82ba-900587a023cd",
     "issuerName": "HERCULES CAPITAL INC",
     "alertedAt": "2026-06-15T14:20:34.465Z"
+  },
+  {
+    "id": "ff647723-186e-4113-8813-ac922b5745d4",
+    "issuerName": "POSCO HOLDINGS INC",
+    "alertedAt": "2026-06-17T12:20:52.511Z"
   }
 ]
