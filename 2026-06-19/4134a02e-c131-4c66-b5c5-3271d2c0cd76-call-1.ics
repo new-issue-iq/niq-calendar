@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6ba188277649aa62-1@daily.newissueiq
+DTSTAMP:20260622T132332Z
+DTSTART;TZID=America/New_York:20260622T110000
+DTEND;TZID=America/New_York:20260622T114500
+SUMMARY:GFL ENVIRONMENTAL HOLDINGS US INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GFL ENVIRONMENTAL HOLDINGS US INC\nRoadshow: https://www.netroadsh
+ ow.com/events/login/1PeTHmojK3uiZiyrZmBFmHwP8VbM6URauxbeB\n\nDeal context:
+ \nGFL Environmental Holdings (US)\, Inc.\, a wholly-owned subsidiary of GF
+ L Environmental Inc.\, is bringing a $750 million 5-year Senior Unsecured 
+ Notes offering to market via a 144A/Reg S format\, with Barclays acting as
+  Lead Left bookrunner. The deal is rated Ba3/BB (High Yield)\, features a 
+ NC2 structure with a 40% equity clawback during the first year\, and proce
+ eds will be used to repay existing revolving credit facility drawings and 
+ fund fees & expenses related to the SECURE Transaction\, with the offering
+  designed to increase GFL's available liquidity for its growth strategy. T
+ he investor call is scheduled for June 22nd at 11:00 AM ET with pricing ex
+ pected the same afternoon.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GFL ENVIRONMENTAL HOLDINGS US INC</p><p><strong>Roadshow:</st
+ rong> https://www.netroadshow.com/events/login/1PeTHmojK3uiZiyrZmBFmHwP8Vb
+ M6URauxbeB</p><p><strong>Deal context:</strong><br>GFL Environmental Holdi
+ ngs (US)\, Inc.\, a wholly-owned subsidiary of GFL Environmental Inc.\, is
+  bringing a $750 million 5-year Senior Unsecured Notes offering to market 
+ via a 144A/Reg S format\, with Barclays acting as Lead Left bookrunner. Th
+ e deal is rated Ba3/BB (High Yield)\, features a NC2 structure with a 40% 
+ equity clawback during the first year\, and proceeds will be used to repay
+  existing revolving credit facility drawings and fund fees &amp\; expenses
+  related to the SECURE Transaction\, with the offering designed to increas
+ e GFL's available liquidity for its growth strategy. The investor call is 
+ scheduled for June 22nd at 11:00 AM ET with pricing expected the same afte
+ rnoon.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

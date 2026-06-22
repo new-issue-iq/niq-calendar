@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f7c8f080c44b8a6d-1@daily.newissueiq
+DTSTAMP:20260622T132332Z
+DTSTART;TZID=America/New_York:20260622T110000
+DTEND;TZID=America/New_York:20260622T114500
+SUMMARY:DEALER TIRE FINL LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: DEALER TIRE FINL LLC\nRoadshow: URL: https://dealroadshow.com | En
+ try Code: VROOM26 | Direct Link: https://dealroadshow.com/e/VROOM26 (avail
+ able 10 minutes prior)\n\nDeal context:\nDealer Tire Financial\, LLC is br
+ inging a $500M senior notes offering with a 5.25NC1 structure\, rated Caa1
+ /CCC (existing issue ratings)\, distributed as 144A/Reg S for life. The de
+ al is priced at IPT of 10.25-10.5%\, with proceeds intended to fully redee
+ m the existing 8% Notes due 2028 alongside cash on hand\, representing a r
+ efinancing transaction for this leading value-added distributor of tires\,
+  parts\, and fixed operation consulting to automotive dealerships and OEMs
+ . Pricing is expected Wednesday 6/24\, with joint books led by JPM alongsi
+ de nine other bookrunners including PNC\, Truist\, US Bank\, RBC\, Jefferi
+ es\, BofA\, Barclays\, Citizens\, and Goldman Sachs.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> DEALER TIRE FINL LLC</p><p><strong>Roadshow:</strong> URL: ht
+ tps://dealroadshow.com | Entry Code: VROOM26 | Direct Link: https://dealro
+ adshow.com/e/VROOM26 (available 10 minutes prior)</p><p><strong>Deal conte
+ xt:</strong><br>Dealer Tire Financial\, LLC is bringing a $500M senior not
+ es offering with a 5.25NC1 structure\, rated Caa1/CCC (existing issue rati
+ ngs)\, distributed as 144A/Reg S for life. The deal is priced at IPT of 10
+ .25-10.5%\, with proceeds intended to fully redeem the existing 8% Notes d
+ ue 2028 alongside cash on hand\, representing a refinancing transaction fo
+ r this leading value-added distributor of tires\, parts\, and fixed operat
+ ion consulting to automotive dealerships and OEMs. Pricing is expected Wed
+ nesday 6/24\, with joint books led by JPM alongside nine other bookrunners
+  including PNC\, Truist\, US Bank\, RBC\, Jefferies\, BofA\, Barclays\, Ci
+ tizens\, and Goldman Sachs.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aab806228ae93d83-1@daily.newissueiq
+DTSTAMP:20260622T132332Z
+DTSTART;TZID=America/New_York:20260622T103000
+DTEND;TZID=America/New_York:20260622T111500
+SUMMARY:TPC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: TUTOR PERINI CORP (TPC)\nRoadshow: https://www.netroadshow.com/eve
+ nts/login/1PeTHmohYb2cc9xL8s10A0Qwpxy20yYk3gSbn\n\nDeal context:\nTutor Pe
+ rini Corp (TPC) is bringing a $400MM 7-year non-call 3 (7NC3) Senior Unsec
+ ured Note offering to market\, rated B2/BB-/BB- (Moody's/S&P/Fitch)\, with
+  Deutsche Bank acting as Left Lead alongside Goldman Sachs\, BMO\, and M&T
+ . The deal is structured as 144A/Reg S for Life and is intended to refinan
+ ce the company's existing 11.875% Senior Notes due 2029\, with pricing exp
+ ected on Tuesday\, June 23rd following a global investor call on June 22nd
+ . The transaction features standard high-yield structural elements includi
+ ng a 40% equity clawback at 101%\, a change of control put at 101%\, and a
+  non-call 3 period with standard call provisions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> TUTOR PERINI CORP (TPC)</p><p><strong>Roadshow:</strong> http
+ s://www.netroadshow.com/events/login/1PeTHmohYb2cc9xL8s10A0Qwpxy20yYk3gSbn
+ </p><p><strong>Deal context:</strong><br>Tutor Perini Corp (TPC) is bringi
+ ng a $400MM 7-year non-call 3 (7NC3) Senior Unsecured Note offering to mar
+ ket\, rated B2/BB-/BB- (Moody's/S&amp\;P/Fitch)\, with Deutsche Bank actin
+ g as Left Lead alongside Goldman Sachs\, BMO\, and M&amp\;T. The deal is s
+ tructured as 144A/Reg S for Life and is intended to refinance the company'
+ s existing 11.875% Senior Notes due 2029\, with pricing expected on Tuesda
+ y\, June 23rd following a global investor call on June 22nd. The transacti
+ on features standard high-yield structural elements including a 40% equity
+  clawback at 101%\, a change of control put at 101%\, and a non-call 3 per
+ iod with standard call provisions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
