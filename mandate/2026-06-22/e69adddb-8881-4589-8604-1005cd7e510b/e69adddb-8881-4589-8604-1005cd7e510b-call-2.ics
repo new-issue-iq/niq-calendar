@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6ed6d746acded2bb-2@daily.newissueiq
+DTSTAMP:20260622T124043Z
+DTSTART;TZID=America/New_York:20260622T111500
+DTEND;TZID=America/New_York:20260622T120000
+SUMMARY:SNE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SONY GROUP CORP (SNE)\nRoadshow: https://dealroadshow.com/e/Sony26
+  (Recommended) Or https://dealroadshow.com | Entry code: Sony26 (not case 
+ sensitive)\n\nDeal context:\nSony Group Corporation (SNE)\, rated A+/A2 (S
+ &P/Moody's\, both Stable)\, has mandated BofA Securities and Morgan Stanle
+ y to arrange fixed income investor calls across Asia\, Europe\, and the U.
+ S. commencing June 22\, 2026\, ahead of a potential benchmark-sized SEC-re
+ gistered senior unsecured USD bond offering in 5-year and 10-year tenors. 
+ The deal is at the Mandate stage with investor calls scheduled across mult
+ iple time zones on June 22\, 2026\, with a DealRoadshow presentation avail
+ able. No pricing terms\, size\, or spread guidance have been provided at t
+ his stage\, as the transaction remains subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SONY GROUP CORP (SNE)</p><p><strong>Roadshow:</strong> https:
+ //dealroadshow.com/e/Sony26 (Recommended) Or https://dealroadshow.com | En
+ try code: Sony26 (not case sensitive)</p><p><strong>Deal context:</strong>
+ <br>Sony Group Corporation (SNE)\, rated A+/A2 (S&amp\;P/Moody's\, both St
+ able)\, has mandated BofA Securities and Morgan Stanley to arrange fixed i
+ ncome investor calls across Asia\, Europe\, and the U.S. commencing June 2
+ 2\, 2026\, ahead of a potential benchmark-sized SEC-registered senior unse
+ cured USD bond offering in 5-year and 10-year tenors. The deal is at the M
+ andate stage with investor calls scheduled across multiple time zones on J
+ une 22\, 2026\, with a DealRoadshow presentation available. No pricing ter
+ ms\, size\, or spread guidance have been provided at this stage\, as the t
+ ransaction remains subject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
