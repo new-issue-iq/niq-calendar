@@ -408,5 +408,10 @@
     "id": "ff647723-186e-4113-8813-ac922b5745d4",
     "issuerName": "POSCO HOLDINGS INC",
     "alertedAt": "2026-06-17T12:20:52.511Z"
+  },
+  {
+    "id": "112c16bd-e46b-4bec-9a28-4309c1429750",
+    "issuerName": "AXIS BANK",
+    "alertedAt": "2026-06-22T11:00:49.260Z"
   }
 ]

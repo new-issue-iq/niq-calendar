@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:755b7e70cfe941cb-1@daily.newissueiq
+DTSTAMP:20260622T110041Z
+DTSTART;TZID=America/New_York:20260622T111500
+DTEND;TZID=America/New_York:20260622T121500
+SUMMARY:AXIS BANK — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AXIS BANK\n\nDeal context:\nAxis Bank is conducting investor calls
+  for a potential US dollar-denominated dual-tranche offering comprising a 
+ Perpetual Non-Call 5.5-year Additional Tier 1 (AT1) subordinated note and/
+ or a 5-year Senior note. The deal is at the mandate/investor call stage\, 
+ with calls scheduled for Monday\, 22 June 2026 across four small group slo
+ ts in Hong Kong and UK time zones\, organized by logistics banks HSBC (Asi
+ a) and JPM (EMEA). No pricing\, size\, or spread guidance has been provide
+ d at this stage\; the issuer will be represented by CFO Puneet Sharma and 
+ Group Head of Markets\, ALM & Syndication Rituparna Banerjee.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AXIS BANK</p><p><strong>Deal context:</strong><br>Axis Bank i
+ s conducting investor calls for a potential US dollar-denominated dual-tra
+ nche offering comprising a Perpetual Non-Call 5.5-year Additional Tier 1 (
+ AT1) subordinated note and/or a 5-year Senior note. The deal is at the man
+ date/investor call stage\, with calls scheduled for Monday\, 22 June 2026 
+ across four small group slots in Hong Kong and UK time zones\, organized b
+ y logistics banks HSBC (Asia) and JPM (EMEA). No pricing\, size\, or sprea
+ d guidance has been provided at this stage\; the issuer will be represente
+ d by CFO Puneet Sharma and Group Head of Markets\, ALM &amp\; Syndication 
+ Rituparna Banerjee.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
