@@ -438,5 +438,15 @@
     "id": "e69adddb-8881-4589-8604-1005cd7e510b",
     "issuerName": "SONY GROUP CORP",
     "alertedAt": "2026-06-22T12:40:46.364Z"
+  },
+  {
+    "id": "c975b356-4a06-4b80-a298-a447296b8123",
+    "issuerName": "AVIANCA MIDCO 2 PLC",
+    "alertedAt": "2026-06-22T13:50:46.975Z"
+  },
+  {
+    "id": "3da3bff1-ad48-4a36-a9be-b35758049e19",
+    "issuerName": "RIO GRANDE LNG LLC",
+    "alertedAt": "2026-06-22T13:50:49.922Z"
   }
 ]
