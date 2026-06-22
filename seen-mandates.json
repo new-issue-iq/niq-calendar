@@ -413,5 +413,15 @@
     "id": "112c16bd-e46b-4bec-9a28-4309c1429750",
     "issuerName": "AXIS BANK",
     "alertedAt": "2026-06-22T11:00:49.260Z"
+  },
+  {
+    "id": "1dfff274-d74a-4f76-ba0a-b1431ac02259",
+    "issuerName": "FREE & HANSEATIC CITY OF HAMBURG",
+    "alertedAt": "2026-06-22T11:40:42.001Z"
+  },
+  {
+    "id": "abdb5a68-1938-4d1c-af7c-ede9f4285925",
+    "issuerName": "AVILEASE",
+    "alertedAt": "2026-06-22T11:40:44.956Z"
   }
 ]
