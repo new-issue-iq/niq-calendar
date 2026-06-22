@@ -423,5 +423,10 @@
     "id": "abdb5a68-1938-4d1c-af7c-ede9f4285925",
     "issuerName": "AVILEASE",
     "alertedAt": "2026-06-22T11:40:44.956Z"
+  },
+  {
+    "id": "12e2eb10-54da-4b97-b271-9338111bcd03",
+    "issuerName": "SPACEX",
+    "alertedAt": "2026-06-22T12:20:45.420Z"
   }
 ]
