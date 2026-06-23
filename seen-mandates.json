@@ -448,5 +448,10 @@
     "id": "3da3bff1-ad48-4a36-a9be-b35758049e19",
     "issuerName": "RIO GRANDE LNG LLC",
     "alertedAt": "2026-06-22T13:50:49.922Z"
+  },
+  {
+    "id": "1b8a65cf-da49-4f81-83c8-ddb3ee9c613f",
+    "issuerName": "NTT FINANCE CORP",
+    "alertedAt": "2026-06-23T10:20:47.275Z"
   }
 ]
