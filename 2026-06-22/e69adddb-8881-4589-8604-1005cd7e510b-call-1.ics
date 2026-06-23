@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:08b695b19efef490-1@daily.newissueiq
+DTSTAMP:20260623T132444Z
+DTSTART;TZID=America/New_York:20260622T100000
+DTEND;TZID=America/New_York:20260622T104500
+SUMMARY:SNE — Small Group Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SONY GROUP CORP (SNE)\nRoadshow: https://dealroadshow.com/e/Sony26
+  (Recommended) Or https://dealroadshow.com | Entry code: Sony26 (not case 
+ sensitive)\n\nDeal context:\nSony Group Corp. is returning to the US dolla
+ r investment-grade bond market for the first time since 1998\, mandating B
+ ank of America and Morgan Stanley to lead investor calls ahead of a two-tr
+ anche note offering with five-year and ten-year maturities. The deal will 
+ raise proceeds for general corporate purposes and is expected to be rated 
+ A2/A+ (Moody's/S&P)\, reflecting Sony's recent S&P upgrade to A+ citing st
+ rong earnings and cash flow outlook. No size or pricing guidance has been 
+ disclosed at this mandate stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SONY GROUP CORP (SNE)</p><p><strong>Roadshow:</strong> https:
+ //dealroadshow.com/e/Sony26 (Recommended) Or https://dealroadshow.com | En
+ try code: Sony26 (not case sensitive)</p><p><strong>Deal context:</strong>
+ <br>Sony Group Corp. is returning to the US dollar investment-grade bond m
+ arket for the first time since 1998\, mandating Bank of America and Morgan
+  Stanley to lead investor calls ahead of a two-tranche note offering with 
+ five-year and ten-year maturities. The deal will raise proceeds for genera
+ l corporate purposes and is expected to be rated A2/A+ (Moody's/S&amp\;P)\
+ , reflecting Sony's recent S&amp\;P upgrade to A+ citing strong earnings a
+ nd cash flow outlook. No size or pricing guidance has been disclosed at th
+ is mandate stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

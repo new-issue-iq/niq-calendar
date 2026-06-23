@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e151cacd3976327e-2@daily.newissueiq
+DTSTAMP:20260623T132444Z
+DTSTART;TZID=America/New_York:20260623T110000
+DTEND;TZID=America/New_York:20260623T114500
+SUMMARY:RIO GRANDE LNG LLC — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: RIO GRANDE LNG LLC\nRoadshow: www.netroadshow.com/nrs/home/#!/?sho
+ w=50d67f32 (Recommended) OR Visit www.netroadshow.com and enter the entry 
+ code: RGLNGbond (not case-sensitive)\n\nDeal context:\nRio Grande LNG\, LL
+ C (RGLNG)\, a project company owning Phase 1 of a multi-train LNG liquefac
+ tion and export facility near Brownsville\, Texas\, has mandated J.P. Morg
+ an\, Mizuho\, MUFG\, and Santander to arrange global fixed income investor
+  calls ahead of a senior secured 144A/Reg S for life benchmark-sized\, mul
+ ti-tranche notes offering. The issuer carries expected ratings of BBB- (st
+ able) from both S&P and Fitch\, placing it at the investment grade thresho
+ ld. The deal is at the Mandate stage with investor calls scheduled for Tue
+ sday\, June 23\, 2026\, and pricing is subject to market conditions follow
+ ing the roadshow.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> RIO GRANDE LNG LLC</p><p><strong>Roadshow:</strong> www.netro
+ adshow.com/nrs/home/#!/?show=50d67f32 (Recommended) OR Visit www.netroadsh
+ ow.com and enter the entry code: RGLNGbond (not case-sensitive)</p><p><str
+ ong>Deal context:</strong><br>Rio Grande LNG\, LLC (RGLNG)\, a project com
+ pany owning Phase 1 of a multi-train LNG liquefaction and export facility 
+ near Brownsville\, Texas\, has mandated J.P. Morgan\, Mizuho\, MUFG\, and 
+ Santander to arrange global fixed income investor calls ahead of a senior 
+ secured 144A/Reg S for life benchmark-sized\, multi-tranche notes offering
+ . The issuer carries expected ratings of BBB- (stable) from both S&amp\;P 
+ and Fitch\, placing it at the investment grade threshold. The deal is at t
+ he Mandate stage with investor calls scheduled for Tuesday\, June 23\, 202
+ 6\, and pricing is subject to market conditions following the roadshow.</p
+ >
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e9793d283500770c-4@daily.newissueiq
+DTSTAMP:20260623T132444Z
+DTSTART;TZID=America/New_York:20260622T144500
+DTEND;TZID=America/New_York:20260622T153000
+SUMMARY:SPACEX — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SPACEX\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=72ade2f2 |
+  URL: www.netroadshow.com | Entry Code: SpaceX26\n\nDeal context:\nSpaceX 
+ is preparing for a high-grade bond market debut following its IPO that rai
+ sed $85.7 billion and lifted its equity value above $2.5 trillion. The com
+ pany has secured investment-grade ratings from three major rating agencies
+ \, with a mid-BBB rating expected to support potential issuance of $20 bil
+ lion or more\, with the primary near-term catalyst being refinancing of a 
+ bridge loan due September 2027. Strong demand dynamics are anticipated giv
+ en first-time-issuer scarcity and investor appetite for diversified AI-lin
+ ked credit exposure\, with orders potentially well above deal size if pric
+ ing comes significantly wider than AA-rated hyperscaler peers.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SPACEX</p><p><strong>Roadshow:</strong> www.netroadshow.com/n
+ rs/home/#!/?show=72ade2f2 | URL: www.netroadshow.com | Entry Code: SpaceX2
+ 6</p><p><strong>Deal context:</strong><br>SpaceX is preparing for a high-g
+ rade bond market debut following its IPO that raised $85.7 billion and lif
+ ted its equity value above $2.5 trillion. The company has secured investme
+ nt-grade ratings from three major rating agencies\, with a mid-BBB rating 
+ expected to support potential issuance of $20 billion or more\, with the p
+ rimary near-term catalyst being refinancing of a bridge loan due September
+  2027. Strong demand dynamics are anticipated given first-time-issuer scar
+ city and investor appetite for diversified AI-linked credit exposure\, wit
+ h orders potentially well above deal size if pricing comes significantly w
+ ider than AA-rated hyperscaler peers.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

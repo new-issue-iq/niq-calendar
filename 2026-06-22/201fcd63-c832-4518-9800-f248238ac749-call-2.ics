@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4a59b11681a609b9-2@daily.newissueiq
+DTSTAMP:20260623T132444Z
+DTSTART;TZID=America/New_York:20260623T130000
+DTEND;TZID=America/New_York:20260623T140000
+SUMMARY:ESGR — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ENSTAR GROUP LTD (ESGR)\nRoadshow: URL: https://dealroadshow.com |
+  Password: ESGR2026 | Direct Link: https://dealroadshow.com/e/ESGR2026\n\n
+ Deal context:\nEnstar Group Limited (ESGR)\, a Bermuda-domiciled global (r
+ e)insurance run-off specialist with $21.0B in total assets and $5.1B in co
+ mmon shareholders' equity\, is arranging investor calls on June 22nd\, 202
+ 6 ahead of a potential offering of 11NC10 junior subordinated notes in 144
+ A/Reg S format\, with expected ratings of BBB-/BBB- (S&P/Fitch). The deal 
+ is at the Mandate stage with no pricing terms disclosed\, and the offering
+  is explicitly conditional on market conditions. The 11NC10 structure — ca
+ llable after year 10 on an 11-year instrument — is consistent with hybrid 
+ capital issuance typical of insurance holding companies seeking regulatory
+  or economic capital treatment.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ENSTAR GROUP LTD (ESGR)</p><p><strong>Roadshow:</strong> URL:
+  https://dealroadshow.com | Password: ESGR2026 | Direct Link: https://deal
+ roadshow.com/e/ESGR2026</p><p><strong>Deal context:</strong><br>Enstar Gro
+ up Limited (ESGR)\, a Bermuda-domiciled global (re)insurance run-off speci
+ alist with $21.0B in total assets and $5.1B in common shareholders' equity
+ \, is arranging investor calls on June 22nd\, 2026 ahead of a potential of
+ fering of 11NC10 junior subordinated notes in 144A/Reg S format\, with exp
+ ected ratings of BBB-/BBB- (S&amp\;P/Fitch). The deal is at the Mandate st
+ age with no pricing terms disclosed\, and the offering is explicitly condi
+ tional on market conditions. The 11NC10 structure — callable after year 10
+  on an 11-year instrument — is consistent with hybrid capital issuance typ
+ ical of insurance holding companies seeking regulatory or economic capital
+  treatment.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

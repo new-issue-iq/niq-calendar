@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:eb0a65491e55c26e-1@daily.newissueiq
+DTSTAMP:20260623T132444Z
+DTSTART;TZID=America/New_York:20260623T103000
+DTEND;TZID=America/New_York:20260623T111500
+SUMMARY:VIKING BAKED GOODS ACQUISITION CORP — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VIKING BAKED GOODS ACQUISITION CORP\nRoadshow: Registration Link: 
+ https://www.netroadshow.com/events/login/1PeTHmohCii4Jrih7QJJtQ4cq8WnpzR5q
+ 4Pw5 | Replay Link: https://www.netroadshow.com/events/login/1PeTHmohCii4J
+ rih7QJJtQ4cq8WnpzR5q4Pw5 | Slides Only: www.netroadshow.com | Entry Code: 
+ RB2026\n\nDeal context:\nViking Baked Goods Acquisition Corporation (d/b/a
+  Rise Baking) is launching a $300 million add-on to its existing 8.625% Se
+ nior Secured Notes due 2031\, with proceeds earmarked to finance the acqui
+ sition of Jimmy's Gourmet Bakery LLC. The deal is structured as a 144A/Reg
+  S offering with a roadshow running through Wednesday\, June 24th\, 2026\,
+  and an investor call scheduled for Tuesday\, June 23rd at 10:30 AM ET. Ri
+ se Baking is a leading North American sweet baked goods manufacturer servi
+ ng blue-chip retail and foodservice customers\, and this tap adds to the e
+ xisting 2031 secured note stack to fund bolt-on M&A activity.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VIKING BAKED GOODS ACQUISITION CORP</p><p><strong>Roadshow:</
+ strong> Registration Link: https://www.netroadshow.com/events/login/1PeTHm
+ ohCii4Jrih7QJJtQ4cq8WnpzR5q4Pw5 | Replay Link: https://www.netroadshow.com
+ /events/login/1PeTHmohCii4Jrih7QJJtQ4cq8WnpzR5q4Pw5 | Slides Only: www.net
+ roadshow.com | Entry Code: RB2026</p><p><strong>Deal context:</strong><br>
+ Viking Baked Goods Acquisition Corporation (d/b/a Rise Baking) is launchin
+ g a $300 million add-on to its existing 8.625% Senior Secured Notes due 20
+ 31\, with proceeds earmarked to finance the acquisition of Jimmy's Gourmet
+  Bakery LLC. The deal is structured as a 144A/Reg S offering with a roadsh
+ ow running through Wednesday\, June 24th\, 2026\, and an investor call sch
+ eduled for Tuesday\, June 23rd at 10:30 AM ET. Rise Baking is a leading No
+ rth American sweet baked goods manufacturer serving blue-chip retail and f
+ oodservice customers\, and this tap adds to the existing 2031 secured note
+  stack to fund bolt-on M&amp\;A activity.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
