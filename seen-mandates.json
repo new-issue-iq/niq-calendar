@@ -453,5 +453,10 @@
     "id": "1b8a65cf-da49-4f81-83c8-ddb3ee9c613f",
     "issuerName": "NTT FINANCE CORP",
     "alertedAt": "2026-06-23T10:20:47.275Z"
+  },
+  {
+    "id": "52f7ed29-1879-4901-8165-699d65b42a25",
+    "issuerName": "THE GERMAN STATE OF HESSE",
+    "alertedAt": "2026-06-24T13:50:46.038Z"
   }
 ]
