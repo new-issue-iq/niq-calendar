@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6f3ef490742b5302-1@daily.newissueiq
+DTSTAMP:20260624T135646Z
+DTSTART;TZID=America/New_York:20260624T100000
+DTEND;TZID=America/New_York:20260624T104500
+SUMMARY:GAIA PURCHASER INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GAIA PURCHASER INC\nRoadshow: URL: https://dealroadshow.com | Entr
+ y Code: GAIAHY26 | Direct Link: https://dealroadshow.com/e/GAIAHY26 (avail
+ able now)\n\nDeal context:\nGaia Purchaser\, Inc. (acquisition vehicle for
+  Amex GBT) is bringing a $1.0 billion Senior Secured Notes offering to mar
+ ket as part of a broader financing package alongside a $1\,500mm Term Loan
+  B\, collectively funding Long Lake Management Holdings' acquisition of Am
+ erican Express Global Business Travel. The deal is rated B2/B/BBB- (split-
+ rated\, with Fitch at investment grade) and structured as a 7NC3 with a sp
+ ecial mandatory redemption tied to the merger closing deadline of November
+  2\, 2026 (extendable to February 2\, 2027)\, with initial price talk in t
+ he low 8s and pricing expected Wednesday 6/24. Joint books are led by JPM/
+ BOFA/CITI/MUFG/DB with distribution via 144A/Reg S for life.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GAIA PURCHASER INC</p><p><strong>Roadshow:</strong> URL: http
+ s://dealroadshow.com | Entry Code: GAIAHY26 | Direct Link: https://dealroa
+ dshow.com/e/GAIAHY26 (available now)</p><p><strong>Deal context:</strong><
+ br>Gaia Purchaser\, Inc. (acquisition vehicle for Amex GBT) is bringing a 
+ $1.0 billion Senior Secured Notes offering to market as part of a broader 
+ financing package alongside a $1\,500mm Term Loan B\, collectively funding
+  Long Lake Management Holdings' acquisition of American Express Global Bus
+ iness Travel. The deal is rated B2/B/BBB- (split-rated\, with Fitch at inv
+ estment grade) and structured as a 7NC3 with a special mandatory redemptio
+ n tied to the merger closing deadline of November 2\, 2026 (extendable to 
+ February 2\, 2027)\, with initial price talk in the low 8s and pricing exp
+ ected Wednesday 6/24. Joint books are led by JPM/BOFA/CITI/MUFG/DB with di
+ stribution via 144A/Reg S for life.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

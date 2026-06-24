@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:723d0fe1691143a2-2@daily.newissueiq
+DTSTAMP:20260624T135646Z
+DTSTART;TZID=America/New_York:20260624T120000
+DTEND;TZID=America/New_York:20260624T125000
+SUMMARY:OCREDIT — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: T ROWE PRICE OHA SELECT PRIVATE CREDIT FUND (OCREDIT)\nRoadshow: w
+ ww.netroadshow.com/nrs/home/#!/?show=8341b1b7 (Recommended) | Entry Code: 
+ OCREDIT2026 | URL: www.netroadshow.com\n\nDeal context:\nT. Rowe Price OHA
+  Select Private Credit Fund ("OCREDIT")\, rated Baa3 (stable) by Moody's a
+ nd BBB- (stable) by Fitch\, has mandated J.P. Morgan\, BNP PARIBAS\, SMBC 
+ Nikko\, and Wells Fargo Securities to arrange a series of fixed income inv
+ estor calls on June 24\, 2026\, ahead of a potential capital markets trans
+ action. The deal is at the Mandate stage\, with no specific size\, tenor\,
+  coupon\, or pricing terms disclosed at this time. A capital markets trans
+ action may follow subject to market conditions\, with investor calls sched
+ uled throughout the day on June 24th.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> T ROWE PRICE OHA SELECT PRIVATE CREDIT FUND (OCREDIT)</p><p><
+ strong>Roadshow:</strong> www.netroadshow.com/nrs/home/#!/?show=8341b1b7 (
+ Recommended) | Entry Code: OCREDIT2026 | URL: www.netroadshow.com</p><p><s
+ trong>Deal context:</strong><br>T. Rowe Price OHA Select Private Credit Fu
+ nd (&quot\;OCREDIT&quot\;)\, rated Baa3 (stable) by Moody's and BBB- (stab
+ le) by Fitch\, has mandated J.P. Morgan\, BNP PARIBAS\, SMBC Nikko\, and W
+ ells Fargo Securities to arrange a series of fixed income investor calls o
+ n June 24\, 2026\, ahead of a potential capital markets transaction. The d
+ eal is at the Mandate stage\, with no specific size\, tenor\, coupon\, or 
+ pricing terms disclosed at this time. A capital markets transaction may fo
+ llow subject to market conditions\, with investor calls scheduled througho
+ ut the day on June 24th.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

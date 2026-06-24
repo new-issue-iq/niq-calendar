@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:210edc46cd9d302d-1@daily.newissueiq
+DTSTAMP:20260624T135646Z
+DTSTART;TZID=America/New_York:20260624T090000
+DTEND;TZID=America/New_York:20260624T094500
+SUMMARY:Stonepeak Motion Holdco Limited & Stonepeak Motion Finco LLC — Inve
+ stor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: Stonepeak Motion Holdco Limited & Stonepeak Motion Finco LLC\nRoad
+ show: URL: https://dealroadshow.com | Entry Code: CASTROL26GIC | Direct Li
+ nk: https://dealroadshow.com/e/CASTROL26GIC\n\nDeal context:\nCastrol\, a 
+ leading independent global lubricants and fluids company operating across 
+ 150+ countries and serving more than 200 million customers\, is coming to 
+ market via issuers Stonepeak Motion Holdco Limited and Stonepeak Motion Fi
+ nco LLC (sponsored by Stonepeak and CPPIB) with a $1.0 billion USD equival
+ ent dual-tranche senior secured note offering comprising a $500 million US
+ D tranche and a €435 million EUR tranche\, both due 2033 with a 7NC3 struc
+ ture (first call at par + 50% of coupon)\, rated Ba2/BB-/BB at the corpora
+ te level and Ba3/BB-/BB+ at the issue level. IPT is Mid-High 6s on the USD
+  tranche and Mid-High 5s on the EUR tranche\, with a roadshow scheduled fo
+ r June 23rd/24th and pricing expected later that week. Proceeds\, together
+  with $1\,750mm and €870mm TLBs\, will fund the acquisition financing of C
+ astrol and payment of related transaction fees and expenses.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> Stonepeak Motion Holdco Limited &amp\; Stonepeak Motion Finco
+  LLC</p><p><strong>Roadshow:</strong> URL: https://dealroadshow.com | Entr
+ y Code: CASTROL26GIC | Direct Link: https://dealroadshow.com/e/CASTROL26GI
+ C</p><p><strong>Deal context:</strong><br>Castrol\, a leading independent 
+ global lubricants and fluids company operating across 150+ countries and s
+ erving more than 200 million customers\, is coming to market via issuers S
+ tonepeak Motion Holdco Limited and Stonepeak Motion Finco LLC (sponsored b
+ y Stonepeak and CPPIB) with a $1.0 billion USD equivalent dual-tranche sen
+ ior secured note offering comprising a $500 million USD tranche and a €435
+  million EUR tranche\, both due 2033 with a 7NC3 structure (first call at 
+ par + 50% of coupon)\, rated Ba2/BB-/BB at the corporate level and Ba3/BB-
+ /BB+ at the issue level. IPT is Mid-High 6s on the USD tranche and Mid-Hig
+ h 5s on the EUR tranche\, with a roadshow scheduled for June 23rd/24th and
+  pricing expected later that week. Proceeds\, together with $1\,750mm and 
+ €870mm TLBs\, will fund the acquisition financing of Castrol and payment o
+ f related transaction fees and expenses.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

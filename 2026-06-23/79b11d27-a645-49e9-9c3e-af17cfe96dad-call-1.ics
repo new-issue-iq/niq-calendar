@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:026c9f953a66b045-1@daily.newissueiq
+DTSTAMP:20260624T135646Z
+DTSTART;TZID=America/New_York:20260624T110000
+DTEND;TZID=America/New_York:20260624T114500
+SUMMARY:WJACN — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: WESTJET AN ALBERTA GENERAL PTNRSHP (WJACN)\nRoadshow: https://www.
+ netroadshow.com/events/login/1PeTHmojCNIRyUOZ8S0QmLxEztIZ6vExDTx7B\n\nDeal
+  context:\nWestJet Group Inc. (WJACN) is bringing a $500 million Senior Se
+ cured Notes offering via Barclays as Lead Left\, with joint bookrunners in
+ cluding MS\, RBC\, BMO\, Scotia\, GS\, TD\, CIBC\, ATB\, NatBank\, and CIT
+ I. The deal is rated B1/B- (Moody's/Fitch) — notably no S&P rating as this
+  is a loyalty secured deal — with a ~4.7-year tenor co-terminus with the e
+ xisting Term Loan B\, and initial price talk of 8.75-9% inclusive of 1pt O
+ ID. Proceeds will be used for general corporate purposes to support the co
+ mpany's liquidity position\, including paying down existing revolving cred
+ it facility borrowings\; the deal features a Non-Call 2 structure with a 1
+ 03% special call provision allowing redemption of up to 10% of aggregate p
+ rincipal per annum during the non-call period.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> WESTJET AN ALBERTA GENERAL PTNRSHP (WJACN)</p><p><strong>Road
+ show:</strong> https://www.netroadshow.com/events/login/1PeTHmojCNIRyUOZ8S
+ 0QmLxEztIZ6vExDTx7B</p><p><strong>Deal context:</strong><br>WestJet Group 
+ Inc. (WJACN) is bringing a $500 million Senior Secured Notes offering via 
+ Barclays as Lead Left\, with joint bookrunners including MS\, RBC\, BMO\, 
+ Scotia\, GS\, TD\, CIBC\, ATB\, NatBank\, and CITI. The deal is rated B1/B
+ - (Moody's/Fitch) — notably no S&amp\;P rating as this is a loyalty secure
+ d deal — with a ~4.7-year tenor co-terminus with the existing Term Loan B\
+ , and initial price talk of 8.75-9% inclusive of 1pt OID. Proceeds will be
+  used for general corporate purposes to support the company's liquidity po
+ sition\, including paying down existing revolving credit facility borrowin
+ gs\; the deal features a Non-Call 2 structure with a 103% special call pro
+ vision allowing redemption of up to 10% of aggregate principal per annum d
+ uring the non-call period.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
