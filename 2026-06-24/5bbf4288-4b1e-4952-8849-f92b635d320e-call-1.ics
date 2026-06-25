@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7a77b9c391c1e712-1@daily.newissueiq
+DTSTAMP:20260625T133131Z
+DTSTART;TZID=America/New_York:20260625T110000
+DTEND;TZID=America/New_York:20260625T114500
+SUMMARY:CNM — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CORE & MAIN LP (CNM)\nRoadshow: https://www.netroadshow.com/events
+ /login/1PeTHmohVhpFFmpKvBIDRKJRYrE3qjg4NqtSy\n\nDeal context:\nCore & Main
+  LP\, the operating subsidiary of NYSE-listed Core & Main\, Inc. (CNM\, ~$
+ 9.1B market cap)\, is bringing a $750 million 8-year non-call 3 Senior Not
+ es offering due 2034\, rated Ba2/BB (Positive/Stable outlook)\, in a 144A/
+ Reg S for Life format. The deal is part of a concurrent financing package 
+ alongside an $800 million Term Loan B\, with combined proceeds used to ref
+ inance the existing Term Loan B due 2028 and for general corporate purpose
+ s. Pricing is expected the same afternoon as announcement (June 25th)\, wi
+ th an investor call at 11:00 AM ET\, and WFS acting as left lead bookrunne
+ r alongside a broad syndicate of 11 banks.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CORE &amp\; MAIN LP (CNM)</p><p><strong>Roadshow:</strong> ht
+ tps://www.netroadshow.com/events/login/1PeTHmohVhpFFmpKvBIDRKJRYrE3qjg4Nqt
+ Sy</p><p><strong>Deal context:</strong><br>Core &amp\; Main LP\, the opera
+ ting subsidiary of NYSE-listed Core &amp\; Main\, Inc. (CNM\, ~$9.1B marke
+ t cap)\, is bringing a $750 million 8-year non-call 3 Senior Notes offerin
+ g due 2034\, rated Ba2/BB (Positive/Stable outlook)\, in a 144A/Reg S for 
+ Life format. The deal is part of a concurrent financing package alongside 
+ an $800 million Term Loan B\, with combined proceeds used to refinance the
+  existing Term Loan B due 2028 and for general corporate purposes. Pricing
+  is expected the same afternoon as announcement (June 25th)\, with an inve
+ stor call at 11:00 AM ET\, and WFS acting as left lead bookrunner alongsid
+ e a broad syndicate of 11 banks.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

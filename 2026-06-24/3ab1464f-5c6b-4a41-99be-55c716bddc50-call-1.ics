@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:faf89eb431fae6de-1@daily.newissueiq
+DTSTAMP:20260625T133131Z
+DTSTART;TZID=America/New_York:20260625T103000
+DTEND;TZID=America/New_York:20260625T111500
+SUMMARY:GLOBAL INFRASTRUCTURE SOLUTIONS INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GLOBAL INFRASTRUCTURE SOLUTIONS INC\nRoadshow: https://www.netroad
+ show.com/events/login/1PeTHmohM0Jm3051Abvn4nEUksmaQ4sUvJNCs\n\nDeal contex
+ t:\nGlobal Infrastructure Solutions Inc. (GISI) is bringing a $500 million
+  8-year Senior Notes offering to market via a 144A/Reg S for life format\,
+  with joint bookrunners BofA\, JPM\, HSBC\, WF\, Capital One\, M&T\, and T
+ D alongside co-managers BMO\, Credit Agricole\, and US Bank. The deal feat
+ ures an NC-3 structure with a first call at par plus 50% of the coupon\, a
+ n equity claw of up to 40% of aggregate principal at par plus the coupon d
+ uring the non-call period\, and a change of control put at 101%. Net proce
+ eds\, together with concurrent Credit Facilities\, are intended to fund M&
+ A pipeline transactions\, repay existing indebtedness\, and for general co
+ rporate purposes\, with an investor call scheduled for Thursday\, June 25t
+ h at 10:30 AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GLOBAL INFRASTRUCTURE SOLUTIONS INC</p><p><strong>Roadshow:</
+ strong> https://www.netroadshow.com/events/login/1PeTHmohM0Jm3051Abvn4nEUk
+ smaQ4sUvJNCs</p><p><strong>Deal context:</strong><br>Global Infrastructure
+  Solutions Inc. (GISI) is bringing a $500 million 8-year Senior Notes offe
+ ring to market via a 144A/Reg S for life format\, with joint bookrunners B
+ ofA\, JPM\, HSBC\, WF\, Capital One\, M&amp\;T\, and TD alongside co-manag
+ ers BMO\, Credit Agricole\, and US Bank. The deal features an NC-3 structu
+ re with a first call at par plus 50% of the coupon\, an equity claw of up 
+ to 40% of aggregate principal at par plus the coupon during the non-call p
+ eriod\, and a change of control put at 101%. Net proceeds\, together with 
+ concurrent Credit Facilities\, are intended to fund M&amp\;A pipeline tran
+ sactions\, repay existing indebtedness\, and for general corporate purpose
+ s\, with an investor call scheduled for Thursday\, June 25th at 10:30 AM E
+ T.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

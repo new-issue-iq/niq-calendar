@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8aa37b8d628f3b32-1@daily.newissueiq
+DTSTAMP:20260625T133131Z
+DTSTART;TZID=America/New_York:20260625T110000
+DTEND;TZID=America/New_York:20260625T114500
+SUMMARY:STARWOOD PROPERTY TR INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STARWOOD PROPERTY TR INC\nRoadshow: URL: https://dealroadshow.com 
+ | Entry Code: SUPE26 | Direct Link: https://dealroadshow.finsight.com/e/SU
+ PE26\n\nDeal context:\nStarwood Property Trust\, Inc. is launching a $500 
+ million Senior Notes offering (3NCL structure) rated Ba3/BB+\, classifying
+  this as a High Yield deal. The transaction is being distributed via 144A/
+ Reg S for life format with initial price talk of 6.25% area\, with proceed
+ s intended to fund the redemption of up to all of the company's $500 milli
+ on outstanding 4.375% Senior Notes due 2027\, or for general corporate pur
+ poses including repayment of outstanding indebtedness under repurchase fac
+ ilities. The deal is being led by a broad syndicate of eight joint bookrun
+ ners (JPM/BOFA/BARC/CITI/DB/GS/MS/WFS) with four co-managers\, targeting s
+ ame-day pricing.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STARWOOD PROPERTY TR INC</p><p><strong>Roadshow:</strong> URL
+ : https://dealroadshow.com | Entry Code: SUPE26 | Direct Link: https://dea
+ lroadshow.finsight.com/e/SUPE26</p><p><strong>Deal context:</strong><br>St
+ arwood Property Trust\, Inc. is launching a $500 million Senior Notes offe
+ ring (3NCL structure) rated Ba3/BB+\, classifying this as a High Yield dea
+ l. The transaction is being distributed via 144A/Reg S for life format wit
+ h initial price talk of 6.25% area\, with proceeds intended to fund the re
+ demption of up to all of the company's $500 million outstanding 4.375% Sen
+ ior Notes due 2027\, or for general corporate purposes including repayment
+  of outstanding indebtedness under repurchase facilities. The deal is bein
+ g led by a broad syndicate of eight joint bookrunners (JPM/BOFA/BARC/CITI/
+ DB/GS/MS/WFS) with four co-managers\, targeting same-day pricing.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
