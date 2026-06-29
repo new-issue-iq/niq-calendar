@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7ad68b980a73f0e0-1@daily.newissueiq
+DTSTAMP:20260629T133605Z
+DTSTART;TZID=America/New_York:20260629T093000
+DTEND;TZID=America/New_York:20260629T101500
+SUMMARY:STONEBRIAR ABF ISSUER LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STONEBRIAR ABF ISSUER LLC\nRoadshow: https://www.netroadshow.com/e
+ vents/login/1PeTHmohH9qgWFzhFpJcdntF3p9z141uOqZAQ\n\nDeal context:\nStoneb
+ riar ABF Issuer LLC\, the largest private independent equipment finance co
+ mpany by net assets in the U.S.\, is launching a $500 million 5-year Senio
+ r Unsecured Notes offering rated Ba2/BB (Moody's/Fitch)\, classified as Hi
+ gh Yield. The deal is structured as 144A/Reg S for life with a NC-2 option
+ al redemption feature\, with RBC acting as Lead Left Bookrunner alongside 
+ a broad syndicate of 10 joint bookrunners including DB\, BoA\, BNP\, CIBC\
+ , MUFG\, WF\, Fifth Third\, Regions\, Truist\, and Citizens. The transacti
+ on is expected to launch\, roadshow\, and price on the same day (June 29\,
+  2025)\, with proceeds earmarked for general corporate purposes including 
+ new originations and repayment of certain indebtedness\, on covenants matc
+ hing existing Senior Unsecured Notes due 2030.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STONEBRIAR ABF ISSUER LLC</p><p><strong>Roadshow:</strong> ht
+ tps://www.netroadshow.com/events/login/1PeTHmohH9qgWFzhFpJcdntF3p9z141uOqZ
+ AQ</p><p><strong>Deal context:</strong><br>Stonebriar ABF Issuer LLC\, the
+  largest private independent equipment finance company by net assets in th
+ e U.S.\, is launching a $500 million 5-year Senior Unsecured Notes offerin
+ g rated Ba2/BB (Moody's/Fitch)\, classified as High Yield. The deal is str
+ uctured as 144A/Reg S for life with a NC-2 optional redemption feature\, w
+ ith RBC acting as Lead Left Bookrunner alongside a broad syndicate of 10 j
+ oint bookrunners including DB\, BoA\, BNP\, CIBC\, MUFG\, WF\, Fifth Third
+ \, Regions\, Truist\, and Citizens. The transaction is expected to launch\
+ , roadshow\, and price on the same day (June 29\, 2025)\, with proceeds ea
+ rmarked for general corporate purposes including new originations and repa
+ yment of certain indebtedness\, on covenants matching existing Senior Unse
+ cured Notes due 2030.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

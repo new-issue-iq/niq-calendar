@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bb044e83f6d08b85-3@daily.newissueiq
+DTSTAMP:20260629T133605Z
+DTSTART;TZID=America/New_York:20260615T140000
+DTEND;TZID=America/New_York:20260615T145000
+SUMMARY:HERCUCA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HERCULES CAPITAL INC (HERCUCA)\nRoadshow: www.netroadshow.com | Pa
+ ssword: HTGC2026\n\nDeal context:\nHercules Capital\, Inc. (HTGC)\, a busi
+ ness development company rated Baa2 (Stable) by Moody's and BBB- (Stable) 
+ by Fitch\, is conducting fixed income investor calls on June 15\, 2026\, a
+ rranged by Goldman Sachs & Co. LLC and SMBC Nikko\, ahead of a potential S
+ EC-registered senior unsecured notes offering. No size\, tenor\, or pricin
+ g terms have been disclosed at this stage\, with the offering explicitly s
+ ubject to market conditions following the investor call process. HTGC focu
+ ses on providing senior secured loans to venture capital-backed and instit
+ utional-backed technology and life sciences companies.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HERCULES CAPITAL INC (HERCUCA)</p><p><strong>Roadshow:</stron
+ g> www.netroadshow.com | Password: HTGC2026</p><p><strong>Deal context:</s
+ trong><br>Hercules Capital\, Inc. (HTGC)\, a business development company 
+ rated Baa2 (Stable) by Moody's and BBB- (Stable) by Fitch\, is conducting 
+ fixed income investor calls on June 15\, 2026\, arranged by Goldman Sachs 
+ &amp\; Co. LLC and SMBC Nikko\, ahead of a potential SEC-registered senior
+  unsecured notes offering. No size\, tenor\, or pricing terms have been di
+ sclosed at this stage\, with the offering explicitly subject to market con
+ ditions following the investor call process. HTGC focuses on providing sen
+ ior secured loans to venture capital-backed and institutional-backed techn
+ ology and life sciences companies.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

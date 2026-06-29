@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9f924eb2186a4c8e-4@daily.newissueiq
+DTSTAMP:20260629T133605Z
+DTSTART;TZID=America/New_York:20260629T140000
+DTEND;TZID=America/New_York:20260629T144500
+SUMMARY:MATSEL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PANASONIC HOLDINGS CORP (MATSEL)\nRoadshow: https://dealroadshow.f
+ insight.com/e/Panasonic26 (Recommended) | Or https://dealroadshow.finsight
+ .com | Entry code: Panasonic26 (not case sensitive)\n\nDeal context:\nPana
+ sonic Holdings Corporation is arranging a benchmark-sized U.S. dollar-deno
+ minated 144A/Reg. S senior notes offering with a 10-year maturity\, with i
+ nvestor calls commencing June 29\, 2026 across the U.S.\, Europe\, and Asi
+ a. The deal is expected to be rated Baa1/A- (Moody's/S&P)\, placing it fir
+ mly in investment grade territory. BofA Securities\, Morgan Stanley\, and 
+ J.P. Morgan have been mandated as joint bookrunners\, with pricing subject
+  to market conditions following the roadshow.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PANASONIC HOLDINGS CORP (MATSEL)</p><p><strong>Roadshow:</str
+ ong> https://dealroadshow.finsight.com/e/Panasonic26 (Recommended) | Or ht
+ tps://dealroadshow.finsight.com | Entry code: Panasonic26 (not case sensit
+ ive)</p><p><strong>Deal context:</strong><br>Panasonic Holdings Corporatio
+ n is arranging a benchmark-sized U.S. dollar-denominated 144A/Reg. S senio
+ r notes offering with a 10-year maturity\, with investor calls commencing 
+ June 29\, 2026 across the U.S.\, Europe\, and Asia. The deal is expected t
+ o be rated Baa1/A- (Moody's/S&amp\;P)\, placing it firmly in investment gr
+ ade territory. BofA Securities\, Morgan Stanley\, and J.P. Morgan have bee
+ n mandated as joint bookrunners\, with pricing subject to market condition
+ s following the roadshow.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

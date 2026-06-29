@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:72d43a338de60e50-1@daily.newissueiq
+DTSTAMP:20260629T133605Z
+DTSTART;TZID=America/New_York:20260629T110000
+DTEND;TZID=America/New_York:20260629T114500
+SUMMARY:AMEGRE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AMERICAN GREETINGS CORP (AMEGRE)\nRoadshow: https://www.netroadsho
+ w.com/events/login/1PeTHmohJWXlcPruXzIgkHgI0e5rttsojn8nl\n\nDeal context:\
+ nAmerican Greetings Corporation is bringing a $450 million Senior Secured 
+ Notes offering with a 5.5-year tenor\, priced at an IPT of 9-9.25%\, rated
+  B2/B (High Yield). The deal is part of a broader recapitalization alongsi
+ de a new $400 million Term Loan B\, with proceeds used to refinance the ex
+ isting capital structure and extend maturities. The 144A/Reg S for life of
+ fering is led by Barclays (Lead Left) alongside nine joint bookrunners\, w
+ ith an investor call on June 29th and pricing expected Wednesday\, July 1s
+ t.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AMERICAN GREETINGS CORP (AMEGRE)</p><p><strong>Roadshow:</str
+ ong> https://www.netroadshow.com/events/login/1PeTHmohJWXlcPruXzIgkHgI0e5r
+ ttsojn8nl</p><p><strong>Deal context:</strong><br>American Greetings Corpo
+ ration is bringing a $450 million Senior Secured Notes offering with a 5.5
+ -year tenor\, priced at an IPT of 9-9.25%\, rated B2/B (High Yield). The d
+ eal is part of a broader recapitalization alongside a new $400 million Ter
+ m Loan B\, with proceeds used to refinance the existing capital structure 
+ and extend maturities. The 144A/Reg S for life offering is led by Barclays
+  (Lead Left) alongside nine joint bookrunners\, with an investor call on J
+ une 29th and pricing expected Wednesday\, July 1st.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
