@@ -463,5 +463,15 @@
     "id": "3ab7843d-e92c-42cd-92a5-c5ab196774bf",
     "issuerName": "T ROWE PRICE OHA SELECT PRIVATE CREDIT FUND",
     "alertedAt": "2026-06-24T14:00:44.341Z"
+  },
+  {
+    "id": "688df9ef-2793-43a2-ae56-054e9da3483a",
+    "issuerName": "CAPRI GLOBAL CAPITAL LTD",
+    "alertedAt": "2026-06-29T12:01:17.726Z"
+  },
+  {
+    "id": "e39040d3-f9c4-4382-838e-2bc03919c98e",
+    "issuerName": "PANASONIC HOLDINGS CORP",
+    "alertedAt": "2026-06-29T12:01:21.861Z"
   }
 ]
