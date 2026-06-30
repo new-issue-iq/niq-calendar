@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5db550f5e857b69e-2@daily.newissueiq
+DTSTAMP:20260630T132111Z
+DTSTART;TZID=America/New_York:20260707T221500
+DTEND;TZID=America/New_York:20260707T231500
+SUMMARY:KEP — Call 22
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: KEPCO (KEP)\nRoadshow: https://markets.jpmorgan.com/event_booking/
+ loadEvent?eventToken=137130_cebff0c6-09cf-4875-a966-f667182773e0\n\nDeal c
+ ontext:\nKEPCO is conducting investor meetings for a US dollar-denominated
+  144A/Reg S Green Bond offering\, with roadshow meetings scheduled across 
+ Singapore (July 7-8) and Hong Kong (July 9\, 2026)\, and EMEA/US investor 
+ calls on July 7. HSBC is acting as logistics bank for Asia while J.P. Morg
+ an handles EMEA and US logistics. No pricing terms\, size\, or tenor have 
+ been disclosed at this mandate stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> KEPCO (KEP)</p><p><strong>Roadshow:</strong> https://markets.
+ jpmorgan.com/event_booking/loadEvent?eventToken=137130_cebff0c6-09cf-4875-
+ a966-f667182773e0</p><p><strong>Deal context:</strong><br>KEPCO is conduct
+ ing investor meetings for a US dollar-denominated 144A/Reg S Green Bond of
+ fering\, with roadshow meetings scheduled across Singapore (July 7-8) and 
+ Hong Kong (July 9\, 2026)\, and EMEA/US investor calls on July 7. HSBC is 
+ acting as logistics bank for Asia while J.P. Morgan handles EMEA and US lo
+ gistics. No pricing terms\, size\, or tenor have been disclosed at this ma
+ ndate stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -473,5 +473,10 @@
     "id": "e39040d3-f9c4-4382-838e-2bc03919c98e",
     "issuerName": "PANASONIC HOLDINGS CORP",
     "alertedAt": "2026-06-29T12:01:21.861Z"
+  },
+  {
+    "id": "7911b391-4b0f-4a28-8975-792f61eab34c",
+    "issuerName": "KEPCO",
+    "alertedAt": "2026-06-30T13:21:16.972Z"
   }
 ]
