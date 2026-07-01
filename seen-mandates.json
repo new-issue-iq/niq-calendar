@@ -478,5 +478,10 @@
     "id": "7911b391-4b0f-4a28-8975-792f61eab34c",
     "issuerName": "KEPCO",
     "alertedAt": "2026-06-30T13:21:16.972Z"
+  },
+  {
+    "id": "494e0322-cf8b-4315-8dc9-69b0d3b8d37c",
+    "issuerName": "KT CORP",
+    "alertedAt": "2026-07-01T14:41:21.452Z"
   }
 ]
