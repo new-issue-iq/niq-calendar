@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:266eca14d6e65d0e-2@daily.newissueiq
+DTSTAMP:20260706T132053Z
+DTSTART;TZID=America/New_York:20260706T130000
+DTEND;TZID=America/New_York:20260706T134500
+SUMMARY:ACN — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ACCENTURE CAPITAL INC (ACN)\nRoadshow: Direct Link: www.netroadsho
+ w.com/nrs/home/#!/?show=5859740f (Recommended) | URL: www.netroadshow.com 
+ | Entry Code: ACN2026 (not case-sensitive)\n\nDeal context:\nAccenture Cap
+ ital Inc. has mandated BofA Securities\, Barclays\, Citigroup\, and J.P. M
+ organ to arrange fixed income investor calls on July 6\, 2026\, ahead of a
+  potential benchmark-sized USD-denominated SEC-Registered senior unsecured
+  bond transaction guaranteed by Accenture plc. The deal is at the Mandate 
+ stage with no size\, tenor\, or pricing terms disclosed\, and is subject t
+ o market conditions. Expected ratings are Aa3 (Stable) / AA- (Stable) from
+  Moody's and S&P\, respectively\, placing this firmly in Investment Grade 
+ territory for the global IT services and consulting giant with approximate
+ ly $70 billion in FY25 revenue.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ACCENTURE CAPITAL INC (ACN)</p><p><strong>Roadshow:</strong> 
+ Direct Link: www.netroadshow.com/nrs/home/#!/?show=5859740f (Recommended) 
+ | URL: www.netroadshow.com | Entry Code: ACN2026 (not case-sensitive)</p><
+ p><strong>Deal context:</strong><br>Accenture Capital Inc. has mandated Bo
+ fA Securities\, Barclays\, Citigroup\, and J.P. Morgan to arrange fixed in
+ come investor calls on July 6\, 2026\, ahead of a potential benchmark-size
+ d USD-denominated SEC-Registered senior unsecured bond transaction guarant
+ eed by Accenture plc. The deal is at the Mandate stage with no size\, teno
+ r\, or pricing terms disclosed\, and is subject to market conditions. Expe
+ cted ratings are Aa3 (Stable) / AA- (Stable) from Moody's and S&amp\;P\, r
+ espectively\, placing this firmly in Investment Grade territory for the gl
+ obal IT services and consulting giant with approximately $70 billion in FY
+ 25 revenue.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
