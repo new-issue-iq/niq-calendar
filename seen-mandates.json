@@ -498,5 +498,10 @@
     "id": "d70b6378-cc58-45ff-bd5e-747ff4c58452",
     "issuerName": "UNITED STATES STEEL CORP",
     "alertedAt": "2026-07-06T10:40:59.913Z"
+  },
+  {
+    "id": "55c7a909-0b5e-42ea-abe7-be2fbadc7c66",
+    "issuerName": "PROSUS NV",
+    "alertedAt": "2026-07-06T11:21:00.298Z"
   }
 ]
