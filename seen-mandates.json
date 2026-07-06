@@ -503,5 +503,15 @@
     "id": "55c7a909-0b5e-42ea-abe7-be2fbadc7c66",
     "issuerName": "PROSUS NV",
     "alertedAt": "2026-07-06T11:21:00.298Z"
+  },
+  {
+    "id": "7968c7cb-13bc-428d-bbb6-1652f3fb64b3",
+    "issuerName": "INTERCORP PERU LTD",
+    "alertedAt": "2026-07-06T13:11:07.708Z"
+  },
+  {
+    "id": "35ece6ed-5681-405a-a874-19ae938078d4",
+    "issuerName": "INTL FINANCE CORP IFC",
+    "alertedAt": "2026-07-06T13:11:10.446Z"
   }
 ]
