@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b9075ee6cbc24f52-2@daily.newissueiq
+DTSTAMP:20260706T101049Z
+DTSTART;TZID=America/New_York:20260724T050000
+DTEND;TZID=America/New_York:20260724T054500
+SUMMARY:PT LESTARI BANTEN ENERGI & LLPL CAPITAL PTE LTD — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PT LESTARI BANTEN ENERGI & LLPL CAPITAL PTE LTD\nRoadshow: NRS reg
+ istration link (Audio Only): https://www.netroadshow.com/events/login/1PeT
+ HmojCmbpc4yUcNLtEYZMR3Tld37Fy5aFE | Bondholder Site (Slides Only) - For ne
+ w bondholders: https://www.bantenenergy.com/registration/ | For existing b
+ ondholders: https://www.bantenenergy.com/my-account/\n\nDeal context:\nPT 
+ Lestari Banten Energi and LLPL Capital Pte. Ltd. (an Indonesian power comp
+ any and its Singapore-incorporated financing vehicle) are hosting a fixed 
+ income investor update call on 17 July 2026\, facilitated by Barclays and 
+ Citigroup\, restricted to existing bondholders who must declare their hold
+ ings via NetRoadshow prior to access. This is not a new deal announcement 
+ but an investor relations update\, with company management including the H
+ ead of Project and O&M and Senior Manager of Finance presenting. Participa
+ nts are encouraged to submit questions by 10 July 2026 EOD\, with a replay
+  available until 24 July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PT LESTARI BANTEN ENERGI &amp\; LLPL CAPITAL PTE LTD</p><p><s
+ trong>Roadshow:</strong> NRS registration link (Audio Only): https://www.n
+ etroadshow.com/events/login/1PeTHmojCmbpc4yUcNLtEYZMR3Tld37Fy5aFE | Bondho
+ lder Site (Slides Only) - For new bondholders: https://www.bantenenergy.co
+ m/registration/ | For existing bondholders: https://www.bantenenergy.com/m
+ y-account/</p><p><strong>Deal context:</strong><br>PT Lestari Banten Energ
+ i and LLPL Capital Pte. Ltd. (an Indonesian power company and its Singapor
+ e-incorporated financing vehicle) are hosting a fixed income investor upda
+ te call on 17 July 2026\, facilitated by Barclays and Citigroup\, restrict
+ ed to existing bondholders who must declare their holdings via NetRoadshow
+  prior to access. This is not a new deal announcement but an investor rela
+ tions update\, with company management including the Head of Project and O
+ &amp\;M and Senior Manager of Finance presenting. Participants are encoura
+ ged to submit questions by 10 July 2026 EOD\, with a replay available unti
+ l 24 July 2026.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
