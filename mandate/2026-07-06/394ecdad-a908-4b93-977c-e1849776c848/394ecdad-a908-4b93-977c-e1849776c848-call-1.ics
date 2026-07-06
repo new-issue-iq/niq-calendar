@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:04d369d5e3addd6d-1@daily.newissueiq
+DTSTAMP:20260706T143054Z
+DTSTART;TZID=America/New_York:20260706T110000
+DTEND;TZID=America/New_York:20260706T114500
+SUMMARY:SUNB — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SUNBELT RENTALS HOLDINGS INC (SUNB)\nRoadshow: URL: www.netroadsho
+ w.com | Entry Code: SUNB2026 (not case-sensitive) | Direct Link: www.netro
+ adshow.com/nrs/home/#!/?show=e811681a\n\nDeal context:\nSunbelt Rentals Ho
+ ldings\, Inc. (NYSE: SUNB)\, rated Baa3/BBB-/BBB (all Stable)\, has mandat
+ ed BofA Securities\, J.P. Morgan\, and Wells Fargo Securities to arrange f
+ ixed income investor calls commencing July 6\, 2026\, ahead of a potential
+  USD-denominated 144A/Reg S for Life senior unsecured two-tranche offering
+  comprising 4-year and 10-year notes. The transaction is subject to market
+  conditions\, with no size or pricing guidance yet provided at this mandat
+ e stage. BofA Securities is coordinating logistics for the investor call s
+ eries\, which includes four scheduled calls throughout the day.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SUNBELT RENTALS HOLDINGS INC (SUNB)</p><p><strong>Roadshow:</
+ strong> URL: www.netroadshow.com | Entry Code: SUNB2026 (not case-sensitiv
+ e) | Direct Link: www.netroadshow.com/nrs/home/#!/?show=e811681a</p><p><st
+ rong>Deal context:</strong><br>Sunbelt Rentals Holdings\, Inc. (NYSE: SUNB
+ )\, rated Baa3/BBB-/BBB (all Stable)\, has mandated BofA Securities\, J.P.
+  Morgan\, and Wells Fargo Securities to arrange fixed income investor call
+ s commencing July 6\, 2026\, ahead of a potential USD-denominated 144A/Reg
+  S for Life senior unsecured two-tranche offering comprising 4-year and 10
+ -year notes. The transaction is subject to market conditions\, with no siz
+ e or pricing guidance yet provided at this mandate stage. BofA Securities 
+ is coordinating logistics for the investor call series\, which includes fo
+ ur scheduled calls throughout the day.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
