@@ -523,5 +523,15 @@
     "id": "394ecdad-a908-4b93-977c-e1849776c848",
     "issuerName": "SUNBELT RENTALS HOLDINGS INC",
     "alertedAt": "2026-07-06T14:30:59.816Z"
+  },
+  {
+    "id": "18947c86-4860-4b3d-84f5-d89480c527d2",
+    "issuerName": "COMMERCIAL BANK OF DUBAI",
+    "alertedAt": "2026-07-07T11:30:58.308Z"
+  },
+  {
+    "id": "0deaf0b1-3ead-4347-b114-82a68b031c12",
+    "issuerName": "INTL FINANCE CORP",
+    "alertedAt": "2026-07-07T11:31:02.194Z"
   }
 ]
