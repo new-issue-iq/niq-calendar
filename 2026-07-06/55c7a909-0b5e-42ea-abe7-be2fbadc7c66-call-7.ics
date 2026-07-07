@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9e4c55d6f8fdaedb-7@daily.newissueiq
+DTSTAMP:20260707T132433Z
+DTSTART;TZID=America/New_York:20260707T110000
+DTEND;TZID=America/New_York:20260707T114500
+SUMMARY:PRX NA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PROSUS NV (PRX NA)\nRoadshow: https://www.netroadshow.com/event/pr
+ osus (Recommended) OR Visit www.netroadshow.com and enter the entry code. 
+ Passcode: PROSUS26 (not case-sensitive)\n\nDeal context:\nProsus N.V. (PRX
+  NA)\, a Netherlands-domiciled global consumer internet group rated Baa2/B
+ BB (both Stable)\, is launching a 144A/3(c)(7)/Reg S dual-tranche senior u
+ nsecured USD benchmark offering comprising 7-year and 10-year tranches\, w
+ ith investor calls scheduled for Monday\, July 6\, 2026. The deal is coord
+ inated by BNP PARIBAS\, BofA Securities\, and Goldman Sachs & Co LLC as Gl
+ obal Coordinators and Active Bookrunners\, with BNP PARIBAS handling logis
+ tics. Concurrently\, Prosus has announced tender offers on two existing no
+ tes — an any-and-all tender on its $614M 4.850% Jul-27 notes and a capped 
+ tender on its $1B 3.257% Jan-27 notes — indicating the new issuance is at 
+ least partially aimed at liability management and debt refinancing.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PROSUS NV (PRX NA)</p><p><strong>Roadshow:</strong> https://w
+ ww.netroadshow.com/event/prosus (Recommended) OR Visit www.netroadshow.com
+  and enter the entry code. Passcode: PROSUS26 (not case-sensitive)</p><p><
+ strong>Deal context:</strong><br>Prosus N.V. (PRX NA)\, a Netherlands-domi
+ ciled global consumer internet group rated Baa2/BBB (both Stable)\, is lau
+ nching a 144A/3(c)(7)/Reg S dual-tranche senior unsecured USD benchmark of
+ fering comprising 7-year and 10-year tranches\, with investor calls schedu
+ led for Monday\, July 6\, 2026. The deal is coordinated by BNP PARIBAS\, B
+ ofA Securities\, and Goldman Sachs &amp\; Co LLC as Global Coordinators an
+ d Active Bookrunners\, with BNP PARIBAS handling logistics. Concurrently\,
+  Prosus has announced tender offers on two existing notes — an any-and-all
+  tender on its $614M 4.850% Jul-27 notes and a capped tender on its $1B 3.
+ 257% Jan-27 notes — indicating the new issuance is at least partially aime
+ d at liability management and debt refinancing.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

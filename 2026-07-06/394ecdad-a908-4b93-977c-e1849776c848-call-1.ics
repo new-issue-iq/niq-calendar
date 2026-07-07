@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:04d369d5e3addd6d-1@daily.newissueiq
+DTSTAMP:20260707T132433Z
+DTSTART;TZID=America/New_York:20260707T110000
+DTEND;TZID=America/New_York:20260707T114500
+SUMMARY:SUNB — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SUNBELT RENTALS HOLDINGS INC (SUNB)\nRoadshow: URL: www.netroadsho
+ w.com | Entry Code: SUNB2026 (not case-sensitive) | Direct Link: www.netro
+ adshow.com/nrs/home/#!/?show=e811681a\n\nDeal context:\nSunbelt Rentals Ho
+ ldings\, Inc. is bringing a dual-tranche senior unsecured 144A-for-life of
+ fering consisting of a 4-year note (due August 12\, 2030) and a 10-year no
+ te (due August 12\, 2036)\, both benchmark-sized\, rated Baa3/BBB-/BBB (Al
+ l Stable). Initial price talk is T+120 area on the 4-year and T+150 area o
+ n the 10-year\, with proceeds earmarked for general corporate purposes inc
+ luding potential repayment/refinancing of existing indebtedness (including
+  the First Priority Senior Secured Credit Facility)\, capex\, and working 
+ capital. The deal is expected to price today (July 7\, 2026) with settleme
+ nt on July 14\, 2026 (T+5)\, with Bank of America\, J.P. Morgan\, and Well
+ s Fargo acting as active bookrunners\; Wells Fargo is B&D on the 4-year an
+ d Bank of America is B&D on the 10-year.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SUNBELT RENTALS HOLDINGS INC (SUNB)</p><p><strong>Roadshow:</
+ strong> URL: www.netroadshow.com | Entry Code: SUNB2026 (not case-sensitiv
+ e) | Direct Link: www.netroadshow.com/nrs/home/#!/?show=e811681a</p><p><st
+ rong>Deal context:</strong><br>Sunbelt Rentals Holdings\, Inc. is bringing
+  a dual-tranche senior unsecured 144A-for-life offering consisting of a 4-
+ year note (due August 12\, 2030) and a 10-year note (due August 12\, 2036)
+ \, both benchmark-sized\, rated Baa3/BBB-/BBB (All Stable). Initial price 
+ talk is T+120 area on the 4-year and T+150 area on the 10-year\, with proc
+ eeds earmarked for general corporate purposes including potential repaymen
+ t/refinancing of existing indebtedness (including the First Priority Senio
+ r Secured Credit Facility)\, capex\, and working capital. The deal is expe
+ cted to price today (July 7\, 2026) with settlement on July 14\, 2026 (T+5
+ )\, with Bank of America\, J.P. Morgan\, and Wells Fargo acting as active 
+ bookrunners\; Wells Fargo is B&amp\;D on the 4-year and Bank of America is
+  B&amp\;D on the 10-year.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

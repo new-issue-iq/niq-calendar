@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8baa0e1f46bd56cf-1@daily.newissueiq
+DTSTAMP:20260707T132433Z
+DTSTART;TZID=America/New_York:20260707T100000
+DTEND;TZID=America/New_York:20260707T104500
+SUMMARY:SPN — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SESI LLC (SPN)\nRoadshow: https://evercall.co/oacc/16762\n\nDeal c
+ ontext:\nSESI\, L.L.C. (ticker: SPN) is launching a $200mm fungible add-on
+  to its existing Senior Secured Notes due September 30\, 2030\, bringing t
+ he pro-forma outstanding to $975mm on the same terms as the existing notes
+  (NC through September 30\, 2027\, equity claw up to 40% at par+100% coupo
+ n). Proceeds will fund the cash consideration for the acquisition of Sonic
+ \, with Goldman Sachs acting as left lead alongside JPM\, BofA\, FITB\, MS
+ \, and Texas Capital. An investor call is scheduled for Tuesday\, June 7\,
+  2026 at 10:00AM EST with the deal expected to price today.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SESI LLC (SPN)</p><p><strong>Roadshow:</strong> https://everc
+ all.co/oacc/16762</p><p><strong>Deal context:</strong><br>SESI\, L.L.C. (t
+ icker: SPN) is launching a $200mm fungible add-on to its existing Senior S
+ ecured Notes due September 30\, 2030\, bringing the pro-forma outstanding 
+ to $975mm on the same terms as the existing notes (NC through September 30
+ \, 2027\, equity claw up to 40% at par+100% coupon). Proceeds will fund th
+ e cash consideration for the acquisition of Sonic\, with Goldman Sachs act
+ ing as left lead alongside JPM\, BofA\, FITB\, MS\, and Texas Capital. An 
+ investor call is scheduled for Tuesday\, June 7\, 2026 at 10:00AM EST with
+  the deal expected to price today.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
