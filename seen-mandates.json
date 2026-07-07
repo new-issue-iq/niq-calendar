@@ -533,5 +533,10 @@
     "id": "0deaf0b1-3ead-4347-b114-82a68b031c12",
     "issuerName": "INTL FINANCE CORP",
     "alertedAt": "2026-07-07T11:31:02.194Z"
+  },
+  {
+    "id": "2aa2924e-c554-4177-897b-6bb5072f7d12",
+    "issuerName": "JEFFERIES FINL GROUP INC",
+    "alertedAt": "2026-07-07T12:01:01.488Z"
   }
 ]
