@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Hong_Kong
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:HKT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f2301e0ce53473d1-2@daily.newissueiq
+DTSTAMP:20260709T124955Z
+DTSTART;TZID=Asia/Hong_Kong:20260714T163000
+DTEND;TZID=Asia/Hong_Kong:20260714T173000
+SUMMARY:GOVERNMENT OF MALAYSIA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GOVERNMENT OF MALAYSIA\nRoadshow: URL: https://dealroadshow.finsig
+ ht.com | Entry Code: GOM2026 | Direct Link: https://dealroadshow.finsight.
+ com/e/GOM2026\n\nDeal context:\nThe Government of Malaysia is conducting a
+  global investor roadshow for a Reg S/144A Sukuk offering\, with meetings 
+ scheduled across Kuala Lumpur\, Singapore\, Hong Kong\, London\, Boston\, 
+ and New York from July 10–22\, 2026. The roadshow features senior governme
+ nt representatives including the Minister of Finance II and the Governor o
+ f Bank Negara Malaysia\, underscoring the sovereign nature of the issuance
+ . No deal size\, tenor\, or pricing details have been disclosed at this Ma
+ ndate stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GOVERNMENT OF MALAYSIA</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.finsight.com | Entry Code: GOM2026 | Direct Link: htt
+ ps://dealroadshow.finsight.com/e/GOM2026</p><p><strong>Deal context:</stro
+ ng><br>The Government of Malaysia is conducting a global investor roadshow
+  for a Reg S/144A Sukuk offering\, with meetings scheduled across Kuala Lu
+ mpur\, Singapore\, Hong Kong\, London\, Boston\, and New York from July 10
+ –22\, 2026. The roadshow features senior government representatives includ
+ ing the Minister of Finance II and the Governor of Bank Negara Malaysia\, 
+ underscoring the sovereign nature of the issuance. No deal size\, tenor\, 
+ or pricing details have been disclosed at this Mandate stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

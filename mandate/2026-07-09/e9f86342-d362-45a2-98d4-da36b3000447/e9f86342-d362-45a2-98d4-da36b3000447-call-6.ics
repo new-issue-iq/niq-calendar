@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:136cdc727c0d5f24-6@daily.newissueiq
+DTSTAMP:20260709T124955Z
+DTSTART;TZID=America/New_York:20260721T133000
+DTEND;TZID=America/New_York:20260721T143000
+SUMMARY:GOVERNMENT OF MALAYSIA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GOVERNMENT OF MALAYSIA\nRoadshow: URL: https://dealroadshow.finsig
+ ht.com | Entry Code: GOM2026 | Direct Link: https://dealroadshow.finsight.
+ com/e/GOM2026\n\nDeal context:\nThe Government of Malaysia is conducting a
+  global investor roadshow for a Reg S/144A Sukuk offering\, with meetings 
+ scheduled across Kuala Lumpur\, Singapore\, Hong Kong\, London\, Boston\, 
+ and New York from July 10–22\, 2026. The roadshow features senior governme
+ nt representatives including the Minister of Finance II and the Governor o
+ f Bank Negara Malaysia\, underscoring the sovereign nature of the issuance
+ . No deal size\, tenor\, or pricing details have been disclosed at this Ma
+ ndate stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GOVERNMENT OF MALAYSIA</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.finsight.com | Entry Code: GOM2026 | Direct Link: htt
+ ps://dealroadshow.finsight.com/e/GOM2026</p><p><strong>Deal context:</stro
+ ng><br>The Government of Malaysia is conducting a global investor roadshow
+  for a Reg S/144A Sukuk offering\, with meetings scheduled across Kuala Lu
+ mpur\, Singapore\, Hong Kong\, London\, Boston\, and New York from July 10
+ –22\, 2026. The roadshow features senior government representatives includ
+ ing the Minister of Finance II and the Governor of Bank Negara Malaysia\, 
+ underscoring the sovereign nature of the issuance. No deal size\, tenor\, 
+ or pricing details have been disclosed at this Mandate stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

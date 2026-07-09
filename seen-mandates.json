@@ -543,5 +543,10 @@
     "id": "c5a25240-00cd-49d2-af2d-fa85fd0a6adf",
     "issuerName": "KREDITANSTALT FUER WIEDERAUFBAU KFW",
     "alertedAt": "2026-07-07T13:20:58.106Z"
+  },
+  {
+    "id": "e9f86342-d362-45a2-98d4-da36b3000447",
+    "issuerName": "GOVERNMENT OF MALAYSIA",
+    "alertedAt": "2026-07-09T12:50:01.269Z"
   }
 ]
