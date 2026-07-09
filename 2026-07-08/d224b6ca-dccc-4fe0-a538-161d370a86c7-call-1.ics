@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7b8a07d0324bea1f-1@daily.newissueiq
+DTSTAMP:20260709T133708Z
+DTSTART;TZID=America/New_York:20260706T110000
+DTEND;TZID=America/New_York:20260706T114500
+SUMMARY:FIGR — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FIGURE TECHNOLOGY SOLUTIONS INC (FIGR)\nRoadshow: Registration Lin
+ k: https://www.netroadshow.com/events/login/1PeTHmohEjbqO14nrm9MgQGIoV4SoC
+ HGICEnQ | Replay Link: https://www.netroadshow.com/events/login/1PeTHmohEj
+ bqO14nrm9MgQGIoV4SoCHGICEnQ | Slides Only: www.netroadshow.com | Entry Cod
+ e: FIGR2026\n\nDeal context:\nFigure Technology Solutions Inc. (FIGR) is b
+ ringing a $600MM senior unsecured notes offering rated B+/Ba3/B+(EXP) by S
+ &P\, Moody's\, and Fitch respectively\, with initial price talk in the low
+  to mid 8s and the roadshow expected to conclude on July 9\, 2026. This is
+  an inaugural high yield bond issuance from a blockchain-native consumer l
+ oan marketplace that only went public last year\, with proceeds earmarked 
+ for general corporate purposes including the ~$532MM acquisition of Kiavi\
+ , an AI-powered residential real estate lending platform. Cantor's analyst
+  views IPT as tight and recommends fair value in the high 8s to low 9s\, c
+ iting first-time issuer risk\, adjusted leverage of ~4.7x ex-cash\, and ex
+ ecution risk\, while acknowledging the Kiavi acquisition as a positive str
+ ategic growth catalyst.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FIGURE TECHNOLOGY SOLUTIONS INC (FIGR)</p><p><strong>Roadshow
+ :</strong> Registration Link: https://www.netroadshow.com/events/login/1Pe
+ THmohEjbqO14nrm9MgQGIoV4SoCHGICEnQ | Replay Link: https://www.netroadshow.
+ com/events/login/1PeTHmohEjbqO14nrm9MgQGIoV4SoCHGICEnQ | Slides Only: www.
+ netroadshow.com | Entry Code: FIGR2026</p><p><strong>Deal context:</strong
+ ><br>Figure Technology Solutions Inc. (FIGR) is bringing a $600MM senior u
+ nsecured notes offering rated B+/Ba3/B+(EXP) by S&amp\;P\, Moody's\, and F
+ itch respectively\, with initial price talk in the low to mid 8s and the r
+ oadshow expected to conclude on July 9\, 2026. This is an inaugural high y
+ ield bond issuance from a blockchain-native consumer loan marketplace that
+  only went public last year\, with proceeds earmarked for general corporat
+ e purposes including the ~$532MM acquisition of Kiavi\, an AI-powered resi
+ dential real estate lending platform. Cantor's analyst views IPT as tight 
+ and recommends fair value in the high 8s to low 9s\, citing first-time iss
+ uer risk\, adjusted leverage of ~4.7x ex-cash\, and execution risk\, while
+  acknowledging the Kiavi acquisition as a positive strategic growth cataly
+ st.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
