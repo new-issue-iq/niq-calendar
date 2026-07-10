@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e5c16eb27ec7badf-2@daily.newissueiq
+DTSTAMP:20260710T142032Z
+DTSTART;TZID=America/New_York:20260710T120000
+DTEND;TZID=America/New_York:20260710T124500
+SUMMARY:HEI — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HEICO CORP (HEI)\nRoadshow: https://netroadshow.com / Entry Code: 
+ HEI2026 / Direct Link: www.netroadshow.com/nrs/home/#!/?show=0a8397c6\n\nD
+ eal context:\nHEICO Corporation (NYSE: HEI\, HEI.A)\, a Florida-based avia
+ tion\, defense\, space\, medical\, telecommunications\, and electronics pr
+ oducts company\, has mandated BofA Securities\, PNC Capital Markets LLC\, 
+ Truist Securities\, and Wells Fargo Securities to arrange fixed income inv
+ estor calls on July 10\, 2026\, ahead of a potential senior unsecured US$ 
+ SEC Registered bond transaction. The deal is at the Mandate stage\, with n
+ o size\, tenor\, or pricing terms disclosed\, and is subject to market con
+ ditions. Expected ratings are Baa1 (Stable) by Moody's and BBB+ (Stable) b
+ y Fitch\, placing the deal firmly in Investment Grade territory.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HEICO CORP (HEI)</p><p><strong>Roadshow:</strong> https://net
+ roadshow.com / Entry Code: HEI2026 / Direct Link: www.netroadshow.com/nrs/
+ home/#!/?show=0a8397c6</p><p><strong>Deal context:</strong><br>HEICO Corpo
+ ration (NYSE: HEI\, HEI.A)\, a Florida-based aviation\, defense\, space\, 
+ medical\, telecommunications\, and electronics products company\, has mand
+ ated BofA Securities\, PNC Capital Markets LLC\, Truist Securities\, and W
+ ells Fargo Securities to arrange fixed income investor calls on July 10\, 
+ 2026\, ahead of a potential senior unsecured US$ SEC Registered bond trans
+ action. The deal is at the Mandate stage\, with no size\, tenor\, or prici
+ ng terms disclosed\, and is subject to market conditions. Expected ratings
+  are Baa1 (Stable) by Moody's and BBB+ (Stable) by Fitch\, placing the dea
+ l firmly in Investment Grade territory.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

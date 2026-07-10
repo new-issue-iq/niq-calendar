@@ -548,5 +548,10 @@
     "id": "e9f86342-d362-45a2-98d4-da36b3000447",
     "issuerName": "GOVERNMENT OF MALAYSIA",
     "alertedAt": "2026-07-09T12:50:01.269Z"
+  },
+  {
+    "id": "d78acc43-9211-432e-9469-d3cc69c1e797",
+    "issuerName": "HEICO CORP",
+    "alertedAt": "2026-07-10T14:20:38.656Z"
   }
 ]
