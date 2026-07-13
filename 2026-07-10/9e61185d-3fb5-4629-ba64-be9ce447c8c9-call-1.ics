@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0863930bd5745a8f-1@daily.newissueiq
+DTSTAMP:20260713T120145Z
+DTSTART;TZID=America/New_York:20260713T103000
+DTEND;TZID=America/New_York:20260713T111500
+SUMMARY:CORELOGIC INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CORELOGIC INC\nRoadshow: URL: https://dealroadshow.finsight.com | 
+ Entry Code: COTALITY2026NOTE | Direct Link: https://dealroadshow.finsight.
+ com/e/COTALITY2026NOTE (available now)\n\nDeal context:\nCotality (formerl
+ y CoreLogic\, Inc.) is bringing a two-tranche high yield offering consisti
+ ng of First Lien Notes (USD Benchmark size\, 5NC2 structure\, rated B2/B-\
+ , IPT Mid 8s) and Second Lien Notes ($1.0B\, 5.5NC2 structure\, rated Caa2
+ /CCC\, IPT High 11s)\, both distributed as 144A/Reg S for life with an opt
+ ional redemption of 10% at 103 for 2 years. The proceeds\, together with a
+  new Term Loan B\, will be used to repay $135mm of existing RCF borrowings
+  and refinance the entire capital structure including senior secured notes
+  due 2028\, the existing 1st Lien Term Loan due 2028\, and the 2nd Lien Te
+ rm Loan due 2029. Pricing is expected Thursday 7/16\, with JPM and SPC act
+ ing as Joint Global Coordinators and a broad syndicate of 15 joint bookrun
+ ners.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CORELOGIC INC</p><p><strong>Roadshow:</strong> URL: https://d
+ ealroadshow.finsight.com | Entry Code: COTALITY2026NOTE | Direct Link: htt
+ ps://dealroadshow.finsight.com/e/COTALITY2026NOTE (available now)</p><p><s
+ trong>Deal context:</strong><br>Cotality (formerly CoreLogic\, Inc.) is br
+ inging a two-tranche high yield offering consisting of First Lien Notes (U
+ SD Benchmark size\, 5NC2 structure\, rated B2/B-\, IPT Mid 8s) and Second 
+ Lien Notes ($1.0B\, 5.5NC2 structure\, rated Caa2/CCC\, IPT High 11s)\, bo
+ th distributed as 144A/Reg S for life with an optional redemption of 10% a
+ t 103 for 2 years. The proceeds\, together with a new Term Loan B\, will b
+ e used to repay $135mm of existing RCF borrowings and refinance the entire
+  capital structure including senior secured notes due 2028\, the existing 
+ 1st Lien Term Loan due 2028\, and the 2nd Lien Term Loan due 2029. Pricing
+  is expected Thursday 7/16\, with JPM and SPC acting as Joint Global Coord
+ inators and a broad syndicate of 15 joint bookrunners.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

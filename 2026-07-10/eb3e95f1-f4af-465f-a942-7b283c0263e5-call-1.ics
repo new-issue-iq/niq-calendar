@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:df779401fd5533e6-1@daily.newissueiq
+DTSTAMP:20260713T120145Z
+DTSTART;TZID=America/New_York:20260713T090000
+DTEND;TZID=America/New_York:20260713T095000
+SUMMARY:MITSUBISHI HC FINANCE AMERICA LLC — Global Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MITSUBISHI HC FINANCE AMERICA LLC\nRoadshow: www.netroadshow.com |
+  Entry Code: MHC2026 (not case sensitive)\n\nDeal context:\nMitsubishi HC 
+ Finance America LLC\, a subsidiary of Mitsubishi HC Capital Inc. (rated A3
+ /A-/A- stable by Moody's/S&P/Fitch)\, has mandated five joint bookrunners 
+ for a $500 million (with no-grow) 5-year 144A/Reg S senior unsecured note 
+ offering\, fully and unconditionally guaranteed by the parent on a senior 
+ unsecured basis. The deal is at the mandate stage\, subject to market cond
+ itions\, with expected ratings of A3/A- from Moody's and S&P. This is a Ya
+ nkee bond offering from a Japanese financial services parent with FCA/ICMA
+  stabilization applying.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MITSUBISHI HC FINANCE AMERICA LLC</p><p><strong>Roadshow:</st
+ rong> www.netroadshow.com | Entry Code: MHC2026 (not case sensitive)</p><p
+ ><strong>Deal context:</strong><br>Mitsubishi HC Finance America LLC\, a s
+ ubsidiary of Mitsubishi HC Capital Inc. (rated A3/A-/A- stable by Moody's/
+ S&amp\;P/Fitch)\, has mandated five joint bookrunners for a $500 million (
+ with no-grow) 5-year 144A/Reg S senior unsecured note offering\, fully and
+  unconditionally guaranteed by the parent on a senior unsecured basis. The
+  deal is at the mandate stage\, subject to market conditions\, with expect
+ ed ratings of A3/A- from Moody's and S&amp\;P. This is a Yankee bond offer
+ ing from a Japanese financial services parent with FCA/ICMA stabilization 
+ applying.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
