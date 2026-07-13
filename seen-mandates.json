@@ -563,5 +563,10 @@
     "id": "4573d945-6d90-440e-963c-b0ea991499d6",
     "issuerName": "PINEWOOD",
     "alertedAt": "2026-07-13T11:40:45.468Z"
+  },
+  {
+    "id": "34475d21-95c9-4ddb-962f-ae05a6844938",
+    "issuerName": "PETROQUIMICA COMODORO RIVADAVIA SA",
+    "alertedAt": "2026-07-13T13:00:48.368Z"
   }
 ]
