@@ -553,5 +553,10 @@
     "id": "d78acc43-9211-432e-9469-d3cc69c1e797",
     "issuerName": "HEICO CORP",
     "alertedAt": "2026-07-10T14:20:38.656Z"
+  },
+  {
+    "id": "e2ea5224-8121-402b-8be2-98bb029422eb",
+    "issuerName": "PARAGON BANKING GROUP PLC",
+    "alertedAt": "2026-07-13T10:10:49.512Z"
   }
 ]
