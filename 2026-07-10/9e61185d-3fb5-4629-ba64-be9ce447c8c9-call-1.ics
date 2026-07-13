@@ -22,41 +22,38 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:0863930bd5745a8f-1@daily.newissueiq
-DTSTAMP:20260713T122131Z
+DTSTAMP:20260713T124708Z
 DTSTART;TZID=America/New_York:20260713T103000
 DTEND;TZID=America/New_York:20260713T111500
 SUMMARY:CORELOGIC INC — Investor Call
 DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
  Issuer: CORELOGIC INC\nRoadshow: URL: https://dealroadshow.finsight.com | 
  Entry Code: COTALITY2026NOTE | Direct Link: https://dealroadshow.finsight.
- com/e/COTALITY2026NOTE (available now)\n\nDeal context:\nCotality (formerl
- y CoreLogic\, Inc.) is bringing a two-tranche high yield offering consisti
- ng of First Lien Notes (USD Benchmark size\, 5NC2 structure\, rated B2/B-\
- , IPT Mid 8s) and Second Lien Notes ($1.0B\, 5.5NC2 structure\, rated Caa2
- /CCC\, IPT High 11s)\, both distributed as 144A/Reg S for life with an opt
- ional redemption of 10% at 103 for 2 years. The proceeds\, together with a
-  new Term Loan B\, will be used to repay $135mm of existing RCF borrowings
-  and refinance the entire capital structure including senior secured notes
-  due 2028\, the existing 1st Lien Term Loan due 2028\, and the 2nd Lien Te
- rm Loan due 2029. Pricing is expected Thursday 7/16\, with JPM and SPC act
- ing as Joint Global Coordinators and a broad syndicate of 15 joint bookrun
- ners.
+ com/e/COTALITY2026NOTE (available now)\n\nDeal context:\nCoreLogic\, Inc. 
+ (rebranding to Cotality) is bringing a two-tranche high yield offering con
+ sisting of a benchmark First Lien Notes tranche (5NC2\, IPT mid-8s\, rated
+  B2/B-) and $1 billion of Second Lien Notes (5.5NC2\, IPT high-11s\, rated
+  Caa2/CCC)\, led by JPM and SPC as Joint Global Coordinators. The transact
+ ion\, together with a new Term Loan B\, will repay $135mm of existing RCF 
+ borrowings and refinance the entire capital structure including senior sec
+ ured notes due 2028\, the existing 1st Lien Term Loan due 2028\, and the 2
+ nd Lien Term Loan due 2029. Pricing is expected Thursday 7/16\, with an in
+ vestor call at 10:30 AM ET and a broad syndicate of 15 joint bookrunners.
 X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
  h out to your dealer to confirm timing and availability</p><p><strong>Issu
  er:</strong> CORELOGIC INC</p><p><strong>Roadshow:</strong> URL: https://d
  ealroadshow.finsight.com | Entry Code: COTALITY2026NOTE | Direct Link: htt
  ps://dealroadshow.finsight.com/e/COTALITY2026NOTE (available now)</p><p><s
- trong>Deal context:</strong><br>Cotality (formerly CoreLogic\, Inc.) is br
- inging a two-tranche high yield offering consisting of First Lien Notes (U
- SD Benchmark size\, 5NC2 structure\, rated B2/B-\, IPT Mid 8s) and Second 
- Lien Notes ($1.0B\, 5.5NC2 structure\, rated Caa2/CCC\, IPT High 11s)\, bo
- th distributed as 144A/Reg S for life with an optional redemption of 10% a
- t 103 for 2 years. The proceeds\, together with a new Term Loan B\, will b
- e used to repay $135mm of existing RCF borrowings and refinance the entire
-  capital structure including senior secured notes due 2028\, the existing 
- 1st Lien Term Loan due 2028\, and the 2nd Lien Term Loan due 2029. Pricing
-  is expected Thursday 7/16\, with JPM and SPC acting as Joint Global Coord
- inators and a broad syndicate of 15 joint bookrunners.</p>
+ trong>Deal context:</strong><br>CoreLogic\, Inc. (rebranding to Cotality) 
+ is bringing a two-tranche high yield offering consisting of a benchmark Fi
+ rst Lien Notes tranche (5NC2\, IPT mid-8s\, rated B2/B-) and $1 billion of
+  Second Lien Notes (5.5NC2\, IPT high-11s\, rated Caa2/CCC)\, led by JPM a
+ nd SPC as Joint Global Coordinators. The transaction\, together with a new
+  Term Loan B\, will repay $135mm of existing RCF borrowings and refinance 
+ the entire capital structure including senior secured notes due 2028\, the
+  existing 1st Lien Term Loan due 2028\, and the 2nd Lien Term Loan due 202
+ 9. Pricing is expected Thursday 7/16\, with an investor call at 10:30 AM E
+ T and a broad syndicate of 15 joint bookrunners.</p>
 LOCATION:Conference Call
 END:VEVENT
 END:VCALENDAR
