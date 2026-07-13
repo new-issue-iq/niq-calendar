@@ -558,5 +558,10 @@
     "id": "e2ea5224-8121-402b-8be2-98bb029422eb",
     "issuerName": "PARAGON BANKING GROUP PLC",
     "alertedAt": "2026-07-13T10:10:49.512Z"
+  },
+  {
+    "id": "4573d945-6d90-440e-963c-b0ea991499d6",
+    "issuerName": "PINEWOOD",
+    "alertedAt": "2026-07-13T11:40:45.468Z"
   }
 ]
