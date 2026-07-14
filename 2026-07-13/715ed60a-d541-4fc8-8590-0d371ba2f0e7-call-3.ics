@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:50d78b70d16d4c16-3@daily.newissueiq
+DTSTAMP:20260714T142252Z
+DTSTART;TZID=America/New_York:20260713T140000
+DTEND;TZID=America/New_York:20260713T150000
+SUMMARY:SBAC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SBA COMM CORP (SBAC)\nRoadshow: https://dealroadshow.finsight.com 
+ | Entry Code: SBAC26 | Direct Link: https://dealroadshow.finsight.com/e/SB
+ AC26\n\nDeal context:\nSBA Communications Corporation (SBAC)\, a leading w
+ ireless tower REIT\, is conducting fixed income investor calls commencing 
+ July 13\, 2026\, ahead of a USD-denominated SEC Registered senior unsecure
+ d multi-tranche offering comprising 3.5-year\, 5-year\, and 7-year notes. 
+ The deal is arranged by Barclays\, Goldman Sachs & Co. LLC\, Morgan Stanle
+ y\, and Wells Fargo Securities\, with Morgan Stanley coordinating logistic
+ s. No size\, pricing guidance\, or ratings have been disclosed at this sta
+ ge\; the offering is subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SBA COMM CORP (SBAC)</p><p><strong>Roadshow:</strong> https:/
+ /dealroadshow.finsight.com | Entry Code: SBAC26 | Direct Link: https://dea
+ lroadshow.finsight.com/e/SBAC26</p><p><strong>Deal context:</strong><br>SB
+ A Communications Corporation (SBAC)\, a leading wireless tower REIT\, is c
+ onducting fixed income investor calls commencing July 13\, 2026\, ahead of
+  a USD-denominated SEC Registered senior unsecured multi-tranche offering 
+ comprising 3.5-year\, 5-year\, and 7-year notes. The deal is arranged by B
+ arclays\, Goldman Sachs &amp\; Co. LLC\, Morgan Stanley\, and Wells Fargo 
+ Securities\, with Morgan Stanley coordinating logistics. No size\, pricing
+  guidance\, or ratings have been disclosed at this stage\; the offering is
+  subject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

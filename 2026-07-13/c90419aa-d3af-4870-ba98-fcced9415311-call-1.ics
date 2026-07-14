@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f1f84e461cf8dcc7-1@daily.newissueiq
+DTSTAMP:20260714T142252Z
+DTSTART;TZID=America/New_York:20260714T133000
+DTEND;TZID=America/New_York:20260714T141500
+SUMMARY:VALIDUS ENERGY MIDCON II — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VALIDUS ENERGY MIDCON II\nRoadshow: Registration Link: https://rbc
+ cm.email.streetcontxt.net/platform/al?a=13590609&ad=4588121073&h=kUFnJhH&s
+ ig=GGIhjWP393poP0vFcUJgRtarR9P&v=2&url=https://www.netroadshow.com/events/
+ login/1PeTHmojEjOibQR9or88Q1I2oPAR6fWqqM12a | Replay Details: https://rbcc
+ m.email.streetcontxt.net/platform/al?a=13590609&ad=4588121073&h=kUFnJhH&si
+ g=GGIhjWP393poP0vFcUJgRtarR9P&v=2&url=https://www.netroadshow.com/events/l
+ ogin/1PeTHmojEjOibQR9or88Q1I2oPAR6fWqqM12a\n\nDeal context:\nValidus Energ
+ y Midcon II is launching a $500 million 5-year Senior Unsecured Notes offe
+ ring (144A/Reg S for life) rated B3/B/B (Moody's/S&P/Fitch)\, positioning 
+ it firmly in high yield territory. The deal is sponsored by Elliott Manage
+ ment and features an NC-2 optional redemption structure\, with proceeds ea
+ rmarked to repay a portion of outstanding borrowings under the company's C
+ redit Facility. RBC Capital Markets is acting as Lead Left Bookrunner (B&D
+ ) on this high yield roadshow launched July 13th\, with pricing expected m
+ id-week and closing T+3.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VALIDUS ENERGY MIDCON II</p><p><strong>Roadshow:</strong> Reg
+ istration Link: https://rbccm.email.streetcontxt.net/platform/al?a=1359060
+ 9&amp\;ad=4588121073&amp\;h=kUFnJhH&amp\;sig=GGIhjWP393poP0vFcUJgRtarR9P&a
+ mp\;v=2&amp\;url=https://www.netroadshow.com/events/login/1PeTHmojEjOibQR9
+ or88Q1I2oPAR6fWqqM12a | Replay Details: https://rbccm.email.streetcontxt.n
+ et/platform/al?a=13590609&amp\;ad=4588121073&amp\;h=kUFnJhH&amp\;sig=GGIhj
+ WP393poP0vFcUJgRtarR9P&amp\;v=2&amp\;url=https://www.netroadshow.com/event
+ s/login/1PeTHmojEjOibQR9or88Q1I2oPAR6fWqqM12a</p><p><strong>Deal context:<
+ /strong><br>Validus Energy Midcon II is launching a $500 million 5-year Se
+ nior Unsecured Notes offering (144A/Reg S for life) rated B3/B/B (Moody's/
+ S&amp\;P/Fitch)\, positioning it firmly in high yield territory. The deal 
+ is sponsored by Elliott Management and features an NC-2 optional redemptio
+ n structure\, with proceeds earmarked to repay a portion of outstanding bo
+ rrowings under the company's Credit Facility. RBC Capital Markets is actin
+ g as Lead Left Bookrunner (B&amp\;D) on this high yield roadshow launched 
+ July 13th\, with pricing expected mid-week and closing T+3.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

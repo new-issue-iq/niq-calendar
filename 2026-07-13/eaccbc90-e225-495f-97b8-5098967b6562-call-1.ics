@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a69b61d71ea3c973-1@daily.newissueiq
+DTSTAMP:20260714T142252Z
+DTSTART;TZID=America/New_York:20260714T140000
+DTEND;TZID=America/New_York:20260714T144500
+SUMMARY:CARRIX INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CARRIX INC\nRoadshow: https://www.netroadshow.com/events/login/1Pe
+ THmojCnJdQVi29QygpmUj0fgfqMirAh4pd\n\nDeal context:\nCarrix\, Inc. is laun
+ ching a $2.5 billion Senior Secured Notes offering (Ba1/BBB- rated) with a
+  7-year tenor\, structured as 144A/Reg S for life\, as part of a broader $
+ 5.5 billion financing package that also includes a $2.5 billion Term Loan 
+ B and $500 million Delayed Draw Term Loan B. The notes feature a 3-year no
+ n-call period with a declining call schedule (par plus 50%/25%/0% of coupo
+ n)\, a 10% annual redemption at 103% during the non-call period\, and a 40
+ % equity clawback provision. Proceeds will be used alongside the term loan
+  proceeds to fully repay existing indebtedness\, fund a distribution\, and
+  provide cash for general corporate purposes including ongoing growth proj
+ ects\, with RBC acting as Lead Left B&D bookrunner alongside 12 joint book
+ runners and Blackstone as co-manager.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CARRIX INC</p><p><strong>Roadshow:</strong> https://www.netro
+ adshow.com/events/login/1PeTHmojCnJdQVi29QygpmUj0fgfqMirAh4pd</p><p><stron
+ g>Deal context:</strong><br>Carrix\, Inc. is launching a $2.5 billion Seni
+ or Secured Notes offering (Ba1/BBB- rated) with a 7-year tenor\, structure
+ d as 144A/Reg S for life\, as part of a broader $5.5 billion financing pac
+ kage that also includes a $2.5 billion Term Loan B and $500 million Delaye
+ d Draw Term Loan B. The notes feature a 3-year non-call period with a decl
+ ining call schedule (par plus 50%/25%/0% of coupon)\, a 10% annual redempt
+ ion at 103% during the non-call period\, and a 40% equity clawback provisi
+ on. Proceeds will be used alongside the term loan proceeds to fully repay 
+ existing indebtedness\, fund a distribution\, and provide cash for general
+  corporate purposes including ongoing growth projects\, with RBC acting as
+  Lead Left B&amp\;D bookrunner alongside 12 joint bookrunners and Blacksto
+ ne as co-manager.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
