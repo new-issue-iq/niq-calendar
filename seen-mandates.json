@@ -573,5 +573,10 @@
     "id": "715ed60a-d541-4fc8-8590-0d371ba2f0e7",
     "issuerName": "SBA COMM CORP",
     "alertedAt": "2026-07-13T14:20:50.377Z"
+  },
+  {
+    "id": "54f88579-b73c-44f3-a1a4-6daec641e11d",
+    "issuerName": "BAYER AKTIENGESELLSCHAFT",
+    "alertedAt": "2026-07-14T12:40:21.866Z"
   }
 ]

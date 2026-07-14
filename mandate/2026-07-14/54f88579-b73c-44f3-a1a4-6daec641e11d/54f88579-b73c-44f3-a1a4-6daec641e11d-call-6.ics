@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:49d90cff91d62711-6@daily.newissueiq
+DTSTAMP:20260714T124016Z
+DTSTART;TZID=America/New_York:20260714T140000
+DTEND;TZID=America/New_York:20260714T144500
+SUMMARY:BAYNGR — Call #6
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BAYER AKTIENGESELLSCHAFT (BAYNGR)\nRoadshow: URL: https://dealroad
+ show.finsight.com | Entry Code: Bayer2026 | Direct Link: https://dealroads
+ how.finsight.com/e/Bayer2026\n\nDeal context:\nBayer Aktiengesellschaft (B
+ AYNGR)\, rated Baa2/BBB/BBB (stable/negative/negative) by Moody's/S&P/Fitc
+ h\, has mandated BofA Securities and Deutsche Bank as Global Coordinators 
+ alongside Barclays\, Goldman Sachs & Co. LLC\, J.P. Morgan\, and Morgan St
+ anley as Active Joint Bookrunners for a USD-denominated 144A/Reg S multi-t
+ ranche senior unsecured bond offering issued by Bayer US Finance LLC and g
+ uaranteed by Bayer AG. The deal spans 5-year to 30-year tenors with invest
+ or calls scheduled for July 14\, 2026\, subject to market conditions. Proc
+ eeds are intended for general corporate purposes\, with no specific size a
+ nnounced at this mandate stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BAYER AKTIENGESELLSCHAFT (BAYNGR)</p><p><strong>Roadshow:</st
+ rong> URL: https://dealroadshow.finsight.com | Entry Code: Bayer2026 | Dir
+ ect Link: https://dealroadshow.finsight.com/e/Bayer2026</p><p><strong>Deal
+  context:</strong><br>Bayer Aktiengesellschaft (BAYNGR)\, rated Baa2/BBB/B
+ BB (stable/negative/negative) by Moody's/S&amp\;P/Fitch\, has mandated Bof
+ A Securities and Deutsche Bank as Global Coordinators alongside Barclays\,
+  Goldman Sachs &amp\; Co. LLC\, J.P. Morgan\, and Morgan Stanley as Active
+  Joint Bookrunners for a USD-denominated 144A/Reg S multi-tranche senior u
+ nsecured bond offering issued by Bayer US Finance LLC and guaranteed by Ba
+ yer AG. The deal spans 5-year to 30-year tenors with investor calls schedu
+ led for July 14\, 2026\, subject to market conditions. Proceeds are intend
+ ed for general corporate purposes\, with no specific size announced at thi
+ s mandate stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
