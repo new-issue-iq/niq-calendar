@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:32fd1cec7395d082-1@daily.newissueiq
+DTSTAMP:20260715T132339Z
+DTSTART;TZID=America/New_York:20260714T103000
+DTEND;TZID=America/New_York:20260714T111500
+SUMMARY:BEUSA INVESTMENTS LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BEUSA INVESTMENTS LLC\nRoadshow: Registration Link: https://www.ne
+ troadshow.com/events/login/1PeTHmoj7QvBPERXWoYrEbB1lJjB4wms5KUFi | Replay 
+ Link: https://www.netroadshow.com/events/login/1PeTHmoj7QvBPERXWoYrEbB1lJj
+ B4wms5KUFi | Slides Only: www.netroadshow.com | Entry Code: BEU2026\n\nDea
+ l context:\nBeusa Investments\, LLC is bringing a $600 million 5-year Seni
+ or Notes offering (NC-2) to market via a 144A/Reg S format\, with BofA act
+ ing as left lead bookrunner alongside WFS and MUFG as joint active bookrun
+ ners. The deal is in roadshow/mandate stage with an investor call schedule
+ d for Tuesday\, July 14th at 10:30 AM ET\, with the roadshow running throu
+ gh Thursday. Proceeds will be used to repay borrowings under the Revolving
+  Credit Facility\, fully repay and terminate the Evolution MLSA\, AMP Unse
+ cured Note\, Oracle Credit Facility\, and Mertz Equipment Term Loan\, and 
+ pay related fees and expenses — a comprehensive debt refinancing and clean
+ up transaction for this distributed power and e-frac services provider.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BEUSA INVESTMENTS LLC</p><p><strong>Roadshow:</strong> Regist
+ ration Link: https://www.netroadshow.com/events/login/1PeTHmoj7QvBPERXWoYr
+ EbB1lJjB4wms5KUFi | Replay Link: https://www.netroadshow.com/events/login/
+ 1PeTHmoj7QvBPERXWoYrEbB1lJjB4wms5KUFi | Slides Only: www.netroadshow.com |
+  Entry Code: BEU2026</p><p><strong>Deal context:</strong><br>Beusa Investm
+ ents\, LLC is bringing a $600 million 5-year Senior Notes offering (NC-2) 
+ to market via a 144A/Reg S format\, with BofA acting as left lead bookrunn
+ er alongside WFS and MUFG as joint active bookrunners. The deal is in road
+ show/mandate stage with an investor call scheduled for Tuesday\, July 14th
+  at 10:30 AM ET\, with the roadshow running through Thursday. Proceeds wil
+ l be used to repay borrowings under the Revolving Credit Facility\, fully 
+ repay and terminate the Evolution MLSA\, AMP Unsecured Note\, Oracle Credi
+ t Facility\, and Mertz Equipment Term Loan\, and pay related fees and expe
+ nses — a comprehensive debt refinancing and cleanup transaction for this d
+ istributed power and e-frac services provider.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
