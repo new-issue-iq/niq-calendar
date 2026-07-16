@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:586ff1831cd516c3-1@daily.newissueiq
+DTSTAMP:20260716T133132Z
+DTSTART;TZID=America/New_York:20260716T110000
+DTEND;TZID=America/New_York:20260716T114500
+SUMMARY:KENNEDY-WILSON INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: KENNEDY-WILSON INC\nRoadshow: URL: https://dealroadshow.finsight.c
+ om | Entry Code: KWJULY26 | Direct Link: https://dealroadshow.finsight.com
+ /e/KWJULY26 (available 10 minutes prior)\n\nDeal context:\nKennedy-Wilson\
+ , Inc. is launching a $200 million add-on to its existing 7.25% Senior Not
+ es due June 1\, 2033\, rated B2/B (High Yield)\, via a 144A immediately fu
+ ngible / Reg S fungible after 40 days structure. Initial price talk is set
+  at 100.5-101\, with proceeds intended to repay all or a portion of indebt
+ edness outstanding under the Third A&R Facility and for general corporate 
+ purposes. The deal is expected to price today with joint books led by JPM/
+ BOFA/FIFTH THIRD/M&T/US BANK and co-managers CITI/DB/GS/BMO/SCOTIA/TD.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> KENNEDY-WILSON INC</p><p><strong>Roadshow:</strong> URL: http
+ s://dealroadshow.finsight.com | Entry Code: KWJULY26 | Direct Link: https:
+ //dealroadshow.finsight.com/e/KWJULY26 (available 10 minutes prior)</p><p>
+ <strong>Deal context:</strong><br>Kennedy-Wilson\, Inc. is launching a $20
+ 0 million add-on to its existing 7.25% Senior Notes due June 1\, 2033\, ra
+ ted B2/B (High Yield)\, via a 144A immediately fungible / Reg S fungible a
+ fter 40 days structure. Initial price talk is set at 100.5-101\, with proc
+ eeds intended to repay all or a portion of indebtedness outstanding under 
+ the Third A&amp\;R Facility and for general corporate purposes. The deal i
+ s expected to price today with joint books led by JPM/BOFA/FIFTH THIRD/M&a
+ mp\;T/US BANK and co-managers CITI/DB/GS/BMO/SCOTIA/TD.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
