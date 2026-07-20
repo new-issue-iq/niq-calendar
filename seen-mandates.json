@@ -583,5 +583,15 @@
     "id": "eba84c6e-6d09-4b56-b6e3-2bf2cd474790",
     "issuerName": "AFREXIMBANK",
     "alertedAt": "2026-07-15T12:40:27.478Z"
+  },
+  {
+    "id": "4f05cf05-1483-4303-bdee-886e8a6c3de9",
+    "issuerName": "SOPAIPILLA INVESTOR LLC",
+    "alertedAt": "2026-07-20T12:40:33.598Z"
+  },
+  {
+    "id": "04b3de7d-5fc2-4ec6-8584-af54ced7594d",
+    "issuerName": "AES ESPANA B V",
+    "alertedAt": "2026-07-20T12:40:39.514Z"
   }
 ]

@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a1e03bc480b7111a-1@daily.newissueiq
+DTSTAMP:20260720T124024Z
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T110000
+SUMMARY:SOPAIPILLA INVESTOR LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SOPAIPILLA INVESTOR LLC\nRoadshow: www.netroadshow.com/nrs/home/#!
+ /?show=d6ff886e (Recommended) | Entry Code: SOPAIPILLA26 | www.netroadshow
+ .com\n\nDeal context:\nSopaipilla Investor\, LLC\, a Delaware LLC and indi
+ rect subsidiary of BlackRock-affiliated funds (GIM and HPS)\, has mandated
+  J.P. Morgan and Morgan Stanley to arrange fixed income investor calls ahe
+ ad of a potential Rule 144A / Reg S capital markets transaction. The Issue
+ r is a passive holding company formed to own an 80% equity interest in a g
+ reenfield data center campus joint venture in El Paso\, Texas (Project Sop
+ aipilla Holdings LLC)\, with Meta Platforms\, Inc. holding the remaining 2
+ 0%. No deal size\, tenor\, coupon\, or pricing terms have been disclosed a
+ t this early mandate stage\; the transaction remains subject to market con
+ ditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SOPAIPILLA INVESTOR LLC</p><p><strong>Roadshow:</strong> www.
+ netroadshow.com/nrs/home/#!/?show=d6ff886e (Recommended) | Entry Code: SOP
+ AIPILLA26 | www.netroadshow.com</p><p><strong>Deal context:</strong><br>So
+ paipilla Investor\, LLC\, a Delaware LLC and indirect subsidiary of BlackR
+ ock-affiliated funds (GIM and HPS)\, has mandated J.P. Morgan and Morgan S
+ tanley to arrange fixed income investor calls ahead of a potential Rule 14
+ 4A / Reg S capital markets transaction. The Issuer is a passive holding co
+ mpany formed to own an 80% equity interest in a greenfield data center cam
+ pus joint venture in El Paso\, Texas (Project Sopaipilla Holdings LLC)\, w
+ ith Meta Platforms\, Inc. holding the remaining 20%. No deal size\, tenor\
+ , coupon\, or pricing terms have been disclosed at this early mandate stag
+ e\; the transaction remains subject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
