@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:STANDARD
+DTSTART:19710101T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19710101T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:677ec1414feb4efe-1@daily.newissueiq
+DTSTAMP:20260720T152027Z
+DTSTART;TZID=Europe/London:20260720T140000
+DTEND;TZID=Europe/London:20260720T144500
+SUMMARY:NOMD — Global Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NOMAD FOODS BONDCO PLC (NOMD)\nRoadshow: www.netroadshow.com/nrs/h
+ ome/#!/?show=55fab390 or visit www.netroadshow.com and enter the entry cod
+ e: NOMD26\n\nDeal context:\nNomad Foods Bondco plc is launching a €800 mil
+ lion Senior Secured Fixed Rate Notes offering with a 7-year tenor\, struct
+ ured as a full refinancing of its existing €800 million 2.5% Senior Secure
+ d Notes due 2028. The deal is distributed on a RegS / 144A For Life basis\
+ , listed on TISE\, and governed by New York Law\, with Jefferies acting as
+  Lead Left and B&D. The transaction features NC3 call protection with a de
+ clining schedule (50% / 25% / Par) and carries existing corporate ratings 
+ of B1 / BB- / BB (Moody's / S&P / Fitch)\, firmly placing it in the High Y
+ ield space.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NOMAD FOODS BONDCO PLC (NOMD)</p><p><strong>Roadshow:</strong
+ > www.netroadshow.com/nrs/home/#!/?show=55fab390 or visit www.netroadshow.
+ com and enter the entry code: NOMD26</p><p><strong>Deal context:</strong><
+ br>Nomad Foods Bondco plc is launching a €800 million Senior Secured Fixed
+  Rate Notes offering with a 7-year tenor\, structured as a full refinancin
+ g of its existing €800 million 2.5% Senior Secured Notes due 2028. The dea
+ l is distributed on a RegS / 144A For Life basis\, listed on TISE\, and go
+ verned by New York Law\, with Jefferies acting as Lead Left and B&amp\;D. 
+ The transaction features NC3 call protection with a declining schedule (50
+ % / 25% / Par) and carries existing corporate ratings of B1 / BB- / BB (Mo
+ ody's / S&amp\;P / Fitch)\, firmly placing it in the High Yield space.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
