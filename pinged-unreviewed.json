@@ -143,5 +143,10 @@
     "id": "eba84c6e-6d09-4b56-b6e3-2bf2cd474790",
     "issuerName": "AFREXIMBANK",
     "pingedAt": "2026-07-15T12:30:21.548Z"
+  },
+  {
+    "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
+    "issuerName": "ICICI BANK LTD",
+    "pingedAt": "2026-07-21T20:10:27.795Z"
   }
 ]
