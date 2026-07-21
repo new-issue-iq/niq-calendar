@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c5d6cf1bab3eeae2-1@daily.newissueiq
+DTSTAMP:20260721T131804Z
+DTSTART;TZID=America/New_York:20260721T110000
+DTEND;TZID=America/New_York:20260721T114500
+SUMMARY:FREEDMO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FREEDOM MTG HOLDINGS LLC (FREEDMO)\nRoadshow: URL: https://dealroa
+ dshow.com | Entry Code: FALCONS2026 | Direct Link: https://dealroadshow.fi
+ nsight.com/e/FALCONS2026 (available 10 minutes prior)\n\nDeal context:\nFr
+ eedom Mortgage Holdings LLC is launching a $500 million Senior Notes offer
+ ing with a 5.5NC2.5 structure\, distributed via 144A/Reg S for life format
+ . The deal is being brought to market at Initial Price Talk in the low 8s 
+ area\, with proceeds earmarked to repay borrowings outstanding under the M
+ SR Facility. Freedom Mortgage is a leading nationwide non-bank residential
+  mortgage loan originator and servicer\, rated B2/B/BB- (Moody's/S&P/Fitch
+ )\, with a broad 12-bank syndicate led by JPMorgan targeting today's busin
+ ess for pricing.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FREEDOM MTG HOLDINGS LLC (FREEDMO)</p><p><strong>Roadshow:</s
+ trong> URL: https://dealroadshow.com | Entry Code: FALCONS2026 | Direct Li
+ nk: https://dealroadshow.finsight.com/e/FALCONS2026 (available 10 minutes 
+ prior)</p><p><strong>Deal context:</strong><br>Freedom Mortgage Holdings L
+ LC is launching a $500 million Senior Notes offering with a 5.5NC2.5 struc
+ ture\, distributed via 144A/Reg S for life format. The deal is being broug
+ ht to market at Initial Price Talk in the low 8s area\, with proceeds earm
+ arked to repay borrowings outstanding under the MSR Facility. Freedom Mort
+ gage is a leading nationwide non-bank residential mortgage loan originator
+  and servicer\, rated B2/B/BB- (Moody's/S&amp\;P/Fitch)\, with a broad 12-
+ bank syndicate led by JPMorgan targeting today's business for pricing.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
