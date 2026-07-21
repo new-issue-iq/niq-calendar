@@ -598,5 +598,10 @@
     "id": "5271bb02-e36b-42d4-b0d3-0468d25f5cfa",
     "issuerName": "NOMAD FOODS BONDCO PLC",
     "alertedAt": "2026-07-20T15:20:35.118Z"
+  },
+  {
+    "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
+    "issuerName": "ICICI BANK LTD",
+    "alertedAt": "2026-07-21T20:20:34.270Z"
   }
 ]
