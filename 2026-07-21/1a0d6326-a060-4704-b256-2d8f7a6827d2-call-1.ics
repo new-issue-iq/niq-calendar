@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8433aa83ed80439e-1@daily.newissueiq
+DTSTAMP:20260722T132543Z
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T104500
+SUMMARY:MAGNOLIA OIL & GAS OPERATING LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MAGNOLIA OIL & GAS OPERATING LLC\nRoadshow: https://www.netroadsho
+ w.com/events/login/1PeTHmojHEwAAGvvpbFnNBDwFklvTdAqPUz0S\n\nDeal context:\
+ nMagnolia Oil & Gas Operating LLC and Magnolia Oil & Gas Finance Corp. are
+  bringing a $500 million 8-year Senior Unsecured Notes offering to market\
+ , rated Ba3/BB- at the issue level (Ba2/BB- at the corporate level)\, with
+  initial price talk in the high 6s to 7% range. The deal is being used to 
+ fund the acquisition of WildFire Energy\, alongside equity proceeds\, RBL 
+ facility borrowings\, and cash on hand\, with a special mandatory redempti
+ on feature at par if the WildFire acquisition is not completed by March 19
+ \, 2027. The transaction is structured as 144A/Reg S for Life with NC-3 ca
+ ll protection\, a 40% equity clawback for the first three years\, and a ch
+ ange of control put at 101%\, with Citi acting as left lead among 12 joint
+  bookrunners.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MAGNOLIA OIL &amp\; GAS OPERATING LLC</p><p><strong>Roadshow:
+ </strong> https://www.netroadshow.com/events/login/1PeTHmojHEwAAGvvpbFnNBD
+ wFklvTdAqPUz0S</p><p><strong>Deal context:</strong><br>Magnolia Oil &amp\;
+  Gas Operating LLC and Magnolia Oil &amp\; Gas Finance Corp. are bringing 
+ a $500 million 8-year Senior Unsecured Notes offering to market\, rated Ba
+ 3/BB- at the issue level (Ba2/BB- at the corporate level)\, with initial p
+ rice talk in the high 6s to 7% range. The deal is being used to fund the a
+ cquisition of WildFire Energy\, alongside equity proceeds\, RBL facility b
+ orrowings\, and cash on hand\, with a special mandatory redemption feature
+  at par if the WildFire acquisition is not completed by March 19\, 2027. T
+ he transaction is structured as 144A/Reg S for Life with NC-3 call protect
+ ion\, a 40% equity clawback for the first three years\, and a change of co
+ ntrol put at 101%\, with Citi acting as left lead among 12 joint bookrunne
+ rs.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

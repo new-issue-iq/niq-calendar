@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1945fd971f688869-1@daily.newissueiq
+DTSTAMP:20260722T132543Z
+DTSTART;TZID=America/New_York:20260722T103000
+DTEND;TZID=America/New_York:20260722T111500
+SUMMARY:HOWAMID — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HOWARD MIDSTREAM ENERGY PARTNERS LLC (HOWAMID)\nRoadshow: https://
+ www.netroadshow.com/events/login/1PeTHmohFAEhMLd2aoMY0EBTNWzlmp0GnYHYp\n\n
+ Deal context:\nHoward Midstream Energy Partners\, LLC is bringing a $600 m
+ illion Senior Notes offering due 2035 (8.5-year tenor with a 3-year non-ca
+ ll period) to market\, rated B1/BB-/BB- by Moody's/S&P/Fitch\, placing thi
+ s firmly in high yield territory. Initial price talk is in the 'High 6s\,'
+  with pricing expected today (July 22\, 2026) and settlement on July 27\, 
+ 2026 (T+3). Proceeds will be used primarily to repay outstanding borrowing
+ s under the company's revolving credit facility\, with any excess directed
+  toward general corporate purposes\; the deal is distributed via 144A/Reg 
+ S for life format with TD Securities acting as left lead bookrunner.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HOWARD MIDSTREAM ENERGY PARTNERS LLC (HOWAMID)</p><p><strong>
+ Roadshow:</strong> https://www.netroadshow.com/events/login/1PeTHmohFAEhML
+ d2aoMY0EBTNWzlmp0GnYHYp</p><p><strong>Deal context:</strong><br>Howard Mid
+ stream Energy Partners\, LLC is bringing a $600 million Senior Notes offer
+ ing due 2035 (8.5-year tenor with a 3-year non-call period) to market\, ra
+ ted B1/BB-/BB- by Moody's/S&amp\;P/Fitch\, placing this firmly in high yie
+ ld territory. Initial price talk is in the 'High 6s\,' with pricing expect
+ ed today (July 22\, 2026) and settlement on July 27\, 2026 (T+3). Proceeds
+  will be used primarily to repay outstanding borrowings under the company'
+ s revolving credit facility\, with any excess directed toward general corp
+ orate purposes\; the deal is distributed via 144A/Reg S for life format wi
+ th TD Securities acting as left lead bookrunner.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

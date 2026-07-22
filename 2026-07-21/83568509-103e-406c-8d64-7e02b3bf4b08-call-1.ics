@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7c341d890b2069b2-1@daily.newissueiq
+DTSTAMP:20260722T132543Z
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T104500
+SUMMARY:GALAXY HELIOS DATA CENTERS II LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GALAXY HELIOS DATA CENTERS II LLC\nRoadshow: https://www.netroadsh
+ ow.com/nrs/home/#!/?show=cc38f4ba | Passcode: GALAXY26\n\nDeal context:\nG
+ alaxy Helios Data Centers II LLC is bringing a $3.507 billion 5-year Senio
+ r Secured Notes offering (144A-for-Life / Reg S) to market\, representing 
+ a significant project finance-style data center deal backed by a 100% pre-
+ leased 400 MW gross (260 MW Critical IT) facility in Dickens County\, Texa
+ s\, with CoreWeave\, Inc. as the sole tenant under a 15-year near-NNN leas
+ e. The deal features a non-call 2 structure with 4% per annum amortization
+  beginning 10 months post-construction completion\, with proceeds funding 
+ development and construction of the project\, debt reserves\, and fees. Mo
+ rgan Stanley is acting as Lead Left and B&D alongside GS\, with pricing ex
+ pected on July 23\, 2026\, and an investor conference call scheduled for J
+ uly 22\, 2026 at 10:00 AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GALAXY HELIOS DATA CENTERS II LLC</p><p><strong>Roadshow:</st
+ rong> https://www.netroadshow.com/nrs/home/#!/?show=cc38f4ba | Passcode: G
+ ALAXY26</p><p><strong>Deal context:</strong><br>Galaxy Helios Data Centers
+  II LLC is bringing a $3.507 billion 5-year Senior Secured Notes offering 
+ (144A-for-Life / Reg S) to market\, representing a significant project fin
+ ance-style data center deal backed by a 100% pre-leased 400 MW gross (260 
+ MW Critical IT) facility in Dickens County\, Texas\, with CoreWeave\, Inc.
+  as the sole tenant under a 15-year near-NNN lease. The deal features a no
+ n-call 2 structure with 4% per annum amortization beginning 10 months post
+ -construction completion\, with proceeds funding development and construct
+ ion of the project\, debt reserves\, and fees. Morgan Stanley is acting as
+  Lead Left and B&amp\;D alongside GS\, with pricing expected on July 23\, 
+ 2026\, and an investor conference call scheduled for July 22\, 2026 at 10:
+ 00 AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
