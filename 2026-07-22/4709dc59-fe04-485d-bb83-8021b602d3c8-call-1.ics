@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8f8fedfd6b86d407-1@daily.newissueiq
+DTSTAMP:20260723T141034Z
+DTSTART;TZID=America/New_York:20260723T103000
+DTEND;TZID=America/New_York:20260723T111500
+SUMMARY:ATHENAHEALTH GROUP INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ATHENAHEALTH GROUP INC\nRoadshow: URL: https://dealroadshow.com | 
+ Entry Code: ACAIBO26 | Direct Link: https://dealroadshow.finsight.com/e/AC
+ AIBO26 (available 10 mins prior)\n\nDeal context:\nathenahealth Group Inc.
+ \, a U.S. healthcare technology company providing cloud-based EHR and prac
+ tice management solutions\, is bringing a minimum $500mm Senior Secured No
+ tes offering (alongside a Term Loan B Add-On\, with combined proceeds tota
+ ling $1\,538mm) rated B2/B to refinance its First Amendment Term Loans due
+  2029. The deal is structured as a 5.5NC2 with a 10% equity claw at 103 fo
+ r 2 years\, distributed as 144A/Reg S for life\, with IPT in the mid-7s ar
+ ea and pricing expected Friday\, July 24. The transaction is led by a broa
+ d syndicate of 25 joint bookrunners including JPM\, GS\, BMO\, and Barclay
+ s.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ATHENAHEALTH GROUP INC</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.com | Entry Code: ACAIBO26 | Direct Link: https://dea
+ lroadshow.finsight.com/e/ACAIBO26 (available 10 mins prior)</p><p><strong>
+ Deal context:</strong><br>athenahealth Group Inc.\, a U.S. healthcare tech
+ nology company providing cloud-based EHR and practice management solutions
+ \, is bringing a minimum $500mm Senior Secured Notes offering (alongside a
+  Term Loan B Add-On\, with combined proceeds totaling $1\,538mm) rated B2/
+ B to refinance its First Amendment Term Loans due 2029. The deal is struct
+ ured as a 5.5NC2 with a 10% equity claw at 103 for 2 years\, distributed a
+ s 144A/Reg S for life\, with IPT in the mid-7s area and pricing expected F
+ riday\, July 24. The transaction is led by a broad syndicate of 25 joint b
+ ookrunners including JPM\, GS\, BMO\, and Barclays.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
