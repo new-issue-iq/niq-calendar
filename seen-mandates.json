@@ -603,5 +603,10 @@
     "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
     "issuerName": "ICICI BANK LTD",
     "alertedAt": "2026-07-21T20:20:34.270Z"
+  },
+  {
+    "id": "0359fc03-e853-421f-b786-694d9f6a8fda",
+    "issuerName": "BOOZ ALLEN HAMILTON INC",
+    "alertedAt": "2026-07-27T12:41:24.790Z"
   }
 ]
