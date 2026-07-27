@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5659ef49f1759382-1@daily.newissueiq
+DTSTAMP:20260727T133600Z
+DTSTART;TZID=America/New_York:20260727T110000
+DTEND;TZID=America/New_York:20260727T114500
+SUMMARY:FAMILY DOLLAR STORES LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FAMILY DOLLAR STORES LLC\nRoadshow: https://www.netroadshow.com/ev
+ ents/login/1PeTHmohWBIU34yINZolXiYFAk1Bg0vRgvJ0p\n\nDeal context:\nFamily 
+ Dollar Stores\, LLC is bringing a $450 million Senior Secured Notes offeri
+ ng with a 5-year tenor\, structured as a 144A/Reg S for life deal with NC2
+  call protection. The deal is at the IPT stage with initial price talk of 
+ 10% area\, with an investor call scheduled for today\, July 27\, 2026 at 1
+ 1:00AM EST. Proceeds will be used alongside borrowings under a New Term Lo
+ an Facility and New ABL Facility to fund the Transactions and pay related 
+ fees and expenses.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FAMILY DOLLAR STORES LLC</p><p><strong>Roadshow:</strong> htt
+ ps://www.netroadshow.com/events/login/1PeTHmohWBIU34yINZolXiYFAk1Bg0vRgvJ0
+ p</p><p><strong>Deal context:</strong><br>Family Dollar Stores\, LLC is br
+ inging a $450 million Senior Secured Notes offering with a 5-year tenor\, 
+ structured as a 144A/Reg S for life deal with NC2 call protection. The dea
+ l is at the IPT stage with initial price talk of 10% area\, with an invest
+ or call scheduled for today\, July 27\, 2026 at 11:00AM EST. Proceeds will
+  be used alongside borrowings under a New Term Loan Facility and New ABL F
+ acility to fund the Transactions and pay related fees and expenses.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

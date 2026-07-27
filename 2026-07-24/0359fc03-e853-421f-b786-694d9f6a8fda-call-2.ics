@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fbe75805f86d2bb5-2@daily.newissueiq
+DTSTAMP:20260727T133600Z
+DTSTART;TZID=America/New_York:20260727T140000
+DTEND;TZID=America/New_York:20260727T144500
+SUMMARY:BAH — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BOOZ ALLEN HAMILTON INC (BAH)\nRoadshow: https://netroadshow.com /
+  Password: BAH2026\n\nDeal context:\nBooz Allen Hamilton Inc. (Baa3 stable
+ /BBB- stable)\, an advanced technology company serving government and comm
+ ercial clients\, has mandated BofA Securities\, J.P. Morgan\, PNC Capital 
+ Markets LLC\, and Truist Securities to arrange a series of fixed income in
+ vestor calls on July 27\, 2026\, ahead of a potential senior unsecured US$
+  SEC Registered bond transaction. The deal is at the Mandate stage\, with 
+ no size\, tenor\, pricing\, or spread information disclosed\, and is subje
+ ct to market conditions. Company participants include CFO Troy Lahr\, SVP 
+ Corporate Finance Lindsay Joyce\, and Director/Assistant Treasurer David D
+ udish.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BOOZ ALLEN HAMILTON INC (BAH)</p><p><strong>Roadshow:</strong
+ > https://netroadshow.com / Password: BAH2026</p><p><strong>Deal context:<
+ /strong><br>Booz Allen Hamilton Inc. (Baa3 stable/BBB- stable)\, an advanc
+ ed technology company serving government and commercial clients\, has mand
+ ated BofA Securities\, J.P. Morgan\, PNC Capital Markets LLC\, and Truist 
+ Securities to arrange a series of fixed income investor calls on July 27\,
+  2026\, ahead of a potential senior unsecured US$ SEC Registered bond tran
+ saction. The deal is at the Mandate stage\, with no size\, tenor\, pricing
+ \, or spread information disclosed\, and is subject to market conditions. 
+ Company participants include CFO Troy Lahr\, SVP Corporate Finance Lindsay
+  Joyce\, and Director/Assistant Treasurer David Dudish.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
