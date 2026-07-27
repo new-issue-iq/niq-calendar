@@ -608,5 +608,10 @@
     "id": "0359fc03-e853-421f-b786-694d9f6a8fda",
     "issuerName": "BOOZ ALLEN HAMILTON INC",
     "alertedAt": "2026-07-27T12:41:24.790Z"
+  },
+  {
+    "id": "a2e1a92f-5980-4380-88d8-7ac896455ff5",
+    "issuerName": "CONSTELLATION INSURANCE INC",
+    "alertedAt": "2026-07-27T14:41:25.354Z"
   }
 ]
