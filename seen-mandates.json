@@ -613,5 +613,10 @@
     "id": "a2e1a92f-5980-4380-88d8-7ac896455ff5",
     "issuerName": "CONSTELLATION INSURANCE INC",
     "alertedAt": "2026-07-27T14:41:25.354Z"
+  },
+  {
+    "id": "bfd1f8e7-af07-4be5-8fd0-3f8f09153657",
+    "issuerName": "EMPRESA DISTRIBUIDORA Y COMERCIALIZADORA NORTE SA EDENOR SA",
+    "alertedAt": "2026-07-28T13:41:17.931Z"
   }
 ]
