@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0efa768fb4d488b7-3@daily.newissueiq
+DTSTAMP:20260728T132244Z
+DTSTART;TZID=America/New_York:20260728T150000
+DTEND;TZID=America/New_York:20260728T154500
+SUMMARY:BAH — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BOOZ ALLEN HAMILTON INC (BAH)\nRoadshow: https://netroadshow.com /
+  Password: BAH2026\n\nDeal context:\nBooz Allen Hamilton Inc. (Baa3 stable
+ /BBB- stable)\, an advanced technology company serving government and comm
+ ercial customers\, has mandated BofA Securities\, J.P. Morgan\, PNC Capita
+ l Markets LLC\, and Truist Securities to arrange a series of fixed income 
+ investor calls on July 27\, 2026\, ahead of a potential senior unsecured U
+ S$ SEC Registered bond transaction. The deal is at the Mandate stage with 
+ no size\, tenor\, or pricing terms disclosed\, subject to market condition
+ s. Three investor call sessions are scheduled between 12:00pm and 3:45pm E
+ T\, with company participants including CFO Troy Lahr and SVP Corporate Fi
+ nance Lindsay Joyce.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BOOZ ALLEN HAMILTON INC (BAH)</p><p><strong>Roadshow:</strong
+ > https://netroadshow.com / Password: BAH2026</p><p><strong>Deal context:<
+ /strong><br>Booz Allen Hamilton Inc. (Baa3 stable/BBB- stable)\, an advanc
+ ed technology company serving government and commercial customers\, has ma
+ ndated BofA Securities\, J.P. Morgan\, PNC Capital Markets LLC\, and Truis
+ t Securities to arrange a series of fixed income investor calls on July 27
+ \, 2026\, ahead of a potential senior unsecured US$ SEC Registered bond tr
+ ansaction. The deal is at the Mandate stage with no size\, tenor\, or pric
+ ing terms disclosed\, subject to market conditions. Three investor call se
+ ssions are scheduled between 12:00pm and 3:45pm ET\, with company particip
+ ants including CFO Troy Lahr and SVP Corporate Finance Lindsay Joyce.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

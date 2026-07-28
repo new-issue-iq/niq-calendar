@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:67f890a92945ff4e-2@daily.newissueiq
+DTSTAMP:20260728T132244Z
+DTSTART;TZID=America/New_York:20260727T140000
+DTEND;TZID=America/New_York:20260727T144500
+SUMMARY:CONSTL — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CONSTELLATION INSURANCE INC (CONSTL)\nRoadshow: Direct Link: https
+ ://dealroadshow.finsight.com/e/CONSTL2026 (recommended) | Website: https:/
+ /dealroadshow.finsight.com | Passcode: CONSTL2026 (not case-sensitive)\n\n
+ Deal context:\nDELETED: dupe Constellation Insurance\, Inc. (CONSTL) has m
+ andated BNP Paribas\, Deutsche Bank Securities\, and SMBC Nikko to arrange
+  fixed income investor calls ahead of a potential 144A/Reg S benchmark-siz
+ ed Funding Agreement Backed Notes offering from Constellation Global Fundi
+ ng\, with the underlying funding agreement issued by AuguStar Life Insuran
+ ce Company. The deal carries expected issuance ratings of A (Stable) from 
+ Fitch and A- (Stable) from S&P\, placing it firmly in investment grade ter
+ ritory. The transaction is subject to market conditions\, with investor ca
+ lls scheduled for Monday\, July 27th\, and Deutsche Bank Securities coordi
+ nating logistics.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CONSTELLATION INSURANCE INC (CONSTL)</p><p><strong>Roadshow:<
+ /strong> Direct Link: https://dealroadshow.finsight.com/e/CONSTL2026 (reco
+ mmended) | Website: https://dealroadshow.finsight.com | Passcode: CONSTL20
+ 26 (not case-sensitive)</p><p><strong>Deal context:</strong><br>DELETED: d
+ upe Constellation Insurance\, Inc. (CONSTL) has mandated BNP Paribas\, Deu
+ tsche Bank Securities\, and SMBC Nikko to arrange fixed income investor ca
+ lls ahead of a potential 144A/Reg S benchmark-sized Funding Agreement Back
+ ed Notes offering from Constellation Global Funding\, with the underlying 
+ funding agreement issued by AuguStar Life Insurance Company. The deal carr
+ ies expected issuance ratings of A (Stable) from Fitch and A- (Stable) fro
+ m S&amp\;P\, placing it firmly in investment grade territory. The transact
+ ion is subject to market conditions\, with investor calls scheduled for Mo
+ nday\, July 27th\, and Deutsche Bank Securities coordinating logistics.</p
+ >
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

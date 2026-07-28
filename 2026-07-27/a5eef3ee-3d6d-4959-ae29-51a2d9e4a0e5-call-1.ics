@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aa06ccf9b18cc423-1@daily.newissueiq
+DTSTAMP:20260728T132244Z
+DTSTART;TZID=America/New_York:20260720T143000
+DTEND;TZID=America/New_York:20260720T151500
+SUMMARY:ARCHES BUYER INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ARCHES BUYER INC\nRoadshow: https://www.netroadshow.com/events/log
+ in/1PeTHmojHAKOMKH3Rdor9kirb4IGe1VtbS3cb | Replay Stream: https://www.netr
+ oadshow.com/events/login/1PeTHmojHAKOMKH3Rdor9kirb4IGe1VtbS3cb\n\nDeal con
+ text:\nArches Buyer Inc. (operating as Ancestry) is bringing a $500 millio
+ n Senior Secured Notes offering with a 5-year tenor (2031 maturity)\, feat
+ uring a 91-day springing maturity provision tied to existing Unsecured Not
+ es ($700 million minimum size outstanding). The deal is structured as NC-2
+  with a first call at par plus 50% of the coupon\, includes a 10% per annu
+ m special optional redemption at 103 during the non-call period\, a Qualif
+ ied IPO redemption feature\, and a 40% equity claw\, with proceeds intende
+ d to repay outstanding Term Loan facilities alongside a concurrent First L
+ ien Term Loan B. The transaction is being distributed via 144A/Reg S for l
+ ife with a roadshow through the following week\, with an investor call sch
+ eduled for Monday\, July 20th at 2:30 PM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ARCHES BUYER INC</p><p><strong>Roadshow:</strong> https://www
+ .netroadshow.com/events/login/1PeTHmojHAKOMKH3Rdor9kirb4IGe1VtbS3cb | Repl
+ ay Stream: https://www.netroadshow.com/events/login/1PeTHmojHAKOMKH3Rdor9k
+ irb4IGe1VtbS3cb</p><p><strong>Deal context:</strong><br>Arches Buyer Inc. 
+ (operating as Ancestry) is bringing a $500 million Senior Secured Notes of
+ fering with a 5-year tenor (2031 maturity)\, featuring a 91-day springing 
+ maturity provision tied to existing Unsecured Notes ($700 million minimum 
+ size outstanding). The deal is structured as NC-2 with a first call at par
+  plus 50% of the coupon\, includes a 10% per annum special optional redemp
+ tion at 103 during the non-call period\, a Qualified IPO redemption featur
+ e\, and a 40% equity claw\, with proceeds intended to repay outstanding Te
+ rm Loan facilities alongside a concurrent First Lien Term Loan B. The tran
+ saction is being distributed via 144A/Reg S for life with a roadshow throu
+ gh the following week\, with an investor call scheduled for Monday\, July 
+ 20th at 2:30 PM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
