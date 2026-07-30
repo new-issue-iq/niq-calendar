@@ -148,5 +148,10 @@
     "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
     "issuerName": "ICICI BANK LTD",
     "pingedAt": "2026-07-21T20:10:27.795Z"
+  },
+  {
+    "id": "fc7d9b64-3bd5-418d-bd44-f9a9a1326b15",
+    "issuerName": "CAPRI GLOBAL CAPITAL LTD",
+    "pingedAt": "2026-07-30T11:01:14.784Z"
   }
 ]
