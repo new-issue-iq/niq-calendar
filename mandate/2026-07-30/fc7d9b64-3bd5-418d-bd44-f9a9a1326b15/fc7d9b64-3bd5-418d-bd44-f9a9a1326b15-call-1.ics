@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6d71872b5346d526-1@daily.newissueiq
+DTSTAMP:20260730T114112Z
+DTSTART;TZID=America/New_York:20260803T120000
+DTEND;TZID=America/New_York:20260803T124500
+SUMMARY:CGCL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CAPRI GLOBAL CAPITAL LTD (CGCL)\nRoadshow: https://www.netroadshow
+ .com/events/login/1PeTHmoj9wSVXRyfrJE09TLEdcnsqrtXdbBEz | *Avoid wait time
+  - Bypass speaking with an operator to join the call | *Receive a Calendar
+  Invitation with call access details including your unique PIN\n\nDeal con
+ text:\nCapri Global Capital Limited (CGCL)\, an Indian non-banking financi
+ al company\, is hosting an investor call on August 3\, 2026 to present Q1 
+ FY2027 financial results and provide a general business overview. This is 
+ a pre-deal investor engagement event with no bond terms disclosed — senior
+  management including the MD\, CFO\, and CRO will participate via Net Road
+ show. The communication represents a Mandate-stage outreach ahead of a pot
+ ential bond issuance.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CAPRI GLOBAL CAPITAL LTD (CGCL)</p><p><strong>Roadshow:</stro
+ ng> https://www.netroadshow.com/events/login/1PeTHmoj9wSVXRyfrJE09TLEdcnsq
+ rtXdbBEz | *Avoid wait time - Bypass speaking with an operator to join the
+  call | *Receive a Calendar Invitation with call access details including 
+ your unique PIN</p><p><strong>Deal context:</strong><br>Capri Global Capit
+ al Limited (CGCL)\, an Indian non-banking financial company\, is hosting a
+ n investor call on August 3\, 2026 to present Q1 FY2027 financial results 
+ and provide a general business overview. This is a pre-deal investor engag
+ ement event with no bond terms disclosed — senior management including the
+  MD\, CFO\, and CRO will participate via Net Roadshow. The communication r
+ epresents a Mandate-stage outreach ahead of a potential bond issuance.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

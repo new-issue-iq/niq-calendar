@@ -623,5 +623,10 @@
     "id": "9762e56e-bbcd-40c2-838c-c2ff322fa174",
     "issuerName": "BANCO MULTIVA",
     "alertedAt": "2026-07-29T13:21:10.419Z"
+  },
+  {
+    "id": "fc7d9b64-3bd5-418d-bd44-f9a9a1326b15",
+    "issuerName": "CAPRI GLOBAL CAPITAL LTD",
+    "alertedAt": "2026-07-30T11:41:29.801Z"
   }
 ]
