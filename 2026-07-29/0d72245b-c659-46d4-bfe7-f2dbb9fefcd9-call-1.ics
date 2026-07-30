@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:131f3159f4bbd54f-1@daily.newissueiq
+DTSTAMP:20260730T132148Z
+DTSTART;TZID=America/New_York:20260727T130000
+DTEND;TZID=America/New_York:20260727T134500
+SUMMARY:1785939D US — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SCIH SALT HOLDINGS INC (1785939D US)\nRoadshow: Registration Link:
+  https://www.netroadshow.com/events/login/1PeTHmohOswCMNZ8V4gwdio1MHqKKlnS
+ Ky32A | Replay Link: https://www.netroadshow.com/events/login/1PeTHmohOswC
+ MNZ8V4gwdio1MHqKKlnSKy32A | Slides Only: www.netroadshow.com | Entry Code:
+  Morton26\n\nDeal context:\nSCIH Salt Holdings Inc. (Morton Salt) is bring
+ ing a two-tranche high yield offering consisting of $1\,100 million Senior
+  Secured Notes (5-year\, NC-2\, rated B3/B) and $700 million Senior Unsecu
+ red Notes (6-year\, NC-3\, rated Caa2/CCC+)\, for a total deal size of $1\
+ ,800 million. The proceeds\, alongside a concurrent $3\,000 million Term L
+ oan B\, will be used to refinance existing debt (Term Loan B\, 4.875% Seni
+ or First Lien Notes due 2028\, and 6.625% Senior Notes due 2029)\, make a 
+ distribution to ownership\, and pay fees and expenses. BofA is leading the
+  secured tranche and JPM is leading the unsecured tranche in a 144A/Reg S 
+ format\, with an investor call scheduled for Monday\, July 27th at 1:00 PM
+  ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SCIH SALT HOLDINGS INC (1785939D US)</p><p><strong>Roadshow:<
+ /strong> Registration Link: https://www.netroadshow.com/events/login/1PeTH
+ mohOswCMNZ8V4gwdio1MHqKKlnSKy32A | Replay Link: https://www.netroadshow.co
+ m/events/login/1PeTHmohOswCMNZ8V4gwdio1MHqKKlnSKy32A | Slides Only: www.ne
+ troadshow.com | Entry Code: Morton26</p><p><strong>Deal context:</strong><
+ br>SCIH Salt Holdings Inc. (Morton Salt) is bringing a two-tranche high yi
+ eld offering consisting of $1\,100 million Senior Secured Notes (5-year\, 
+ NC-2\, rated B3/B) and $700 million Senior Unsecured Notes (6-year\, NC-3\
+ , rated Caa2/CCC+)\, for a total deal size of $1\,800 million. The proceed
+ s\, alongside a concurrent $3\,000 million Term Loan B\, will be used to r
+ efinance existing debt (Term Loan B\, 4.875% Senior First Lien Notes due 2
+ 028\, and 6.625% Senior Notes due 2029)\, make a distribution to ownership
+ \, and pay fees and expenses. BofA is leading the secured tranche and JPM 
+ is leading the unsecured tranche in a 144A/Reg S format\, with an investor
+  call scheduled for Monday\, July 27th at 1:00 PM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
