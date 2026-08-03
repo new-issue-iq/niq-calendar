@@ -1,115 +1,5 @@
 [
   {
-    "id": "de587226-2edd-4cee-85f8-c136bfc74ecf",
-    "issuerName": "ESENTIA ENERGY DEVELOPMENT SAB DE CV",
-    "alertedAt": "2026-05-01T14:48:48.376Z"
-  },
-  {
-    "id": "ee0b7767-eeda-4b27-aeb7-2734950d9cfe",
-    "issuerName": "TRANS-OIL GROUP",
-    "alertedAt": "2026-05-01T14:48:48.376Z"
-  },
-  {
-    "id": "a076c5f4-a3c0-48a5-9384-ce0872d44532",
-    "issuerName": "PAREX RESOURCES INC",
-    "alertedAt": "2026-05-01T14:48:48.376Z"
-  },
-  {
-    "id": "271b3940-9994-4b1f-af58-425cf1e1ec55",
-    "issuerName": "BROADRIDGE FINL SOLUTIONS INC",
-    "alertedAt": "2026-05-03T14:56:55.373Z"
-  },
-  {
-    "id": "3515236c-f4f4-4dd6-9ec3-fdfb1b3e4912",
-    "issuerName": "BREAD FINL HOLDINGS INC",
-    "alertedAt": "2026-05-04T15:31:56.486Z"
-  },
-  {
-    "id": "08251feb-31d3-485e-a980-43cca6a9c64a",
-    "issuerName": "ESTADO PLURINACIONAL DE BOLIVIA",
-    "alertedAt": "2026-05-04T15:31:59.632Z"
-  },
-  {
-    "id": "17d4dad6-c9d3-45c6-92c9-fcda29806057",
-    "issuerName": "BANCA MIFEL SA",
-    "alertedAt": "2026-05-04T15:32:02.853Z"
-  },
-  {
-    "id": "bad3f988-4a2d-4017-a3b5-50018d1d381d",
-    "issuerName": "HUMANA INC",
-    "alertedAt": "2026-05-04T15:32:06.079Z"
-  },
-  {
-    "id": "7dbe0ae3-d4ed-462c-bb1e-f8378625421b",
-    "issuerName": "PATTERSON-UTI ENERGY",
-    "alertedAt": "2026-05-04T15:32:09.356Z"
-  },
-  {
-    "id": "8403bf91-6ef6-47d6-b6d8-55c921e39ab3",
-    "issuerName": "BOOKING HOLDINGS INC",
-    "alertedAt": "2026-05-05T10:50:32.529Z"
-  },
-  {
-    "id": "794d6b39-0045-44ac-81e8-a462cc313cc0",
-    "issuerName": "CITY OF BUENOS AIRES",
-    "alertedAt": "2026-05-05T10:50:57.738Z"
-  },
-  {
-    "id": "eada6873-c1f2-4417-bbfc-a82ef5c5ec8e",
-    "issuerName": "FEDERATIVE REPUBLIC OF BRAZIL",
-    "alertedAt": "2026-05-05T13:24:16.823Z"
-  },
-  {
-    "id": "ebe3714d-9049-439e-bab6-5d0c002d9a6a",
-    "issuerName": "GENTING BERHAD",
-    "alertedAt": "2026-05-05T13:24:19.710Z"
-  },
-  {
-    "id": "54e85b80-7bb0-48cc-a16d-5d9831db5ca6",
-    "issuerName": "SLM CORP",
-    "alertedAt": "2026-05-05T13:24:22.650Z"
-  },
-  {
-    "id": "b108b017-ff37-4ae3-8dc1-957408a8d294",
-    "issuerName": "AMERICAN CAMPUS COMMUNITIES ON CAMPUS FINANCING LLC",
-    "alertedAt": "2026-05-05T13:24:25.656Z"
-  },
-  {
-    "id": "c2c3c794-e33e-4bf4-bfbb-e4812ccfedc9",
-    "issuerName": "BANCO NACIONAL DE COMERCIO EXTERIOR S N C INSTITUCION DE BANCA DE DESARROLLO",
-    "alertedAt": "2026-05-05T13:24:28.612Z"
-  },
-  {
-    "id": "1f788ece-83f9-4ac8-a281-b622835aedfa",
-    "issuerName": "BANCO C6 SA",
-    "alertedAt": "2026-05-05T13:24:31.487Z"
-  },
-  {
-    "id": "39eedfbf-c849-42a9-9151-1b8252cb9c52",
-    "issuerName": "SAMMONS FINL GROUP INC",
-    "alertedAt": "2026-05-05T13:24:34.465Z"
-  },
-  {
-    "id": "7d821d5c-6fc3-4717-82a8-7c5687796978",
-    "issuerName": "COMPANIA GENERAL DE COMBUSTIBLES SA",
-    "alertedAt": "2026-05-05T13:24:37.624Z"
-  },
-  {
-    "id": "8c0d3aa7-aaa2-48e8-9876-a8ae713ca55f",
-    "issuerName": "OCEANICA ENGENHARIA E CONSULTORIA SA",
-    "alertedAt": "2026-05-05T13:24:40.605Z"
-  },
-  {
-    "id": "c89fcecb-96a2-4b4f-9992-5cd6b6d822b0",
-    "issuerName": "APA INFRASTRUCTURE LTD",
-    "alertedAt": "2026-05-05T13:24:43.661Z"
-  },
-  {
-    "id": "bf1dd42d-ef33-469f-8ed7-9fae8cb38215",
-    "issuerName": "THE CLOROX CO",
-    "alertedAt": "2026-05-05T13:24:46.685Z"
-  },
-  {
     "id": "bd232a96-3851-4409-897a-7e3b07ebfcec",
     "issuerName": "REPUBLIC OF ECUADOR",
     "alertedAt": "2026-05-05T17:00:29.722Z"
@@ -628,5 +518,10 @@
     "id": "fc7d9b64-3bd5-418d-bd44-f9a9a1326b15",
     "issuerName": "CAPRI GLOBAL CAPITAL LTD",
     "alertedAt": "2026-07-30T11:41:29.801Z"
+  },
+  {
+    "id": "e2b6f3fa-6ed1-4478-bb97-a69a217f4f97",
+    "issuerName": "SKYWORKS SOLUTIONS INC",
+    "alertedAt": "2026-08-03T13:40:48.388Z"
   }
 ]
