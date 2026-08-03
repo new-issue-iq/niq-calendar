@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f541192ec2595802-3@daily.newissueiq
+DTSTAMP:20260803T132331Z
+DTSTART;TZID=America/New_York:20260803T140000
+DTEND;TZID=America/New_York:20260803T144500
+SUMMARY:SWKS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SKYWORKS SOLUTIONS INC (SWKS)\nRoadshow: Direct Link: https://deal
+ roadshow.finsight.com/e/SWKS2026 | URL: https://dealroadshow.finsight.com 
+ | Password: SWKS2026\n\nDeal context:\nSkyworks Solutions\, Inc. (SWKS)\, 
+ rated BBB-/BBB+ by S&P/Fitch\, is arranging three fixed income investor ca
+ lls on August 3rd\, 2026 ahead of a potential SEC-registered senior unsecu
+ red USD note offering across 2-year\, long 5-year\, and 10-year tenors. Th
+ e deal is at the Mandate stage with no size or pricing disclosed\, subject
+  to market conditions. Goldman Sachs & Co. LLC is coordinating logistics a
+ longside BofA Securities\, J.P. Morgan\, and Wells Fargo Securities.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SKYWORKS SOLUTIONS INC (SWKS)</p><p><strong>Roadshow:</strong
+ > Direct Link: https://dealroadshow.finsight.com/e/SWKS2026 | URL: https:/
+ /dealroadshow.finsight.com | Password: SWKS2026</p><p><strong>Deal context
+ :</strong><br>Skyworks Solutions\, Inc. (SWKS)\, rated BBB-/BBB+ by S&amp\
+ ;P/Fitch\, is arranging three fixed income investor calls on August 3rd\, 
+ 2026 ahead of a potential SEC-registered senior unsecured USD note offerin
+ g across 2-year\, long 5-year\, and 10-year tenors. The deal is at the Man
+ date stage with no size or pricing disclosed\, subject to market condition
+ s. Goldman Sachs &amp\; Co. LLC is coordinating logistics alongside BofA S
+ ecurities\, J.P. Morgan\, and Wells Fargo Securities.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
