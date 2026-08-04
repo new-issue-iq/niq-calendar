@@ -508,5 +508,10 @@
     "id": "f2933c01-040f-4fa0-9dcf-0fd604ee53b2",
     "issuerName": "RWE AG",
     "alertedAt": "2026-08-04T13:00:38.586Z"
+  },
+  {
+    "id": "b96e0346-aa24-4afc-9cde-f0c583ab1161",
+    "issuerName": "ICON PLC",
+    "alertedAt": "2026-08-04T13:21:01.694Z"
   }
 ]
