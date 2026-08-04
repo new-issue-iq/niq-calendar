@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:16accb60a28b0640-3@daily.newissueiq
+DTSTAMP:20260804T132148Z
+DTSTART;TZID=America/New_York:20260804T140000
+DTEND;TZID=America/New_York:20260804T144500
+SUMMARY:ICLR — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ICON PLC (ICLR)\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=6
+ 6c74f59 (Recommended) OR Visit www.netroadshow.com and enter the deal entr
+ y code: ICON2026 (not case-sensitive)\n\nDeal context:\nICON plc (ICLR)\, 
+ a leading clinical research organization\, is launching a USD-denominated 
+ triple-tranche senior unsecured bond offering via its subsidiary ICON Inve
+ stments Six DAC\, fully guaranteed by ICON plc\, comprising 3-year\, 5-yea
+ r\, and 10-year fixed-rate benchmark-sized tranches. The deal is rated Baa
+ 3/BBB- (Moody's/S&P)\, placing it at the lowest investment grade rung\, an
+ d is structured as 144A/Reg S with Registration Rights. BofA Securities\, 
+ Citigroup\, HSBC\, J.P. Morgan\, and Morgan Stanley are acting as Joint Ac
+ tive Bookrunners\, with investor calls commencing August 4\, 2026\, and pr
+ icing subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ICON PLC (ICLR)</p><p><strong>Roadshow:</strong> www.netroads
+ how.com/nrs/home/#!/?show=66c74f59 (Recommended) OR Visit www.netroadshow.
+ com and enter the deal entry code: ICON2026 (not case-sensitive)</p><p><st
+ rong>Deal context:</strong><br>ICON plc (ICLR)\, a leading clinical resear
+ ch organization\, is launching a USD-denominated triple-tranche senior uns
+ ecured bond offering via its subsidiary ICON Investments Six DAC\, fully g
+ uaranteed by ICON plc\, comprising 3-year\, 5-year\, and 10-year fixed-rat
+ e benchmark-sized tranches. The deal is rated Baa3/BBB- (Moody's/S&amp\;P)
+ \, placing it at the lowest investment grade rung\, and is structured as 1
+ 44A/Reg S with Registration Rights. BofA Securities\, Citigroup\, HSBC\, J
+ .P. Morgan\, and Morgan Stanley are acting as Joint Active Bookrunners\, w
+ ith investor calls commencing August 4\, 2026\, and pricing subject to mar
+ ket conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
