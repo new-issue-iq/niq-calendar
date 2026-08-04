@@ -158,5 +158,10 @@
     "id": "e2b6f3fa-6ed1-4478-bb97-a69a217f4f97",
     "issuerName": "SKYWORKS SOLUTIONS INC",
     "pingedAt": "2026-08-03T13:30:33.497Z"
+  },
+  {
+    "id": "f2933c01-040f-4fa0-9dcf-0fd604ee53b2",
+    "issuerName": "RWE AG",
+    "pingedAt": "2026-08-04T12:50:35.340Z"
   }
 ]
