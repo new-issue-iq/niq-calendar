@@ -513,5 +513,10 @@
     "id": "b96e0346-aa24-4afc-9cde-f0c583ab1161",
     "issuerName": "ICON PLC",
     "alertedAt": "2026-08-04T13:21:01.694Z"
+  },
+  {
+    "id": "77dd4ada-2642-4388-84da-4c12b0d455aa",
+    "issuerName": "FRANKLIN RESOURCES INC",
+    "alertedAt": "2026-08-04T15:11:02.921Z"
   }
 ]
