@@ -1,25 +1,5 @@
 [
   {
-    "id": "bd232a96-3851-4409-897a-7e3b07ebfcec",
-    "issuerName": "REPUBLIC OF ECUADOR",
-    "alertedAt": "2026-05-05T17:00:29.722Z"
-  },
-  {
-    "id": "fd45479d-8f6a-4948-97f4-9d2fbe360a11",
-    "issuerName": "MAXIMA GRUPE",
-    "alertedAt": "2026-05-06T10:30:49.034Z"
-  },
-  {
-    "id": "f21fb65b-d89a-4fca-a469-4975d2afac39",
-    "issuerName": "KREDITANSTALT FUER WIEDERAUFBAU KFW",
-    "alertedAt": "2026-05-06T10:30:51.831Z"
-  },
-  {
-    "id": "52653bd5-8ad1-4a6f-ba5b-69b17cbab88b",
-    "issuerName": "SIBANYE STILLWATER LTD",
-    "alertedAt": "2026-05-06T12:30:55.278Z"
-  },
-  {
     "id": "541a1f32-e149-4bc4-83ca-5736cf3a97b7",
     "issuerName": "SERVICENOW INC",
     "alertedAt": "2026-05-11T12:50:24.033Z"
@@ -523,5 +503,10 @@
     "id": "e2b6f3fa-6ed1-4478-bb97-a69a217f4f97",
     "issuerName": "SKYWORKS SOLUTIONS INC",
     "alertedAt": "2026-08-03T13:40:48.388Z"
+  },
+  {
+    "id": "f2933c01-040f-4fa0-9dcf-0fd604ee53b2",
+    "issuerName": "RWE AG",
+    "alertedAt": "2026-08-04T13:00:38.586Z"
   }
 ]
