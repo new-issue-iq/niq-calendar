@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a533cdc10044df0c-1@daily.newissueiq
+DTSTAMP:20260805T134536Z
+DTSTART;TZID=America/New_York:20260805T103000
+DTEND;TZID=America/New_York:20260805T111500
+SUMMARY:FOCUS FINL PARTNERS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FOCUS FINL PARTNERS\nRoadshow: https://rbccm.email.streetcontxt.ne
+ t/platform/al?a=13774169&ad=4706765204&h=5s_lVXz&sig=8guHqshCMXgVkMsqL0EQp
+ 4eqCLB&v=2&url=https://www.netroadshow.com/events/login/1PeTHmojHdfBYdxgJq
+ hRT5E5vjsOYbIyUmmll\n\nDeal context:\nFocus Financial Partners\, LLC is br
+ inging a $525 million Senior Secured Notes offering with a 5-year tenor (S
+ eptember 15\, 2031 maturity) rated B3/B by Moody's/S&P\, placing it firmly
+  in high yield territory. The deal is structured as NC-2 with 144A/Reg S f
+ or life distribution\, led by RBC as Lead Left Bookrunner alongside a broa
+ d syndicate of 12 joint bookrunners including Stone Point CM\, Truist\, Bo
+ fA\, MUFG\, TD\, Citizens\, GS\, JPM\, BMO\, 5/3\, MS\, and Seelaus. Proce
+ eds are intended to fund a cash distribution\, pay down revolver borrowing
+ s\, and cover related fees and expenses\, with the deal launching and pric
+ ing on August 5 via a high yield roadshow and global investor conference c
+ all at 10:30AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FOCUS FINL PARTNERS</p><p><strong>Roadshow:</strong> https://
+ rbccm.email.streetcontxt.net/platform/al?a=13774169&amp\;ad=4706765204&amp
+ \;h=5s_lVXz&amp\;sig=8guHqshCMXgVkMsqL0EQp4eqCLB&amp\;v=2&amp\;url=https:/
+ /www.netroadshow.com/events/login/1PeTHmojHdfBYdxgJqhRT5E5vjsOYbIyUmmll</p
+ ><p><strong>Deal context:</strong><br>Focus Financial Partners\, LLC is br
+ inging a $525 million Senior Secured Notes offering with a 5-year tenor (S
+ eptember 15\, 2031 maturity) rated B3/B by Moody's/S&amp\;P\, placing it f
+ irmly in high yield territory. The deal is structured as NC-2 with 144A/Re
+ g S for life distribution\, led by RBC as Lead Left Bookrunner alongside a
+  broad syndicate of 12 joint bookrunners including Stone Point CM\, Truist
+ \, BofA\, MUFG\, TD\, Citizens\, GS\, JPM\, BMO\, 5/3\, MS\, and Seelaus. 
+ Proceeds are intended to fund a cash distribution\, pay down revolver borr
+ owings\, and cover related fees and expenses\, with the deal launching and
+  pricing on August 5 via a high yield roadshow and global investor confere
+ nce call at 10:30AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

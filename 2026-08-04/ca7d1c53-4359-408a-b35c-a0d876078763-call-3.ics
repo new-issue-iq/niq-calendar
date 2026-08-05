@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baae2597f314441e-3@daily.newissueiq
+DTSTAMP:20260805T134536Z
+DTSTART;TZID=America/New_York:20260805T134500
+DTEND;TZID=America/New_York:20260805T143000
+SUMMARY:MTZ — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MASTEC INC (MTZ)\nRoadshow: URL: https://dealroadshow.finsight.com
+  | Entry Code: MTZ2026 | Direct Link: https://dealroadshow.finsight.com/e/
+ MTZ2026\n\nDeal context:\nMasTec\, Inc. (NYSE: MTZ)\, rated Baa3/BBB-/BBB-
+  (Stable) by Moody's/S&P/Fitch\, has mandated PNC Capital Markets LLC\, Tr
+ uist Securities\, Wells Fargo Securities\, BofA Securities\, and J.P. Morg
+ an to arrange a series of fixed income investor calls commencing August 5\
+ , 2026\, ahead of a potential USD-denominated\, SEC Registered senior unse
+ cured notes offering. The transaction remains subject to market conditions
+ \, with no size\, tenor\, or pricing terms disclosed at this stage. Wells 
+ Fargo Securities is coordinating logistics for the roadshow\, which includ
+ es three investor calls scheduled throughout the day and an electronic inv
+ estor presentation available via DealRoadshow.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MASTEC INC (MTZ)</p><p><strong>Roadshow:</strong> URL: https:
+ //dealroadshow.finsight.com | Entry Code: MTZ2026 | Direct Link: https://d
+ ealroadshow.finsight.com/e/MTZ2026</p><p><strong>Deal context:</strong><br
+ >MasTec\, Inc. (NYSE: MTZ)\, rated Baa3/BBB-/BBB- (Stable) by Moody's/S&am
+ p\;P/Fitch\, has mandated PNC Capital Markets LLC\, Truist Securities\, We
+ lls Fargo Securities\, BofA Securities\, and J.P. Morgan to arrange a seri
+ es of fixed income investor calls commencing August 5\, 2026\, ahead of a 
+ potential USD-denominated\, SEC Registered senior unsecured notes offering
+ . The transaction remains subject to market conditions\, with no size\, te
+ nor\, or pricing terms disclosed at this stage. Wells Fargo Securities is 
+ coordinating logistics for the roadshow\, which includes three investor ca
+ lls scheduled throughout the day and an electronic investor presentation a
+ vailable via DealRoadshow.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

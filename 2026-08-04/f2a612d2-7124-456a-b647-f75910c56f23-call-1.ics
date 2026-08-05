@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:74f63bf0215452be-1@daily.newissueiq
+DTSTAMP:20260805T134536Z
+DTSTART;TZID=America/New_York:20260805T100000
+DTEND;TZID=America/New_York:20260805T104500
+SUMMARY:KEHE DISTRIBUTORS LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: KEHE DISTRIBUTORS LLC\nRoadshow: https://www.netroadshow.com/event
+ s/login/1PeTHmohQqBeKfmTQoQDvu6BtlzhXwboYhZ3a\n\nDeal context:\nKeHE Distr
+ ibutors\, LLC (along with KeHE Finance Corp. and NextWave Distribution\, I
+ nc.) is bringing a two-tranche senior secured notes offering consisting of
+  a $250 million add-on to its existing 2033 Senior Secured Notes and a new
+  $750 million 8-year Senior Secured Notes due 2034\, for a total deal size
+  of $1 billion. Both tranches are rated B3/B- at the secured level (CFR: B
+ 2/B)\, classifying this as a high-yield transaction\, with proceeds used t
+ o refinance the company's existing $1 billion Senior Secured Notes due 202
+ 9. The deal is being led by BMO (left) alongside JPM\, BofA\, WFS\, CZN\, 
+ TD\, and USB as joint bookrunners\, with an investor call scheduled for We
+ dnesday\, August 5th\, 2026\, and timing described as 'today's business.'
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> KEHE DISTRIBUTORS LLC</p><p><strong>Roadshow:</strong> https:
+ //www.netroadshow.com/events/login/1PeTHmohQqBeKfmTQoQDvu6BtlzhXwboYhZ3a</
+ p><p><strong>Deal context:</strong><br>KeHE Distributors\, LLC (along with
+  KeHE Finance Corp. and NextWave Distribution\, Inc.) is bringing a two-tr
+ anche senior secured notes offering consisting of a $250 million add-on to
+  its existing 2033 Senior Secured Notes and a new $750 million 8-year Seni
+ or Secured Notes due 2034\, for a total deal size of $1 billion. Both tran
+ ches are rated B3/B- at the secured level (CFR: B2/B)\, classifying this a
+ s a high-yield transaction\, with proceeds used to refinance the company's
+  existing $1 billion Senior Secured Notes due 2029. The deal is being led 
+ by BMO (left) alongside JPM\, BofA\, WFS\, CZN\, TD\, and USB as joint boo
+ krunners\, with an investor call scheduled for Wednesday\, August 5th\, 20
+ 26\, and timing described as 'today's business.'</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

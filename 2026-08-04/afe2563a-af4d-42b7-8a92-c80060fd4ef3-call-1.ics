@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:77fe9c5217ca556d-1@daily.newissueiq
+DTSTAMP:20260805T134536Z
+DTSTART;TZID=America/New_York:20260805T110000
+DTEND;TZID=America/New_York:20260805T114500
+SUMMARY:NWL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NEWELL BRANDS INC (NWL)\nRoadshow: Registration Link: https://www.
+ netroadshow.com/events/login/1PeTHmohWBHJaeWHgCneaKKZIckb4aQbgq7c2 | Repla
+ y Link: https://www.netroadshow.com/events/login/1PeTHmohWBHJaeWHgCneaKKZI
+ ckb4aQbgq7c2 | Slides Only: www.netroadshow.com | Entry Code: NWL2026\n\nD
+ eal context:\nNewell Brands Inc. (NASDAQ: NWL\, ~$2.6B market cap) is brin
+ ging a $500 million 5-year Senior Notes offering (due 2031) to market via 
+ 144A/Reg S format\, with BofA acting as left bookrunner alongside Citi\, G
+ S\, JPM\, RBC\, and WFS as joint bookrunning managers. The deal is structu
+ red as NC-Life with a 6-month par call\, and proceeds are intended to refi
+ nance the company's outstanding 2027 notes in full along with related fees
+  and expenses. The investor call is scheduled for Wednesday\, August 5th a
+ t 11:00 AM ET\, with pricing expected today's business.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NEWELL BRANDS INC (NWL)</p><p><strong>Roadshow:</strong> Regi
+ stration Link: https://www.netroadshow.com/events/login/1PeTHmohWBHJaeWHgC
+ neaKKZIckb4aQbgq7c2 | Replay Link: https://www.netroadshow.com/events/logi
+ n/1PeTHmohWBHJaeWHgCneaKKZIckb4aQbgq7c2 | Slides Only: www.netroadshow.com
+  | Entry Code: NWL2026</p><p><strong>Deal context:</strong><br>Newell Bran
+ ds Inc. (NASDAQ: NWL\, ~$2.6B market cap) is bringing a $500 million 5-yea
+ r Senior Notes offering (due 2031) to market via 144A/Reg S format\, with 
+ BofA acting as left bookrunner alongside Citi\, GS\, JPM\, RBC\, and WFS a
+ s joint bookrunning managers. The deal is structured as NC-Life with a 6-m
+ onth par call\, and proceeds are intended to refinance the company's outst
+ anding 2027 notes in full along with related fees and expenses. The invest
+ or call is scheduled for Wednesday\, August 5th at 11:00 AM ET\, with pric
+ ing expected today's business.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

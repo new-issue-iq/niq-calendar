@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:409901a9781ff3d7-6@daily.newissueiq
+DTSTAMP:20260805T134536Z
+DTSTART;TZID=America/New_York:20260804T145000
+DTEND;TZID=America/New_York:20260804T153500
+SUMMARY:BEN — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FRANKLIN RESOURCES INC (BEN)\nRoadshow: URL: www.netroadshow.com |
+  Password: BEN2026 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=42
+ a60edb\n\nDeal context:\nFranklin Resources\, Inc. (BEN)\, rated A2/A (Sta
+ ble Outlook) by Moody's and S&P respectively\, has mandated BofA Securitie
+ s\, HSBC\, and Wells Fargo Securities to arrange a series of fixed income 
+ investor calls on August 4\, 2026\, ahead of a potential offering of SEC-r
+ egistered senior unsecured notes. The deal is at the Mandate stage with no
+  size\, tenor\, or pricing terms disclosed\, subject to market conditions.
+  BofA Securities is coordinating logistics\, with Co-President\, CFO and C
+ OO Matthew Nicholls participating in three scheduled investor call session
+ s throughout the day.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FRANKLIN RESOURCES INC (BEN)</p><p><strong>Roadshow:</strong>
+  URL: www.netroadshow.com | Password: BEN2026 | Direct Link: www.netroadsh
+ ow.com/nrs/home/#!/?show=42a60edb</p><p><strong>Deal context:</strong><br>
+ Franklin Resources\, Inc. (BEN)\, rated A2/A (Stable Outlook) by Moody's a
+ nd S&amp\;P respectively\, has mandated BofA Securities\, HSBC\, and Wells
+  Fargo Securities to arrange a series of fixed income investor calls on Au
+ gust 4\, 2026\, ahead of a potential offering of SEC-registered senior uns
+ ecured notes. The deal is at the Mandate stage with no size\, tenor\, or p
+ ricing terms disclosed\, subject to market conditions. BofA Securities is 
+ coordinating logistics\, with Co-President\, CFO and COO Matthew Nicholls 
+ participating in three scheduled investor call sessions throughout the day
+ .</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

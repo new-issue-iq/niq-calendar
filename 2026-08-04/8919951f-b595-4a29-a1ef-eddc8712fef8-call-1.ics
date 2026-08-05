@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:58e272c0b07264b5-1@daily.newissueiq
+DTSTAMP:20260805T134536Z
+DTSTART;TZID=America/New_York:20260727T110000
+DTEND;TZID=America/New_York:20260727T114500
+SUMMARY:CAVALIER ACQUISITION CORP D & B & A ARROW INTL INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CAVALIER ACQUISITION CORP D & B & A ARROW INTL INC\nRoadshow: http
+ s://www.netroadshow.com/events/login/1PeTHmohWBOu6QmwRdntv7TtjCSBhPreKjg81
+  | Replay Link: https://www.netroadshow.com/events/login/1PeTHmohWBOu6QmwR
+ dntv7TtjCSBhPreKjg81 | Slides Only: www.netroadshow.com | Entry Code: Arro
+ w26\n\nDeal context:\nCavalier Acquisition Corporation (d/b/a Arrow Intern
+ ational\, Inc.) is bringing a $500 million Senior Secured Notes offering w
+ ith a 7-year tenor (2033 maturity)\, rated B2/B+ (Moody's/S&P) with a Stab
+ le outlook\, placing this firmly in high-yield territory. The deal is at t
+ he Price Talk stage with guidance of 8.25%-8.50%\, with books closing at 1
+ 2:00 PM ET. Net proceeds\, alongside a concurrent $500 million Term Loan B
+ \, are intended to refinance existing indebtedness\, fund a stockholder di
+ vidend\, and for general corporate purposes — Arrow is the leading charita
+ ble gaming supplier and managed service provider in the U.S.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CAVALIER ACQUISITION CORP D &amp\; B &amp\; A ARROW INTL INC<
+ /p><p><strong>Roadshow:</strong> https://www.netroadshow.com/events/login/
+ 1PeTHmohWBOu6QmwRdntv7TtjCSBhPreKjg81 | Replay Link: https://www.netroadsh
+ ow.com/events/login/1PeTHmohWBOu6QmwRdntv7TtjCSBhPreKjg81 | Slides Only: w
+ ww.netroadshow.com | Entry Code: Arrow26</p><p><strong>Deal context:</stro
+ ng><br>Cavalier Acquisition Corporation (d/b/a Arrow International\, Inc.)
+  is bringing a $500 million Senior Secured Notes offering with a 7-year te
+ nor (2033 maturity)\, rated B2/B+ (Moody's/S&amp\;P) with a Stable outlook
+ \, placing this firmly in high-yield territory. The deal is at the Price T
+ alk stage with guidance of 8.25%-8.50%\, with books closing at 12:00 PM ET
+ . Net proceeds\, alongside a concurrent $500 million Term Loan B\, are int
+ ended to refinance existing indebtedness\, fund a stockholder dividend\, a
+ nd for general corporate purposes — Arrow is the leading charitable gaming
+  supplier and managed service provider in the U.S.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
