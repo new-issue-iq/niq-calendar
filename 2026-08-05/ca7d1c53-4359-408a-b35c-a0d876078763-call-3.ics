@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baae2597f314441e-3@daily.newissueiq
+DTSTAMP:20260806T132043Z
+DTSTART;TZID=America/New_York:20260806T134500
+DTEND;TZID=America/New_York:20260806T143000
+SUMMARY:MTZ — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MASTEC INC (MTZ)\nRoadshow: URL: https://dealroadshow.finsight.com
+  | Entry Code: MTZ2026 | Direct Link: https://dealroadshow.finsight.com/e/
+ MTZ2026\n\nDeal context:\nMasTec\, Inc. (NYSE: MTZ)\, rated Baa3/BBB-/BBB-
+  (Stable) across all three agencies\, is arranging a series of fixed incom
+ e investor calls on August 5\, 2026\, with a potential USD-denominated\, S
+ EC Registered senior unsecured notes transaction to follow subject to mark
+ et conditions. The deal is being arranged by PNC Capital Markets LLC\, Tru
+ ist Securities\, Wells Fargo Securities\, BofA Securities\, and J.P. Morga
+ n\, with Wells Fargo Securities coordinating logistics for the investor ca
+ lls. No specific size\, tenor\, or pricing terms have been disclosed at th
+ is Mandate stage\, as the announcement represents pre-deal investor engage
+ ment ahead of a potential offering.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MASTEC INC (MTZ)</p><p><strong>Roadshow:</strong> URL: https:
+ //dealroadshow.finsight.com | Entry Code: MTZ2026 | Direct Link: https://d
+ ealroadshow.finsight.com/e/MTZ2026</p><p><strong>Deal context:</strong><br
+ >MasTec\, Inc. (NYSE: MTZ)\, rated Baa3/BBB-/BBB- (Stable) across all thre
+ e agencies\, is arranging a series of fixed income investor calls on Augus
+ t 5\, 2026\, with a potential USD-denominated\, SEC Registered senior unse
+ cured notes transaction to follow subject to market conditions. The deal i
+ s being arranged by PNC Capital Markets LLC\, Truist Securities\, Wells Fa
+ rgo Securities\, BofA Securities\, and J.P. Morgan\, with Wells Fargo Secu
+ rities coordinating logistics for the investor calls. No specific size\, t
+ enor\, or pricing terms have been disclosed at this Mandate stage\, as the
+  announcement represents pre-deal investor engagement ahead of a potential
+  offering.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

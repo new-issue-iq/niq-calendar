@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6f3fa1c150c8f100-1@daily.newissueiq
+DTSTAMP:20260806T132043Z
+DTSTART;TZID=America/New_York:20260806T110000
+DTEND;TZID=America/New_York:20260806T114500
+SUMMARY:OMF — Call 11
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ONEMAIN FINANCE CORP (OMF)\nRoadshow: https://www.netroadshow.com/
+ events/login/1PeTHmohCEfKK3rHxx1a9ZCnvBGLF1mppg24v\n\nDeal context:\nOneMa
+ in Finance Corporation (OMFC)\, the non-prime consumer lending subsidiary 
+ of OneMain Holdings\, Inc. (NYSE: OMF)\, is bringing a $500 million Senior
+  Unsecured Notes offering rated Ba2/BB/BB+ (Moody's/S&P/Kroll)\, consisten
+ t with its existing debt ratings. The 7.5-year notes (maturing March 15\, 
+ 2034) are non-callable until August 15\, 2029\, with a first call at 50% o
+ f coupon declining ratably to par 31 months prior to maturity\, and will s
+ ettle on August 20\, 2026 (T+10) via SEC Registered format. The deal is le
+ d by Barclays (B&D) and BMO as lead bookrunners alongside a broad syndicat
+ e of 11 joint bookrunners and one co-manager\, with pricing expected today
+  following an 11:00 AM ET global investor call.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ONEMAIN FINANCE CORP (OMF)</p><p><strong>Roadshow:</strong> h
+ ttps://www.netroadshow.com/events/login/1PeTHmohCEfKK3rHxx1a9ZCnvBGLF1mppg
+ 24v</p><p><strong>Deal context:</strong><br>OneMain Finance Corporation (O
+ MFC)\, the non-prime consumer lending subsidiary of OneMain Holdings\, Inc
+ . (NYSE: OMF)\, is bringing a $500 million Senior Unsecured Notes offering
+  rated Ba2/BB/BB+ (Moody's/S&amp\;P/Kroll)\, consistent with its existing 
+ debt ratings. The 7.5-year notes (maturing March 15\, 2034) are non-callab
+ le until August 15\, 2029\, with a first call at 50% of coupon declining r
+ atably to par 31 months prior to maturity\, and will settle on August 20\,
+  2026 (T+10) via SEC Registered format. The deal is led by Barclays (B&amp
+ \;D) and BMO as lead bookrunners alongside a broad syndicate of 11 joint b
+ ookrunners and one co-manager\, with pricing expected today following an 1
+ 1:00 AM ET global investor call.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
