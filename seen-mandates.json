@@ -523,5 +523,10 @@
     "id": "ca7d1c53-4359-408a-b35c-a0d876078763",
     "issuerName": "MASTEC INC",
     "alertedAt": "2026-08-05T13:30:58.775Z"
+  },
+  {
+    "id": "1b8962a0-6966-4b92-bcf1-3687921bda3f",
+    "issuerName": "THE MOSAIC CO",
+    "alertedAt": "2026-08-07T13:01:08.075Z"
   }
 ]

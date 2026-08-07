@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a496fecf5d10c5aa-1@daily.newissueiq
+DTSTAMP:20260807T130101Z
+DTSTART;TZID=America/New_York:20260807T110000
+DTEND;TZID=America/New_York:20260807T114500
+SUMMARY:MOS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: THE MOSAIC CO (MOS)\nRoadshow: www.netroadshow.com | Entry Code: M
+ OS2026 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=c614f800\n\nDe
+ al context:\nThe Mosaic Company (MOS)\, rated Baa2/BBB/BBB (Moody's/S&P/Fi
+ tch)\, has mandated BofA Securities\, Citigroup\, J.P. Morgan\, and Wells 
+ Fargo Securities to arrange fixed income investor calls on August 7\, 2026
+ \, ahead of a potential USD-denominated\, SEC-registered senior unsecured 
+ transaction. The deal is at the Mandate stage with no size\, tenor\, or pr
+ icing terms disclosed\, subject to market conditions following the investo
+ r call series. BofA Securities is coordinating logistics for the two sched
+ uled calls (11:00 AM and 1:00 PM)\, with CFO Luciano Siani Pires and VP/Tr
+ easurer Paul Massoud representing the company.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> THE MOSAIC CO (MOS)</p><p><strong>Roadshow:</strong> www.netr
+ oadshow.com | Entry Code: MOS2026 | Direct Link: www.netroadshow.com/nrs/h
+ ome/#!/?show=c614f800</p><p><strong>Deal context:</strong><br>The Mosaic C
+ ompany (MOS)\, rated Baa2/BBB/BBB (Moody's/S&amp\;P/Fitch)\, has mandated 
+ BofA Securities\, Citigroup\, J.P. Morgan\, and Wells Fargo Securities to 
+ arrange fixed income investor calls on August 7\, 2026\, ahead of a potent
+ ial USD-denominated\, SEC-registered senior unsecured transaction. The dea
+ l is at the Mandate stage with no size\, tenor\, or pricing terms disclose
+ d\, subject to market conditions following the investor call series. BofA 
+ Securities is coordinating logistics for the two scheduled calls (11:00 AM
+  and 1:00 PM)\, with CFO Luciano Siani Pires and VP/Treasurer Paul Massoud
+  representing the company.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
