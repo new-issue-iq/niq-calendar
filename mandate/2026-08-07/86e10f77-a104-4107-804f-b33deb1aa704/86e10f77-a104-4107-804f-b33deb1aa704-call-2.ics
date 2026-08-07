@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fa2dea97ade62ab6-2@daily.newissueiq
+DTSTAMP:20260807T131100Z
+DTSTART;TZID=America/New_York:20260807T120000
+DTEND;TZID=America/New_York:20260807T124500
+SUMMARY:FE — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: THE CLEVELAND ELECTRIC ILLUMINATING CO (FE)\nRoadshow: Direct Link
+ : www.netroadshow.com/nrs/home/#!/?show=5b9e1611 OR Link: https://netroads
+ how.com Passcode: FE2026\n\nDeal context:\nThe Cleveland Electric Illumina
+ ting Company (CEI)\, a wholly-owned electric utility subsidiary of FirstEn
+ ergy Corp. (FE)\, is arranging fixed income investor calls on August 7\, 2
+ 026\, ahead of a potential Rule 144A/Regulation S for Life senior unsecure
+ d notes offering. The deal carries expected ratings of Baa3 (stable) / BBB
+ + (stable) / A- (positive) at Moody's\, S&P\, and Fitch\, respectively. Th
+ e offering is subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> THE CLEVELAND ELECTRIC ILLUMINATING CO (FE)</p><p><strong>Roa
+ dshow:</strong> Direct Link: www.netroadshow.com/nrs/home/#!/?show=5b9e161
+ 1 OR Link: https://netroadshow.com Passcode: FE2026</p><p><strong>Deal con
+ text:</strong><br>The Cleveland Electric Illuminating Company (CEI)\, a wh
+ olly-owned electric utility subsidiary of FirstEnergy Corp. (FE)\, is arra
+ nging fixed income investor calls on August 7\, 2026\, ahead of a potentia
+ l Rule 144A/Regulation S for Life senior unsecured notes offering. The dea
+ l carries expected ratings of Baa3 (stable) / BBB+ (stable) / A- (positive
+ ) at Moody's\, S&amp\;P\, and Fitch\, respectively. The offering is subjec
+ t to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
