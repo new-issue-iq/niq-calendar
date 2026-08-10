@@ -508,5 +508,10 @@
     "id": "d1be324b-e175-4e7c-be1e-c9fdbf6135fe",
     "issuerName": "ILLINOIS TOOL WORKS INC",
     "alertedAt": "2026-08-10T13:00:40.841Z"
+  },
+  {
+    "id": "b32dcc1e-2794-48c3-a814-254717dfafc9",
+    "issuerName": "BLUE OWL CAPITAL CORP",
+    "alertedAt": "2026-08-10T13:10:42.556Z"
   }
 ]
