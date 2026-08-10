@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a06823862ae2d767-2@daily.newissueiq
+DTSTAMP:20260810T132032Z
+DTSTART;TZID=America/New_York:20260810T120000
+DTEND;TZID=America/New_York:20260810T124500
+SUMMARY:MLM — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MARTIN MARIETTA MATERIALS INC (MLM)\nRoadshow: Website: www.netroa
+ dshow.com/nrs/home/#!/?show=82dbd315 | Passcode: MLM2026 (not case-sensiti
+ ve)\n\nDeal context:\nMartin Marietta Materials\, Inc. (MLM) is arranging 
+ a series of fixed income investor calls on August 10th ahead of a potentia
+ l benchmark senior unsecured fixed-rate USD SEC registered offering with m
+ aturities ranging from 3 to 30 years. The deal carries expected ratings of
+  Baa2 (Negative Watch) / BBB+ (Negative) / BBB+ (Negative) from Moody's\, 
+ S&P\, and Fitch respectively\, reflecting investment grade status with neg
+ ative outlooks across all three agencies. Goldman Sachs & Co. LLC\, J.P. M
+ organ\, Deutsche Bank Securities\, and Truist Securities\, Inc. are servin
+ g as joint bookrunners\, with Goldman Sachs coordinating logistics.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MARTIN MARIETTA MATERIALS INC (MLM)</p><p><strong>Roadshow:</
+ strong> Website: www.netroadshow.com/nrs/home/#!/?show=82dbd315 | Passcode
+ : MLM2026 (not case-sensitive)</p><p><strong>Deal context:</strong><br>Mar
+ tin Marietta Materials\, Inc. (MLM) is arranging a series of fixed income 
+ investor calls on August 10th ahead of a potential benchmark senior unsecu
+ red fixed-rate USD SEC registered offering with maturities ranging from 3 
+ to 30 years. The deal carries expected ratings of Baa2 (Negative Watch) / 
+ BBB+ (Negative) / BBB+ (Negative) from Moody's\, S&amp\;P\, and Fitch resp
+ ectively\, reflecting investment grade status with negative outlooks acros
+ s all three agencies. Goldman Sachs &amp\; Co. LLC\, J.P. Morgan\, Deutsch
+ e Bank Securities\, and Truist Securities\, Inc. are serving as joint book
+ runners\, with Goldman Sachs coordinating logistics.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

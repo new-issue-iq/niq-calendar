@@ -513,5 +513,15 @@
     "id": "b32dcc1e-2794-48c3-a814-254717dfafc9",
     "issuerName": "BLUE OWL CAPITAL CORP",
     "alertedAt": "2026-08-10T13:10:42.556Z"
+  },
+  {
+    "id": "3b96aeea-b253-4762-92b9-af070f4ffde4",
+    "issuerName": "MARTIN MARIETTA MATERIALS INC",
+    "alertedAt": "2026-08-10T13:20:38.439Z"
+  },
+  {
+    "id": "e5f2a44f-e980-4897-b5b0-373b1cc3db89",
+    "issuerName": "UNIVERSAL HEALTH SVCS INC",
+    "alertedAt": "2026-08-10T13:20:41.098Z"
   }
 ]
