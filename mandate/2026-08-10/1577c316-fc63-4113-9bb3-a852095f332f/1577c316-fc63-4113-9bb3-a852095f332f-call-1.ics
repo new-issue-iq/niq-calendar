@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f5453fb68dc30c06-1@daily.newissueiq
+DTSTAMP:20260810T135037Z
+DTSTART;TZID=America/New_York:20260810T140000
+DTEND;TZID=America/New_York:20260810T144500
+SUMMARY:OGS — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ONE GAS INC (OGS)\nRoadshow: Direct Link: www.netroadshow.com/nrs/
+ home/#!/?show=46ceabee (Recommended) | Website: www.netroadshow.com | Pass
+ code: OGS2026 (not case-sensitive)\n\nDeal context:\nONE Gas Inc (OGS)\, a
+  100% regulated natural gas distribution utility headquartered in Tulsa\, 
+ Oklahoma\, is arranging fixed income investor calls on Monday\, August 10t
+ h via BofA Securities\, RBC Capital Markets\, and Truist Securities ahead 
+ of a potential SEC registered senior unsecured notes offering. The deal ca
+ rries expected ratings of A3 (stable) / A- (stable) from Moody's / S&P\, r
+ espectively\, placing it firmly in investment grade territory. No size\, t
+ enor\, or pricing terms have been disclosed at this stage\, as the offerin
+ g is subject to market conditions following the investor call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ONE GAS INC (OGS)</p><p><strong>Roadshow:</strong> Direct Lin
+ k: www.netroadshow.com/nrs/home/#!/?show=46ceabee (Recommended) | Website:
+  www.netroadshow.com | Passcode: OGS2026 (not case-sensitive)</p><p><stron
+ g>Deal context:</strong><br>ONE Gas Inc (OGS)\, a 100% regulated natural g
+ as distribution utility headquartered in Tulsa\, Oklahoma\, is arranging f
+ ixed income investor calls on Monday\, August 10th via BofA Securities\, R
+ BC Capital Markets\, and Truist Securities ahead of a potential SEC regist
+ ered senior unsecured notes offering. The deal carries expected ratings of
+  A3 (stable) / A- (stable) from Moody's / S&amp\;P\, respectively\, placin
+ g it firmly in investment grade territory. No size\, tenor\, or pricing te
+ rms have been disclosed at this stage\, as the offering is subject to mark
+ et conditions following the investor call process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -523,5 +523,15 @@
     "id": "77d6757f-06de-4cc0-82b8-8afc18567a1a",
     "issuerName": "ALEXANDRIA REAL ESTATE EQUITIES INC",
     "alertedAt": "2026-08-10T13:40:50.361Z"
+  },
+  {
+    "id": "87df0d19-1441-4b6e-84e8-ae743b3c0ddf",
+    "issuerName": "INTERCONTINENTAL EXCHANGE INC",
+    "alertedAt": "2026-08-10T13:50:37.256Z"
+  },
+  {
+    "id": "1577c316-fc63-4113-9bb3-a852095f332f",
+    "issuerName": "ONE GAS INC",
+    "alertedAt": "2026-08-10T13:50:39.905Z"
   }
 ]
