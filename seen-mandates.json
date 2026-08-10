@@ -1,35 +1,5 @@
 [
   {
-    "id": "541a1f32-e149-4bc4-83ca-5736cf3a97b7",
-    "issuerName": "SERVICENOW INC",
-    "alertedAt": "2026-05-11T12:50:24.033Z"
-  },
-  {
-    "id": "f95e39ab-5497-43db-a251-8a2571f07fbc",
-    "issuerName": "MOVIDA PARTICIPACOES SA",
-    "alertedAt": "2026-05-11T12:50:26.825Z"
-  },
-  {
-    "id": "d3a35b2b-94a6-4ff8-82a7-1c7f64d953e2",
-    "issuerName": "PINNACLE FINL PARTNERS INC",
-    "alertedAt": "2026-05-11T13:00:25.390Z"
-  },
-  {
-    "id": "d5e355fd-a52d-4e61-9154-4e318af31bd9",
-    "issuerName": "LIBERTY UTILITIES CO",
-    "alertedAt": "2026-05-11T13:20:26.608Z"
-  },
-  {
-    "id": "6621dbec-d5e5-4a74-8828-d83d8e9737b3",
-    "issuerName": "FORTIVE CORP",
-    "alertedAt": "2026-05-11T13:20:29.788Z"
-  },
-  {
-    "id": "7d87d01f-079d-4b1c-b5b2-d00dec8f3db5",
-    "issuerName": "FEDERAL AGRICULTURAL MORTGAGE CORPORATION",
-    "alertedAt": "2026-05-11T16:31:09.859Z"
-  },
-  {
     "id": "ee1d4cc0-4d80-4710-a285-5a71086ca4dd",
     "issuerName": "TRINITY CAPITAL INC",
     "alertedAt": "2026-05-12T13:30:21.917Z"
@@ -533,5 +503,10 @@
     "id": "86e10f77-a104-4107-804f-b33deb1aa704",
     "issuerName": "THE CLEVELAND ELECTRIC ILLUMINATING CO",
     "alertedAt": "2026-08-07T13:11:06.486Z"
+  },
+  {
+    "id": "d1be324b-e175-4e7c-be1e-c9fdbf6135fe",
+    "issuerName": "ILLINOIS TOOL WORKS INC",
+    "alertedAt": "2026-08-10T13:00:40.841Z"
   }
 ]
