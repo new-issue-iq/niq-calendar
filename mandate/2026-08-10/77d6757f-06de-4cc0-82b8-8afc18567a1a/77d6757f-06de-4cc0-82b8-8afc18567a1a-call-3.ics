@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ba1319807314ad5f-3@daily.newissueiq
+DTSTAMP:20260810T134044Z
+DTSTART;TZID=America/New_York:20260810T140000
+DTEND;TZID=America/New_York:20260810T144500
+SUMMARY:ARE — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ALEXANDRIA REAL ESTATE EQUITIES INC (ARE)\nRoadshow: www.netroadsh
+ ow.com | Entry Code: ALEXANDRIA26 (not case-sensitive) | Direct Link: www.
+ netroadshow.com/nrs/home/#!/?show=35537b6b\n\nDeal context:\nAlexandria Re
+ al Estate Equities\, Inc. (ARE)\, a Pasadena\, California-based S&P 500 RE
+ IT focused on life science and technology campuses\, has mandated J.P. Mor
+ gan\, BofA Securities\, Citigroup\, Goldman Sachs & Co. LLC\, and RBC Capi
+ tal Markets to arrange fixed income investor calls on August 10th\, 2026\,
+  ahead of a potential USD-denominated SEC-registered offering of 30.5NC5.2
+ 5 Fixed-to-Fixed Reset Rate Junior Subordinated Notes with coupon floor pr
+ ovisions. The expected security ratings are Baa3 by Moody's and BBB- by S&
+ P\, placing the deal at the lowest investment grade rung\, with the hybrid
+  junior subordinated structure reflecting the company's hybrid capital str
+ ategy. No size\, pricing\, or spread guidance has been provided at this st
+ age\; the deal is subject to market conditions following the investor call
+  series.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ALEXANDRIA REAL ESTATE EQUITIES INC (ARE)</p><p><strong>Roads
+ how:</strong> www.netroadshow.com | Entry Code: ALEXANDRIA26 (not case-sen
+ sitive) | Direct Link: www.netroadshow.com/nrs/home/#!/?show=35537b6b</p><
+ p><strong>Deal context:</strong><br>Alexandria Real Estate Equities\, Inc.
+  (ARE)\, a Pasadena\, California-based S&amp\;P 500 REIT focused on life s
+ cience and technology campuses\, has mandated J.P. Morgan\, BofA Securitie
+ s\, Citigroup\, Goldman Sachs &amp\; Co. LLC\, and RBC Capital Markets to 
+ arrange fixed income investor calls on August 10th\, 2026\, ahead of a pot
+ ential USD-denominated SEC-registered offering of 30.5NC5.25 Fixed-to-Fixe
+ d Reset Rate Junior Subordinated Notes with coupon floor provisions. The e
+ xpected security ratings are Baa3 by Moody's and BBB- by S&amp\;P\, placin
+ g the deal at the lowest investment grade rung\, with the hybrid junior su
+ bordinated structure reflecting the company's hybrid capital strategy. No 
+ size\, pricing\, or spread guidance has been provided at this stage\; the 
+ deal is subject to market conditions following the investor call series.</
+ p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

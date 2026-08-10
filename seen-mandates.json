@@ -1,10 +1,5 @@
 [
   {
-    "id": "ee1d4cc0-4d80-4710-a285-5a71086ca4dd",
-    "issuerName": "TRINITY CAPITAL INC",
-    "alertedAt": "2026-05-12T13:30:21.917Z"
-  },
-  {
     "id": "8186530e-d845-44b5-9d1d-94dcd44cd5f9",
     "issuerName": "MEDLINE BORROWER LP & MEDLINE CO-ISSUER INC",
     "alertedAt": "2026-05-12T15:20:22.083Z"
@@ -523,5 +518,10 @@
     "id": "e5f2a44f-e980-4897-b5b0-373b1cc3db89",
     "issuerName": "UNIVERSAL HEALTH SVCS INC",
     "alertedAt": "2026-08-10T13:20:41.098Z"
+  },
+  {
+    "id": "77d6757f-06de-4cc0-82b8-8afc18567a1a",
+    "issuerName": "ALEXANDRIA REAL ESTATE EQUITIES INC",
+    "alertedAt": "2026-08-10T13:40:50.361Z"
   }
 ]
