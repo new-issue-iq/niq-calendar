@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dafce7408063db7e-3@daily.newissueiq
+DTSTAMP:20260810T132434Z
+DTSTART;TZID=America/New_York:20260807T130000
+DTEND;TZID=America/New_York:20260807T134500
+SUMMARY:FE — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: THE CLEVELAND ELECTRIC ILLUMINATING CO (FE)\nRoadshow: Direct Link
+ : www.netroadshow.com/nrs/home/#!/?show=5b9e1611 OR Link: https://netroads
+ how.com Passcode: FE2026\n\nDeal context:\nCleveland Electric Illuminating
+  Co (ticker: FE)\, a senior unsecured note issuer rated Baa3/BBB+/A- (Mood
+ y's/S&P/Fitch)\, is bringing a Long 3-Year USD Benchmark 144A/Reg S deal t
+ o market with an IPT of T+100bps\, targeting settlement on August 12\, 202
+ 6 (T+2) and a maturity of February 15\, 2030. The deal is being run by Bof
+ A (B&D)\, RBCCM\, and TDSECS\, with proceeds earmarked for refinancing exi
+ sting indebtedness (including money pool and Credit Agreement amounts)\, c
+ apital expenditures\, and general corporate purposes. The transaction incl
+ udes a Make Whole Call and a 1-month par call prior to maturity\, as well 
+ as a tax event credit call at $101 subject to a 6-month window and Officer
+ 's Certificate.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> THE CLEVELAND ELECTRIC ILLUMINATING CO (FE)</p><p><strong>Roa
+ dshow:</strong> Direct Link: www.netroadshow.com/nrs/home/#!/?show=5b9e161
+ 1 OR Link: https://netroadshow.com Passcode: FE2026</p><p><strong>Deal con
+ text:</strong><br>Cleveland Electric Illuminating Co (ticker: FE)\, a seni
+ or unsecured note issuer rated Baa3/BBB+/A- (Moody's/S&amp\;P/Fitch)\, is 
+ bringing a Long 3-Year USD Benchmark 144A/Reg S deal to market with an IPT
+  of T+100bps\, targeting settlement on August 12\, 2026 (T+2) and a maturi
+ ty of February 15\, 2030. The deal is being run by BofA (B&amp\;D)\, RBCCM
+ \, and TDSECS\, with proceeds earmarked for refinancing existing indebtedn
+ ess (including money pool and Credit Agreement amounts)\, capital expendit
+ ures\, and general corporate purposes. The transaction includes a Make Who
+ le Call and a 1-month par call prior to maturity\, as well as a tax event 
+ credit call at $101 subject to a 6-month window and Officer's Certificate.
+ </p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

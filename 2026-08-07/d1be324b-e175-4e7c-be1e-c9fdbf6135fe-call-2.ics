@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4d009aa70672d25f-2@daily.newissueiq
+DTSTAMP:20260810T132434Z
+DTSTART;TZID=America/New_York:20260810T140000
+DTEND;TZID=America/New_York:20260810T144500
+SUMMARY:ITW — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ILLINOIS TOOL WORKS INC (ITW)\nRoadshow: https://dealroadshow.fins
+ ight.com | Entry Code: ITW2026 | Direct Link: https://dealroadshow.finsigh
+ t.com/e/ITW2026\n\nDeal context:\nIllinois Tool Works Inc. (ITW)\, a globa
+ l multi-industry manufacturing leader rated A1 (Positive)/A+ (Stable)\, ha
+ s mandated Citigroup and J.P. Morgan to arrange fixed income investor call
+ s on August 10\, 2026\, ahead of a potential short-dated\, SEC-registered 
+ USD Senior Unsecured Notes offering. The deal is at the pre-announcement/m
+ andate stage\, with no size\, tenor\, or pricing terms disclosed\, subject
+  to market conditions. Two investor call sessions are scheduled for the sa
+ me day (1:00–1:45 pm ET and 2:00–2:45 pm ET)\, with an electronic presenta
+ tion available via dealroadshow.finsight.com.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ILLINOIS TOOL WORKS INC (ITW)</p><p><strong>Roadshow:</strong
+ > https://dealroadshow.finsight.com | Entry Code: ITW2026 | Direct Link: h
+ ttps://dealroadshow.finsight.com/e/ITW2026</p><p><strong>Deal context:</st
+ rong><br>Illinois Tool Works Inc. (ITW)\, a global multi-industry manufact
+ uring leader rated A1 (Positive)/A+ (Stable)\, has mandated Citigroup and 
+ J.P. Morgan to arrange fixed income investor calls on August 10\, 2026\, a
+ head of a potential short-dated\, SEC-registered USD Senior Unsecured Note
+ s offering. The deal is at the pre-announcement/mandate stage\, with no si
+ ze\, tenor\, or pricing terms disclosed\, subject to market conditions. Tw
+ o investor call sessions are scheduled for the same day (1:00–1:45 pm ET a
+ nd 2:00–2:45 pm ET)\, with an electronic presentation available via dealro
+ adshow.finsight.com.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

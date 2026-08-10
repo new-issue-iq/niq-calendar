@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4c123b20c182f71e-1@daily.newissueiq
+DTSTAMP:20260810T132434Z
+DTSTART;TZID=America/New_York:20260810T100000
+DTEND;TZID=America/New_York:20260810T104500
+SUMMARY:CCM — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CROSSCOUNTRY INTERMEDIATE HOLDCO LLC (CCM)\nRoadshow: https://www.
+ netroadshow.com/events/login/1PeTHmohCH8jtwHRGDlGCFpkJOYn6sbEwUmcL\n\nDeal
+  context:\nCrossCountry Intermediate HoldCo\, LLC is bringing a $500 milli
+ on 5-year Senior Unsecured Notes offering to market\, rated Ba3/BB- at the
+  corporate level and B1/BB- at the issue level (Moody's/Fitch)\, with init
+ ial price talk of 8% to low-8s. The deal is distributed as 144A/Reg S for 
+ Life with NC-2 call protection and an equity clawback of up to 40% at par 
+ plus coupon for the first two years. Proceeds will be used to repay borrow
+ ings under the MSR (Mortgage Servicing Rights) Facilities\, reflecting the
+  company's mortgage origination business\, with joint bookrunners led by C
+ iti (Left Lead) alongside GS\, JPM\, MS\, BNS\, WFS\, RBC\, and TSI.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CROSSCOUNTRY INTERMEDIATE HOLDCO LLC (CCM)</p><p><strong>Road
+ show:</strong> https://www.netroadshow.com/events/login/1PeTHmohCH8jtwHRGD
+ lGCFpkJOYn6sbEwUmcL</p><p><strong>Deal context:</strong><br>CrossCountry I
+ ntermediate HoldCo\, LLC is bringing a $500 million 5-year Senior Unsecure
+ d Notes offering to market\, rated Ba3/BB- at the corporate level and B1/B
+ B- at the issue level (Moody's/Fitch)\, with initial price talk of 8% to l
+ ow-8s. The deal is distributed as 144A/Reg S for Life with NC-2 call prote
+ ction and an equity clawback of up to 40% at par plus coupon for the first
+  two years. Proceeds will be used to repay borrowings under the MSR (Mortg
+ age Servicing Rights) Facilities\, reflecting the company's mortgage origi
+ nation business\, with joint bookrunners led by Citi (Left Lead) alongside
+  GS\, JPM\, MS\, BNS\, WFS\, RBC\, and TSI.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

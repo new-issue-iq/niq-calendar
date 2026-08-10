@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a58e1b72aa172623-1@daily.newissueiq
+DTSTAMP:20260810T132434Z
+DTSTART;TZID=America/New_York:20260810T103000
+DTEND;TZID=America/New_York:20260810T111500
+SUMMARY:GFF — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GRIFFON CORP (GFF)\nRoadshow: CALL INFO + SLIDES: https://www.netr
+ oadshow.com/events/login/1PeTHmohH9FjOctRlmodcyM0bzMDt556pBGGw | Replay St
+ ream: https://www.netroadshow.com/events/login/1PeTHmohH9FjOctRlmodcyM0bzM
+ Dt556pBGGw\n\nDeal context:\nGriffon Corporation (NYSE: GFF\, market cap $
+ 4.9bn)\, a leading North American manufacturer of residential and commerci
+ al building products (garage doors and rolling steel doors under brands in
+ cluding Clopay®\, IDEAL®\, Holmes®\, Cornell®\, and Cookson®)\, is bringin
+ g an $800 million 8-year Senior Notes offering rated B1/B+ (High Yield). T
+ he deal is structured as 144A/Reg S for life with NC-3 call provisions (fi
+ rst call at par plus 50% of the coupon)\, a 40% equity claw\, and a 101% c
+ hange of control put\, with proceeds intended to refinance the Company's e
+ xisting Senior Notes due 2028 along with cash on hand and revolver borrowi
+ ngs. Expected to price the day after announcement (August 11\, 2026)\, wit
+ h a joint bookrunner group led by BofA/BNP/DB/GS/WF and co-managers CapOne
+ /M&T/MS/TD\; an investor call is scheduled for Monday\, August 10th at 10:
+ 30 AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GRIFFON CORP (GFF)</p><p><strong>Roadshow:</strong> CALL INFO
+  + SLIDES: https://www.netroadshow.com/events/login/1PeTHmohH9FjOctRlmodcy
+ M0bzMDt556pBGGw | Replay Stream: https://www.netroadshow.com/events/login/
+ 1PeTHmohH9FjOctRlmodcyM0bzMDt556pBGGw</p><p><strong>Deal context:</strong>
+ <br>Griffon Corporation (NYSE: GFF\, market cap $4.9bn)\, a leading North 
+ American manufacturer of residential and commercial building products (gar
+ age doors and rolling steel doors under brands including Clopay®\, IDEAL®\
+ , Holmes®\, Cornell®\, and Cookson®)\, is bringing an $800 million 8-year 
+ Senior Notes offering rated B1/B+ (High Yield). The deal is structured as 
+ 144A/Reg S for life with NC-3 call provisions (first call at par plus 50% 
+ of the coupon)\, a 40% equity claw\, and a 101% change of control put\, wi
+ th proceeds intended to refinance the Company's existing Senior Notes due 
+ 2028 along with cash on hand and revolver borrowings. Expected to price th
+ e day after announcement (August 11\, 2026)\, with a joint bookrunner grou
+ p led by BofA/BNP/DB/GS/WF and co-managers CapOne/M&amp\;T/MS/TD\; an inve
+ stor call is scheduled for Monday\, August 10th at 10:30 AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
