@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c6c570f582fe5e52-1@daily.newissueiq
+DTSTAMP:20260811T132148Z
+DTSTART;TZID=America/New_York:20260811T120000
+DTEND;TZID=America/New_York:20260811T124500
+SUMMARY:UHS — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: UNIVERSAL HEALTH SVCS INC (UHS)\nRoadshow: https://markets.jpmorga
+ n.com/event_booking/loadEvent?eventToken=139342_8362e680-7ddc-451a-8bb3-e0
+ bb781cc351\n\nDeal context:\nUniversal Health Services\, Inc. (UHS) has ma
+ ndated J.P. Morgan\, BofA Securities\, Truist Securities\, US Bancorp\, an
+ d Wells Fargo to arrange fixed income investor calls on August 10\, 2026\,
+  with a potential USD-denominated\, SEC registered senior secured offering
+  to follow subject to market conditions. The deal carries expected investm
+ ent grade ratings of Baa3/BBB-/BBB- (all Stable Outlook) from Moody's\, S&
+ P\, and Fitch\, respectively. No size\, tenor\, or pricing terms have been
+  disclosed at this mandate stage\, with an electronic roadshow and prelimi
+ nary prospectus supplement made available to investors.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> UNIVERSAL HEALTH SVCS INC (UHS)</p><p><strong>Roadshow:</stro
+ ng> https://markets.jpmorgan.com/event_booking/loadEvent?eventToken=139342
+ _8362e680-7ddc-451a-8bb3-e0bb781cc351</p><p><strong>Deal context:</strong>
+ <br>Universal Health Services\, Inc. (UHS) has mandated J.P. Morgan\, BofA
+  Securities\, Truist Securities\, US Bancorp\, and Wells Fargo to arrange 
+ fixed income investor calls on August 10\, 2026\, with a potential USD-den
+ ominated\, SEC registered senior secured offering to follow subject to mar
+ ket conditions. The deal carries expected investment grade ratings of Baa3
+ /BBB-/BBB- (all Stable Outlook) from Moody's\, S&amp\;P\, and Fitch\, resp
+ ectively. No size\, tenor\, or pricing terms have been disclosed at this m
+ andate stage\, with an electronic roadshow and preliminary prospectus supp
+ lement made available to investors.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

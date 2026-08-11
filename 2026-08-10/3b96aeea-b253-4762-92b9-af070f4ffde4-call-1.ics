@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:38979085e5a2d33e-1@daily.newissueiq
+DTSTAMP:20260811T132148Z
+DTSTART;TZID=America/New_York:20260811T110000
+DTEND;TZID=America/New_York:20260811T114500
+SUMMARY:MLM — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MARTIN MARIETTA MATERIALS INC (MLM)\nRoadshow: Website: www.netroa
+ dshow.com/nrs/home/#!/?show=82dbd315 | Passcode: MLM2026 (not case-sensiti
+ ve)\n\nDeal context:\nMartin Marietta Materials\, Inc. (MLM)\, rated Baa2 
+ (Negative Watch) / BBB+ (Negative) / BBB+ (Negative) by Moody's\, S&P\, an
+ d Fitch respectively\, has mandated Goldman Sachs\, J.P. Morgan\, Deutsche
+  Bank Securities\, and Truist Securities to arrange fixed income investor 
+ calls on Monday\, August 10th\, ahead of a potential benchmark senior unse
+ cured fixed-rate USD SEC registered offering. The deal is expected to span
+  maturities ranging from 3 to 30 years\, with the number and sizing of tra
+ nches to be determined subject to market conditions. No pricing terms have
+  been disclosed at this stage\, as this is a pre-deal mandate announcement
+  with investor calls scheduled before formal bookbuilding commences.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MARTIN MARIETTA MATERIALS INC (MLM)</p><p><strong>Roadshow:</
+ strong> Website: www.netroadshow.com/nrs/home/#!/?show=82dbd315 | Passcode
+ : MLM2026 (not case-sensitive)</p><p><strong>Deal context:</strong><br>Mar
+ tin Marietta Materials\, Inc. (MLM)\, rated Baa2 (Negative Watch) / BBB+ (
+ Negative) / BBB+ (Negative) by Moody's\, S&amp\;P\, and Fitch respectively
+ \, has mandated Goldman Sachs\, J.P. Morgan\, Deutsche Bank Securities\, a
+ nd Truist Securities to arrange fixed income investor calls on Monday\, Au
+ gust 10th\, ahead of a potential benchmark senior unsecured fixed-rate USD
+  SEC registered offering. The deal is expected to span maturities ranging 
+ from 3 to 30 years\, with the number and sizing of tranches to be determin
+ ed subject to market conditions. No pricing terms have been disclosed at t
+ his stage\, as this is a pre-deal mandate announcement with investor calls
+  scheduled before formal bookbuilding commences.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

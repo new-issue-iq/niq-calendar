@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ab58dd926f5da665-1@daily.newissueiq
+DTSTAMP:20260811T132148Z
+DTSTART;TZID=America/New_York:20260811T110000
+DTEND;TZID=America/New_York:20260811T114500
+SUMMARY:RHPHOT — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: RHP HOTEL PROPERTIES LP & RHP FINANCE CORP (RHPHOT)\nRoadshow: URL
+ : https://dealroadshow.com | Entry Code: RHP2026 | Direct Link: https://de
+ alroadshow.finsight.com/e/RHP2026 (available 10 minutes prior) | OM: https
+ ://verisend.com/explore\n\nDeal context:\nRHP Hotel Properties\, LP & RHP 
+ Finance Corporation (Ryman Hospitality Properties) is bringing a $700 mill
+ ion Senior Notes offering to market via a JPMorgan-led syndicate\, rated B
+ a3/BB/BB\, with initial price talk of 6.5% area. The deal is structured as
+  an 8.5NC3 with a declining call schedule (50%\, 25%\, par) and includes a
+  Special Mandatory Redemption provision tied to the consummation of the Gr
+ ande Lakes Acquisition by February 28\, 2027. Proceeds will partially fund
+  the approximately $1.38 billion Grande Lakes Acquisition\, with the notes
+  distributed as 144A/Reg S for life.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> RHP HOTEL PROPERTIES LP &amp\; RHP FINANCE CORP (RHPHOT)</p><
+ p><strong>Roadshow:</strong> URL: https://dealroadshow.com | Entry Code: R
+ HP2026 | Direct Link: https://dealroadshow.finsight.com/e/RHP2026 (availab
+ le 10 minutes prior) | OM: https://verisend.com/explore</p><p><strong>Deal
+  context:</strong><br>RHP Hotel Properties\, LP &amp\; RHP Finance Corpora
+ tion (Ryman Hospitality Properties) is bringing a $700 million Senior Note
+ s offering to market via a JPMorgan-led syndicate\, rated Ba3/BB/BB\, with
+  initial price talk of 6.5% area. The deal is structured as an 8.5NC3 with
+  a declining call schedule (50%\, 25%\, par) and includes a Special Mandat
+ ory Redemption provision tied to the consummation of the Grande Lakes Acqu
+ isition by February 28\, 2027. Proceeds will partially fund the approximat
+ ely $1.38 billion Grande Lakes Acquisition\, with the notes distributed as
+  144A/Reg S for life.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

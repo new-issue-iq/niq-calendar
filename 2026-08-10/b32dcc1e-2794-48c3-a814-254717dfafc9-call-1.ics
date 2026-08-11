@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:efcc441a12e3708c-1@daily.newissueiq
+DTSTAMP:20260811T132148Z
+DTSTART;TZID=America/New_York:20260810T110000
+DTEND;TZID=America/New_York:20260810T115000
+SUMMARY:OBDC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BLUE OWL CAPITAL CORP (OBDC)\nRoadshow: www.netroadshow.com | Pass
+ word: OWL0826 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=176bf20
+ 5\n\nDeal context:\nBlue Owl Finance LLC ("OWL") is conducting fixed incom
+ e investor marketing ahead of a potential SEC-registered senior unsecured 
+ notes offering\, with investor calls scheduled for Monday\, August 10th ac
+ ross three time slots. The company carries expected ratings of Baa2 (Posit
+ ive) by Moody's\, BBB (Stable) by S&P\, and BBB+ (Stable) by Fitch\, placi
+ ng it firmly in investment grade territory. No deal size\, tenor\, or pric
+ ing terms have been disclosed at this stage. The offering is subject to ma
+ rket conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BLUE OWL CAPITAL CORP (OBDC)</p><p><strong>Roadshow:</strong>
+  www.netroadshow.com | Password: OWL0826 | Direct Link: www.netroadshow.co
+ m/nrs/home/#!/?show=176bf205</p><p><strong>Deal context:</strong><br>Blue 
+ Owl Finance LLC (&quot\;OWL&quot\;) is conducting fixed income investor ma
+ rketing ahead of a potential SEC-registered senior unsecured notes offerin
+ g\, with investor calls scheduled for Monday\, August 10th across three ti
+ me slots. The company carries expected ratings of Baa2 (Positive) by Moody
+ 's\, BBB (Stable) by S&amp\;P\, and BBB+ (Stable) by Fitch\, placing it fi
+ rmly in investment grade territory. No deal size\, tenor\, or pricing term
+ s have been disclosed at this stage. The offering is subject to market con
+ ditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

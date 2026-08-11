@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ff7ef62bea48c757-1@daily.newissueiq
+DTSTAMP:20260811T132148Z
+DTSTART;TZID=America/New_York:20260811T110000
+DTEND;TZID=America/New_York:20260811T114500
+SUMMARY:GAINWELL ACQUISITION CORP — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GAINWELL ACQUISITION CORP\nRoadshow: URL: https://dealroadshow.com
+  | Entry Code: GRAND26 | Direct Link: https://dealroadshow.finsight.com/e/
+ GRAND26 (available 10 minutes prior)\n\nDeal context:\nGainwell Acquisitio
+ n Corp. is bringing a $4.34 billion capital structure refinancing to marke
+ t\, comprising Senior Secured Notes (size TBD from the total split with a 
+ Term Loan B) alongside an amended and extended $1\,459mm Second Lien Term 
+ Loan B\, with combined proceeds refinancing the existing First Lien Term L
+ oan B due 2027 and Second Lien Term Loan B due 2028. The Senior Secured No
+ tes are structured as a 5NC2 with a 10% limited call at 103 for two years\
+ , rated B2/B-/B+\, distributed as 144A/Reg S for life\, with initial price
+  talk in the mid-9s and pricing expected Friday 8/14. The deal is led by a
+  broad ten-bank syndicate anchored by JPMorgan\, with an investor call at 
+ 11 AM ET supporting the announcement.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GAINWELL ACQUISITION CORP</p><p><strong>Roadshow:</strong> UR
+ L: https://dealroadshow.com | Entry Code: GRAND26 | Direct Link: https://d
+ ealroadshow.finsight.com/e/GRAND26 (available 10 minutes prior)</p><p><str
+ ong>Deal context:</strong><br>Gainwell Acquisition Corp. is bringing a $4.
+ 34 billion capital structure refinancing to market\, comprising Senior Sec
+ ured Notes (size TBD from the total split with a Term Loan B) alongside an
+  amended and extended $1\,459mm Second Lien Term Loan B\, with combined pr
+ oceeds refinancing the existing First Lien Term Loan B due 2027 and Second
+  Lien Term Loan B due 2028. The Senior Secured Notes are structured as a 5
+ NC2 with a 10% limited call at 103 for two years\, rated B2/B-/B+\, distri
+ buted as 144A/Reg S for life\, with initial price talk in the mid-9s and p
+ ricing expected Friday 8/14. The deal is led by a broad ten-bank syndicate
+  anchored by JPMorgan\, with an investor call at 11 AM ET supporting the a
+ nnouncement.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

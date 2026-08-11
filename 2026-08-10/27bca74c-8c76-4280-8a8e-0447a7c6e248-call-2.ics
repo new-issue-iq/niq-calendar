@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f223bbbc0747c559-2@daily.newissueiq
+DTSTAMP:20260811T132148Z
+DTSTART;TZID=America/New_York:20260810T120000
+DTEND;TZID=America/New_York:20260810T124500
+SUMMARY:HBRLN — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HARBOUR ENERGY (HBRLN)\nRoadshow: Link: https://dealroadshow.finsi
+ ght.com | Entry Code: HARBOUR2026 | Direct Link: https://dealroadshow.fins
+ ight.com/e/HARBOUR2026\n\nDeal context:\nHarbour Energy plc (HBRLN)\, a UK
+ -based oil and gas company rated Baa2/BBB-/BBB- (stable) by Moody's\, S&P\
+ , and Fitch\, is launching a USD-denominated benchmark 144A/Reg S 7-year s
+ enior unsecured offering via its subsidiary Harbour Energy Finance (2) plc
+ \, unconditionally and irrevocably guaranteed by Harbour Energy plc. The d
+ eal is at the Mandate stage\, with investor calls scheduled for August 10–
+ 11\, 2026\, arranged through Joint Active Bookrunners Barclays\, Citigroup
+ \, Deutsche Bank\, DNB Carnegie\, and J.P. Morgan\, with Deutsche Bank coo
+ rdinating logistics. Net proceeds are intended to repay all or a portion o
+ f the Bridge Facility and for general corporate purposes\, including poten
+ tial repayment of existing debt.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HARBOUR ENERGY (HBRLN)</p><p><strong>Roadshow:</strong> Link:
+  https://dealroadshow.finsight.com | Entry Code: HARBOUR2026 | Direct Link
+ : https://dealroadshow.finsight.com/e/HARBOUR2026</p><p><strong>Deal conte
+ xt:</strong><br>Harbour Energy plc (HBRLN)\, a UK-based oil and gas compan
+ y rated Baa2/BBB-/BBB- (stable) by Moody's\, S&amp\;P\, and Fitch\, is lau
+ nching a USD-denominated benchmark 144A/Reg S 7-year senior unsecured offe
+ ring via its subsidiary Harbour Energy Finance (2) plc\, unconditionally a
+ nd irrevocably guaranteed by Harbour Energy plc. The deal is at the Mandat
+ e stage\, with investor calls scheduled for August 10–11\, 2026\, arranged
+  through Joint Active Bookrunners Barclays\, Citigroup\, Deutsche Bank\, D
+ NB Carnegie\, and J.P. Morgan\, with Deutsche Bank coordinating logistics.
+  Net proceeds are intended to repay all or a portion of the Bridge Facilit
+ y and for general corporate purposes\, including potential repayment of ex
+ isting debt.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
