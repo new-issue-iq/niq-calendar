@@ -518,5 +518,10 @@
     "id": "636d060a-9e16-47fb-9fd4-d338650b2f8b",
     "issuerName": "HALEON PLC",
     "alertedAt": "2026-08-11T13:20:58.281Z"
+  },
+  {
+    "id": "85c18010-6cbe-47b9-aaf5-a306f53856e2",
+    "issuerName": "CABOT CORPORATION",
+    "alertedAt": "2026-08-11T13:40:50.944Z"
   }
 ]
