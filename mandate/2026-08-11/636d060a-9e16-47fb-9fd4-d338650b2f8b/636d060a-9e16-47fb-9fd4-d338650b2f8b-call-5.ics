@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ac320434e63dc5f6-5@daily.newissueiq
+DTSTAMP:20260811T132045Z
+DTSTART;TZID=America/New_York:20260811T140000
+DTEND;TZID=America/New_York:20260811T144500
+SUMMARY:HLNLN — Call #5
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HALEON PLC (HLNLN)\nRoadshow: URL: https://dealroadshow.finsight.c
+ om | Entry Code: HALEON2026 | Direct Link: https://dealroadshow.finsight.c
+ om/e/HALEON2026\n\nDeal context:\nHaleon plc (HLNLN\, GB)\, rated A3/BBB+ 
+ (stable) by Moody's/S&P\, is launching a USD triple-tranche senior unsecur
+ ed SEC-registered benchmark offering across 3-year\, 5-year\, and 10-year 
+ tenors via Barclays\, BofA Securities\, Deutsche Bank Securities\, Goldman
+  Sachs & Co. LLC\, and Mizuho as Joint Bookrunners\, with investor calls c
+ ommencing August 11\, 2026. The notes will be issued by Haleon US Capital 
+ LLC and guaranteed by Haleon plc\, with proceeds intended to repurchase th
+ e issuer's 3.375% Fixed Rate Senior Notes due March 2027 via a concurrent 
+ tender offer and for general corporate purposes. This is a mandate-stage a
+ nnouncement with no pricing information yet disclosed\; Goldman Sachs & Co
+ . LLC is coordinating logistics for the investor call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HALEON PLC (HLNLN)</p><p><strong>Roadshow:</strong> URL: http
+ s://dealroadshow.finsight.com | Entry Code: HALEON2026 | Direct Link: http
+ s://dealroadshow.finsight.com/e/HALEON2026</p><p><strong>Deal context:</st
+ rong><br>Haleon plc (HLNLN\, GB)\, rated A3/BBB+ (stable) by Moody's/S&amp
+ \;P\, is launching a USD triple-tranche senior unsecured SEC-registered be
+ nchmark offering across 3-year\, 5-year\, and 10-year tenors via Barclays\
+ , BofA Securities\, Deutsche Bank Securities\, Goldman Sachs &amp\; Co. LL
+ C\, and Mizuho as Joint Bookrunners\, with investor calls commencing Augus
+ t 11\, 2026. The notes will be issued by Haleon US Capital LLC and guarant
+ eed by Haleon plc\, with proceeds intended to repurchase the issuer's 3.37
+ 5% Fixed Rate Senior Notes due March 2027 via a concurrent tender offer an
+ d for general corporate purposes. This is a mandate-stage announcement wit
+ h no pricing information yet disclosed\; Goldman Sachs &amp\; Co. LLC is c
+ oordinating logistics for the investor call process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

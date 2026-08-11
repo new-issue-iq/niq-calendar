@@ -1,30 +1,5 @@
 [
   {
-    "id": "8186530e-d845-44b5-9d1d-94dcd44cd5f9",
-    "issuerName": "MEDLINE BORROWER LP & MEDLINE CO-ISSUER INC",
-    "alertedAt": "2026-05-12T15:20:22.083Z"
-  },
-  {
-    "id": "788a08c6-92a8-432b-befa-ce248c7391c5",
-    "issuerName": "OLD REPUBLIC INTL CORP",
-    "alertedAt": "2026-05-12T15:20:25.159Z"
-  },
-  {
-    "id": "78abc1de-a139-4837-8715-be77f7dc1cd3",
-    "issuerName": "CUMBERLAND COMBINED CYCLE GENERATION LLC",
-    "alertedAt": "2026-05-12T15:20:28.126Z"
-  },
-  {
-    "id": "1b84a777-0e41-4113-b454-c9fc0cc12f40",
-    "issuerName": "PAMPA ENERGIA SA",
-    "alertedAt": "2026-05-13T12:41:17.447Z"
-  },
-  {
-    "id": "e0f4b4a7-f02d-4f30-aa3a-4f0c472900a3",
-    "issuerName": "POSCO HOLDINGS INC",
-    "alertedAt": "2026-05-13T12:41:20.499Z"
-  },
-  {
     "id": "7576381c-5124-4c49-88ae-84f897b60c19",
     "issuerName": "VEON",
     "alertedAt": "2026-05-18T11:31:11.111Z"
@@ -538,5 +513,10 @@
     "id": "27bca74c-8c76-4280-8a8e-0447a7c6e248",
     "issuerName": "HARBOUR ENERGY",
     "alertedAt": "2026-08-10T14:10:42.224Z"
+  },
+  {
+    "id": "636d060a-9e16-47fb-9fd4-d338650b2f8b",
+    "issuerName": "HALEON PLC",
+    "alertedAt": "2026-08-11T13:20:58.281Z"
   }
 ]
