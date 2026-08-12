@@ -528,5 +528,10 @@
     "id": "f5bc1d6c-4e5b-4035-9e6a-ebb521b67601",
     "issuerName": "BARINGS PRIVATE CREDIT CORP",
     "alertedAt": "2026-08-12T14:10:47.972Z"
+  },
+  {
+    "id": "7d7ecd5d-c194-4f02-ad38-24b774c15ebc",
+    "issuerName": "QTS CENTRAL ISSUER LLC & QTS TRS CENTRAL ISSUER LLC",
+    "alertedAt": "2026-08-12T15:50:49.873Z"
   }
 ]
