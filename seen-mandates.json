@@ -523,5 +523,10 @@
     "id": "85c18010-6cbe-47b9-aaf5-a306f53856e2",
     "issuerName": "CABOT CORPORATION",
     "alertedAt": "2026-08-11T13:40:50.944Z"
+  },
+  {
+    "id": "f5bc1d6c-4e5b-4035-9e6a-ebb521b67601",
+    "issuerName": "BARINGS PRIVATE CREDIT CORP",
+    "alertedAt": "2026-08-12T14:10:47.972Z"
   }
 ]
