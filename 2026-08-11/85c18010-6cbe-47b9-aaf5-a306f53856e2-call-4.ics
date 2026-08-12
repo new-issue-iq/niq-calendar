@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4ed7941a07c74467-4@daily.newissueiq
+DTSTAMP:20260812T132530Z
+DTSTART;TZID=America/New_York:20260812T130000
+DTEND;TZID=America/New_York:20260812T134500
+SUMMARY:CBT — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CABOT CORPORATION (CBT)\nRoadshow: https://dealroadshow.finsight.c
+ om/e/CBT2026 | Website: https://dealroadshow.finsight.com | Passcode: CBT2
+ 026\n\nDeal context:\nCabot Corporation (NYSE: CBT)\, a global specialty c
+ hemicals and performance materials company rated Baa2/BBB (stable) by Mood
+ y's and S&P\, is conducting fixed income investor calls on August 11 ahead
+  of a potential 3-year USD-denominated SEC-registered senior unsecured off
+ ering. The deal is at the Mandate stage with investor calls scheduled from
+  11:00 am to 1:45 pm ET\, coordinated by US Bancorp\, with Citigroup\, J.P
+ . Morgan\, PNC Capital Markets LLC\, and US Bancorp as arrangers. No size\
+ , pricing\, or spread guidance has been provided at this stage\, as the of
+ fering remains subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CABOT CORPORATION (CBT)</p><p><strong>Roadshow:</strong> http
+ s://dealroadshow.finsight.com/e/CBT2026 | Website: https://dealroadshow.fi
+ nsight.com | Passcode: CBT2026</p><p><strong>Deal context:</strong><br>Cab
+ ot Corporation (NYSE: CBT)\, a global specialty chemicals and performance 
+ materials company rated Baa2/BBB (stable) by Moody's and S&amp\;P\, is con
+ ducting fixed income investor calls on August 11 ahead of a potential 3-ye
+ ar USD-denominated SEC-registered senior unsecured offering. The deal is a
+ t the Mandate stage with investor calls scheduled from 11:00 am to 1:45 pm
+  ET\, coordinated by US Bancorp\, with Citigroup\, J.P. Morgan\, PNC Capit
+ al Markets LLC\, and US Bancorp as arrangers. No size\, pricing\, or sprea
+ d guidance has been provided at this stage\, as the offering remains subje
+ ct to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:862ae2818a75fef0-1@daily.newissueiq
+DTSTAMP:20260812T132530Z
+DTSTART;TZID=America/New_York:20260812T110000
+DTEND;TZID=America/New_York:20260812T115000
+SUMMARY:BPRIVA — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BARINGS PRIVATE CREDIT CORP (BPRIVA)\nRoadshow: URL: www.netroadsh
+ ow.com | Entry Code: BPCC2026 | Direct Link: www.netroadshow.com/nrs/home/
+ #!/?show=36ae312f\n\nDeal context:\nBarings Private Credit Corporation (“B
+ ARPCC” or the “Company”)\, expected ratings* of Baa3 (Stable) by Moody’s a
+ nd BBB- (Stable) by Fitch\, has asked RBC Capital Markets\, BMO Capital Ma
+ rkets\, Fifth Third Securities\, J.P. Morgan and Wells Fargo Securities to
+  arrange a series of fixed income investor calls to be conducted on Wednes
+ day\, August 12th. A capital markets transaction may follow\, subject to m
+ arket conditions. An electronic presentation has been made available.\n\nR
+ BC Capital Markets is coordinating logistics.\n\nCompany Participants:\nTo
+ m McDonnell – Co-Chief Executive Officer\nElizabeth Murray – Chief Financi
+ al Officer and Chief Operating Officer\nAlbert Perley – Treasurer\n\nSched
+ ule for Wednesday\, August 12th\, 2026:\nCall #1: 11:00am-11:50am ET\nPre-
+ Registration Link: https://www.netroadshow.com/events/login/1PeTHmohQt8qx1
+ yzcxuloBVNWdnxQbftsfTBW\n\nCall #2: 12:00pm-12:50pm ET\nPre-Registration L
+ ink: https://www.netroadshow.com/events/login/1PeTHmohH9qpUu2CVvMSSGPR4Te9
+ k5Qa4QwYZ\n\nElectronic Presentation:\nURL: www.netroadshow.com\nEntry Cod
+ e: BPCC2026\nDirect Link: www.netroadshow.com/nrs/home/#!/?show=36ae312f
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BARINGS PRIVATE CREDIT CORP (BPRIVA)</p><p><strong>Roadshow:<
+ /strong> URL: www.netroadshow.com | Entry Code: BPCC2026 | Direct Link: ww
+ w.netroadshow.com/nrs/home/#!/?show=36ae312f</p><p><strong>Deal context:</
+ strong><br>Barings Private Credit Corporation (“BARPCC” or the “Company”)\
+ , expected ratings* of Baa3 (Stable) by Moody’s and BBB- (Stable) by Fitch
+ \, has asked RBC Capital Markets\, BMO Capital Markets\, Fifth Third Secur
+ ities\, J.P. Morgan and Wells Fargo Securities to arrange a series of fixe
+ d income investor calls to be conducted on Wednesday\, August 12th. A capi
+ tal markets transaction may follow\, subject to market conditions. An elec
+ tronic presentation has been made available.<br><br>RBC Capital Markets is
+  coordinating logistics.<br><br>Company Participants:<br>Tom McDonnell – C
+ o-Chief Executive Officer<br>Elizabeth Murray – Chief Financial Officer an
+ d Chief Operating Officer<br>Albert Perley – Treasurer<br><br>Schedule for
+  Wednesday\, August 12th\, 2026:<br>Call #1: 11:00am-11:50am ET<br>Pre-Reg
+ istration Link: https://www.netroadshow.com/events/login/1PeTHmohQt8qx1yzc
+ xuloBVNWdnxQbftsfTBW<br><br>Call #2: 12:00pm-12:50pm ET<br>Pre-Registratio
+ n Link: https://www.netroadshow.com/events/login/1PeTHmohH9qpUu2CVvMSSGPR4
+ Te9k5Qa4QwYZ<br><br>Electronic Presentation:<br>URL: www.netroadshow.com<b
+ r>Entry Code: BPCC2026<br>Direct Link: www.netroadshow.com/nrs/home/#!/?sh
+ ow=36ae312f</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
