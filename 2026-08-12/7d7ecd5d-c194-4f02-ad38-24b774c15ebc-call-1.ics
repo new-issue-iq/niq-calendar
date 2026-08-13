@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:781fb286926e5e4c-1@daily.newissueiq
+DTSTAMP:20260813T131858Z
+DTSTART;TZID=America/New_York:20260812T140000
+DTEND;TZID=America/New_York:20260812T145000
+SUMMARY:QTS CENTRAL ISSUER LLC & QTS TRS CENTRAL ISSUER LLC — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: QTS CENTRAL ISSUER LLC & QTS TRS CENTRAL ISSUER LLC\nRoadshow: htt
+ ps://dealroadshow.finsight.com/e/QTS2026ODYSSEY | Alternative: https://dea
+ lroadshow.finsight.com\; Entry Code: QTS2026ODYSSEY\n\nDeal context:\nQTS 
+ Central Issuer\, LLC (the “Managing Issuer”)\, QTS TRS Central Issuer\, LL
+ C (the “TRS Issuer” and\, together with the Managing Issuer\, the “Co-Issu
+ ers”)\, each a special purpose Delaware limited liability company and each
+  an indirect wholly-owned subsidiary of QualityTech\, LP\, a Delaware limi
+ ted partnership (“QTS”\, the “Company” or the “Parent”)\, with ratings* to
+  follow\, has mandated Goldman Sachs & Co.\, Citigroup Global Markets Inc.
+ \, J.P. Morgan\, and Morgan Stanley & Co. LLC to arrange a series of fixed
+  income investor update calls. The calls will take place on Wednesday\, Au
+ gust 12th\, and Thursday\, August 13th\, and will be accompanied by a prel
+ iminary offering memorandum and a pre-recorded electronic investor present
+ ation. An offering under rule 144A / Reg S may follow subject to market co
+ nditions.\n\n Goldman Sachs & Co is coordinating logistics.\n\n The Compan
+ y will be represented by:\n\n  *   Stephen Douglas – Deputy Chief Financia
+ l Officer\, QTS\n  *   Brian Lin – Senior Managing Director\, Blackstone\n
+   *   Kristin Khanna – Senior Vice President\, QTS\n  *   Jack Hooker – Pr
+ incipal\, Blackstone\n  *   Brooks Busby – Vice President\, QTS\n\n\n\nInv
+ estor Presentation\, Deal Documents\, and Investor Call Registration:\n\n 
+  *   Direct Link: https://dealroadshow.finsight.com/e/QTS2026ODYSSEY<https
+ ://urldefense.com/v3/__https:/dealroadshow.finsight.com/e/QTS2026ODYSSEY__
+ \;!!O2kDR7mm-zSJ!tfjjsh8CIPvmOFzEIMkRKU3buMg5R6MEetHkSP2TUy1P6QzXMXcVJ-FZq
+ nH2OG233VoA3ErtXjPFnbGITRo$>\n\nOR\n\n  *   Link: https://dealroadshow.fin
+ sight.com<https://urldefense.com/v3/__https:/dealroadshow.finsight.com__\;
+ !!O2kDR7mm-zSJ!tfjjsh8CIPvmOFzEIMkRKU3buMg5R6MEetHkSP2TUy1P6QzXMXcVJ-FZqnH
+ 2OG233VoA3ErtXjPF1V3UmhA$>\; Entry Code: QTS2026ODYSSEY\n\n\n\nInvestor Ca
+ ll Schedule\n\nWednesday\, August 12th\n\n  *   Call #1: 2:00 - 2:50pm ET\
+ n  *   Call #2: 3:00 - 3:50pm ET\n  *   Call #3: 4:00 - 4:50pm ET\n\n Thur
+ sday\, August 13th\n\n  *   Call #5: 9:00 - 9:50am ET\n  *   Call #6: 10:0
+ 0 - 10:50am ET\n  *   Call #7: 11:00 - 11:50am ET\n  *   Call #8: 12:00 - 
+ 12:50pm ET\n  *   Call #9: 1:00 - 1:50pm ET\n\n\n\nAbout the Project:\n\nT
+ he Co-Issuers are seeking to finance a 150 MW hyperscale data center proje
+ ct (the “Project”) that is under development on their ATL2 campus in the A
+ tlanta metro area (the “ATL2 Campus”). It comprises two buildings and is 1
+ 00% leased to a “Aa3 rating or better” rated hyperscaler technology compan
+ y (the “Tenant”). The Project is being delivered on a phased basis\, with 
+ lease commencements and revenue generation anticipated between November 20
+ 27 and February 2028. The Tenant has leased each of the two Buildings unde
+ r a long-term absolute triple-net (“NNN”) lease agreement. Each of the lea
+ ses has an initial term of 15 years and includes one 15-year extension opt
+ ion. In addition\, each Lease provides for annual contractual rent escalat
+ ions of 3.0% and full pass-through of operating costs. As a result\, the P
+ roject is expected to generate a highly visible revenue stream and maintai
+ n a 100% net operating income (“NOI”) margin profile throughout the term o
+ f each Lease.\n\n About QTS:\n\nQTS is a leading provider of data center s
+ olutions to some of the world’s largest and most sophisticated hyperscale 
+ technology companies\, enterprises and government agencies. It operates mo
+ re than 100 data centers across over 20 markets with approximately 99% occ
+ upancy. The Company is supported by over 2\,000 employees and a robust and
+  substantial land bank and global development pipeline\, positioning it am
+ ong the largest data center platforms in North America. Through its techno
+ logy-enabled platform\, delivered across mega-scale data center infrastruc
+ ture\, the Company offers a comprehensive portfolio of secure and complian
+ t information technology solutions. The Company is a market leader in Atla
+ nta\, leveraging scale for operating and build-cost advantages\; QTS’ two 
+ other Atlanta Metro campuses demonstrate long‑dated resilience and interco
+ nnection depth that complements the Project mega‑campus.\n\nAbout Blacksto
+ ne:\n\nBlackstone (NYSE: BX) is an American multinational private equity\,
+  alternative asset management and financial services firm based in New Yor
+ k City. As the largest alternative inv|estment firm in the world\, with ap
+ proximately $1.3 trillion of assets under management as of December 31\, 2
+ 025\, Blackstone specializes in real estate\, private equity\, credit and 
+ hedge fund investment strategies. Blackstone operates one of the largest a
+ nd fastest-growing global data center platforms\, valued at $130 billion w
+ ith more than $140 billion in its development pipeline.\n
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> QTS CENTRAL ISSUER LLC &amp\; QTS TRS CENTRAL ISSUER LLC</p><
+ p><strong>Roadshow:</strong> https://dealroadshow.finsight.com/e/QTS2026OD
+ YSSEY | Alternative: https://dealroadshow.finsight.com\; Entry Code: QTS20
+ 26ODYSSEY</p><p><strong>Deal context:</strong><br>QTS Central Issuer\, LLC
+  (the “Managing Issuer”)\, QTS TRS Central Issuer\, LLC (the “TRS Issuer” 
+ and\, together with the Managing Issuer\, the “Co-Issuers”)\, each a speci
+ al purpose Delaware limited liability company and each an indirect wholly-
+ owned subsidiary of QualityTech\, LP\, a Delaware limited partnership (“QT
+ S”\, the “Company” or the “Parent”)\, with ratings* to follow\, has mandat
+ ed Goldman Sachs &amp\; Co.\, Citigroup Global Markets Inc.\, J.P. Morgan\
+ , and Morgan Stanley &amp\; Co. LLC to arrange a series of fixed income in
+ vestor update calls. The calls will take place on Wednesday\, August 12th\
+ , and Thursday\, August 13th\, and will be accompanied by a preliminary of
+ fering memorandum and a pre-recorded electronic investor presentation. An 
+ offering under rule 144A / Reg S may follow subject to market conditions.<
+ br><br> Goldman Sachs &amp\; Co is coordinating logistics.<br><br> The Com
+ pany will be represented by:<br><br>  *   Stephen Douglas – Deputy Chief F
+ inancial Officer\, QTS<br>  *   Brian Lin – Senior Managing Director\, Bla
+ ckstone<br>  *   Kristin Khanna – Senior Vice President\, QTS<br>  *   Jac
+ k Hooker – Principal\, Blackstone<br>  *   Brooks Busby – Vice President\,
+  QTS<br><br><br><br>Investor Presentation\, Deal Documents\, and Investor 
+ Call Registration:<br><br>  *   Direct Link: https://dealroadshow.finsight
+ .com/e/QTS2026ODYSSEY&lt\;https://urldefense.com/v3/__https:/dealroadshow.
+ finsight.com/e/QTS2026ODYSSEY__\;!!O2kDR7mm-zSJ!tfjjsh8CIPvmOFzEIMkRKU3buM
+ g5R6MEetHkSP2TUy1P6QzXMXcVJ-FZqnH2OG233VoA3ErtXjPFnbGITRo$&gt\;<br><br>OR<
+ br><br>  *   Link: https://dealroadshow.finsight.com&lt\;https://urldefens
+ e.com/v3/__https:/dealroadshow.finsight.com__\;!!O2kDR7mm-zSJ!tfjjsh8CIPvm
+ OFzEIMkRKU3buMg5R6MEetHkSP2TUy1P6QzXMXcVJ-FZqnH2OG233VoA3ErtXjPF1V3UmhA$&g
+ t\;\; Entry Code: QTS2026ODYSSEY<br><br><br><br>Investor Call Schedule<br>
+ <br>Wednesday\, August 12th<br><br>  *   Call #1: 2:00 - 2:50pm ET<br>  * 
+   Call #2: 3:00 - 3:50pm ET<br>  *   Call #3: 4:00 - 4:50pm ET<br><br> Thu
+ rsday\, August 13th<br><br>  *   Call #5: 9:00 - 9:50am ET<br>  *   Call #
+ 6: 10:00 - 10:50am ET<br>  *   Call #7: 11:00 - 11:50am ET<br>  *   Call #
+ 8: 12:00 - 12:50pm ET<br>  *   Call #9: 1:00 - 1:50pm ET<br><br><br><br>Ab
+ out the Project:<br><br>The Co-Issuers are seeking to finance a 150 MW hyp
+ erscale data center project (the “Project”) that is under development on t
+ heir ATL2 campus in the Atlanta metro area (the “ATL2 Campus”). It compris
+ es two buildings and is 100% leased to a “Aa3 rating or better” rated hype
+ rscaler technology company (the “Tenant”). The Project is being delivered 
+ on a phased basis\, with lease commencements and revenue generation antici
+ pated between November 2027 and February 2028. The Tenant has leased each 
+ of the two Buildings under a long-term absolute triple-net (“NNN”) lease a
+ greement. Each of the leases has an initial term of 15 years and includes 
+ one 15-year extension option. In addition\, each Lease provides for annual
+  contractual rent escalations of 3.0% and full pass-through of operating c
+ osts. As a result\, the Project is expected to generate a highly visible r
+ evenue stream and maintain a 100% net operating income (“NOI”) margin prof
+ ile throughout the term of each Lease.<br><br> About QTS:<br><br>QTS is a 
+ leading provider of data center solutions to some of the world’s largest a
+ nd most sophisticated hyperscale technology companies\, enterprises and go
+ vernment agencies. It operates more than 100 data centers across over 20 m
+ arkets with approximately 99% occupancy. The Company is supported by over 
+ 2\,000 employees and a robust and substantial land bank and global develop
+ ment pipeline\, positioning it among the largest data center platforms in 
+ North America. Through its technology-enabled platform\, delivered across 
+ mega-scale data center infrastructure\, the Company offers a comprehensive
+  portfolio of secure and compliant information technology solutions. The C
+ ompany is a market leader in Atlanta\, leveraging scale for operating and 
+ build-cost advantages\; QTS’ two other Atlanta Metro campuses demonstrate 
+ long‑dated resilience and interconnection depth that complements the Proje
+ ct mega‑campus.<br><br>About Blackstone:<br><br>Blackstone (NYSE: BX) is a
+ n American multinational private equity\, alternative asset management and
+  financial services firm based in New York City. As the largest alternativ
+ e inv|estment firm in the world\, with approximately $1.3 trillion of asse
+ ts under management as of December 31\, 2025\, Blackstone specializes in r
+ eal estate\, private equity\, credit and hedge fund investment strategies.
+  Blackstone operates one of the largest and fastest-growing global data ce
+ nter platforms\, valued at $130 billion with more than $140 billion in its
+  development pipeline.<br></p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

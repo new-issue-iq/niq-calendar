@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ff7ef62bea48c757-1@daily.newissueiq
+DTSTAMP:20260813T131858Z
+DTSTART;TZID=America/New_York:20260813T110000
+DTEND;TZID=America/New_York:20260813T114500
+SUMMARY:GAINWELL ACQUISITION CORP — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GAINWELL ACQUISITION CORP\nRoadshow: URL: https://dealroadshow.com
+  | Entry Code: GRAND26 | Direct Link: https://dealroadshow.finsight.com/e/
+ GRAND26 (available 10 minutes prior)\n\nDeal context:\nGainwell Acquisitio
+ n Corp. is bringing a $4.34 billion financing package to market comprising
+  a combination of Senior Secured Notes and an amended & extended Term Loan
+  B (split TBD)\, with the Senior Secured Notes distributed as 144A/Reg S f
+ or life and rated B2/B-/B+. The deal is structured as a 5NC2 with a 10% @ 
+ 103 optional redemption for 2 years and IPT in the mid-9s area. Proceeds\,
+  together with an amended & extended $1\,459mm 2L Term Loan B\, will refin
+ ance the entire existing capital structure including the 1L TLB due 2027 a
+ nd 2L TLB due 2028\, with pricing expected Friday 8/14 via a 10-bank joint
+  bookrunner group led by JPM.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GAINWELL ACQUISITION CORP</p><p><strong>Roadshow:</strong> UR
+ L: https://dealroadshow.com | Entry Code: GRAND26 | Direct Link: https://d
+ ealroadshow.finsight.com/e/GRAND26 (available 10 minutes prior)</p><p><str
+ ong>Deal context:</strong><br>Gainwell Acquisition Corp. is bringing a $4.
+ 34 billion financing package to market comprising a combination of Senior 
+ Secured Notes and an amended &amp\; extended Term Loan B (split TBD)\, wit
+ h the Senior Secured Notes distributed as 144A/Reg S for life and rated B2
+ /B-/B+. The deal is structured as a 5NC2 with a 10% @ 103 optional redempt
+ ion for 2 years and IPT in the mid-9s area. Proceeds\, together with an am
+ ended &amp\; extended $1\,459mm 2L Term Loan B\, will refinance the entire
+  existing capital structure including the 1L TLB due 2027 and 2L TLB due 2
+ 028\, with pricing expected Friday 8/14 via a 10-bank joint bookrunner gro
+ up led by JPM.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

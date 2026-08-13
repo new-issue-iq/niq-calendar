@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6e6b3f7d1d92fd2b-1@daily.newissueiq
+DTSTAMP:20260813T131858Z
+DTSTART;TZID=America/New_York:20260813T103000
+DTEND;TZID=America/New_York:20260813T111500
+SUMMARY:ZENITH ARC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ZENITH ARC\nRoadshow: https://www.netroadshow.com/nrs/home/#!/?sho
+ w=c6c319a2 | Passcode: 26ZENITH\n\nDeal context:\nZenith Arc (a 50.1% Flui
+ dstack / 49.9% Next Frontier JV vehicle sitting under Prairieland Rivers L
+ LC) is bringing a $2.25 billion 5NC2 Senior Secured Green Notes offering t
+ o finance the development of a purpose-built 149 MW critical IT load / 200
+  MW gross AI/HPC datacenter campus in Okmulgee\, Oklahoma\, with project c
+ apex of ~$2.1bn and $236mm of parent equity alongside the notes. The deal 
+ is 100% pre-leased to JS Data Center\, LLC (a Jane Street affiliate) at $1
+ 47.50/kW/month with 3% annual escalators under a triple-net lease\, implyi
+ ng ~$269mm initial annual rent and ~$5.1bn total initial-term lease value\
+ , with Jane Street providing a parent guaranty of tenant obligations. Pric
+ ing is expected Thursday August 18 following an investor call on August 12
+  at 10:30AM ET\; the deal carries a BB expected rating with a price whispe
+ r in the high 8s\, structured with DSCR-based semi-annual amortization pos
+ t-commencement and a $150mm capped completion guarantee from Prairieland.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ZENITH ARC</p><p><strong>Roadshow:</strong> https://www.netro
+ adshow.com/nrs/home/#!/?show=c6c319a2 | Passcode: 26ZENITH</p><p><strong>D
+ eal context:</strong><br>Zenith Arc (a 50.1% Fluidstack / 49.9% Next Front
+ ier JV vehicle sitting under Prairieland Rivers LLC) is bringing a $2.25 b
+ illion 5NC2 Senior Secured Green Notes offering to finance the development
+  of a purpose-built 149 MW critical IT load / 200 MW gross AI/HPC datacent
+ er campus in Okmulgee\, Oklahoma\, with project capex of ~$2.1bn and $236m
+ m of parent equity alongside the notes. The deal is 100% pre-leased to JS 
+ Data Center\, LLC (a Jane Street affiliate) at $147.50/kW/month with 3% an
+ nual escalators under a triple-net lease\, implying ~$269mm initial annual
+  rent and ~$5.1bn total initial-term lease value\, with Jane Street provid
+ ing a parent guaranty of tenant obligations. Pricing is expected Thursday 
+ August 18 following an investor call on August 12 at 10:30AM ET\; the deal
+  carries a BB expected rating with a price whisper in the high 8s\, struct
+ ured with DSCR-based semi-annual amortization post-commencement and a $150
+ mm capped completion guarantee from Prairieland.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a26f3ce8056fbcd5-2@daily.newissueiq
+DTSTAMP:20260813T131858Z
+DTSTART;TZID=America/New_York:20260812T120000
+DTEND;TZID=America/New_York:20260812T125000
+SUMMARY:BPRIVA — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BARINGS PRIVATE CREDIT CORP (BPRIVA)\nRoadshow: URL: www.netroadsh
+ ow.com | Entry Code: BPCC2026 | Direct Link: www.netroadshow.com/nrs/home/
+ #!/?show=36ae312f\n\nDeal context:\nBarings Private Credit Corp (BARPCC) i
+ s bringing a $350MM (WNG) 5-year senior unsecured note offering via 144A/R
+ eg S with registration rights\, rated Baa3/Stable (Moody's) and BBB-/Stabl
+ e (Fitch)\, placing it squarely in investment grade territory. The deal la
+ unched with IPT of T+275 area\, with settlement expected T+3 on August 18\
+ , 2026\, and maturity on August 18\, 2031. The offering is led by RBCCM (B
+ &D)\, BMO\, FITB\, JPM\, and WFS\, with proceeds intended to repay outstan
+ ding indebtedness under secured credit facilities\, make portfolio investm
+ ents\, and for general corporate purposes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BARINGS PRIVATE CREDIT CORP (BPRIVA)</p><p><strong>Roadshow:<
+ /strong> URL: www.netroadshow.com | Entry Code: BPCC2026 | Direct Link: ww
+ w.netroadshow.com/nrs/home/#!/?show=36ae312f</p><p><strong>Deal context:</
+ strong><br>Barings Private Credit Corp (BARPCC) is bringing a $350MM (WNG)
+  5-year senior unsecured note offering via 144A/Reg S with registration ri
+ ghts\, rated Baa3/Stable (Moody's) and BBB-/Stable (Fitch)\, placing it sq
+ uarely in investment grade territory. The deal launched with IPT of T+275 
+ area\, with settlement expected T+3 on August 18\, 2026\, and maturity on 
+ August 18\, 2031. The offering is led by RBCCM (B&amp\;D)\, BMO\, FITB\, J
+ PM\, and WFS\, with proceeds intended to repay outstanding indebtedness un
+ der secured credit facilities\, make portfolio investments\, and for gener
+ al corporate purposes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

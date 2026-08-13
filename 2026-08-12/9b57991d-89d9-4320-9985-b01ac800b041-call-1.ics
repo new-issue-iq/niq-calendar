@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:69af538c99e8234d-1@daily.newissueiq
+DTSTAMP:20260813T131858Z
+DTSTART;TZID=America/New_York:20260813T100000
+DTEND;TZID=America/New_York:20260813T104500
+SUMMARY:VVV — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VALVOLINE INC (VVV)\nRoadshow: https://www.netroadshow.com/events/
+ login/1PeTHmoj9wSCLyWFwqu5JXhQ9SRGqHnIFidAQ\n\nDeal context:\nValvoline In
+ c. is bringing a $500 million 8-year Senior Unsecured Notes offering rated
+  Ba2/BB at the corporate level and Ba3/B+ at the issue level\, with initia
+ l price talk in the mid-6% area. Proceeds\, together with cash on hand\, w
+ ill be used to repay in full the Term Loan A and partially repay the Term 
+ Loan B\, representing a liability management exercise to refinance existin
+ g bank debt. The deal is structured as 144A/Reg S for Life with NC-3 call 
+ protection\, a 40% equity clawback\, and covenants matching the existing S
+ enior Unsecured Notes due 2031\, with an investor call scheduled for Thurs
+ day\, August 13th\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VALVOLINE INC (VVV)</p><p><strong>Roadshow:</strong> https://
+ www.netroadshow.com/events/login/1PeTHmoj9wSCLyWFwqu5JXhQ9SRGqHnIFidAQ</p>
+ <p><strong>Deal context:</strong><br>Valvoline Inc. is bringing a $500 mil
+ lion 8-year Senior Unsecured Notes offering rated Ba2/BB at the corporate 
+ level and Ba3/B+ at the issue level\, with initial price talk in the mid-6
+ % area. Proceeds\, together with cash on hand\, will be used to repay in f
+ ull the Term Loan A and partially repay the Term Loan B\, representing a l
+ iability management exercise to refinance existing bank debt. The deal is 
+ structured as 144A/Reg S for Life with NC-3 call protection\, a 40% equity
+  clawback\, and covenants matching the existing Senior Unsecured Notes due
+  2031\, with an investor call scheduled for Thursday\, August 13th\, 2026.
+ </p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

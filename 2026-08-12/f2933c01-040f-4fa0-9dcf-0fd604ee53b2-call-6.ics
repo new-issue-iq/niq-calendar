@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f725c3f1c76f1686-6@daily.newissueiq
+DTSTAMP:20260813T131858Z
+DTSTART;TZID=America/New_York:20260819T110000
+DTEND;TZID=America/New_York:20260819T114500
+SUMMARY:RWE GR — Call #7
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: RWE AG (RWE GR)\nRoadshow: https://www.rwe.com/en/investor-relatio
+ ns/financial-calendar-and-publications/presentations/\n\nDeal context:\nRW
+ E AG\, a leading international renewable energy provider rated Baa2 (stabl
+ e) / BBB+ (stable) by Moody's / Fitch\, is conducting a series of seven no
+ n-deal fixed income investor calls across August 17–19\, 2026\, following 
+ the release of its H1 2026 results. The calls are coordinated by BofA Secu
+ rities and will feature senior representatives including the Director of C
+ redit Risk and Finance\, Head of Treasury\, Director of Investor Relations
+ \, and Fixed Income IR Manager. No bond issuance\, pricing\, or deal terms
+  are presented\; this is purely a credit investor engagement update with n
+ o deal mandate attached.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> RWE AG (RWE GR)</p><p><strong>Roadshow:</strong> https://www.
+ rwe.com/en/investor-relations/financial-calendar-and-publications/presenta
+ tions/</p><p><strong>Deal context:</strong><br>RWE AG\, a leading internat
+ ional renewable energy provider rated Baa2 (stable) / BBB+ (stable) by Moo
+ dy's / Fitch\, is conducting a series of seven non-deal fixed income inves
+ tor calls across August 17–19\, 2026\, following the release of its H1 202
+ 6 results. The calls are coordinated by BofA Securities and will feature s
+ enior representatives including the Director of Credit Risk and Finance\, 
+ Head of Treasury\, Director of Investor Relations\, and Fixed Income IR Ma
+ nager. No bond issuance\, pricing\, or deal terms are presented\; this is 
+ purely a credit investor engagement update with no deal mandate attached.<
+ /p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
