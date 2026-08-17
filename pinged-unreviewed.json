@@ -173,5 +173,15 @@
     "id": "f5bc1d6c-4e5b-4035-9e6a-ebb521b67601",
     "issuerName": "BARINGS PRIVATE CREDIT CORP",
     "pingedAt": "2026-08-12T13:30:40.282Z"
+  },
+  {
+    "id": "8d13c63b-3d8a-4508-b213-36c980793fda",
+    "issuerName": "MARKEL GROUP INC",
+    "pingedAt": "2026-08-17T13:40:56.027Z"
+  },
+  {
+    "id": "828b57e4-e5d3-470d-95e3-83fcdbf8e125",
+    "issuerName": "TRACTOR SUPPLY CO",
+    "pingedAt": "2026-08-17T13:40:56.109Z"
   }
 ]
