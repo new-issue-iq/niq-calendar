@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:85e9fbe73ddbc61b-2@daily.newissueiq
+DTSTAMP:20260817T135102Z
+DTSTART;TZID=America/New_York:20260817T140000
+DTEND;TZID=America/New_York:20260817T145000
+SUMMARY:MKL — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MARKEL GROUP INC (MKL)\nRoadshow: URL: https://dealroadshow.finsig
+ ht.com | Entry Code: MKL2026 | Direct Link: https://dealroadshow.finsight.
+ com/e/MKL2026\n\nDeal context:\nMarkel Group Inc. (MKL) is launching an in
+ augural offering of 30-year fixed-rate Pre-Capitalized Trust Securities (P
+ -CAPs) through a newly formed trust\, Maymont Funding Trust\, denominated 
+ in U.S. dollars under Rule 144A / Section 3(c)(7) of the Investment Compan
+ y Act\, with no size or pricing terms disclosed at this stage. The deal is
+  at the Mandate stage\, with a series of global fixed income investor call
+ s scheduled for Monday\, August 17th\, 2026\, hosted by Wells Fargo Securi
+ ties as Sole Structuring Advisor and Lead Left Bookrunner\, alongside BofA
+  Securities and J.P. Morgan as Joint Bookrunners. The P-CAPs are expected 
+ to be rated Baa2 (stable) / BBB+ (stable) by Moody's and S&P respectively\
+ , in-line with MKL's existing senior unsecured notes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MARKEL GROUP INC (MKL)</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.finsight.com | Entry Code: MKL2026 | Direct Link: htt
+ ps://dealroadshow.finsight.com/e/MKL2026</p><p><strong>Deal context:</stro
+ ng><br>Markel Group Inc. (MKL) is launching an inaugural offering of 30-ye
+ ar fixed-rate Pre-Capitalized Trust Securities (P-CAPs) through a newly fo
+ rmed trust\, Maymont Funding Trust\, denominated in U.S. dollars under Rul
+ e 144A / Section 3(c)(7) of the Investment Company Act\, with no size or p
+ ricing terms disclosed at this stage. The deal is at the Mandate stage\, w
+ ith a series of global fixed income investor calls scheduled for Monday\, 
+ August 17th\, 2026\, hosted by Wells Fargo Securities as Sole Structuring 
+ Advisor and Lead Left Bookrunner\, alongside BofA Securities and J.P. Morg
+ an as Joint Bookrunners. The P-CAPs are expected to be rated Baa2 (stable)
+  / BBB+ (stable) by Moody's and S&amp\;P respectively\, in-line with MKL's
+  existing senior unsecured notes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

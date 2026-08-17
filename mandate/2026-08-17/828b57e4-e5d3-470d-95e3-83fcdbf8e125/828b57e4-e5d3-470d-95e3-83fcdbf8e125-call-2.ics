@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ec52cc4f464e2358-2@daily.newissueiq
+DTSTAMP:20260817T135053Z
+DTSTART;TZID=America/New_York:20260817T130000
+DTEND;TZID=America/New_York:20260817T134500
+SUMMARY:TSCO — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: TRACTOR SUPPLY CO (TSCO)\nRoadshow: URL: https://dealroadshow.fins
+ ight.com | Entry Code: TSCO2026 | Direct Link: https://dealroadshow.finsig
+ ht.com/e/TSCO2026\n\nDeal context:\nTractor Supply Company (TSCO)\, rated 
+ Baa1 (Stable) / BBB (Stable)\, is arranging a series of fixed income inves
+ tor calls on Monday\, August 17th\, 2026\, with Wells Fargo Securities and
+  BofA Securities as arrangers\, ahead of a potential USD-denominated\, SEC
+  Registered senior unsecured notes transaction. The deal is at the Mandate
+  stage with no size\, tenor\, or pricing terms disclosed\, subject to mark
+ et conditions. Wells Fargo Securities is coordinating logistics\, with thr
+ ee investor calls scheduled throughout the day and an electronic investor 
+ presentation available.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> TRACTOR SUPPLY CO (TSCO)</p><p><strong>Roadshow:</strong> URL
+ : https://dealroadshow.finsight.com | Entry Code: TSCO2026 | Direct Link: 
+ https://dealroadshow.finsight.com/e/TSCO2026</p><p><strong>Deal context:</
+ strong><br>Tractor Supply Company (TSCO)\, rated Baa1 (Stable) / BBB (Stab
+ le)\, is arranging a series of fixed income investor calls on Monday\, Aug
+ ust 17th\, 2026\, with Wells Fargo Securities and BofA Securities as arran
+ gers\, ahead of a potential USD-denominated\, SEC Registered senior unsecu
+ red notes transaction. The deal is at the Mandate stage with no size\, ten
+ or\, or pricing terms disclosed\, subject to market conditions. Wells Farg
+ o Securities is coordinating logistics\, with three investor calls schedul
+ ed throughout the day and an electronic investor presentation available.</
+ p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

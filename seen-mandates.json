@@ -1,40 +1,5 @@
 [
   {
-    "id": "7576381c-5124-4c49-88ae-84f897b60c19",
-    "issuerName": "VEON",
-    "alertedAt": "2026-05-18T11:31:11.111Z"
-  },
-  {
-    "id": "91284299-0ee4-40fd-aeea-efb95df23fa0",
-    "issuerName": "ONCOR ELECTRIC DELIVERY",
-    "alertedAt": "2026-05-18T11:41:11.628Z"
-  },
-  {
-    "id": "dcbab5b3-a69a-49cb-bc1a-335902841024",
-    "issuerName": "XYLEM INC",
-    "alertedAt": "2026-05-18T12:31:22.502Z"
-  },
-  {
-    "id": "7920c73c-b623-4572-b06e-41c88d74472a",
-    "issuerName": "GRANITE CONSTRUCTION INC",
-    "alertedAt": "2026-05-18T12:41:14.236Z"
-  },
-  {
-    "id": "6085778b-9694-4355-92c8-ce67c1cea0ce",
-    "issuerName": "FIBRA SOMA",
-    "alertedAt": "2026-05-18T13:21:13.702Z"
-  },
-  {
-    "id": "0acfdfaa-fecf-4619-b2f5-1f499947fd39",
-    "issuerName": "MOBILITY GLOBAL INC",
-    "alertedAt": "2026-05-18T14:31:14.491Z"
-  },
-  {
-    "id": "8d3f3efc-188f-4c23-b93a-9546b6906c19",
-    "issuerName": "MOLSON COORS BEVERAGE CO",
-    "alertedAt": "2026-05-19T13:31:19.952Z"
-  },
-  {
     "id": "94bd44e8-9e8c-4eb7-ac52-c0d8d750b17b",
     "issuerName": "HYDRO ONE INC",
     "alertedAt": "2026-05-19T15:41:18.202Z"
@@ -533,5 +498,15 @@
     "id": "7d7ecd5d-c194-4f02-ad38-24b774c15ebc",
     "issuerName": "QTS CENTRAL ISSUER LLC & QTS TRS CENTRAL ISSUER LLC",
     "alertedAt": "2026-08-12T15:50:49.873Z"
+  },
+  {
+    "id": "828b57e4-e5d3-470d-95e3-83fcdbf8e125",
+    "issuerName": "TRACTOR SUPPLY CO",
+    "alertedAt": "2026-08-17T13:51:02.529Z"
+  },
+  {
+    "id": "8d13c63b-3d8a-4508-b213-36c980793fda",
+    "issuerName": "MARKEL GROUP INC",
+    "alertedAt": "2026-08-17T13:51:05.819Z"
   }
 ]
