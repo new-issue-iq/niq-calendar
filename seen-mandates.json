@@ -498,5 +498,10 @@
     "id": "f7d7cff1-76a5-4e24-80e0-16a4d91d53fb",
     "issuerName": "HDFC BANK LTD",
     "alertedAt": "2026-08-19T10:51:09.150Z"
+  },
+  {
+    "id": "1decd3d2-11a7-4f68-94d0-2e7b322fc003",
+    "issuerName": "VYLOR INC",
+    "alertedAt": "2026-08-19T14:41:03.483Z"
   }
 ]

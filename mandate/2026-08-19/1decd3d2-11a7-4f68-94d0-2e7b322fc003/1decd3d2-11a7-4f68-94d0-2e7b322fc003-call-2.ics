@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a7453969edbbb144-2@daily.newissueiq
+DTSTAMP:20260819T144056Z
+DTSTART;TZID=America/New_York:20260819T130000
+DTEND;TZID=America/New_York:20260819T134500
+SUMMARY:VYLOR INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VYLOR INC\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=3b10ae3
+ 6 | Website: www.netroadshow.com | Passcode: Vylor26 (case-sensitive)\n\nD
+ eal context:\nVylor Inc. (the “Company”)\, rated Baa1 (Stable) / BBB+ (Sta
+ ble) / BBB+ (Stable)* by Moody’s\, S&P\, and Fitch\, respectively\, has as
+ ked Morgan Stanley\, J.P. Morgan\, and BofA Securities to arrange a series
+  of fixed income investor calls commencing on August 19\, 2026.\n\nMorgan 
+ Stanley will coordinate logistics. An electronic investor presentation has
+  been made available via the link below.\n\nA USD-denominated 144A / Regul
+ ation S senior unsecured notes offering with registration rights from Vylo
+ r Inc. may follow\, subject to market conditions.\n\nCall Schedule & Regis
+ tration Links:\nWednesday\, August 19: 12:00pm – 12:45pm (Eastern Time)\nh
+ ttps://www.netroadshow.com/events/login/1PeTHmohCImaW8kkeyBU0M0er4qyKaD8GE
+ 55Q\nWednesday\, August 19: 01:00pm – 01:45pm (Eastern Time)\nhttps://www.
+ netroadshow.com/events/login/1PeTHmojCJGblsxGuG7kvLLjXfKJ2rz1TGlld\nWednes
+ day\, August 19: 02:00pm – 02:45pm (Eastern Time)\nhttps://www.netroadshow
+ .com/events/login/1PeTHmohVj10slMdUADuppJdTj41wktPxy5B8\n\nThe Company wil
+ l be represented by:\nBrad Venema (Treasurer)\nKim Booth (VP\, Investor Re
+ lations and FP&A)\nRob Lockhart (Controller)\n\nInvestor Presentation Deta
+ ils:\nDirect Link: www.netroadshow.com/nrs/home/#!/?show=3b10ae36\nWebsite
+ : www.netroadshow.com | Passcode: Vylor26 (case-sensitive)\n\nAbout Vylor:
+ \nVylor Inc. is Corteva’s advanced seed and genetics business\, with a por
+ tfolio anchored by industry-leading germplasm\, biotechnology and globally
+  recognized seed brands. The Company has leading market positions across k
+ ey crops and regions\, supported by the world’s largest seed production ne
+ twork and an extensive innovation pipeline.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VYLOR INC</p><p><strong>Roadshow:</strong> www.netroadshow.co
+ m/nrs/home/#!/?show=3b10ae36 | Website: www.netroadshow.com | Passcode: Vy
+ lor26 (case-sensitive)</p><p><strong>Deal context:</strong><br>Vylor Inc. 
+ (the “Company”)\, rated Baa1 (Stable) / BBB+ (Stable) / BBB+ (Stable)* by 
+ Moody’s\, S&amp\;P\, and Fitch\, respectively\, has asked Morgan Stanley\,
+  J.P. Morgan\, and BofA Securities to arrange a series of fixed income inv
+ estor calls commencing on August 19\, 2026.<br><br>Morgan Stanley will coo
+ rdinate logistics. An electronic investor presentation has been made avail
+ able via the link below.<br><br>A USD-denominated 144A / Regulation S seni
+ or unsecured notes offering with registration rights from Vylor Inc. may f
+ ollow\, subject to market conditions.<br><br>Call Schedule &amp\; Registra
+ tion Links:<br>Wednesday\, August 19: 12:00pm – 12:45pm (Eastern Time)<br>
+ https://www.netroadshow.com/events/login/1PeTHmohCImaW8kkeyBU0M0er4qyKaD8G
+ E55Q<br>Wednesday\, August 19: 01:00pm – 01:45pm (Eastern Time)<br>https:/
+ /www.netroadshow.com/events/login/1PeTHmojCJGblsxGuG7kvLLjXfKJ2rz1TGlld<br
+ >Wednesday\, August 19: 02:00pm – 02:45pm (Eastern Time)<br>https://www.ne
+ troadshow.com/events/login/1PeTHmohVj10slMdUADuppJdTj41wktPxy5B8<br><br>Th
+ e Company will be represented by:<br>Brad Venema (Treasurer)<br>Kim Booth 
+ (VP\, Investor Relations and FP&amp\;A)<br>Rob Lockhart (Controller)<br><b
+ r>Investor Presentation Details:<br>Direct Link: www.netroadshow.com/nrs/h
+ ome/#!/?show=3b10ae36<br>Website: www.netroadshow.com | Passcode: Vylor26 
+ (case-sensitive)<br><br>About Vylor:<br>Vylor Inc. is Corteva’s advanced s
+ eed and genetics business\, with a portfolio anchored by industry-leading 
+ germplasm\, biotechnology and globally recognized seed brands. The Company
+  has leading market positions across key crops and regions\, supported by 
+ the world’s largest seed production network and an extensive innovation pi
+ peline.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
