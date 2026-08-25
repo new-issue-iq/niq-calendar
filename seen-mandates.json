@@ -1,25 +1,5 @@
 [
   {
-    "id": "4248ba7f-393b-4e8e-95fb-c8d4e86f9c7f",
-    "issuerName": "STELLANTIS FINL SVCS US CORP",
-    "alertedAt": "2026-05-26T13:11:08.835Z"
-  },
-  {
-    "id": "601195a9-68b7-4a37-a3a5-40d7bbcc89af",
-    "issuerName": "VERALTO CORP",
-    "alertedAt": "2026-05-26T13:11:11.712Z"
-  },
-  {
-    "id": "9491be6a-a02f-4440-9df5-dee7dc5f3b5e",
-    "issuerName": "NGPL PIPECO LLC",
-    "alertedAt": "2026-05-26T13:21:05.630Z"
-  },
-  {
-    "id": "13337919-8de6-425b-8c2f-04f0442df044",
-    "issuerName": "NATL FUEL GAS CO",
-    "alertedAt": "2026-05-26T14:11:10.496Z"
-  },
-  {
     "id": "18bbb013-99eb-4c8d-9b77-24ca393b21f5",
     "issuerName": "REPUBLIC OF AUSTRIA",
     "alertedAt": "2026-05-27T13:01:10.597Z"
@@ -508,5 +488,10 @@
     "id": "bb370738-cc24-4585-a56d-54b28f1fdd25",
     "issuerName": "INTERPARKING SA",
     "alertedAt": "2026-08-24T11:20:57.364Z"
+  },
+  {
+    "id": "5528681e-3d7a-486a-a776-f0c2e1a51f85",
+    "issuerName": "UNEDIC",
+    "alertedAt": "2026-08-25T12:21:03.988Z"
   }
 ]
