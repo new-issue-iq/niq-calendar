@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fc0b5cf2ba52b100-2@daily.newissueiq
+DTSTAMP:20260831T132109Z
+DTSTART;TZID=America/New_York:20260831T130000
+DTEND;TZID=America/New_York:20260831T135000
+SUMMARY:MALI — Call 2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MANULIFE FINL CORP (MALI)\nRoadshow: https://dealroadshow.finsight
+ .com/e/MFCCN26 OR Visit https://dealroadshow.finsight.com and enter the de
+ al entry code: MFCCN26\n\nDeal context:\nManulife Financial Corporation is
+  arranging fixed-income investor calls on August 31st\, 2026\, with BofA S
+ ecurities\, Citigroup\, J.P. Morgan\, and Morgan Stanley as mandated arran
+ gers. A US dollar SEC-registered 15NC10 subordinated note issuance may fol
+ low\, subject to market conditions. This mandate-stage announcement featur
+ es no pricing terms\; the 15NC10 structure is typical of insurance company
+  subordinated capital issuance.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MANULIFE FINL CORP (MALI)</p><p><strong>Roadshow:</strong> ht
+ tps://dealroadshow.finsight.com/e/MFCCN26 OR Visit https://dealroadshow.fi
+ nsight.com and enter the deal entry code: MFCCN26</p><p><strong>Deal conte
+ xt:</strong><br>Manulife Financial Corporation is arranging fixed-income i
+ nvestor calls on August 31st\, 2026\, with BofA Securities\, Citigroup\, J
+ .P. Morgan\, and Morgan Stanley as mandated arrangers. A US dollar SEC-reg
+ istered 15NC10 subordinated note issuance may follow\, subject to market c
+ onditions. This mandate-stage announcement features no pricing terms\; the
+  15NC10 structure is typical of insurance company subordinated capital iss
+ uance.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
