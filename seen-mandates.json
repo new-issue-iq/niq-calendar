@@ -1,30 +1,5 @@
 [
   {
-    "id": "10a992cc-1e0c-413b-8d8a-8012dac06a12",
-    "issuerName": "ANTARES HOLDINGS LP",
-    "alertedAt": "2026-06-02T15:20:59.289Z"
-  },
-  {
-    "id": "09f4a9c8-ba94-4a47-a309-56894ffaa040",
-    "issuerName": "QBE INSURANCE GROUP LTD",
-    "alertedAt": "2026-06-03T13:31:05.542Z"
-  },
-  {
-    "id": "dab5aec9-acf1-4577-acad-bcf6060d87eb",
-    "issuerName": "AMERIPRISE FINL",
-    "alertedAt": "2026-06-03T13:31:08.558Z"
-  },
-  {
-    "id": "f4c448a6-3844-4353-a01d-1f909b5275c9",
-    "issuerName": "ONCOR ELECTRIC DELIVERY",
-    "alertedAt": "2026-06-04T13:20:57.726Z"
-  },
-  {
-    "id": "e173114a-85d1-4a59-b0d0-b28b3d246730",
-    "issuerName": "FORTITUDE RE",
-    "alertedAt": "2026-06-04T13:21:00.881Z"
-  },
-  {
     "id": "4d684f14-09da-4dee-80ae-a4c0a01e1255",
     "issuerName": "TENCENT HOLDINGS LTD",
     "alertedAt": "2026-06-08T12:40:32.650Z"
@@ -443,5 +418,15 @@
     "id": "1ec1704b-6e09-4da9-a892-7b8ce6990f29",
     "issuerName": "MANULIFE FINL CORP",
     "alertedAt": "2026-08-31T13:21:15.044Z"
+  },
+  {
+    "id": "62fb3ca6-2edf-4f14-8275-7ac5deb5d1bb",
+    "issuerName": "GOVERNMENT OF JAMAICA",
+    "alertedAt": "2026-09-03T14:30:51.793Z"
+  },
+  {
+    "id": "0bd82928-a9f3-4508-a638-e2e95219b2b6",
+    "issuerName": "TECPETROL SA",
+    "alertedAt": "2026-09-03T14:30:54.996Z"
   }
 ]
