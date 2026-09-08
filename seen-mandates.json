@@ -473,5 +473,10 @@
     "id": "f3379f12-efc2-4bee-9153-3ab2be489ef9",
     "issuerName": "THOMSON REUTERS CORP",
     "alertedAt": "2026-09-08T14:21:31.020Z"
+  },
+  {
+    "id": "a875cb8d-38cd-4757-888b-57adaaa29234",
+    "issuerName": "COLUMBIA BANK",
+    "alertedAt": "2026-09-08T14:51:14.693Z"
   }
 ]

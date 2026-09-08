@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:80867e15243e1512-2@daily.newissueiq
+DTSTAMP:20260908T145108Z
+DTSTART;TZID=America/New_York:20260909T130000
+DTEND;TZID=America/New_York:20260909T135000
+SUMMARY:COLB — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: COLUMBIA BANK (COLB)\nRoadshow: Direct Link (Recommended): www.net
+ roadshow.com/nrs/home/#!/?show=e3532042 | Link: www.netroadshow.com | Pass
+ word: COLB2026\n\nDeal context:\nColumbia Bank (COLB) is arranging a serie
+ s of fixed income investor calls on September 9th\, 2026\, ahead of a pote
+ ntial 3(a)(2) Exempt 10NC5 subordinated notes offering\, with J.P. Morgan 
+ and Keefe\, Bruyette & Woods\, A Stifel Company acting as arrangers. The d
+ eal carries expected ratings of BBB- (stable) from S&P\, BBB (negative) fr
+ om Fitch\, and A- (stable) from KBRA\, placing it firmly in investment gra
+ de territory. No size\, pricing\, or spread guidance has been provided at 
+ this mandate stage\; the offering remains subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> COLUMBIA BANK (COLB)</p><p><strong>Roadshow:</strong> Direct 
+ Link (Recommended): www.netroadshow.com/nrs/home/#!/?show=e3532042 | Link:
+  www.netroadshow.com | Password: COLB2026</p><p><strong>Deal context:</str
+ ong><br>Columbia Bank (COLB) is arranging a series of fixed income investo
+ r calls on September 9th\, 2026\, ahead of a potential 3(a)(2) Exempt 10NC
+ 5 subordinated notes offering\, with J.P. Morgan and Keefe\, Bruyette &amp
+ \; Woods\, A Stifel Company acting as arrangers. The deal carries expected
+  ratings of BBB- (stable) from S&amp\;P\, BBB (negative) from Fitch\, and 
+ A- (stable) from KBRA\, placing it firmly in investment grade territory. N
+ o size\, pricing\, or spread guidance has been provided at this mandate st
+ age\; the offering remains subject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
