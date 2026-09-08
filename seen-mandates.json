@@ -423,5 +423,15 @@
     "id": "27a3d6cb-628f-4481-9df1-c17df68e1767",
     "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
     "alertedAt": "2026-09-08T11:41:15.274Z"
+  },
+  {
+    "id": "05c3c926-b014-4a93-bd77-dd094284fe47",
+    "issuerName": "SMITH & NEPHEW PLC",
+    "alertedAt": "2026-09-08T12:11:15.595Z"
+  },
+  {
+    "id": "6427548d-5271-4810-8856-5631446f75cd",
+    "issuerName": "OLYMPUS CORP",
+    "alertedAt": "2026-09-08T12:11:18.648Z"
   }
 ]

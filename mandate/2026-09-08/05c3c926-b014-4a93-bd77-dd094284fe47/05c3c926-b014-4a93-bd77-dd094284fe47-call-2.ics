@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:474ee8eb9e61c325-2@daily.newissueiq
+DTSTAMP:20260908T121108Z
+DTSTART;TZID=America/New_York:20260908T113000
+DTEND;TZID=America/New_York:20260908T121500
+SUMMARY:SNLN — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SMITH & NEPHEW PLC (SNLN)\nRoadshow: Link: https://dealroadshow.fi
+ nsight.com | Entry Code: PALOMA26 | Direct Link: https://dealroadshow.fins
+ ight.com/e/PALOMA26\n\nDeal context:\nSmith & Nephew plc (ticker: SNLN)\, 
+ a UK-based medical devices company rated Baa1/BBB+/BBB+ (stable) by Moody'
+ s/S&P/Fitch\, has mandated BofA Securities\, J.P. Morgan\, Mizuho\, and SM
+ BC Nikko as Joint Bookrunners for a USD-denominated benchmark SEC-register
+ ed 10-year senior unsecured offering. The deal is at the Mandate stage\, w
+ ith investor calls scheduled for September 8\, 2026\, and a potential tran
+ saction subject to market conditions. Net proceeds are intended to fund pu
+ rchases of the 2.032% Senior Notes due 2030 via a concurrent tender offer\
+ , with any remaining proceeds for general corporate purposes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SMITH &amp\; NEPHEW PLC (SNLN)</p><p><strong>Roadshow:</stron
+ g> Link: https://dealroadshow.finsight.com | Entry Code: PALOMA26 | Direct
+  Link: https://dealroadshow.finsight.com/e/PALOMA26</p><p><strong>Deal con
+ text:</strong><br>Smith &amp\; Nephew plc (ticker: SNLN)\, a UK-based medi
+ cal devices company rated Baa1/BBB+/BBB+ (stable) by Moody's/S&amp\;P/Fitc
+ h\, has mandated BofA Securities\, J.P. Morgan\, Mizuho\, and SMBC Nikko a
+ s Joint Bookrunners for a USD-denominated benchmark SEC-registered 10-year
+  senior unsecured offering. The deal is at the Mandate stage\, with invest
+ or calls scheduled for September 8\, 2026\, and a potential transaction su
+ bject to market conditions. Net proceeds are intended to fund purchases of
+  the 2.032% Senior Notes due 2030 via a concurrent tender offer\, with any
+  remaining proceeds for general corporate purposes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
