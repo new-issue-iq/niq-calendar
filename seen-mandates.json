@@ -408,5 +408,10 @@
     "id": "b8fb99d4-e9df-4c71-8871-e357871ea4ce",
     "issuerName": "YPF SA",
     "alertedAt": "2026-09-08T01:11:20.074Z"
+  },
+  {
+    "id": "1040d5f8-045b-4c70-b600-91f14af1318b",
+    "issuerName": "JAPAN POST INSURANCE CO LTD",
+    "alertedAt": "2026-09-08T01:21:17.731Z"
   }
 ]
