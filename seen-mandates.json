@@ -413,5 +413,10 @@
     "id": "1040d5f8-045b-4c70-b600-91f14af1318b",
     "issuerName": "JAPAN POST INSURANCE CO LTD",
     "alertedAt": "2026-09-08T01:21:17.731Z"
+  },
+  {
+    "id": "03162a63-a220-42a8-9a51-3a35e75cf5ba",
+    "issuerName": "AMAZON COM INC",
+    "alertedAt": "2026-09-08T11:01:18.642Z"
   }
 ]
