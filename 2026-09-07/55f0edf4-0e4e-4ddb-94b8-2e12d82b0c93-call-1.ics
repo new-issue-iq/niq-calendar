@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:113ffae71f67cd1d-1@daily.newissueiq
+DTSTAMP:20260908T134024Z
+DTSTART;TZID=America/New_York:20260908T110000
+DTEND;TZID=America/New_York:20260908T114500
+SUMMARY:GROUP 1 AUTOMOTIVE INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GROUP 1 AUTOMOTIVE INC\nRoadshow: URL: https://dealroadshow.finsig
+ ht.com | Entry Code: GROUP12026 | Direct Link: https://dealroadshow.finsig
+ ht.com/e/GROUP12026 (available now)\n\nDeal context:\nGroup 1 Automotive (
+ GPI) is bringing a two-tranche $1.25 billion senior unsecured high-yield d
+ eal via J.P. Morgan\, consisting of a $625 million 5.25-year non-call 2.25
+ -year tranche talked at 6.625% area and a $625 million 8.25-year non-call 
+ 3.25-year tranche talked at T+37.5bps\, with proceeds earmarked to fund th
+ e acquisition of assets from Hennessy Auto. Both tranches are rated Ba2/BB
+ + (Moody's/S&P)\, firmly in high-yield territory. The deal was announced a
+ s a new deal pricing today.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GROUP 1 AUTOMOTIVE INC</p><p><strong>Roadshow:</strong> URL: 
+ https://dealroadshow.finsight.com | Entry Code: GROUP12026 | Direct Link: 
+ https://dealroadshow.finsight.com/e/GROUP12026 (available now)</p><p><stro
+ ng>Deal context:</strong><br>Group 1 Automotive (GPI) is bringing a two-tr
+ anche $1.25 billion senior unsecured high-yield deal via J.P. Morgan\, con
+ sisting of a $625 million 5.25-year non-call 2.25-year tranche talked at 6
+ .625% area and a $625 million 8.25-year non-call 3.25-year tranche talked 
+ at T+37.5bps\, with proceeds earmarked to fund the acquisition of assets f
+ rom Hennessy Auto. Both tranches are rated Ba2/BB+ (Moody's/S&amp\;P)\, fi
+ rmly in high-yield territory. The deal was announced as a new deal pricing
+  today.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

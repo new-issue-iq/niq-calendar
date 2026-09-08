@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0cd016cc06837e5c-1@daily.newissueiq
+DTSTAMP:20260908T134024Z
+DTSTART;TZID=America/New_York:20260908T103000
+DTEND;TZID=America/New_York:20260908T111500
+SUMMARY:THC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: TENET HEALTHCARE CORP (THC)\nRoadshow: https://evercall.co/oacc/62
+ 066\n\nDeal context:\nTenet Healthcare Corporation is bringing a $1\,500 m
+ illion Senior Unsecured Notes offering due 2034 (8-year tenor) to market v
+ ia a 144A/Reg S format\, with initial price talk in the mid-6% area. The d
+ eal is rated B1/B+/BB (High Yield) and proceeds will be used to redeem all
+  outstanding 5.125% senior secured first lien notes due November 1\, 2027\
+ , representing a refinancing of existing secured debt with unsecured paper
+ . The transaction is led by Goldman Sachs alongside a broad syndicate of 1
+ 1 bookrunners\, with an investor call scheduled for today\, Tuesday\, Sept
+ ember 8\, 2026 at 10:30am ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> TENET HEALTHCARE CORP (THC)</p><p><strong>Roadshow:</strong> 
+ https://evercall.co/oacc/62066</p><p><strong>Deal context:</strong><br>Ten
+ et Healthcare Corporation is bringing a $1\,500 million Senior Unsecured N
+ otes offering due 2034 (8-year tenor) to market via a 144A/Reg S format\, 
+ with initial price talk in the mid-6% area. The deal is rated B1/B+/BB (Hi
+ gh Yield) and proceeds will be used to redeem all outstanding 5.125% senio
+ r secured first lien notes due November 1\, 2027\, representing a refinanc
+ ing of existing secured debt with unsecured paper. The transaction is led 
+ by Goldman Sachs alongside a broad syndicate of 11 bookrunners\, with an i
+ nvestor call scheduled for today\, Tuesday\, September 8\, 2026 at 10:30am
+  ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
