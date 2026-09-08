@@ -448,5 +448,30 @@
     "id": "fa2b38b3-623e-4122-98a7-cc9906654e14",
     "issuerName": "CAPITAL SOUTHWEST CORP",
     "alertedAt": "2026-09-08T14:11:14.287Z"
+  },
+  {
+    "id": "b805b477-b677-4d11-9d3e-67595ef987c8",
+    "issuerName": "THE SEMINOLE TRIBE OF FLORIDA",
+    "alertedAt": "2026-09-08T14:21:12.597Z"
+  },
+  {
+    "id": "ee486c8d-a23b-4aef-b6de-b3bfd0cf7405",
+    "issuerName": "FORTIS INC",
+    "alertedAt": "2026-09-08T14:21:15.660Z"
+  },
+  {
+    "id": "d6aafbe9-783f-42d3-a94b-75804a2c321c",
+    "issuerName": "PLAINS ALL AMERICAN PIPELINE LP",
+    "alertedAt": "2026-09-08T14:21:25.006Z"
+  },
+  {
+    "id": "faf06f99-d185-4839-8812-642541bb3f94",
+    "issuerName": "OAKTREE SPECIALTY LENDING CORP",
+    "alertedAt": "2026-09-08T14:21:28.047Z"
+  },
+  {
+    "id": "f3379f12-efc2-4bee-9153-3ab2be489ef9",
+    "issuerName": "THOMSON REUTERS CORP",
+    "alertedAt": "2026-09-08T14:21:31.020Z"
   }
 ]

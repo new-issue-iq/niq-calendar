@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:792b18adae38a481-3@daily.newissueiq
+DTSTAMP:20260908T142115Z
+DTSTART;TZID=America/New_York:20260908T140000
+DTEND;TZID=America/New_York:20260908T144500
+SUMMARY:PAAP — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PLAINS ALL AMERICAN PIPELINE LP (PAAP)\nRoadshow: www.netroadshow.
+ com/nrs/home/#!/?show=59adfe03 | OR | URL: www.netroadshow.com | Entry Cod
+ e: paa987\n\nDeal context:\nPlains All American Pipeline\, L.P. (PAA)\, on
+ e of North America's largest crude oil midstream service providers\, is co
+ nducting fixed income investor calls on September 8\, 2026\, arranged by J
+ .P. Morgan\, Citigroup\, Mizuho\, MUFG\, and Truist Securities ahead of a 
+ potential SEC Registered Fixed-to-Fixed Reset Rate Junior Subordinated Not
+ es offering with a coupon floor provision. The deal carries expected ratin
+ gs of Baa3 (Stable) / BB+ (Stable) / BB+ (Stable) from Moody's / S&P / Fit
+ ch\, reflecting a split investment grade/high yield profile with Moody's a
+ t the lowest IG tier and both S&P and Fitch in HY territory. No size\, pri
+ cing\, or tenor has been disclosed at this stage\, as the offering remains
+  subject to market conditions following the investor call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PLAINS ALL AMERICAN PIPELINE LP (PAAP)</p><p><strong>Roadshow
+ :</strong> www.netroadshow.com/nrs/home/#!/?show=59adfe03 | OR | URL: www.
+ netroadshow.com | Entry Code: paa987</p><p><strong>Deal context:</strong><
+ br>Plains All American Pipeline\, L.P. (PAA)\, one of North America's larg
+ est crude oil midstream service providers\, is conducting fixed income inv
+ estor calls on September 8\, 2026\, arranged by J.P. Morgan\, Citigroup\, 
+ Mizuho\, MUFG\, and Truist Securities ahead of a potential SEC Registered 
+ Fixed-to-Fixed Reset Rate Junior Subordinated Notes offering with a coupon
+  floor provision. The deal carries expected ratings of Baa3 (Stable) / BB+
+  (Stable) / BB+ (Stable) from Moody's / S&amp\;P / Fitch\, reflecting a sp
+ lit investment grade/high yield profile with Moody's at the lowest IG tier
+  and both S&amp\;P and Fitch in HY territory. No size\, pricing\, or tenor
+  has been disclosed at this stage\, as the offering remains subject to mar
+ ket conditions following the investor call process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

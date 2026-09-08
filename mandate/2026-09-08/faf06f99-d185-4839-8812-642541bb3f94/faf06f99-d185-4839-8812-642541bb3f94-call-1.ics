@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:55887308500d11e1-1@daily.newissueiq
+DTSTAMP:20260908T142125Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T125000
+SUMMARY:OCSL — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: OAKTREE SPECIALTY LENDING CORP (OCSL)\nRoadshow: Direct Link (Reco
+ mmended): www.netroadshow.com/nrs/home/#!/?show=c1a36788 | Link: www.netro
+ adshow.com | Password: OCSL2026\n\nDeal context:\nOaktree Specialty Lendin
+ g Corporation (OCSL)\, a Business Development Company (BDC) rated Baa3 (St
+ able) by Moody's and BBB- (Negative) by Fitch\, has mandated J.P. Morgan\,
+  BNP PARIBAS\, ING\, RBC Capital Markets\, and SMBC Nikko to arrange a ser
+ ies of fixed income investor calls on September 8\, 2026\, ahead of a pote
+ ntial SEC-registered senior unsecured notes offering. The deal is at the M
+ andate stage with no size\, tenor\, or pricing terms disclosed\, subject t
+ o market conditions. Three investor call slots are scheduled throughout th
+ e afternoon of September 8th\, with J.P. Morgan coordinating logistics and
+  a virtual presentation available via NetRoadshow.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> OAKTREE SPECIALTY LENDING CORP (OCSL)</p><p><strong>Roadshow:
+ </strong> Direct Link (Recommended): www.netroadshow.com/nrs/home/#!/?show
+ =c1a36788 | Link: www.netroadshow.com | Password: OCSL2026</p><p><strong>D
+ eal context:</strong><br>Oaktree Specialty Lending Corporation (OCSL)\, a 
+ Business Development Company (BDC) rated Baa3 (Stable) by Moody's and BBB-
+  (Negative) by Fitch\, has mandated J.P. Morgan\, BNP PARIBAS\, ING\, RBC 
+ Capital Markets\, and SMBC Nikko to arrange a series of fixed income inves
+ tor calls on September 8\, 2026\, ahead of a potential SEC-registered seni
+ or unsecured notes offering. The deal is at the Mandate stage with no size
+ \, tenor\, or pricing terms disclosed\, subject to market conditions. Thre
+ e investor call slots are scheduled throughout the afternoon of September 
+ 8th\, with J.P. Morgan coordinating logistics and a virtual presentation a
+ vailable via NetRoadshow.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

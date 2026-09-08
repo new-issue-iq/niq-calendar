@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:433cc75cc8b27c14-2@daily.newissueiq
+DTSTAMP:20260908T142112Z
+DTSTART;TZID=America/New_York:20260908T130000
+DTEND;TZID=America/New_York:20260908T134500
+SUMMARY:FTS — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FORTIS INC (FTS)\nRoadshow: URL: https://dealroadshow.finsight.com
+  | Entry Code: FTS2026 | Direct Link: https://dealroadshow.finsight.com/e/
+ FTS2026\n\nDeal context:\nFortis Inc. (TSX/NYSE: FTS)\, a diversified Nort
+ h American regulated electric and gas utility\, is arranging investor call
+ s on September 8\, 2026 ahead of a potential USD-denominated SEC-Registere
+ d and Canadian Prospectus Qualified (MJDS) offering of 30.5NC5.25 and/or 3
+ 0.5NC10.25 Fixed-to-Fixed Rate Junior Subordinated Notes with expected rat
+ ings of BBB (Stable) by S&P and BBB- (Stable) by Fitch. The deal features 
+ coupon floor provisions and represents a hybrid capital structure instrume
+ nt with two potential tranches differentiated by non-call periods of 5.25 
+ and 10.25 years\, subject to market conditions. Morgan Stanley\, MUFG\, We
+ lls Fargo Securities\, and BofA Securities are arranging the transaction\,
+  with MUFG coordinating logistics.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FORTIS INC (FTS)</p><p><strong>Roadshow:</strong> URL: https:
+ //dealroadshow.finsight.com | Entry Code: FTS2026 | Direct Link: https://d
+ ealroadshow.finsight.com/e/FTS2026</p><p><strong>Deal context:</strong><br
+ >Fortis Inc. (TSX/NYSE: FTS)\, a diversified North American regulated elec
+ tric and gas utility\, is arranging investor calls on September 8\, 2026 a
+ head of a potential USD-denominated SEC-Registered and Canadian Prospectus
+  Qualified (MJDS) offering of 30.5NC5.25 and/or 30.5NC10.25 Fixed-to-Fixed
+  Rate Junior Subordinated Notes with expected ratings of BBB (Stable) by S
+ &amp\;P and BBB- (Stable) by Fitch. The deal features coupon floor provisi
+ ons and represents a hybrid capital structure instrument with two potentia
+ l tranches differentiated by non-call periods of 5.25 and 10.25 years\, su
+ bject to market conditions. Morgan Stanley\, MUFG\, Wells Fargo Securities
+ \, and BofA Securities are arranging the transaction\, with MUFG coordinat
+ ing logistics.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
