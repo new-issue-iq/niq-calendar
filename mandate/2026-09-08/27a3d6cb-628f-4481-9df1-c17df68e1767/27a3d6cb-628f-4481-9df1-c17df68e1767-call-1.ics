@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d5b96958f1a5e746-1@daily.newissueiq
+DTSTAMP:20260908T114108Z
+DTSTART;TZID=America/New_York:20260908T050000
+DTEND;TZID=America/New_York:20260908T054500
+SUMMARY:TEVA — Call #4
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: TEVA PHARMACEUTICAL INDUSTRIES LTD (TEVA)\nRoadshow: https://dealr
+ oadshow.finsight.com | Password: TEVA26\n\nDeal context:\nTeva Pharmaceuti
+ cal Industries Limited (NYSE/TASE: TEVA)\, rated Baa3/BBB-/BBB- (Stable) b
+ y Moody's/S&P/Fitch\, is launching a multi-tranche EUR- and USD-denominate
+ d senior unsecured fixed rate notes offering via SEC-registered format\, w
+ ith EUR tranches in 6.5-year and 10-year tenors and USD tranches in Long-5
+ \, Long-7\, and Long-10 year tenors. The deal is at the Mandate stage\, wi
+ th fixed income investor calls scheduled for September 7-8\, 2026\, coordi
+ nated by J.P. Morgan\, with BNP PARIBAS\, Citigroup\, Goldman Sachs Bank E
+ urope SE\, and J.P. Morgan as joint bookrunners. Proceeds are intended to 
+ redeem certain existing notes\, with Teva planning to release redemption n
+ otices on September 8th across certain of its existing notes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> TEVA PHARMACEUTICAL INDUSTRIES LTD (TEVA)</p><p><strong>Roads
+ how:</strong> https://dealroadshow.finsight.com | Password: TEVA26</p><p><
+ strong>Deal context:</strong><br>Teva Pharmaceutical Industries Limited (N
+ YSE/TASE: TEVA)\, rated Baa3/BBB-/BBB- (Stable) by Moody's/S&amp\;P/Fitch\
+ , is launching a multi-tranche EUR- and USD-denominated senior unsecured f
+ ixed rate notes offering via SEC-registered format\, with EUR tranches in 
+ 6.5-year and 10-year tenors and USD tranches in Long-5\, Long-7\, and Long
+ -10 year tenors. The deal is at the Mandate stage\, with fixed income inve
+ stor calls scheduled for September 7-8\, 2026\, coordinated by J.P. Morgan
+ \, with BNP PARIBAS\, Citigroup\, Goldman Sachs Bank Europe SE\, and J.P. 
+ Morgan as joint bookrunners. Proceeds are intended to redeem certain exist
+ ing notes\, with Teva planning to release redemption notices on September 
+ 8th across certain of its existing notes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
