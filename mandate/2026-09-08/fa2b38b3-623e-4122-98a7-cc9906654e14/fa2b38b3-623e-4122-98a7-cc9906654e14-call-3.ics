@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7f2d23fdb246d899-3@daily.newissueiq
+DTSTAMP:20260908T141107Z
+DTSTART;TZID=America/New_York:20260908T150000
+DTEND;TZID=America/New_York:20260908T155000
+SUMMARY:CAPISOU — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CAPITAL SOUTHWEST CORP (CAPISOU)\nRoadshow: URL: www.netroadshow.c
+ om | Entry Code: CSWC2026 | Direct link: www.netroadshow.com/nrs/home/#!/?
+ show=d3ce73e8\n\nDeal context:\nCapital Southwest Corporation (Nasdaq: CSW
+ C)\, a Texas-based internally-managed BDC rated Baa3 (Stable) / BBB- (Stab
+ le) by Moody's and Fitch respectively\, has mandated Deutsche Bank Securit
+ ies\, Huntington Capital Markets\, ING\, Morgan Stanley\, RBC Capital Mark
+ ets\, and Wells Fargo Securities to arrange a series of fixed income inves
+ tor calls on September 8th\, 2026. The mandate is at the pre-deal stage wi
+ th three investor calls scheduled throughout the afternoon\, with a capita
+ l markets transaction potentially following subject to market conditions. 
+ No specific deal size\, tenor\, coupon\, or pricing terms have been disclo
+ sed at this stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CAPITAL SOUTHWEST CORP (CAPISOU)</p><p><strong>Roadshow:</str
+ ong> URL: www.netroadshow.com | Entry Code: CSWC2026 | Direct link: www.ne
+ troadshow.com/nrs/home/#!/?show=d3ce73e8</p><p><strong>Deal context:</stro
+ ng><br>Capital Southwest Corporation (Nasdaq: CSWC)\, a Texas-based intern
+ ally-managed BDC rated Baa3 (Stable) / BBB- (Stable) by Moody's and Fitch 
+ respectively\, has mandated Deutsche Bank Securities\, Huntington Capital 
+ Markets\, ING\, Morgan Stanley\, RBC Capital Markets\, and Wells Fargo Sec
+ urities to arrange a series of fixed income investor calls on September 8t
+ h\, 2026. The mandate is at the pre-deal stage with three investor calls s
+ cheduled throughout the afternoon\, with a capital markets transaction pot
+ entially following subject to market conditions. No specific deal size\, t
+ enor\, coupon\, or pricing terms have been disclosed at this stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

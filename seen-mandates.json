@@ -443,5 +443,10 @@
     "id": "b2869957-e1b8-4b29-86b7-ef4f7154cae6",
     "issuerName": "PARKER-HANNIFIN CORP",
     "alertedAt": "2026-09-08T12:51:15.604Z"
+  },
+  {
+    "id": "fa2b38b3-623e-4122-98a7-cc9906654e14",
+    "issuerName": "CAPITAL SOUTHWEST CORP",
+    "alertedAt": "2026-09-08T14:11:14.287Z"
   }
 ]
