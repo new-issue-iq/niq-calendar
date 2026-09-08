@@ -1,40 +1,5 @@
 [
   {
-    "id": "4d684f14-09da-4dee-80ae-a4c0a01e1255",
-    "issuerName": "TENCENT HOLDINGS LTD",
-    "alertedAt": "2026-06-08T12:40:32.650Z"
-  },
-  {
-    "id": "c03d4496-f66d-4327-93d5-c26008b4f5fb",
-    "issuerName": "EUROPEAN UNION",
-    "alertedAt": "2026-06-08T12:40:35.817Z"
-  },
-  {
-    "id": "21725de3-7a05-4887-a7aa-dfca80747a57",
-    "issuerName": "MSD INVT CORP",
-    "alertedAt": "2026-06-08T13:10:31.678Z"
-  },
-  {
-    "id": "ac3f58fa-0d9f-46d1-a3cf-75c849100766",
-    "issuerName": "TEACHERS INSURANCE & ANNUITY ASSN OF AMERICA",
-    "alertedAt": "2026-06-08T13:30:32.306Z"
-  },
-  {
-    "id": "fc1432bc-3115-423f-8539-07c5066b7458",
-    "issuerName": "AES CORP",
-    "alertedAt": "2026-06-08T18:50:32.372Z"
-  },
-  {
-    "id": "13ad1f94-5bf0-4f88-be77-8c5527525300",
-    "issuerName": "HELLENIC REPUBLIC",
-    "alertedAt": "2026-06-09T13:50:36.286Z"
-  },
-  {
-    "id": "fd5ee493-3dfb-42ff-bb3b-aa3df17b52c9",
-    "issuerName": "VEDANTA RESOURCES FINANCE II PLC",
-    "alertedAt": "2026-06-09T17:20:38.015Z"
-  },
-  {
     "id": "9e503d5b-56d0-4352-9b36-56498ed91731",
     "issuerName": "BANCO MERCANTIL DEL NORTE SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO BANORTE",
     "alertedAt": "2026-06-12T12:20:53.868Z"
@@ -428,5 +393,20 @@
     "id": "0bd82928-a9f3-4508-a638-e2e95219b2b6",
     "issuerName": "TECPETROL SA",
     "alertedAt": "2026-09-03T14:30:54.996Z"
+  },
+  {
+    "id": "68390c8c-090e-4942-8da6-908b1bcc7284",
+    "issuerName": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alertedAt": "2026-09-08T01:11:13.264Z"
+  },
+  {
+    "id": "c9570fa8-d5e7-4c3e-974b-4b847e4f7e67",
+    "issuerName": "COX ASSET MEXICO SA DE C V",
+    "alertedAt": "2026-09-08T01:11:17.232Z"
+  },
+  {
+    "id": "b8fb99d4-e9df-4c71-8871-e357871ea4ce",
+    "issuerName": "YPF SA",
+    "alertedAt": "2026-09-08T01:11:20.074Z"
   }
 ]
