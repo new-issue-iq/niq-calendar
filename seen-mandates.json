@@ -488,5 +488,10 @@
     "id": "1bf9993e-cbbc-49a0-a99b-39265db80d9e",
     "issuerName": "NEWCASTLE COAL INFRASTRUCTURE GROUP PTY LTD",
     "alertedAt": "2026-09-09T13:21:15.440Z"
+  },
+  {
+    "id": "487d7015-05dc-4c64-978a-efc146d019ea",
+    "issuerName": "VISTRA OPERATIONS CO LLC",
+    "alertedAt": "2026-09-09T19:51:16.546Z"
   }
 ]
