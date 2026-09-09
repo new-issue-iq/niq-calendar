@@ -478,5 +478,10 @@
     "id": "a875cb8d-38cd-4757-888b-57adaaa29234",
     "issuerName": "COLUMBIA BANK",
     "alertedAt": "2026-09-08T14:51:14.693Z"
+  },
+  {
+    "id": "b8c57d67-87c1-4d1a-86bd-adfa37d61f53",
+    "issuerName": "SOFTBANK GROUP CORP",
+    "alertedAt": "2026-09-09T11:01:21.952Z"
   }
 ]
