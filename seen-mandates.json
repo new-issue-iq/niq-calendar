@@ -483,5 +483,10 @@
     "id": "b8c57d67-87c1-4d1a-86bd-adfa37d61f53",
     "issuerName": "SOFTBANK GROUP CORP",
     "alertedAt": "2026-09-09T11:01:21.952Z"
+  },
+  {
+    "id": "1bf9993e-cbbc-49a0-a99b-39265db80d9e",
+    "issuerName": "NEWCASTLE COAL INFRASTRUCTURE GROUP PTY LTD",
+    "alertedAt": "2026-09-09T13:21:15.440Z"
   }
 ]
