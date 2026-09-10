@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2f3375853c8948d2-2@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260908T140000
+DTEND;TZID=America/New_York:20260908T145000
+SUMMARY:CAPISOU — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CAPITAL SOUTHWEST CORP (CAPISOU)\nRoadshow: URL: www.netroadshow.c
+ om | Entry Code: CSWC2026 | Direct link: www.netroadshow.com/nrs/home/#!/?
+ show=d3ce73e8\n\nDeal context:\nCapital Southwest Corporation (Nasdaq: CSW
+ C)\, a Texas-based internally-managed BDC rated Baa3/BBB- (Stable) by Mood
+ y's/Fitch\, is conducting a series of fixed income investor calls on Tuesd
+ ay\, September 8th\, 2026\, arranged by Deutsche Bank Securities\, Hunting
+ ton Capital Markets\, ING\, Morgan Stanley\, RBC Capital Markets\, and Wel
+ ls Fargo Securities. This is a pre-deal investor engagement (mandate stage
+ ) with no specific deal terms\, size\, tenor\, or pricing disclosed\, as a
+  capital markets transaction may follow subject to market conditions. Deut
+ sche Bank Securities is coordinating logistics\, and an electronic investo
+ r presentation has been made available via NetRoadshow.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CAPITAL SOUTHWEST CORP (CAPISOU)</p><p><strong>Roadshow:</str
+ ong> URL: www.netroadshow.com | Entry Code: CSWC2026 | Direct link: www.ne
+ troadshow.com/nrs/home/#!/?show=d3ce73e8</p><p><strong>Deal context:</stro
+ ng><br>Capital Southwest Corporation (Nasdaq: CSWC)\, a Texas-based intern
+ ally-managed BDC rated Baa3/BBB- (Stable) by Moody's/Fitch\, is conducting
+  a series of fixed income investor calls on Tuesday\, September 8th\, 2026
+ \, arranged by Deutsche Bank Securities\, Huntington Capital Markets\, ING
+ \, Morgan Stanley\, RBC Capital Markets\, and Wells Fargo Securities. This
+  is a pre-deal investor engagement (mandate stage) with no specific deal t
+ erms\, size\, tenor\, or pricing disclosed\, as a capital markets transact
+ ion may follow subject to market conditions. Deutsche Bank Securities is c
+ oordinating logistics\, and an electronic investor presentation has been m
+ ade available via NetRoadshow.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

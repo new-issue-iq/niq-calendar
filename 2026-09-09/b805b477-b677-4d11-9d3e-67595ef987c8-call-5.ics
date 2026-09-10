@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:546225db3a160468-5@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260909T080000
+DTEND;TZID=America/New_York:20260909T085000
+SUMMARY:THE SEMINOLE TRIBE OF FLORIDA — Call #4
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: THE SEMINOLE TRIBE OF FLORIDA\nRoadshow: https://dealroadshow.fins
+ ight.com/e/STOF2026 OR https://dealroadshow.finsight.com\; Entry Code: STO
+ F2026\n\nDeal context:\nThe Seminole Tribe of Florida (rated Baa2/BBB/BBB 
+ with Stable outlooks across all three agencies)\, a federally recognized s
+ overeign tribe operating Seminole Gaming\, has mandated Barclays\, BofA Se
+ curities\, SMBC Nikko Securities\, and US Bancorp to arrange investor upda
+ te calls ahead of a potential offering of Senior Secured Gaming Administra
+ tion Notes under Rule 144A/Reg S without registration rights. The deal is 
+ at the Mandate stage\, with investor calls scheduled for September 8-9\, 2
+ 026\, accompanied by a preliminary offering memorandum and pre-recorded el
+ ectronic investor presentation\; no size\, tenor\, or pricing terms have b
+ een disclosed. The offering may follow subject to market conditions\, repr
+ esenting the tribe's return to the capital markets with a senior secured s
+ tructure backed by its gaming operations.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> THE SEMINOLE TRIBE OF FLORIDA</p><p><strong>Roadshow:</strong
+ > https://dealroadshow.finsight.com/e/STOF2026 OR https://dealroadshow.fin
+ sight.com\; Entry Code: STOF2026</p><p><strong>Deal context:</strong><br>T
+ he Seminole Tribe of Florida (rated Baa2/BBB/BBB with Stable outlooks acro
+ ss all three agencies)\, a federally recognized sovereign tribe operating 
+ Seminole Gaming\, has mandated Barclays\, BofA Securities\, SMBC Nikko Sec
+ urities\, and US Bancorp to arrange investor update calls ahead of a poten
+ tial offering of Senior Secured Gaming Administration Notes under Rule 144
+ A/Reg S without registration rights. The deal is at the Mandate stage\, wi
+ th investor calls scheduled for September 8-9\, 2026\, accompanied by a pr
+ eliminary offering memorandum and pre-recorded electronic investor present
+ ation\; no size\, tenor\, or pricing terms have been disclosed. The offeri
+ ng may follow subject to market conditions\, representing the tribe's retu
+ rn to the capital markets with a senior secured structure backed by its ga
+ ming operations.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

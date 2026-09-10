@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5c30accd8f5a727a-1@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260910T110000
+DTEND;TZID=America/New_York:20260910T114500
+SUMMARY:PEOLP — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PATTERN ENERGY OPERATIONS LP & PATTERN ENERGY OPERATIONS INC (PEOL
+ P)\nRoadshow: URL: https://dealroadshow.com | Entry Code: PEOLP26 | Direct
+  Link: https://dealroadshow.finsight.com/e/PEOLP26\n\nDeal context:\nPatte
+ rn Energy Operations LP & Pattern Energy Operations Inc. is bringing an $8
+ 50M senior notes offering (5NC2 structure) to market via 144A/RegS for lif
+ e distribution\, rated Ba3/BB- (High Yield). The deal is led by a broad sy
+ ndicate of 16 joint bookrunners with JPM as the lead\, with IPT of 7-7.25%
+ \, targeting today's business. Proceeds will be used to fully repay amount
+ s outstanding under the Senior Revolving Credit Facility\, pay related fee
+ s and expenses\, and for general corporate purposes.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PATTERN ENERGY OPERATIONS LP &amp\; PATTERN ENERGY OPERATIONS
+  INC (PEOLP)</p><p><strong>Roadshow:</strong> URL: https://dealroadshow.co
+ m | Entry Code: PEOLP26 | Direct Link: https://dealroadshow.finsight.com/e
+ /PEOLP26</p><p><strong>Deal context:</strong><br>Pattern Energy Operations
+  LP &amp\; Pattern Energy Operations Inc. is bringing an $850M senior note
+ s offering (5NC2 structure) to market via 144A/RegS for life distribution\
+ , rated Ba3/BB- (High Yield). The deal is led by a broad syndicate of 16 j
+ oint bookrunners with JPM as the lead\, with IPT of 7-7.25%\, targeting to
+ day's business. Proceeds will be used to fully repay amounts outstanding u
+ nder the Senior Revolving Credit Facility\, pay related fees and expenses\
+ , and for general corporate purposes.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:25c64670a747bd01-1@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260909T103000
+DTEND;TZID=America/New_York:20260909T111500
+SUMMARY:OFFICE PROPERTIES INCOME TR — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: OFFICE PROPERTIES INCOME TR\nRoadshow: https://www.netroadshow.com
+ /events/login/1PeTHmohM1UqvjW0PwrL7lLeV2WL7FkqBbtYJ\n\nDeal context:\nOffi
+ ce Properties Income Trust (OPI) is issuing $425 million in 5-year Senior 
+ Secured Notes rated B3/B+ (Moody's/S&P) at the issue level\, with corporat
+ e ratings of B3/B- (Moody's/S&P)\, secured by a first-priority lien on 100
+ % of equity interests in Collateral Guarantors holding 19 fee-owned real p
+ roperties with NC-2 call protection and a 40% equity clawback provision. P
+ roceeds will be used\, together with cash on hand\, to repay in full outst
+ anding borrowings under the Secured Revolving Credit Facility and Secured 
+ Term Loan. Pricing is expected Thursday\, September 10th\, 2026\, with an 
+ investor call scheduled for Wednesday\, September 9th\, 2026 at 10:30 AM E
+ T.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> OFFICE PROPERTIES INCOME TR</p><p><strong>Roadshow:</strong> 
+ https://www.netroadshow.com/events/login/1PeTHmohM1UqvjW0PwrL7lLeV2WL7FkqB
+ btYJ</p><p><strong>Deal context:</strong><br>Office Properties Income Trus
+ t (OPI) is issuing $425 million in 5-year Senior Secured Notes rated B3/B+
+  (Moody's/S&amp\;P) at the issue level\, with corporate ratings of B3/B- (
+ Moody's/S&amp\;P)\, secured by a first-priority lien on 100% of equity int
+ erests in Collateral Guarantors holding 19 fee-owned real properties with 
+ NC-2 call protection and a 40% equity clawback provision. Proceeds will be
+  used\, together with cash on hand\, to repay in full outstanding borrowin
+ gs under the Secured Revolving Credit Facility and Secured Term Loan. Pric
+ ing is expected Thursday\, September 10th\, 2026\, with an investor call s
+ cheduled for Wednesday\, September 9th\, 2026 at 10:30 AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

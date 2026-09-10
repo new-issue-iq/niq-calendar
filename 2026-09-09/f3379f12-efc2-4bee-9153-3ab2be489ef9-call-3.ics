@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8f24014bfd8f50a4-3@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260909T144500
+DTEND;TZID=America/New_York:20260909T153000
+SUMMARY:TRICN — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: THOMSON REUTERS CORP (TRICN)\nRoadshow: URL: www.dealroadshow.com 
+ | Entry Code: TRICN2026 | Direct Link: https://dealroadshow.finsight.com/e
+ /TRICN2026\n\nDeal context:\nThomson Reuters Corporation / TR Finance LLC 
+ (Ticker: TRICN) is arranging a series of fixed income investor calls on Se
+ ptember 9\, 2026 ahead of a potential dual-currency offering comprising SE
+ C-registered senior unsecured USD notes and senior unsecured CAD notes\, s
+ ubject to market conditions. The company\, rated Baa1 (Positive) / A- (Sta
+ ble) / A- (Stable) by Moody's / S&P / Fitch\, has engaged RBC Capital Mark
+ ets (coordinating logistics)\, BofA Securities\, Barclays\, BMO Capital Ma
+ rkets\, Mizuho\, and TD Securities to arrange the investor update. No deal
+  size\, tenor\, or pricing has been specified at this mandate stage\, with
+  any offering contingent on market conditions following the investor call 
+ series.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> THOMSON REUTERS CORP (TRICN)</p><p><strong>Roadshow:</strong>
+  URL: www.dealroadshow.com | Entry Code: TRICN2026 | Direct Link: https://
+ dealroadshow.finsight.com/e/TRICN2026</p><p><strong>Deal context:</strong>
+ <br>Thomson Reuters Corporation / TR Finance LLC (Ticker: TRICN) is arrang
+ ing a series of fixed income investor calls on September 9\, 2026 ahead of
+  a potential dual-currency offering comprising SEC-registered senior unsec
+ ured USD notes and senior unsecured CAD notes\, subject to market conditio
+ ns. The company\, rated Baa1 (Positive) / A- (Stable) / A- (Stable) by Moo
+ dy's / S&amp\;P / Fitch\, has engaged RBC Capital Markets (coordinating lo
+ gistics)\, BofA Securities\, Barclays\, BMO Capital Markets\, Mizuho\, and
+  TD Securities to arrange the investor update. No deal size\, tenor\, or p
+ ricing has been specified at this mandate stage\, with any offering contin
+ gent on market conditions following the investor call series.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

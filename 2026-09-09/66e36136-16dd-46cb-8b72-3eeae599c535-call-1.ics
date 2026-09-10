@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5647dc2fcf7b7475-1@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260910T130000
+DTEND;TZID=America/New_York:20260910T134500
+SUMMARY:CLYDESDALE ACQUISITION HOLDINGS INC DBA NOVOLEX — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CLYDESDALE ACQUISITION HOLDINGS INC DBA NOVOLEX\nRoadshow: https:/
+ /www.netroadshow.com/events/login/1PeTHmohQp72ZYp59W5gY11wk5kaHiW8H9oJB\n\
+ nDeal context:\nClydesdale Acquisition Holdings\, Inc. (dba "Novolex")\, a
+  leading U.S. provider of sustainable packaging products\, is bringing a $
+ 750 million Senior Secured Notes offering via 144A/Reg S format with an ap
+ proximately 5.5-year tenor maturing April 2032. The deal carries NC-2 call
+  protection with a standard declining call schedule (par + 50% coupon\, th
+ en par + 25% coupon\, then par)\, and proceeds will be used to repay $750 
+ million outstanding under the Initial Term Loan Facility due 2029. UBS is 
+ acting as Lead Left bookrunner alongside a broad syndicate of 16 banks\, w
+ ith pricing expected the week of September 14\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CLYDESDALE ACQUISITION HOLDINGS INC DBA NOVOLEX</p><p><strong
+ >Roadshow:</strong> https://www.netroadshow.com/events/login/1PeTHmohQp72Z
+ Yp59W5gY11wk5kaHiW8H9oJB</p><p><strong>Deal context:</strong><br>Clydesdal
+ e Acquisition Holdings\, Inc. (dba &quot\;Novolex&quot\;)\, a leading U.S.
+  provider of sustainable packaging products\, is bringing a $750 million S
+ enior Secured Notes offering via 144A/Reg S format with an approximately 5
+ .5-year tenor maturing April 2032. The deal carries NC-2 call protection w
+ ith a standard declining call schedule (par + 50% coupon\, then par + 25% 
+ coupon\, then par)\, and proceeds will be used to repay $750 million outst
+ anding under the Initial Term Loan Facility due 2029. UBS is acting as Lea
+ d Left bookrunner alongside a broad syndicate of 16 banks\, with pricing e
+ xpected the week of September 14\, 2026.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

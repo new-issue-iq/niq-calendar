@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9b6da240b45ed42e-1@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260910T110000
+DTEND;TZID=America/New_York:20260910T114500
+SUMMARY:TTM TECH INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: TTM TECH INC\nRoadshow: URL: https://dealroadshow.com | Entry Code
+ : TTM2026 | Direct Link: https://dealroadshow.finsight.com/e/TTM2026 (avai
+ lable now)\n\nDeal context:\nTTM Technologies\, Inc. is launching a $500MM
+  senior notes offering (8NC3 structure) as part of a broader financing pac
+ kage that includes a new $300MM Term Loan A and $800MM First Lien Term Loa
+ n B\, collectively funding the $1.1BN acquisition of Epiq Solutions and po
+ tentially the expected acquisition of STG. The deal is rated Ba3/B+/BB+ an
+ d distributed as 144A/Reg S for life\, with initial price talk of 6.75-7%\
+ , expected to price today. The notes carry a Special Mandatory Redemption 
+ provision requiring redemption at par plus accrued interest if the Epiq So
+ lutions acquisition does not close by November 15\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> TTM TECH INC</p><p><strong>Roadshow:</strong> URL: https://de
+ alroadshow.com | Entry Code: TTM2026 | Direct Link: https://dealroadshow.f
+ insight.com/e/TTM2026 (available now)</p><p><strong>Deal context:</strong>
+ <br>TTM Technologies\, Inc. is launching a $500MM senior notes offering (8
+ NC3 structure) as part of a broader financing package that includes a new 
+ $300MM Term Loan A and $800MM First Lien Term Loan B\, collectively fundin
+ g the $1.1BN acquisition of Epiq Solutions and potentially the expected ac
+ quisition of STG. The deal is rated Ba3/B+/BB+ and distributed as 144A/Reg
+  S for life\, with initial price talk of 6.75-7%\, expected to price today
+ . The notes carry a Special Mandatory Redemption provision requiring redem
+ ption at par plus accrued interest if the Epiq Solutions acquisition does 
+ not close by November 15\, 2026.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1190b2426ae065a8-3@daily.newissueiq
+DTSTAMP:20260910T133324Z
+DTSTART;TZID=America/New_York:20260909T140000
+DTEND;TZID=America/New_York:20260909T144500
+SUMMARY:VISTOPE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: VISTRA OPERATIONS CO LLC (VISTOPE)\nRoadshow: URL: https://dealroa
+ dshow.finsight.com | Entry Code: VST2026 | Direct Link: https://dealroadsh
+ ow.finsight.com/e/VST2026\n\nDeal context:\nVistra Operations Company LLC\
+ , a wholly owned subsidiary of Vistra Corp. (VST)\, is arranging investor 
+ calls on September 9th ahead of a potential SEC-Registered Fixed-to-Fixed 
+ Reset Rate Junior Subordinated Notes offering with a coupon floor provisio
+ n\, subject to market conditions. The deal is at the Mandate stage\, with 
+ Barclays\, BofA Securities\, Mizuho\, MUFG\, and Truist Securities as arra
+ ngers\, and BofA Securities coordinating logistics. No size\, pricing\, or
+  tenor has been disclosed at this stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> VISTRA OPERATIONS CO LLC (VISTOPE)</p><p><strong>Roadshow:</s
+ trong> URL: https://dealroadshow.finsight.com | Entry Code: VST2026 | Dire
+ ct Link: https://dealroadshow.finsight.com/e/VST2026</p><p><strong>Deal co
+ ntext:</strong><br>Vistra Operations Company LLC\, a wholly owned subsidia
+ ry of Vistra Corp. (VST)\, is arranging investor calls on September 9th ah
+ ead of a potential SEC-Registered Fixed-to-Fixed Reset Rate Junior Subordi
+ nated Notes offering with a coupon floor provision\, subject to market con
+ ditions. The deal is at the Mandate stage\, with Barclays\, BofA Securitie
+ s\, Mizuho\, MUFG\, and Truist Securities as arrangers\, and BofA Securiti
+ es coordinating logistics. No size\, pricing\, or tenor has been disclosed
+  at this stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
