@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:642a3dc8007ea9a0-2@daily.newissueiq
+DTSTAMP:20260911T132042Z
+DTSTART;TZID=America/New_York:20260911T120000
+DTEND;TZID=America/New_York:20260911T125000
+SUMMARY:AON — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AON NORTH AMERICA INC (AON)\nRoadshow: URL: https://dealroadshow.f
+ insight.com | Entry Code: AON2026 | Direct Link: https://dealroadshow.fins
+ ight.com/e/AON2026\n\nDeal context:\nAon North America\, Inc. and Aon Glob
+ al Holdings plc are co-issuing a USD-denominated\, SEC-registered multi-tr
+ anche senior unsecured note offering\, fully and unconditionally guarantee
+ d by Aon plc\, Aon Corporation\, and Aon Global Limited\, with expected ra
+ tings of Baa2/A-/BBB+ (Moody's/S&P/Fitch). The mandate-stage announcement 
+ involves investor calls scheduled for Friday\, September 11th\, with BofA 
+ Securities\, Citigroup\, HSBC\, Morgan Stanley\, and Wells Fargo Securitie
+ s acting as joint bookrunners\, coordinated by Citigroup. No deal size\, t
+ ranche structure\, or pricing terms have been disclosed at this stage\, wi
+ th the offering subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AON NORTH AMERICA INC (AON)</p><p><strong>Roadshow:</strong> 
+ URL: https://dealroadshow.finsight.com | Entry Code: AON2026 | Direct Link
+ : https://dealroadshow.finsight.com/e/AON2026</p><p><strong>Deal context:<
+ /strong><br>Aon North America\, Inc. and Aon Global Holdings plc are co-is
+ suing a USD-denominated\, SEC-registered multi-tranche senior unsecured no
+ te offering\, fully and unconditionally guaranteed by Aon plc\, Aon Corpor
+ ation\, and Aon Global Limited\, with expected ratings of Baa2/A-/BBB+ (Mo
+ ody's/S&amp\;P/Fitch). The mandate-stage announcement involves investor ca
+ lls scheduled for Friday\, September 11th\, with BofA Securities\, Citigro
+ up\, HSBC\, Morgan Stanley\, and Wells Fargo Securities acting as joint bo
+ okrunners\, coordinated by Citigroup. No deal size\, tranche structure\, o
+ r pricing terms have been disclosed at this stage\, with the offering subj
+ ect to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
