@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:98df92dde078769b-2@daily.newissueiq
+DTSTAMP:20260911T133046Z
+DTSTART;TZID=America/New_York:20260911T120000
+DTEND;TZID=America/New_York:20260911T124500
+SUMMARY:CDW — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CDW CORP (CDW)\nRoadshow: https://netroadshow.com / Password: CDW2
+ 026\n\nDeal context:\nCDW Corporation is arranging a series of fixed incom
+ e investor calls on September 11th\, 2026\, with BofA Securities\, J.P. Mo
+ rgan\, Mizuho\, and Wells Fargo Securities as arrangers\, ahead of a poten
+ tial senior unsecured US$ SEC Registered bond transaction. The deal carrie
+ s expected investment-grade ratings of Baa3 (stable) / BBB- (stable) / BBB
+ - (stable) from Moody's\, S&P\, and Fitch respectively\, positioning CDW a
+ t the lowest rung of investment grade. No size\, tenor\, or pricing terms 
+ have been disclosed at this stage\, as the transaction is subject to marke
+ t conditions following the investor call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CDW CORP (CDW)</p><p><strong>Roadshow:</strong> https://netro
+ adshow.com / Password: CDW2026</p><p><strong>Deal context:</strong><br>CDW
+  Corporation is arranging a series of fixed income investor calls on Septe
+ mber 11th\, 2026\, with BofA Securities\, J.P. Morgan\, Mizuho\, and Wells
+  Fargo Securities as arrangers\, ahead of a potential senior unsecured US$
+  SEC Registered bond transaction. The deal carries expected investment-gra
+ de ratings of Baa3 (stable) / BBB- (stable) / BBB- (stable) from Moody's\,
+  S&amp\;P\, and Fitch respectively\, positioning CDW at the lowest rung of
+  investment grade. No size\, tenor\, or pricing terms have been disclosed 
+ at this stage\, as the transaction is subject to market conditions followi
+ ng the investor call process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
