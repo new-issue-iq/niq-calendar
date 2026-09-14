@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:416fa0506c8b0c39-1@daily.newissueiq
+DTSTAMP:20260914T132943Z
+DTSTART;TZID=America/New_York:20260914T110000
+DTEND;TZID=America/New_York:20260914T114500
+SUMMARY:AMSTED INDUSTRIES INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AMSTED INDUSTRIES INC\nRoadshow: URL: dealroadshow.finsight.com | 
+ Entry Code: AMS2026 | Direct Link: dealroadshow.finsight.com/e/AMS2026 (av
+ ailable now)\n\nDeal context:\nAmsted Industries Incorporated is bringing 
+ a $250M add-on to its existing 6.375% Notes due March 15\, 2033\, rated Ba
+ 3/B+ (High Yield)\, distributed as 144A/Reg S for life with IPT of 98.51 o
+ n a fungibility basis. Proceeds\, together with cash on hand\, will be use
+ d to repay outstanding borrowings under the Revolving Credit Facility and 
+ pay related fees and expenses. The deal is expected to price today with jo
+ int books led by JPM/WFS/TRUIST/PNC/BOFA/US BANK/BMO/HUNT/KEY and co-manag
+ ers BBVA/CIBC/STIFEL/CANT.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AMSTED INDUSTRIES INC</p><p><strong>Roadshow:</strong> URL: d
+ ealroadshow.finsight.com | Entry Code: AMS2026 | Direct Link: dealroadshow
+ .finsight.com/e/AMS2026 (available now)</p><p><strong>Deal context:</stron
+ g><br>Amsted Industries Incorporated is bringing a $250M add-on to its exi
+ sting 6.375% Notes due March 15\, 2033\, rated Ba3/B+ (High Yield)\, distr
+ ibuted as 144A/Reg S for life with IPT of 98.51 on a fungibility basis. Pr
+ oceeds\, together with cash on hand\, will be used to repay outstanding bo
+ rrowings under the Revolving Credit Facility and pay related fees and expe
+ nses. The deal is expected to price today with joint books led by JPM/WFS/
+ TRUIST/PNC/BOFA/US BANK/BMO/HUNT/KEY and co-managers BBVA/CIBC/STIFEL/CANT
+ .</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

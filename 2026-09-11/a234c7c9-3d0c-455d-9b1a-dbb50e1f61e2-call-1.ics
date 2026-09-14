@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7a4c02306f94a6eb-1@daily.newissueiq
+DTSTAMP:20260914T132943Z
+DTSTART;TZID=America/New_York:20260914T100000
+DTEND;TZID=America/New_York:20260914T104500
+SUMMARY:BURFORC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BURFORD CAPITAL FINANCE LLC (BURFORC)\nRoadshow: http://www.netroa
+ dshow.com/nrs/home/#!/?show=6e55e256\n\nDeal context:\nBurford Capital Glo
+ bal Finance LLC (NYSE: BUR)\, a leading global legal finance and asset man
+ agement firm with a market cap of ~$955MM\, is bringing a $300MM 3-year Se
+ nior Secured Notes offering via 144A/Reg S format\, with pricing expected 
+ the same day as announcement (September 14\, 2026). The deal carries expec
+ ted ratings of Baa2/BB- (split IG/HY)\, with whisper pricing of 8.75-9% an
+ d official price talk expected at noon ET. Proceeds\, along with cash on h
+ and\, will be used to repay the existing 2028 Senior Notes\, with Jefferie
+ s acting as Left Lead alongside BofA and Deutsche Bank as joint bookrunner
+ s.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BURFORD CAPITAL FINANCE LLC (BURFORC)</p><p><strong>Roadshow:
+ </strong> http://www.netroadshow.com/nrs/home/#!/?show=6e55e256</p><p><str
+ ong>Deal context:</strong><br>Burford Capital Global Finance LLC (NYSE: BU
+ R)\, a leading global legal finance and asset management firm with a marke
+ t cap of ~$955MM\, is bringing a $300MM 3-year Senior Secured Notes offeri
+ ng via 144A/Reg S format\, with pricing expected the same day as announcem
+ ent (September 14\, 2026). The deal carries expected ratings of Baa2/BB- (
+ split IG/HY)\, with whisper pricing of 8.75-9% and official price talk exp
+ ected at noon ET. Proceeds\, along with cash on hand\, will be used to rep
+ ay the existing 2028 Senior Notes\, with Jefferies acting as Left Lead alo
+ ngside BofA and Deutsche Bank as joint bookrunners.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

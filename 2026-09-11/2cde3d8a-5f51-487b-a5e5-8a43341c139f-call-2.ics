@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:642a3dc8007ea9a0-2@daily.newissueiq
+DTSTAMP:20260914T132943Z
+DTSTART;TZID=America/New_York:20260914T120000
+DTEND;TZID=America/New_York:20260914T125000
+SUMMARY:AON — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AON NORTH AMERICA INC (AON)\nRoadshow: URL: https://dealroadshow.f
+ insight.com | Entry Code: AON2026 | Direct Link: https://dealroadshow.fins
+ ight.com/e/AON2026\n\nDeal context:\nAon North America Inc. and Aon Global
+  Holdings Plc are jointly mandating a USD-denominated\, SEC-registered mul
+ titranche senior unsecured note offering\, co-issued by both entities and 
+ fully and unconditionally guaranteed by Aon Plc\, Aon Corp.\, and Aon Glob
+ al Ltd. Fixed income investor calls were arranged for September 11 via Bof
+ A Securities\, Citigroup\, HSBC\, Morgan Stanley\, and Wells Fargo Securit
+ ies\, with the deal expected to follow subject to market conditions. Expec
+ ted ratings of Baa2/A-/BBB+ (Moody's/S&P/Fitch) place this firmly in inves
+ tment grade territory\, though no size\, tenor\, or pricing details have b
+ een disclosed at this mandate stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AON NORTH AMERICA INC (AON)</p><p><strong>Roadshow:</strong> 
+ URL: https://dealroadshow.finsight.com | Entry Code: AON2026 | Direct Link
+ : https://dealroadshow.finsight.com/e/AON2026</p><p><strong>Deal context:<
+ /strong><br>Aon North America Inc. and Aon Global Holdings Plc are jointly
+  mandating a USD-denominated\, SEC-registered multitranche senior unsecure
+ d note offering\, co-issued by both entities and fully and unconditionally
+  guaranteed by Aon Plc\, Aon Corp.\, and Aon Global Ltd. Fixed income inve
+ stor calls were arranged for September 11 via BofA Securities\, Citigroup\
+ , HSBC\, Morgan Stanley\, and Wells Fargo Securities\, with the deal expec
+ ted to follow subject to market conditions. Expected ratings of Baa2/A-/BB
+ B+ (Moody's/S&amp\;P/Fitch) place this firmly in investment grade territor
+ y\, though no size\, tenor\, or pricing details have been disclosed at thi
+ s mandate stage.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

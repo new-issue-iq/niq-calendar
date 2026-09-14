@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aaa4b7c777243305-1@daily.newissueiq
+DTSTAMP:20260914T132943Z
+DTSTART;TZID=America/New_York:20260914T110000
+DTEND;TZID=America/New_York:20260914T114500
+SUMMARY:EFC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ELLINGTON FINL OPERATING PTNRSHP LLC (EFC)\nRoadshow: https://www.
+ netroadshow.com/events/login/1PeTHmoj7TI0IHzUWF0AQiRPwRQASVjbBfAdE\n\nDeal
+  context:\nEllington Financial Operating Partnership LLC (and co-issuers) 
+ is bringing a $100 million fungible add-on to its existing 7.375% Senior N
+ otes due 2030\, increasing the total tranche size to $500 million. The dea
+ l is a 144A/Reg S offering with an IPT of 99.01\, pricing the same afterno
+ on as announcement (September 14)\, with joint bookrunners WFS (left) and 
+ GS\, and co-managers Piper Sandler and KBW. The Ba3/BB- rated mortgage REI
+ T will use proceeds for general corporate purposes including repaying repu
+ rchase agreement borrowings and funding additional asset purchases.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ELLINGTON FINL OPERATING PTNRSHP LLC (EFC)</p><p><strong>Road
+ show:</strong> https://www.netroadshow.com/events/login/1PeTHmoj7TI0IHzUWF
+ 0AQiRPwRQASVjbBfAdE</p><p><strong>Deal context:</strong><br>Ellington Fina
+ ncial Operating Partnership LLC (and co-issuers) is bringing a $100 millio
+ n fungible add-on to its existing 7.375% Senior Notes due 2030\, increasin
+ g the total tranche size to $500 million. The deal is a 144A/Reg S offerin
+ g with an IPT of 99.01\, pricing the same afternoon as announcement (Septe
+ mber 14)\, with joint bookrunners WFS (left) and GS\, and co-managers Pipe
+ r Sandler and KBW. The Ba3/BB- rated mortgage REIT will use proceeds for g
+ eneral corporate purposes including repaying repurchase agreement borrowin
+ gs and funding additional asset purchases.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5647dc2fcf7b7475-1@daily.newissueiq
+DTSTAMP:20260914T132943Z
+DTSTART;TZID=America/New_York:20260914T130000
+DTEND;TZID=America/New_York:20260914T134500
+SUMMARY:CLYDESDALE ACQUISITION HOLDINGS INC DBA NOVOLEX — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CLYDESDALE ACQUISITION HOLDINGS INC DBA NOVOLEX\nRoadshow: https:/
+ /www.netroadshow.com/events/login/1PeTHmohQp72ZYp59W5gY11wk5kaHiW8H9oJB\n\
+ nDeal context:\nNovolex is in the market with a high yield bond offering\,
+  with price talk set at 8.00% area. Books are scheduled to close the same 
+ day at 12:00pm ET\, indicating an expedited execution timeline. The email 
+ is a price talk update from Barclays HY Syndicate\, with limited structura
+ l details provided beyond the pricing guidance level.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CLYDESDALE ACQUISITION HOLDINGS INC DBA NOVOLEX</p><p><strong
+ >Roadshow:</strong> https://www.netroadshow.com/events/login/1PeTHmohQp72Z
+ Yp59W5gY11wk5kaHiW8H9oJB</p><p><strong>Deal context:</strong><br>Novolex i
+ s in the market with a high yield bond offering\, with price talk set at 8
+ .00% area. Books are scheduled to close the same day at 12:00pm ET\, indic
+ ating an expedited execution timeline. The email is a price talk update fr
+ om Barclays HY Syndicate\, with limited structural details provided beyond
+  the pricing guidance level.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
