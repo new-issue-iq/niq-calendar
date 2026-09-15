@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b0105bba0d280688-1@daily.newissueiq
+DTSTAMP:20260915T140204Z
+DTSTART;TZID=America/New_York:20260915T110000
+DTEND;TZID=America/New_York:20260915T114500
+SUMMARY:NVT — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NVENT ELECTRIC PLC (NVT)\nRoadshow: URL: www.netroadshow.com | Ent
+ ry Code: nVent3862 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=e5
+ 80ac04\n\nDeal context:\nnVent Electric plc (NVT)\, rated BBB-/BBB (S&P/Fi
+ tch\, both Stable)\, is arranging fixed income investor calls on September
+  14\, 2026\, with BofA Securities\, Citigroup\, and J.P. Morgan as mandate
+ d bookrunners ahead of a potential SEC-Registered\, USD-denominated senior
+  unsecured notes offering via Hoffman Schroff Holdings\, Inc.\, guaranteed
+  by nVent Electric plc and nVent Finance S.à r.l. The deal is at the Manda
+ te stage with no size\, tenor\, or pricing terms disclosed\, subject to ma
+ rket conditions. Three investor calls are scheduled for the same day (11AM
+ \, 1PM\, and 2PM ET)\, with CFO Gary Corona and VP of IR Tony Riter as com
+ pany participants.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NVENT ELECTRIC PLC (NVT)</p><p><strong>Roadshow:</strong> URL
+ : www.netroadshow.com | Entry Code: nVent3862 | Direct Link: www.netroadsh
+ ow.com/nrs/home/#!/?show=e580ac04</p><p><strong>Deal context:</strong><br>
+ nVent Electric plc (NVT)\, rated BBB-/BBB (S&amp\;P/Fitch\, both Stable)\,
+  is arranging fixed income investor calls on September 14\, 2026\, with Bo
+ fA Securities\, Citigroup\, and J.P. Morgan as mandated bookrunners ahead 
+ of a potential SEC-Registered\, USD-denominated senior unsecured notes off
+ ering via Hoffman Schroff Holdings\, Inc.\, guaranteed by nVent Electric p
+ lc and nVent Finance S.à r.l. The deal is at the Mandate stage with no siz
+ e\, tenor\, or pricing terms disclosed\, subject to market conditions. Thr
+ ee investor calls are scheduled for the same day (11AM\, 1PM\, and 2PM ET)
+ \, with CFO Gary Corona and VP of IR Tony Riter as company participants.</
+ p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

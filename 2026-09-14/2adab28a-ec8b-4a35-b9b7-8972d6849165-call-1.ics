@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:67d6499d23f19120-1@daily.newissueiq
+DTSTAMP:20260915T140204Z
+DTSTART;TZID=America/New_York:20260914T103000
+DTEND;TZID=America/New_York:20260914T111500
+SUMMARY:SABRGLB — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SABRE FINL BORROWER LLC (SABRGLB)\nRoadshow: https://www.netroadsh
+ ow.com/events/login/1PeTHmojJaYUyuwEwf9tv96JReW237XdJryvA\n\nDeal context:
+ \nSabre Financial Borrower\, LLC (NASDAQ: SABR\, market cap $876mm) is bri
+ nging a $1\,100 million Senior Secured Notes offering with a 6-year tenor 
+ (maturing 2032)\, structured as a 'double-dip' security where the notes ar
+ e secured by a pledge of intercompany loan receivables from Sabre GLBL (pa
+ ri passu first lien with existing Sabre GLBL debt) plus $400 million in se
+ cured guarantees from foreign subsidiaries. The deal features an NC-3 stru
+ cture with a first call at par plus 50% of coupon\, a 40% equity claw\, an
+ d a 101% change of control put\, with proceeds intended to fund an interco
+ mpany loan to Sabre GLBL to repay existing indebtedness. Joint bookrunners
+  BofA and Citi are running the deal\, with an investor call scheduled for 
+ September 14th at 10:30 AM ET and expected pricing the following day (Sept
+ ember 15\, 2026).
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SABRE FINL BORROWER LLC (SABRGLB)</p><p><strong>Roadshow:</st
+ rong> https://www.netroadshow.com/events/login/1PeTHmojJaYUyuwEwf9tv96JReW
+ 237XdJryvA</p><p><strong>Deal context:</strong><br>Sabre Financial Borrowe
+ r\, LLC (NASDAQ: SABR\, market cap $876mm) is bringing a $1\,100 million S
+ enior Secured Notes offering with a 6-year tenor (maturing 2032)\, structu
+ red as a 'double-dip' security where the notes are secured by a pledge of 
+ intercompany loan receivables from Sabre GLBL (pari passu first lien with 
+ existing Sabre GLBL debt) plus $400 million in secured guarantees from for
+ eign subsidiaries. The deal features an NC-3 structure with a first call a
+ t par plus 50% of coupon\, a 40% equity claw\, and a 101% change of contro
+ l put\, with proceeds intended to fund an intercompany loan to Sabre GLBL 
+ to repay existing indebtedness. Joint bookrunners BofA and Citi are runnin
+ g the deal\, with an investor call scheduled for September 14th at 10:30 A
+ M ET and expected pricing the following day (September 15\, 2026).</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
