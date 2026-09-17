@@ -1,10 +1,5 @@
 [
   {
-    "id": "ff647723-186e-4113-8813-ac922b5745d4",
-    "issuerName": "POSCO HOLDINGS INC",
-    "alertedAt": "2026-06-17T12:20:52.511Z"
-  },
-  {
     "id": "112c16bd-e46b-4bec-9a28-4309c1429750",
     "issuerName": "AXIS BANK",
     "alertedAt": "2026-06-22T11:00:49.260Z"
@@ -483,5 +478,10 @@
     "id": "7bb778b5-1d84-431b-bd9a-955e9545ee57",
     "issuerName": "NVENT ELECTRIC PLC",
     "alertedAt": "2026-09-14T13:40:40.679Z"
+  },
+  {
+    "id": "4f1e0408-d129-4a02-9f03-1adb6f393c48",
+    "issuerName": "EIDP INC",
+    "alertedAt": "2026-09-17T16:00:43.371Z"
   }
 ]
