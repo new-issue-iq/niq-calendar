@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8588e5950f5d4d06-4@daily.newissueiq
+DTSTAMP:20260921T130103Z
+DTSTART;TZID=America/New_York:20260922T060000
+DTEND;TZID=America/New_York:20260922T064500
+SUMMARY:STLA — Call #4
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STELLANTIS FINL SVCS US CORP (STLA)\nRoadshow: URL: www.netroadsho
+ w.com | Access Code: SFS26 (not case sensitive) | Direct Link: www.netroad
+ show.com/nrs/home/#!/?show=acba3be6\n\nDeal context:\nStellantis Financial
+  Services US Corp. (SFS)\, the US-based captive finance subsidiary of glob
+ al automaker Stellantis N.V. (STLA)\, rated Baa3/BBB- (Moody's/S&P)\, has 
+ mandated six joint active bookrunners — BBVA\, BNP Paribas\, BofA Securiti
+ es\, J.P. Morgan\, UniCredit\, and Wells Fargo Securities — to arrange fix
+ ed income investor calls beginning September 21\, 2026\, ahead of a 3-year
+  fixed and/or floating USD Benchmark 144A/Reg S senior unsecured notes off
+ ering. The deal is at the Mandate stage with investor calls scheduled acro
+ ss two days (September 21–22\, 2026)\, subject to market conditions\, with
+  BNP Paribas coordinating marketing logistics.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STELLANTIS FINL SVCS US CORP (STLA)</p><p><strong>Roadshow:</
+ strong> URL: www.netroadshow.com | Access Code: SFS26 (not case sensitive)
+  | Direct Link: www.netroadshow.com/nrs/home/#!/?show=acba3be6</p><p><stro
+ ng>Deal context:</strong><br>Stellantis Financial Services US Corp. (SFS)\
+ , the US-based captive finance subsidiary of global automaker Stellantis N
+ .V. (STLA)\, rated Baa3/BBB- (Moody's/S&amp\;P)\, has mandated six joint a
+ ctive bookrunners — BBVA\, BNP Paribas\, BofA Securities\, J.P. Morgan\, U
+ niCredit\, and Wells Fargo Securities — to arrange fixed income investor c
+ alls beginning September 21\, 2026\, ahead of a 3-year fixed and/or floati
+ ng USD Benchmark 144A/Reg S senior unsecured notes offering. The deal is a
+ t the Mandate stage with investor calls scheduled across two days (Septemb
+ er 21–22\, 2026)\, subject to market conditions\, with BNP Paribas coordin
+ ating marketing logistics.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
