@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:40ce008e4e5ea418-1@daily.newissueiq
+DTSTAMP:20260921T132434Z
+DTSTART;TZID=America/New_York:20260921T130000
+DTEND;TZID=America/New_York:20260921T134500
+SUMMARY:ALRO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ALCHEMY MERGER SUB CORP (ALRO)\nRoadshow: URL: https://dealroadsho
+ w.finsight.com | Entry Code: ALRO2026 | Direct Link: https://dealroadshow.
+ finsight.com/e/ALRO2026 (available now)\n\nDeal context:\nAlchemy Merger S
+ ub Corp. is bringing a $1\,035\,000\,000 Senior Secured Notes offering (7N
+ C3 structure) to market\, rated B2/B/BB+ by Moody's/S&P/Fitch\, with initi
+ al price talk of 7.75-8%. The deal is part of a broader leveraged buyout f
+ inancing package — alongside $100mm of ABL borrowings and a $1\,035mm Firs
+ t Lien Term Loan B due 2033 — to fund Lindsay Goldberg's acquisition of a 
+ majority stake in Alro Steel\, a premier metals and plastics service cente
+ r with over 50\,000 customers in North America. The transaction is distrib
+ uted 144A/Reg S for life with a 10% equity claw at 103 for 3 years\, with 
+ pricing expected Thursday 9/24 following an investor call on Monday 9/21.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ALCHEMY MERGER SUB CORP (ALRO)</p><p><strong>Roadshow:</stron
+ g> URL: https://dealroadshow.finsight.com | Entry Code: ALRO2026 | Direct 
+ Link: https://dealroadshow.finsight.com/e/ALRO2026 (available now)</p><p><
+ strong>Deal context:</strong><br>Alchemy Merger Sub Corp. is bringing a $1
+ \,035\,000\,000 Senior Secured Notes offering (7NC3 structure) to market\,
+  rated B2/B/BB+ by Moody's/S&amp\;P/Fitch\, with initial price talk of 7.7
+ 5-8%. The deal is part of a broader leveraged buyout financing package — a
+ longside $100mm of ABL borrowings and a $1\,035mm First Lien Term Loan B d
+ ue 2033 — to fund Lindsay Goldberg's acquisition of a majority stake in Al
+ ro Steel\, a premier metals and plastics service center with over 50\,000 
+ customers in North America. The transaction is distributed 144A/Reg S for 
+ life with a 10% equity claw at 103 for 3 years\, with pricing expected Thu
+ rsday 9/24 following an investor call on Monday 9/21.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

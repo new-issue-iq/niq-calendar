@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:55d0dae8cf735175-2@daily.newissueiq
+DTSTAMP:20260921T132434Z
+DTSTART;TZID=America/New_York:20260917T130000
+DTEND;TZID=America/New_York:20260917T134500
+SUMMARY:CTVA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: EIDP INC (CTVA)\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=5
+ bde05df | Website: www.netroadshow.com | Passcode: EIDP26 (case-sensitive)
+ \n\nDeal context:\nEIDP Inc (CTVA) is bringing a 10-year USD benchmark sen
+ ior unsecured note to market via 144A/Reg S with Registration Rights\, wit
+ h Initial Price Talk of T+145bps and expected pricing on September 21\, 20
+ 26 (today's business). The deal features a Make Whole Call\, a 3-month par
+  call prior to maturity\, a Change of Control put at 101%\, and a notable 
+ Special Redemption at 101% if a Separation event does not occur by October
+  1\, 2026\, with proceeds earmarked for general corporate purposes includi
+ ng repayment of commercial paper borrowings.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> EIDP INC (CTVA)</p><p><strong>Roadshow:</strong> www.netroads
+ how.com/nrs/home/#!/?show=5bde05df | Website: www.netroadshow.com | Passco
+ de: EIDP26 (case-sensitive)</p><p><strong>Deal context:</strong><br>EIDP I
+ nc (CTVA) is bringing a 10-year USD benchmark senior unsecured note to mar
+ ket via 144A/Reg S with Registration Rights\, with Initial Price Talk of T
+ +145bps and expected pricing on September 21\, 2026 (today's business). Th
+ e deal features a Make Whole Call\, a 3-month par call prior to maturity\,
+  a Change of Control put at 101%\, and a notable Special Redemption at 101
+ % if a Separation event does not occur by October 1\, 2026\, with proceeds
+  earmarked for general corporate purposes including repayment of commercia
+ l paper borrowings.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

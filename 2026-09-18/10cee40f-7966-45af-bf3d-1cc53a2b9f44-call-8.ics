@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5059d7e13906e2b8-8@daily.newissueiq
+DTSTAMP:20260921T132434Z
+DTSTART;TZID=America/New_York:20260921T130000
+DTEND;TZID=America/New_York:20260921T134500
+SUMMARY:SRENVX — Call 8
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SWISS RE SUBORDINATED FINANCE PLC (SRENVX)\nRoadshow: www.netroads
+ how.com/nrs/home/#!/?show=4d31bd1d (Recommended) | Access: www.netroadshow
+ .com\, entry code: SwissRe26 (not case-sensitive)\n\nDeal context:\nSwiss 
+ Re's Three Pillars Funding Trust No.1 (a Delaware statutory trust) is arra
+ nging a USD-denominated 144A benchmark-sized 11NC10 Pre-Capitalized Trust 
+ Securities (P-Caps) offering to provide a subordinated note issuance facil
+ ity to Swiss Re Subordinated Finance Plc (SRENVX)\, guaranteed on a subord
+ inated basis by Swiss Re Ltd (rated A2/A\, Moody's/S&P\, stable/stable). T
+ he P-Caps are expected to be rated A3/BBB+ (Moody's/S&P)\, consistent with
+  existing subordinated notes of Swiss Re Subordinated Finance Plc. The dea
+ l is at the Mandate stage with fixed income investor calls commencing Sept
+ ember 21\, 2026\, coordinated by HSBC and J.P. Morgan\, with BofA Securiti
+ es as Global Coordinator and Citigroup\, Deutsche Bank\, HSBC\, J.P. Morga
+ n\, and Wells Fargo Securities as Joint Lead Managers\; no pricing terms h
+ ave been disclosed and the offering is subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SWISS RE SUBORDINATED FINANCE PLC (SRENVX)</p><p><strong>Road
+ show:</strong> www.netroadshow.com/nrs/home/#!/?show=4d31bd1d (Recommended
+ ) | Access: www.netroadshow.com\, entry code: SwissRe26 (not case-sensitiv
+ e)</p><p><strong>Deal context:</strong><br>Swiss Re's Three Pillars Fundin
+ g Trust No.1 (a Delaware statutory trust) is arranging a USD-denominated 1
+ 44A benchmark-sized 11NC10 Pre-Capitalized Trust Securities (P-Caps) offer
+ ing to provide a subordinated note issuance facility to Swiss Re Subordina
+ ted Finance Plc (SRENVX)\, guaranteed on a subordinated basis by Swiss Re 
+ Ltd (rated A2/A\, Moody's/S&amp\;P\, stable/stable). The P-Caps are expect
+ ed to be rated A3/BBB+ (Moody's/S&amp\;P)\, consistent with existing subor
+ dinated notes of Swiss Re Subordinated Finance Plc. The deal is at the Man
+ date stage with fixed income investor calls commencing September 21\, 2026
+ \, coordinated by HSBC and J.P. Morgan\, with BofA Securities as Global Co
+ ordinator and Citigroup\, Deutsche Bank\, HSBC\, J.P. Morgan\, and Wells F
+ argo Securities as Joint Lead Managers\; no pricing terms have been disclo
+ sed and the offering is subject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
