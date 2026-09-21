@@ -478,5 +478,10 @@
     "id": "c1b32591-2791-4408-a7e1-637239a407e8",
     "issuerName": "ALLETE INC",
     "alertedAt": "2026-09-21T13:41:00.227Z"
+  },
+  {
+    "id": "6ccae78c-019a-4b3b-a8f4-9aad5e8aa44d",
+    "issuerName": "DICK S SPORTING GOODS INC",
+    "alertedAt": "2026-09-21T13:51:06.821Z"
   }
 ]
