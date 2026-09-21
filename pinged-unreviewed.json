@@ -1,15 +1,5 @@
 [
   {
-    "id": "e69adddb-8881-4589-8604-1005cd7e510b",
-    "issuerName": "SONY GROUP CORP",
-    "pingedAt": "2026-06-22T12:10:35.016Z"
-  },
-  {
-    "id": "c5f59a07-b3ee-43a4-a44d-ccfbbe9488e1",
-    "issuerName": "PLUSPETROL SA",
-    "pingedAt": "2026-06-22T12:30:36.531Z"
-  },
-  {
     "id": "3ab7843d-e92c-42cd-92a5-c5ab196774bf",
     "issuerName": "T ROWE PRICE OHA SELECT PRIVATE CREDIT FUND",
     "pingedAt": "2026-06-24T13:40:37.187Z"
@@ -203,5 +193,10 @@
     "id": "4f1e0408-d129-4a02-9f03-1adb6f393c48",
     "issuerName": "EIDP INC",
     "pingedAt": "2026-09-17T13:20:36.181Z"
+  },
+  {
+    "id": "10cee40f-7966-45af-bf3d-1cc53a2b9f44",
+    "issuerName": "SWISS RE SUBORDINATED FINANCE PLC",
+    "pingedAt": "2026-09-21T12:01:15.221Z"
   }
 ]
