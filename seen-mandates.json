@@ -453,5 +453,15 @@
     "id": "10cee40f-7966-45af-bf3d-1cc53a2b9f44",
     "issuerName": "SWISS RE SUBORDINATED FINANCE PLC",
     "alertedAt": "2026-09-21T12:11:06.046Z"
+  },
+  {
+    "id": "4c89b17e-9c00-4829-be8a-626ba91dbdbb",
+    "issuerName": "NUVEEN LLC",
+    "alertedAt": "2026-09-21T12:21:06.807Z"
+  },
+  {
+    "id": "545c8505-00b5-4140-990d-8b672d362ba1",
+    "issuerName": "VISTA ENERGY ARGENTINA SAU",
+    "alertedAt": "2026-09-21T12:21:16.690Z"
   }
 ]
