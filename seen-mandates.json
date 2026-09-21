@@ -473,5 +473,10 @@
     "id": "26ddf4a2-2aaf-4e75-baf6-de24e06018bc",
     "issuerName": "KYNDRYL HOLDINGS INC",
     "alertedAt": "2026-09-21T13:21:03.443Z"
+  },
+  {
+    "id": "c1b32591-2791-4408-a7e1-637239a407e8",
+    "issuerName": "ALLETE INC",
+    "alertedAt": "2026-09-21T13:41:00.227Z"
   }
 ]
