@@ -1,50 +1,5 @@
 [
   {
-    "id": "112c16bd-e46b-4bec-9a28-4309c1429750",
-    "issuerName": "AXIS BANK",
-    "alertedAt": "2026-06-22T11:00:49.260Z"
-  },
-  {
-    "id": "1dfff274-d74a-4f76-ba0a-b1431ac02259",
-    "issuerName": "FREE & HANSEATIC CITY OF HAMBURG",
-    "alertedAt": "2026-06-22T11:40:42.001Z"
-  },
-  {
-    "id": "abdb5a68-1938-4d1c-af7c-ede9f4285925",
-    "issuerName": "AVILEASE",
-    "alertedAt": "2026-06-22T11:40:44.956Z"
-  },
-  {
-    "id": "12e2eb10-54da-4b97-b271-9338111bcd03",
-    "issuerName": "SPACEX",
-    "alertedAt": "2026-06-22T12:20:45.420Z"
-  },
-  {
-    "id": "c5f59a07-b3ee-43a4-a44d-ccfbbe9488e1",
-    "issuerName": "PLUSPETROL SA",
-    "alertedAt": "2026-06-22T12:40:43.396Z"
-  },
-  {
-    "id": "e69adddb-8881-4589-8604-1005cd7e510b",
-    "issuerName": "SONY GROUP CORP",
-    "alertedAt": "2026-06-22T12:40:46.364Z"
-  },
-  {
-    "id": "c975b356-4a06-4b80-a298-a447296b8123",
-    "issuerName": "AVIANCA MIDCO 2 PLC",
-    "alertedAt": "2026-06-22T13:50:46.975Z"
-  },
-  {
-    "id": "3da3bff1-ad48-4a36-a9be-b35758049e19",
-    "issuerName": "RIO GRANDE LNG LLC",
-    "alertedAt": "2026-06-22T13:50:49.922Z"
-  },
-  {
-    "id": "1b8a65cf-da49-4f81-83c8-ddb3ee9c613f",
-    "issuerName": "NTT FINANCE CORP",
-    "alertedAt": "2026-06-23T10:20:47.275Z"
-  },
-  {
     "id": "52f7ed29-1879-4901-8165-699d65b42a25",
     "issuerName": "THE GERMAN STATE OF HESSE",
     "alertedAt": "2026-06-24T13:50:46.038Z"
@@ -493,5 +448,10 @@
     "id": "3555b924-5d4a-4ced-90e1-c4ed78a85182",
     "issuerName": "ALTAGAS SVCS U S INC",
     "alertedAt": "2026-09-18T13:30:36.308Z"
+  },
+  {
+    "id": "10cee40f-7966-45af-bf3d-1cc53a2b9f44",
+    "issuerName": "SWISS RE SUBORDINATED FINANCE PLC",
+    "alertedAt": "2026-09-21T12:11:06.046Z"
   }
 ]
