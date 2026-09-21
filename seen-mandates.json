@@ -468,5 +468,10 @@
     "id": "cf64fd42-f46f-4ce2-b2ab-0cc6a0a4a2a2",
     "issuerName": "STELLANTIS FINL SVCS US CORP",
     "alertedAt": "2026-09-21T13:01:10.235Z"
+  },
+  {
+    "id": "26ddf4a2-2aaf-4e75-baf6-de24e06018bc",
+    "issuerName": "KYNDRYL HOLDINGS INC",
+    "alertedAt": "2026-09-21T13:21:03.443Z"
   }
 ]
