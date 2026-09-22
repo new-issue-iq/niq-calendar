@@ -488,5 +488,10 @@
     "id": "e8589de8-dc90-4aef-aa04-60d2d5285e1e",
     "issuerName": "AHLI BANK",
     "alertedAt": "2026-09-22T11:41:03.068Z"
+  },
+  {
+    "id": "450b2f25-f135-4d69-ac6e-f6ec3b331975",
+    "issuerName": "OPEN TEXT CORP",
+    "alertedAt": "2026-09-22T12:31:17.029Z"
   }
 ]
