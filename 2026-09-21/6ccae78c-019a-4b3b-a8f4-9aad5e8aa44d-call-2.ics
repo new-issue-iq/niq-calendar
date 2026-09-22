@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f15fbe838db9451e-2@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T150000
+DTEND;TZID=America/New_York:20260922T154500
+SUMMARY:DKS — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: DICK S SPORTING GOODS INC (DKS)\nRoadshow: URL: www.netroadshow.co
+ m | Entry Code: DKS2678 | Direct Link: www.netroadshow.com/nrs/home/#!/?sh
+ ow=202da68e\n\nDeal context:\nDICK'S Sporting Goods\, Inc. (DKS)\, rated B
+ aa2/BBB (both Stable)\, has mandated BofA Securities\, PNC Capital Markets
+  LLC\, and Wells Fargo Securities to arrange fixed income investor calls c
+ ommencing September 21\, 2026\, with a NetRoadshow presentation available 
+ for investor review. An SEC-registered senior unsecured notes offering may
+  follow subject to market conditions\, with no size\, tenor\, or pricing t
+ erms disclosed at this stage. The deal represents a Mandate-stage announce
+ ment with two scheduled investor calls on the same day\, coordinated by Bo
+ fA Securities.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> DICK S SPORTING GOODS INC (DKS)</p><p><strong>Roadshow:</stro
+ ng> URL: www.netroadshow.com | Entry Code: DKS2678 | Direct Link: www.netr
+ oadshow.com/nrs/home/#!/?show=202da68e</p><p><strong>Deal context:</strong
+ ><br>DICK'S Sporting Goods\, Inc. (DKS)\, rated Baa2/BBB (both Stable)\, h
+ as mandated BofA Securities\, PNC Capital Markets LLC\, and Wells Fargo Se
+ curities to arrange fixed income investor calls commencing September 21\, 
+ 2026\, with a NetRoadshow presentation available for investor review. An S
+ EC-registered senior unsecured notes offering may follow subject to market
+  conditions\, with no size\, tenor\, or pricing terms disclosed at this st
+ age. The deal represents a Mandate-stage announcement with two scheduled i
+ nvestor calls on the same day\, coordinated by BofA Securities.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

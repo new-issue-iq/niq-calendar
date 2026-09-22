@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b0998ee7b3046702-1@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T110000
+DTEND;TZID=America/New_York:20260922T114500
+SUMMARY:MILLROSE PROPERTIES INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MILLROSE PROPERTIES INC\nRoadshow: https://www.netroadshow.com/eve
+ nts/login/1PeTHmohRIZXNG7Zc7yQSbMBadpDJN8zLL0qL\n\nDeal context:\nMillrose
+  Properties\, Inc. (NYSE: MRP\, ~$4.8B market cap) is launching a two-tran
+ che $1.0 billion senior notes offering consisting of $500 million 3NC1 not
+ es due 2029 and $500 million 5NC2 notes due 2031\, distributed as 144A/Reg
+  S for life. The deal is rated Ba2/BB/BBB- (Moody's/S&P/Fitch)\, placing i
+ t in split-rated territory (HY by Moody's and S&P\, IG by Fitch)\, with IP
+ T of 6.75% area on the 2029s and 7.00% area on the 2031s\, pricing expecte
+ d this afternoon (September 22\, 2026). Proceeds will be used for general 
+ corporate purposes including potential homesite acquisitions from the comb
+ ined Dream Finders and Beazer organization\, revolving credit facility rep
+ ayment\, and transaction-related fees\, with Wells Fargo Securities acting
+  as left lead bookrunner alongside BofA\, Goldman Sachs\, Mizuho\, Citi\, 
+ and Citizens.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MILLROSE PROPERTIES INC</p><p><strong>Roadshow:</strong> http
+ s://www.netroadshow.com/events/login/1PeTHmohRIZXNG7Zc7yQSbMBadpDJN8zLL0qL
+ </p><p><strong>Deal context:</strong><br>Millrose Properties\, Inc. (NYSE:
+  MRP\, ~$4.8B market cap) is launching a two-tranche $1.0 billion senior n
+ otes offering consisting of $500 million 3NC1 notes due 2029 and $500 mill
+ ion 5NC2 notes due 2031\, distributed as 144A/Reg S for life. The deal is 
+ rated Ba2/BB/BBB- (Moody's/S&amp\;P/Fitch)\, placing it in split-rated ter
+ ritory (HY by Moody's and S&amp\;P\, IG by Fitch)\, with IPT of 6.75% area
+  on the 2029s and 7.00% area on the 2031s\, pricing expected this afternoo
+ n (September 22\, 2026). Proceeds will be used for general corporate purpo
+ ses including potential homesite acquisitions from the combined Dream Find
+ ers and Beazer organization\, revolving credit facility repayment\, and tr
+ ansaction-related fees\, with Wells Fargo Securities acting as left lead b
+ ookrunner alongside BofA\, Goldman Sachs\, Mizuho\, Citi\, and Citizens.</
+ p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

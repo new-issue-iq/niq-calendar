@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8b33ba339dfe2b83-1@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T103000
+DTEND;TZID=America/New_York:20260922T111500
+SUMMARY:BOLAHOL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: DBR LAND HOLDINGS LLC (BOLAHOL)\nRoadshow: https://www.netroadshow
+ .com/events/login/1PeTHmohRHzRIhacThGKSkFjRJOUxmsbAMT7y\n\nDeal context:\n
+ DBR Land Holdings LLC (NYSE: LB)\, the operating entity behind LandBridge\
+ , is bringing a $100 million fungible add-on to its existing 6.250% Senior
+  Notes due December 1\, 2030\, rated B1/BB-/BB (Moody's/S&P/Fitch)\, placi
+ ng this firmly in high-yield territory. The deal is priced at an IPT of 99
+ .01 (fungibility price) via 144A/Reg S for Life format\, with Truist actin
+ g as left lead alongside seven joint bookrunners including Barclays\, Texa
+ s Capital\, WFS\, Academy\, Huntington\, Citi\, and Goldman Sachs. Proceed
+ s will be used to repay a portion of outstanding borrowings under the Revo
+ lving Credit Facility\, with an investor call scheduled for 9/22 at 10:30 
+ AM ET and pricing expected the same day.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> DBR LAND HOLDINGS LLC (BOLAHOL)</p><p><strong>Roadshow:</stro
+ ng> https://www.netroadshow.com/events/login/1PeTHmohRHzRIhacThGKSkFjRJOUx
+ msbAMT7y</p><p><strong>Deal context:</strong><br>DBR Land Holdings LLC (NY
+ SE: LB)\, the operating entity behind LandBridge\, is bringing a $100 mill
+ ion fungible add-on to its existing 6.250% Senior Notes due December 1\, 2
+ 030\, rated B1/BB-/BB (Moody's/S&amp\;P/Fitch)\, placing this firmly in hi
+ gh-yield territory. The deal is priced at an IPT of 99.01 (fungibility pri
+ ce) via 144A/Reg S for Life format\, with Truist acting as left lead along
+ side seven joint bookrunners including Barclays\, Texas Capital\, WFS\, Ac
+ ademy\, Huntington\, Citi\, and Goldman Sachs. Proceeds will be used to re
+ pay a portion of outstanding borrowings under the Revolving Credit Facilit
+ y\, with an investor call scheduled for 9/22 at 10:30 AM ET and pricing ex
+ pected the same day.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

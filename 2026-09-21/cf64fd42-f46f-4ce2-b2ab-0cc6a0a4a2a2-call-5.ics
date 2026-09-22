@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1e11a8118646265e-5@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T070000
+DTEND;TZID=America/New_York:20260922T074500
+SUMMARY:STLA — Call #5
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STELLANTIS FINL SVCS US CORP (STLA)\nRoadshow: URL: www.netroadsho
+ w.com | Access Code: SFS26 (not case sensitive) | Direct Link: www.netroad
+ show.com/nrs/home/#!/?show=acba3be6\n\nDeal context:\nStellantis Financial
+  Services US Corp. (SFS)\, the US-based captive finance subsidiary of glob
+ al automaker Stellantis N.V. (STLA)\, is launching a 3-year fixed and/or f
+ loating USD Benchmark 144A/Reg S senior unsecured notes offering rated Baa
+ 3/BBB- (Moody's/S&P)\, placing it at the lowest rung of investment grade w
+ ith a negative outlook from S&P. The deal is at the Mandate stage\, with i
+ nvestor calls scheduled for September 21-22\, 2026\, coordinated by BNP Pa
+ ribas\, with BBVA\, BNP Paribas\, BofA Securities\, J.P. Morgan\, UniCredi
+ t\, and Wells Fargo Securities acting as Joint Active Bookrunners. No size
+ \, pricing\, or spread guidance has been provided yet\, as the offering is
+  subject to market conditions following the investor engagement process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STELLANTIS FINL SVCS US CORP (STLA)</p><p><strong>Roadshow:</
+ strong> URL: www.netroadshow.com | Access Code: SFS26 (not case sensitive)
+  | Direct Link: www.netroadshow.com/nrs/home/#!/?show=acba3be6</p><p><stro
+ ng>Deal context:</strong><br>Stellantis Financial Services US Corp. (SFS)\
+ , the US-based captive finance subsidiary of global automaker Stellantis N
+ .V. (STLA)\, is launching a 3-year fixed and/or floating USD Benchmark 144
+ A/Reg S senior unsecured notes offering rated Baa3/BBB- (Moody's/S&amp\;P)
+ \, placing it at the lowest rung of investment grade with a negative outlo
+ ok from S&amp\;P. The deal is at the Mandate stage\, with investor calls s
+ cheduled for September 21-22\, 2026\, coordinated by BNP Paribas\, with BB
+ VA\, BNP Paribas\, BofA Securities\, J.P. Morgan\, UniCredit\, and Wells F
+ argo Securities acting as Joint Active Bookrunners. No size\, pricing\, or
+  spread guidance has been provided yet\, as the offering is subject to mar
+ ket conditions following the investor engagement process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

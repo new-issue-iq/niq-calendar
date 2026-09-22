@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b02f9ea948eb1f37-1@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T100000
+DTEND;TZID=America/New_York:20260922T104500
+SUMMARY:OGG — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: OSISKO GOLD GROUP INC (OGG)\nRoadshow: Registration Link: https://
+ www.netroadshow.com/events/login/1PeTHmohYdHsql1d2xGs3hh1yY388VVrmB0f3 | R
+ eplay Link: https://www.netroadshow.com/events/login/1PeTHmohYdHsql1d2xGs3
+ hh1yY388VVrmB0f3 | Slides Only: www.netroadshow.com | Entry Code: OG2026\n
+ \nDeal context:\nOsisko Gold Group Inc. (NYSE: OGG) is bringing a $500 mil
+ lion 5-year Senior Secured Notes offering (NC-2) to market via 144A for Li
+ fe / Reg S distribution\, with BofA acting as left lead alongside RBC\, Na
+ tional Bank of Canada\, BMO\, and Cantor as bookrunners. Net proceeds will
+  be used to repay the Appian Senior Secured Delay Draw Term Loan\, fund an
+  Interest Reserve Account (covering the first five semi-annual interest pa
+ yments)\, and fund a Disbursement Account to advance construction of the C
+ ariboo Gold Project. The deal is a HY new issue from a North American gold
+  development company\, with pricing expected on September 22\, 2026\, foll
+ owing an investor call the same morning at 10:00 AM ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> OSISKO GOLD GROUP INC (OGG)</p><p><strong>Roadshow:</strong> 
+ Registration Link: https://www.netroadshow.com/events/login/1PeTHmohYdHsql
+ 1d2xGs3hh1yY388VVrmB0f3 | Replay Link: https://www.netroadshow.com/events/
+ login/1PeTHmohYdHsql1d2xGs3hh1yY388VVrmB0f3 | Slides Only: www.netroadshow
+ .com | Entry Code: OG2026</p><p><strong>Deal context:</strong><br>Osisko G
+ old Group Inc. (NYSE: OGG) is bringing a $500 million 5-year Senior Secure
+ d Notes offering (NC-2) to market via 144A for Life / Reg S distribution\,
+  with BofA acting as left lead alongside RBC\, National Bank of Canada\, B
+ MO\, and Cantor as bookrunners. Net proceeds will be used to repay the App
+ ian Senior Secured Delay Draw Term Loan\, fund an Interest Reserve Account
+  (covering the first five semi-annual interest payments)\, and fund a Disb
+ ursement Account to advance construction of the Cariboo Gold Project. The 
+ deal is a HY new issue from a North American gold development company\, wi
+ th pricing expected on September 22\, 2026\, following an investor call th
+ e same morning at 10:00 AM ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

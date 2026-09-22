@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5174e6737751dcf2-1@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260921T120000
+DTEND;TZID=America/New_York:20260921T124500
+SUMMARY:ALE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ALLETE INC (ALE)\nRoadshow: https://dealroadshow.finsight.com/e/AL
+ E26 | Entry Code: ALE26 | URL: https://dealroadshow.finsight.com\n\nDeal c
+ ontext:\nALLETE\, Inc. (doing business as Minnesota Power) has mandated We
+ lls Fargo Securities\, J.P. Morgan\, and RBC Capital Markets to organize f
+ ixed income investor calls on September 21\, 2026\, ahead of a 144A/Reg S 
+ without Registration Rights 10-Year First Mortgage Bond offering. The deal
+  carries expected ratings of A2 (negative) from Moody's and A- (stable) fr
+ om S&P\, placing it firmly in investment grade territory. No size or prici
+ ng guidance has been provided at this stage\; the offering is subject to m
+ arket conditions following the investor call series.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ALLETE INC (ALE)</p><p><strong>Roadshow:</strong> https://dea
+ lroadshow.finsight.com/e/ALE26 | Entry Code: ALE26 | URL: https://dealroad
+ show.finsight.com</p><p><strong>Deal context:</strong><br>ALLETE\, Inc. (d
+ oing business as Minnesota Power) has mandated Wells Fargo Securities\, J.
+ P. Morgan\, and RBC Capital Markets to organize fixed income investor call
+ s on September 21\, 2026\, ahead of a 144A/Reg S without Registration Righ
+ ts 10-Year First Mortgage Bond offering. The deal carries expected ratings
+  of A2 (negative) from Moody's and A- (stable) from S&amp\;P\, placing it 
+ firmly in investment grade territory. No size or pricing guidance has been
+  provided at this stage\; the offering is subject to market conditions fol
+ lowing the investor call series.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

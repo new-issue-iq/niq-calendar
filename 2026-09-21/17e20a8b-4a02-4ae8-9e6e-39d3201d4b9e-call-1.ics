@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7ea33d5afacea75f-1@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T103000
+DTEND;TZID=America/New_York:20260922T111500
+SUMMARY:SEI — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SOLARIS ENERGY INFRASTRUCTURE LLC (SEI)\nRoadshow: https://dealroa
+ dshow.finsight.com/e/SOLARISENGIC26 | Passcode: SOLARISENGIC26\n\nDeal con
+ text:\nSolaris Energy Infrastructure LLC (SEI) is bringing a $1.0 billion 
+ 5.5NC2.5 Senior Unsecured Notes offering to market via 144A/Reg S for Life
+  format\, rated Ba3/BB-/BB by Moody's (expected)\, S&P\, and Fitch respect
+ ively. The deal is announced with an IPT of 7.250% area\, with proceeds ea
+ rmarked for growth capex\, general corporate purposes\, and related transa
+ ction fees and expenses. The transaction is supported by a broad syndicate
+  led by MUFG (B&D) and SANT as Joint Global Coordinators\, with a global i
+ nvestor call scheduled for Tuesday\, September 22\, 2026 at 10:30 am ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SOLARIS ENERGY INFRASTRUCTURE LLC (SEI)</p><p><strong>Roadsho
+ w:</strong> https://dealroadshow.finsight.com/e/SOLARISENGIC26 | Passcode:
+  SOLARISENGIC26</p><p><strong>Deal context:</strong><br>Solaris Energy Inf
+ rastructure LLC (SEI) is bringing a $1.0 billion 5.5NC2.5 Senior Unsecured
+  Notes offering to market via 144A/Reg S for Life format\, rated Ba3/BB-/B
+ B by Moody's (expected)\, S&amp\;P\, and Fitch respectively. The deal is a
+ nnounced with an IPT of 7.250% area\, with proceeds earmarked for growth c
+ apex\, general corporate purposes\, and related transaction fees and expen
+ ses. The transaction is supported by a broad syndicate led by MUFG (B&amp\
+ ;D) and SANT as Joint Global Coordinators\, with a global investor call sc
+ heduled for Tuesday\, September 22\, 2026 at 10:30 am ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

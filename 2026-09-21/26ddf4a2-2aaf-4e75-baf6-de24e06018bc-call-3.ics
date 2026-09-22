@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:003e760b9fe2c1a1-3@daily.newissueiq
+DTSTAMP:20260922T132751Z
+DTSTART;TZID=America/New_York:20260922T130000
+DTEND;TZID=America/New_York:20260922T134500
+SUMMARY:KD — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: KYNDRYL HOLDINGS INC (KD)\nRoadshow: www.netroadshow.com | Entry C
+ ode: KD26 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=03e24c6f\n\
+ nDeal context:\nKyndryl Holdings\, Inc. (KD)\, rated Baa3/BBB-/BBB- (IG) b
+ y Moody's/S&P/Fitch\, has mandated J.P. Morgan\, Citigroup\, and Morgan St
+ anley to arrange fixed income investor calls ahead of a potential SEC-regi
+ stered note offering. The deal contemplates 3- and/or 5-year notes with cu
+ stomary coupon step-up provisions\, subject to market conditions\, with in
+ vestor calls scheduled for Tuesday\, September 22nd across four time slots
+ .
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> KYNDRYL HOLDINGS INC (KD)</p><p><strong>Roadshow:</strong> ww
+ w.netroadshow.com | Entry Code: KD26 | Direct Link: www.netroadshow.com/nr
+ s/home/#!/?show=03e24c6f</p><p><strong>Deal context:</strong><br>Kyndryl H
+ oldings\, Inc. (KD)\, rated Baa3/BBB-/BBB- (IG) by Moody's/S&amp\;P/Fitch\
+ , has mandated J.P. Morgan\, Citigroup\, and Morgan Stanley to arrange fix
+ ed income investor calls ahead of a potential SEC-registered note offering
+ . The deal contemplates 3- and/or 5-year notes with customary coupon step-
+ up provisions\, subject to market conditions\, with investor calls schedul
+ ed for Tuesday\, September 22nd across four time slots.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
