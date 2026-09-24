@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bf7561dfe9a19cd3-1@daily.newissueiq
+DTSTAMP:20260924T132423Z
+DTSTART;TZID=America/New_York:20260922T110000
+DTEND;TZID=America/New_York:20260922T114500
+SUMMARY:KD — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: KYNDRYL HOLDINGS INC (KD)\nRoadshow: www.netroadshow.com | Entry C
+ ode: KD26 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=03e24c6f\n\
+ nDeal context:\nKyndryl Holdings\, Inc. (KD)\, rated Baa3/BBB-/BBB (Moody'
+ s/S&P/Fitch)\, has mandated J.P. Morgan\, Citigroup\, and Morgan Stanley t
+ o arrange fixed income investor calls on September 22\, 2026\, ahead of a 
+ potential SEC-registered offering of 3- and/or 5-year notes with customary
+  coupon step-up provisions. The deal is at the Mandate stage with no size\
+ , pricing\, or spread guidance yet disclosed\, subject to market condition
+ s. As the world's largest IT infrastructure services provider\, Kyndryl is
+  an investment-grade issuer with a mixed ratings outlook (S&P negative\, M
+ oody's and Fitch stable).
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> KYNDRYL HOLDINGS INC (KD)</p><p><strong>Roadshow:</strong> ww
+ w.netroadshow.com | Entry Code: KD26 | Direct Link: www.netroadshow.com/nr
+ s/home/#!/?show=03e24c6f</p><p><strong>Deal context:</strong><br>Kyndryl H
+ oldings\, Inc. (KD)\, rated Baa3/BBB-/BBB (Moody's/S&amp\;P/Fitch)\, has m
+ andated J.P. Morgan\, Citigroup\, and Morgan Stanley to arrange fixed inco
+ me investor calls on September 22\, 2026\, ahead of a potential SEC-regist
+ ered offering of 3- and/or 5-year notes with customary coupon step-up prov
+ isions. The deal is at the Mandate stage with no size\, pricing\, or sprea
+ d guidance yet disclosed\, subject to market conditions. As the world's la
+ rgest IT infrastructure services provider\, Kyndryl is an investment-grade
+  issuer with a mixed ratings outlook (S&amp\;P negative\, Moody's and Fitc
+ h stable).</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

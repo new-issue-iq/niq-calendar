@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d9aefbf267c7f205-1@daily.newissueiq
+DTSTAMP:20260924T132423Z
+DTSTART;TZID=America/New_York:20260924T100000
+DTEND;TZID=America/New_York:20260924T104500
+SUMMARY:ATSG — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STONEPEAK NILE PARENT LLC (ATSG)\nRoadshow: https://www.netroadsho
+ w.com/events/login/1PeTHmohCjPbzkt0wM3tddawHN2kKF09L0uF7\n\nDeal context:\
+ nStonepeak Nile Parent LLC is issuing a $100 million fungible incremental 
+ add-on to its existing First Lien Senior Secured Notes due March 15\, 2032
+ \, with pricing expected the same day as announcement (September 24\, 2026
+ ). The proceeds from this add-on\, combined with a $100 million incrementa
+ l First Lien Term Loan\, will fund a one-time distribution to shareholders
+  and cover related transaction fees\, expenses\, and OID — a leveraged rec
+ apitalization transaction in the Transportation sector. The deal is struct
+ ured as 144A/Reg S for life with BARC acting as Lead Left among 12 joint b
+ ookrunners\, and carries the same call structure as the existing notes (no
+ n-callable prior to March 15\, 2028\, then callable at 50% coupon\, 25% co
+ upon\, and par on subsequent anniversary dates).
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STONEPEAK NILE PARENT LLC (ATSG)</p><p><strong>Roadshow:</str
+ ong> https://www.netroadshow.com/events/login/1PeTHmohCjPbzkt0wM3tddawHN2k
+ KF09L0uF7</p><p><strong>Deal context:</strong><br>Stonepeak Nile Parent LL
+ C is issuing a $100 million fungible incremental add-on to its existing Fi
+ rst Lien Senior Secured Notes due March 15\, 2032\, with pricing expected 
+ the same day as announcement (September 24\, 2026). The proceeds from this
+  add-on\, combined with a $100 million incremental First Lien Term Loan\, 
+ will fund a one-time distribution to shareholders and cover related transa
+ ction fees\, expenses\, and OID — a leveraged recapitalization transaction
+  in the Transportation sector. The deal is structured as 144A/Reg S for li
+ fe with BARC acting as Lead Left among 12 joint bookrunners\, and carries 
+ the same call structure as the existing notes (non-callable prior to March
+  15\, 2028\, then callable at 50% coupon\, 25% coupon\, and par on subsequ
+ ent anniversary dates).</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
