@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:978e1caf2be9903d-1@daily.newissueiq
+DTSTAMP:20260929T131911Z
+DTSTART;TZID=America/New_York:20260929T103000
+DTEND;TZID=America/New_York:20260929T111500
+SUMMARY:PRAA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PRA GROUP INC (PRAA)\nRoadshow: https://www.netroadshow.com/events
+ /login/1PeTHmojHERlnwQrBMTFzjfEJDUgEveC3P1eO\n\nDeal context:\nPRA Group\,
+  Inc. (NASDAQ: PRAA)\, a specialty finance company focused on purchasing a
+ nd managing nonperforming loan portfolios\, is bringing a $400 million 7NC
+ 3 Senior Unsecured Notes offering to market via 144A/Reg S for Life format
+ . The deal launched with Initial Price Talk in the 'Mid 8s' area\, with pr
+ icing expected the same day (September 29)\, following a 10:30 AM ET inves
+ tor call. Proceeds will be used to repay a portion of outstanding borrowin
+ gs under the North American Revolving Credit Facility due 2029\, with the 
+ deal rated Ba3/BB/BB (Moody's/S&P/Fitch)\, firmly in high yield territory\
+ , and led by Truist as left lead alongside 11 joint bookrunners.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PRA GROUP INC (PRAA)</p><p><strong>Roadshow:</strong> https:/
+ /www.netroadshow.com/events/login/1PeTHmojHERlnwQrBMTFzjfEJDUgEveC3P1eO</p
+ ><p><strong>Deal context:</strong><br>PRA Group\, Inc. (NASDAQ: PRAA)\, a 
+ specialty finance company focused on purchasing and managing nonperforming
+  loan portfolios\, is bringing a $400 million 7NC3 Senior Unsecured Notes 
+ offering to market via 144A/Reg S for Life format. The deal launched with 
+ Initial Price Talk in the 'Mid 8s' area\, with pricing expected the same d
+ ay (September 29)\, following a 10:30 AM ET investor call. Proceeds will b
+ e used to repay a portion of outstanding borrowings under the North Americ
+ an Revolving Credit Facility due 2029\, with the deal rated Ba3/BB/BB (Moo
+ dy's/S&amp\;P/Fitch)\, firmly in high yield territory\, and led by Truist 
+ as left lead alongside 11 joint bookrunners.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ea565940a236732b-1@daily.newissueiq
+DTSTAMP:20260929T131911Z
+DTSTART;TZID=America/New_York:20260928T140000
+DTEND;TZID=America/New_York:20260928T144500
+SUMMARY:MH — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MCGRAW-HILL EDUCATION INC (MH)\nRoadshow: https://www.netroadshow.
+ com/events/login/1PeTHmohCEmbU0oL6IoxkioOpwTQYplhuLpuT (recommended) | or 
+ Visit https://www.netroadshow.com/ and enter the Entry Code: MH26 | Replay
+  Stream: https://www.netroadshow.com/events/login/1PeTHmohCEmbU0oL6IoxkioO
+ pwTQYplhuLpuT\n\nDeal context:\nMcGraw-Hill Education\, Inc. is bringing a
+  $500 million 7-year Senior Secured Notes offering (NC-3) rated Ba3/BB\, w
+ ith proceeds intended to refinance existing Senior Secured Notes due 2028 
+ and Term Loan B due 2031 in conjunction with a concurrent Senior Secured T
+ erm Loan. The deal is in the Mandate/Roadshow stage with an investor call 
+ scheduled for Monday\, September 28th and a roadshow week of September 28t
+ h\, with no pricing guidance yet disclosed. BofA is acting as left lead bo
+ okrunner alongside nine joint bookrunners (BMO\, BNP\, DB\, GS\, HSBC\, MS
+ \, PNC\, UBS\, US Bank) in a 144A/Reg S for life format.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MCGRAW-HILL EDUCATION INC (MH)</p><p><strong>Roadshow:</stron
+ g> https://www.netroadshow.com/events/login/1PeTHmohCEmbU0oL6IoxkioOpwTQYp
+ lhuLpuT (recommended) | or Visit https://www.netroadshow.com/ and enter th
+ e Entry Code: MH26 | Replay Stream: https://www.netroadshow.com/events/log
+ in/1PeTHmohCEmbU0oL6IoxkioOpwTQYplhuLpuT</p><p><strong>Deal context:</stro
+ ng><br>McGraw-Hill Education\, Inc. is bringing a $500 million 7-year Seni
+ or Secured Notes offering (NC-3) rated Ba3/BB\, with proceeds intended to 
+ refinance existing Senior Secured Notes due 2028 and Term Loan B due 2031 
+ in conjunction with a concurrent Senior Secured Term Loan. The deal is in 
+ the Mandate/Roadshow stage with an investor call scheduled for Monday\, Se
+ ptember 28th and a roadshow week of September 28th\, with no pricing guida
+ nce yet disclosed. BofA is acting as left lead bookrunner alongside nine j
+ oint bookrunners (BMO\, BNP\, DB\, GS\, HSBC\, MS\, PNC\, UBS\, US Bank) i
+ n a 144A/Reg S for life format.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

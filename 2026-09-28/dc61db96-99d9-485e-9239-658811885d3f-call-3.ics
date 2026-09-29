@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2296af78f2b41f49-3@daily.newissueiq
+DTSTAMP:20260929T131911Z
+DTSTART;TZID=America/New_York:20260929T130000
+DTEND;TZID=America/New_York:20260929T140000
+SUMMARY:PSKY — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PARAMOUNT SKYDANCE CORP (PSKY)\nRoadshow: www.netroadshow.com | En
+ try Code: WARRIOR26 (not case-sensitive) | Direct Link: www.netroadshow.co
+ m/nrs/home/#!/?show=036ab0bd (Recommended)\n\nDeal context:\nParamount Sky
+ dance Corporation (NASDAQ: PSKY) is launching a $12.4 billion equivalent m
+ ulti-currency\, multi-tranche Senior Secured Second Lien Notes offering ac
+ ross EUR (5yr and 8yr) and USD (5yr\, 8yr\, and 10yr) tranches to help fin
+ ance the acquisition of Warner Bros. Discovery\, with the notes rated B1/B
+ B/BB at the issue level — firmly in high yield territory. The deal is stru
+ ctured with NC2/NC3/NC5 call protection and declining call premiums of 50%
+ /25%/par\, and forms part of a broader $56.9 billion financing package tha
+ t also includes a $5 billion TLA\, $7.5 billion Term Loan B\, and $32 bill
+ ion of other first lien secured debt. BofA Securities is acting as Left Le
+ ad B&D\, with Citi and Apollo as Joint Global Coordinators\, a Global Inve
+ stor Call scheduled for Monday September 28\, and commitments due Wednesda
+ y September 30.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PARAMOUNT SKYDANCE CORP (PSKY)</p><p><strong>Roadshow:</stron
+ g> www.netroadshow.com | Entry Code: WARRIOR26 (not case-sensitive) | Dire
+ ct Link: www.netroadshow.com/nrs/home/#!/?show=036ab0bd (Recommended)</p><
+ p><strong>Deal context:</strong><br>Paramount Skydance Corporation (NASDAQ
+ : PSKY) is launching a $12.4 billion equivalent multi-currency\, multi-tra
+ nche Senior Secured Second Lien Notes offering across EUR (5yr and 8yr) an
+ d USD (5yr\, 8yr\, and 10yr) tranches to help finance the acquisition of W
+ arner Bros. Discovery\, with the notes rated B1/BB/BB at the issue level —
+  firmly in high yield territory. The deal is structured with NC2/NC3/NC5 c
+ all protection and declining call premiums of 50%/25%/par\, and forms part
+  of a broader $56.9 billion financing package that also includes a $5 bill
+ ion TLA\, $7.5 billion Term Loan B\, and $32 billion of other first lien s
+ ecured debt. BofA Securities is acting as Left Lead B&amp\;D\, with Citi a
+ nd Apollo as Joint Global Coordinators\, a Global Investor Call scheduled 
+ for Monday September 28\, and commitments due Wednesday September 30.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
