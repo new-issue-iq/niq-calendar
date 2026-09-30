@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:03d7cb1217e471c6-3@daily.newissueiq
+DTSTAMP:20260930T133044Z
+DTSTART;TZID=America/New_York:20260930T140000
+DTEND;TZID=America/New_York:20260930T144500
+SUMMARY:CPB — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CAMPBELL S CO & THE (CPB)\nRoadshow: URL: www.netroadshow.com | En
+ try Code: CPB2026 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=a56
+ 12748\n\nDeal context:\nThe Campbell's Company (CPB)\, rated Baa3(neg)/BBB
+ -(neg)/BBB-(neg) at the issuer level\, is marketing a 30.5NC5.25 Fixed-to-
+ Fixed Reset Rate Junior Subordinated Notes offering via SEC-registered for
+ mat\, with expected instrument ratings of Ba1/BB/BB — two notches below th
+ e issuer's senior unsecured ratings\, reflecting the deeply subordinated n
+ ature of the hybrid capital instrument. The deal is at the investor call/m
+ andate stage\, with BofA Securities and Citigroup coordinating logistics f
+ or three investor call sessions on September 30\, 2026\, and no pricing te
+ rms have been disclosed yet. The structure includes a coupon floor provisi
+ on and fixed-to-fixed reset rate mechanism\, consistent with equity credit
+  treatment from rating agencies\, and the 30.5-year total tenor with a 5.2
+ 5-year non-call period is typical for IG corporate hybrid capital issuance
+ .
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CAMPBELL S CO &amp\; THE (CPB)</p><p><strong>Roadshow:</stron
+ g> URL: www.netroadshow.com | Entry Code: CPB2026 | Direct Link: www.netro
+ adshow.com/nrs/home/#!/?show=a5612748</p><p><strong>Deal context:</strong>
+ <br>The Campbell's Company (CPB)\, rated Baa3(neg)/BBB-(neg)/BBB-(neg) at 
+ the issuer level\, is marketing a 30.5NC5.25 Fixed-to-Fixed Reset Rate Jun
+ ior Subordinated Notes offering via SEC-registered format\, with expected 
+ instrument ratings of Ba1/BB/BB — two notches below the issuer's senior un
+ secured ratings\, reflecting the deeply subordinated nature of the hybrid 
+ capital instrument. The deal is at the investor call/mandate stage\, with 
+ BofA Securities and Citigroup coordinating logistics for three investor ca
+ ll sessions on September 30\, 2026\, and no pricing terms have been disclo
+ sed yet. The structure includes a coupon floor provision and fixed-to-fixe
+ d reset rate mechanism\, consistent with equity credit treatment from rati
+ ng agencies\, and the 30.5-year total tenor with a 5.25-year non-call peri
+ od is typical for IG corporate hybrid capital issuance.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

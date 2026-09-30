@@ -493,5 +493,10 @@
     "id": "ebbfecf4-85ac-4054-80f4-293dbde11331",
     "issuerName": "BAIN CAPITAL PRIVATE CREDIT",
     "alertedAt": "2026-09-30T13:11:10.689Z"
+  },
+  {
+    "id": "cf7849e0-a15e-41a3-9b8c-d721d4991d11",
+    "issuerName": "CAMPBELL S CO & THE",
+    "alertedAt": "2026-09-30T13:30:58.662Z"
   }
 ]
