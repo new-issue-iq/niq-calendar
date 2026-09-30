@@ -1,10 +1,5 @@
 [
   {
-    "id": "e39040d3-f9c4-4382-838e-2bc03919c98e",
-    "issuerName": "PANASONIC HOLDINGS CORP",
-    "pingedAt": "2026-06-29T11:51:13.752Z"
-  },
-  {
     "id": "d70b6378-cc58-45ff-bd5e-747ff4c58452",
     "issuerName": "UNITED STATES STEEL CORP",
     "pingedAt": "2026-07-06T10:30:53.669Z"
@@ -203,5 +198,10 @@
     "id": "56c23f42-9dc2-40a2-87e9-476b389c4b33",
     "issuerName": "NBN CO LTD",
     "pingedAt": "2026-09-24T12:10:59.319Z"
+  },
+  {
+    "id": "11da253a-a7c1-40e5-8bed-8bdf574c0971",
+    "issuerName": "AIRSWIFT GLOBAL AS",
+    "pingedAt": "2026-09-30T11:30:47.551Z"
   }
 ]
