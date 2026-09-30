@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:19710101T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19710101T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:03ac770b665754a4-2@daily.newissueiq
+DTSTAMP:20260930T114046Z
+DTSTART;TZID=Europe/Berlin:20261006T143000
+DTEND;TZID=Europe/Berlin:20261006T151500
+SUMMARY:AIRSWIFT GLOBAL AS — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AIRSWIFT GLOBAL AS\n\nDeal context:\nAirswift Global AS is pursuin
+ g a USD 300 million senior secured bond offering with a 5-year tenor\, hav
+ ing mandated Pareto Securities as Sole Global Coordinator and Joint Bookru
+ nner and Arctic Securities as Joint Bookrunner. Net proceeds are intended 
+ to refinance existing debt (including existing bonds with ISIN NO001315238
+ 9) and finance general corporate purposes including acquisitions. The deal
+  is at the mandate stage with investor calls scheduled for October 5 and 6
+ \, and management available for 1-on-1 meetings from October 2.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AIRSWIFT GLOBAL AS</p><p><strong>Deal context:</strong><br>Ai
+ rswift Global AS is pursuing a USD 300 million senior secured bond offerin
+ g with a 5-year tenor\, having mandated Pareto Securities as Sole Global C
+ oordinator and Joint Bookrunner and Arctic Securities as Joint Bookrunner.
+  Net proceeds are intended to refinance existing debt (including existing 
+ bonds with ISIN NO0013152389) and finance general corporate purposes inclu
+ ding acquisitions. The deal is at the mandate stage with investor calls sc
+ heduled for October 5 and 6\, and management available for 1-on-1 meetings
+  from October 2.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
