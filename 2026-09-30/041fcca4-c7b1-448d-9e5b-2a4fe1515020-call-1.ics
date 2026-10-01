@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:289be5474106b693-1@daily.newissueiq
+DTSTAMP:20261001T131942Z
+DTSTART;TZID=America/New_York:20261001T103000
+DTEND;TZID=America/New_York:20261001T111500
+SUMMARY:MTX — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MINERALS TECH INC (MTX)\nRoadshow: URL: https://dealroadshow.com |
+  Entry Code: MTXBOND2026 | Direct Link: https://dealroadshow.finsight.com/
+ e/MTXBOND2026\n\nDeal context:\nMinerals Technologies Inc. is bringing a $
+ 400M 8NC3 Senior Notes offering (Ba3/BB-) via 144A/Reg S for life\, with i
+ nitial price talk in the Low to Mid 7% range. Proceeds\, together with cas
+ h on hand\, will be used to fully redeem the existing 5% Notes due 2028 an
+ d for GCP-related purposes. The deal is led by JPM\, TRUIST\, and USB as j
+ oint bookrunners with BOFA and WFS as co-managers\, with today's business 
+ timing.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MINERALS TECH INC (MTX)</p><p><strong>Roadshow:</strong> URL:
+  https://dealroadshow.com | Entry Code: MTXBOND2026 | Direct Link: https:/
+ /dealroadshow.finsight.com/e/MTXBOND2026</p><p><strong>Deal context:</stro
+ ng><br>Minerals Technologies Inc. is bringing a $400M 8NC3 Senior Notes of
+ fering (Ba3/BB-) via 144A/Reg S for life\, with initial price talk in the 
+ Low to Mid 7% range. Proceeds\, together with cash on hand\, will be used 
+ to fully redeem the existing 5% Notes due 2028 and for GCP-related purpose
+ s. The deal is led by JPM\, TRUIST\, and USB as joint bookrunners with BOF
+ A and WFS as co-managers\, with today's business timing.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2a16889194b52d9b-2@daily.newissueiq
+DTSTAMP:20261001T131942Z
+DTSTART;TZID=America/New_York:20261001T110000
+DTEND;TZID=America/New_York:20261001T120000
+SUMMARY:BNCPPT — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BAIN CAPITAL PRIVATE CREDIT (BNCPPT)\nRoadshow: https://dealroadsh
+ ow.finsight.com | Entry Code: BCPC2026 | Direct Link: https://dealroadshow
+ .finsight.com/e/BCPC2026\n\nDeal context:\nBain Capital Private Credit (BC
+ PC) is arranging a series of fixed income investor calls on September 30\,
+  2026\, with SMBC Nikko\, BNP PARIBAS\, J.P. Morgan\, and Scotiabank actin
+ g as arrangers\, ahead of a potential 144A/Reg S (with registration rights
+ ) senior unsecured notes offering. The offering is subject to market condi
+ tions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BAIN CAPITAL PRIVATE CREDIT (BNCPPT)</p><p><strong>Roadshow:<
+ /strong> https://dealroadshow.finsight.com | Entry Code: BCPC2026 | Direct
+  Link: https://dealroadshow.finsight.com/e/BCPC2026</p><p><strong>Deal con
+ text:</strong><br>Bain Capital Private Credit (BCPC) is arranging a series
+  of fixed income investor calls on September 30\, 2026\, with SMBC Nikko\,
+  BNP PARIBAS\, J.P. Morgan\, and Scotiabank acting as arrangers\, ahead of
+  a potential 144A/Reg S (with registration rights) senior unsecured notes 
+ offering. The offering is subject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

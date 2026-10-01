@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:03d7cb1217e471c6-3@daily.newissueiq
+DTSTAMP:20261001T131942Z
+DTSTART;TZID=America/New_York:20260930T140000
+DTEND;TZID=America/New_York:20260930T144500
+SUMMARY:CPB — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CAMPBELL S CO & THE (CPB)\nRoadshow: URL: www.netroadshow.com | En
+ try Code: CPB2026 | Direct Link: www.netroadshow.com/nrs/home/#!/?show=a56
+ 12748\n\nDeal context:\nThe Campbell's Company (CPB)\, rated Baa3(neg)/BBB
+ -(neg)/BBB-(neg) at the issuer level\, is conducting fixed income investor
+  calls on September 30\, 2026 ahead of an SEC-registered 30.5NC5.25 Fixed-
+ to-Fixed Reset Rate Junior Subordinated Notes offering with a coupon floor
+  provision\, with expected ratings of Ba1/BB/BB — reflecting the subordina
+ ted nature of the instrument relative to the issuer's senior ratings. The 
+ deal is arranged by Barclays\, BNP Paribas\, BofA Securities\, Citigroup\,
+  J.P. Morgan\, and UBS Investment Bank\, with BofA Securities and Citigrou
+ p coordinating logistics. No size\, pricing\, or spread guidance has been 
+ disclosed at this stage\; the offering is subject to market conditions and
+  is expected to follow the investor calls.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CAMPBELL S CO &amp\; THE (CPB)</p><p><strong>Roadshow:</stron
+ g> URL: www.netroadshow.com | Entry Code: CPB2026 | Direct Link: www.netro
+ adshow.com/nrs/home/#!/?show=a5612748</p><p><strong>Deal context:</strong>
+ <br>The Campbell's Company (CPB)\, rated Baa3(neg)/BBB-(neg)/BBB-(neg) at 
+ the issuer level\, is conducting fixed income investor calls on September 
+ 30\, 2026 ahead of an SEC-registered 30.5NC5.25 Fixed-to-Fixed Reset Rate 
+ Junior Subordinated Notes offering with a coupon floor provision\, with ex
+ pected ratings of Ba1/BB/BB — reflecting the subordinated nature of the in
+ strument relative to the issuer's senior ratings. The deal is arranged by 
+ Barclays\, BNP Paribas\, BofA Securities\, Citigroup\, J.P. Morgan\, and U
+ BS Investment Bank\, with BofA Securities and Citigroup coordinating logis
+ tics. No size\, pricing\, or spread guidance has been disclosed at this st
+ age\; the offering is subject to market conditions and is expected to foll
+ ow the investor calls.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
