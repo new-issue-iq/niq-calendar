@@ -1,55 +1,5 @@
 [
   {
-    "id": "2928469b-d1c7-4c5a-bc36-27c0749604f3",
-    "issuerName": "NEXT PROPERTIES TR 2401",
-    "alertedAt": "2026-07-02T16:18:13.340Z"
-  },
-  {
-    "id": "9fd95f87-0f07-4744-bd6b-e0e9b41a1501",
-    "issuerName": "PT LESTARI BANTEN ENERGI & LLPL CAPITAL PTE LTD",
-    "alertedAt": "2026-07-06T10:10:56.339Z"
-  },
-  {
-    "id": "d70b6378-cc58-45ff-bd5e-747ff4c58452",
-    "issuerName": "UNITED STATES STEEL CORP",
-    "alertedAt": "2026-07-06T10:40:59.913Z"
-  },
-  {
-    "id": "55c7a909-0b5e-42ea-abe7-be2fbadc7c66",
-    "issuerName": "PROSUS NV",
-    "alertedAt": "2026-07-06T11:21:00.298Z"
-  },
-  {
-    "id": "7968c7cb-13bc-428d-bbb6-1652f3fb64b3",
-    "issuerName": "INTERCORP PERU LTD",
-    "alertedAt": "2026-07-06T13:11:07.708Z"
-  },
-  {
-    "id": "35ece6ed-5681-405a-a874-19ae938078d4",
-    "issuerName": "INTL FINANCE CORP IFC",
-    "alertedAt": "2026-07-06T13:11:10.446Z"
-  },
-  {
-    "id": "6e59ed0e-1d02-465e-8356-a02b07d361e5",
-    "issuerName": "ACCENTURE CAPITAL INC",
-    "alertedAt": "2026-07-06T13:20:58.721Z"
-  },
-  {
-    "id": "394ecdad-a908-4b93-977c-e1849776c848",
-    "issuerName": "SUNBELT RENTALS HOLDINGS INC",
-    "alertedAt": "2026-07-06T14:30:59.816Z"
-  },
-  {
-    "id": "18947c86-4860-4b3d-84f5-d89480c527d2",
-    "issuerName": "COMMERCIAL BANK OF DUBAI",
-    "alertedAt": "2026-07-07T11:30:58.308Z"
-  },
-  {
-    "id": "0deaf0b1-3ead-4347-b114-82a68b031c12",
-    "issuerName": "INTL FINANCE CORP",
-    "alertedAt": "2026-07-07T11:31:02.194Z"
-  },
-  {
     "id": "2aa2924e-c554-4177-897b-6bb5072f7d12",
     "issuerName": "JEFFERIES FINL GROUP INC",
     "alertedAt": "2026-07-07T12:01:01.488Z"
@@ -498,5 +448,10 @@
     "id": "cf7849e0-a15e-41a3-9b8c-d721d4991d11",
     "issuerName": "CAMPBELL S CO & THE",
     "alertedAt": "2026-09-30T13:30:58.662Z"
+  },
+  {
+    "id": "79d18595-aaba-451f-a3c4-7374f8605013",
+    "issuerName": "CSLB HOLDINGS INC",
+    "alertedAt": "2026-10-05T11:51:10.460Z"
   }
 ]
