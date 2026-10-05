@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4a7c0235d3629b68-1@daily.newissueiq
+DTSTAMP:20261005T134953Z
+DTSTART;TZID=America/New_York:20261005T131500
+DTEND;TZID=America/New_York:20261005T140000
+SUMMARY:APEX ESCROW ISSUER LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: APEX ESCROW ISSUER LLC\nRoadshow: https://www.netroadshow.com/even
+ ts/login/1PeTHmojCJH2Ji8q3AmFqgk6sI74Jxhcfq92Z\n\nDeal context:\nApex Escr
+ ow Issuer\, LLC (Apex Service Partners) is bringing a $1\,000 million Seni
+ or Secured Notes offering via 144A/Reg S for life format\, with a 7-year t
+ enor and NC3 call protection\, with initial price talk at Mid-High 8%. The
+  deal is a Goldman Sachs-led HY transaction with a broad syndicate of 10 b
+ ookrunners\, and proceeds are intended to fund Refinancing Transactions al
+ ongside borrowings under a New Term Loan Facility. An escrow structure is 
+ in place contingent on concurrent closing of New Credit Facilities and Spo
+ nsor Investments.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> APEX ESCROW ISSUER LLC</p><p><strong>Roadshow:</strong> https
+ ://www.netroadshow.com/events/login/1PeTHmojCJH2Ji8q3AmFqgk6sI74Jxhcfq92Z<
+ /p><p><strong>Deal context:</strong><br>Apex Escrow Issuer\, LLC (Apex Ser
+ vice Partners) is bringing a $1\,000 million Senior Secured Notes offering
+  via 144A/Reg S for life format\, with a 7-year tenor and NC3 call protect
+ ion\, with initial price talk at Mid-High 8%. The deal is a Goldman Sachs-
+ led HY transaction with a broad syndicate of 10 bookrunners\, and proceeds
+  are intended to fund Refinancing Transactions alongside borrowings under 
+ a New Term Loan Facility. An escrow structure is in place contingent on co
+ ncurrent closing of New Credit Facilities and Sponsor Investments.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
