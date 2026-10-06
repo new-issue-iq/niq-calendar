@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:652d6868f51c1d56-2@daily.newissueiq
+DTSTAMP:20261006T132110Z
+DTSTART;TZID=America/New_York:20261006T130000
+DTEND;TZID=America/New_York:20261006T134500
+SUMMARY:CANTOR — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CANTOR FITZGERALD LP (CANTOR)\nRoadshow: URL: http://www.netroadsh
+ ow.com | Password: CANTOR2026 | Direct Link: http://www.netroadshow.com/nr
+ s/home/#!/?show=f3ed0b09\n\nDeal context:\nCantor Fitzgerald\, L.P. is con
+ ducting fixed income investor calls on October 6th\, 2026\, ahead of a pot
+ ential 144A/Reg S (without Registration Rights) senior unsecured notes off
+ ering\, with BofA Securities coordinating logistics alongside co-arrangers
+  Cantor Fitzgerald & Co.\, Citizens JMP Securities\, LLC\, KeyBanc Capital
+  Markets\, PNC Capital Markets LLC\, and Wells Fargo Securities\, LLC. The
+  issuer carries investment grade ratings of Baa3 (Stable) / BBB- (Stable) 
+ / BBB- (Positive) from Moody's\, S&P\, and Fitch respectively. No size\, t
+ enor\, or pricing terms have been disclosed at this stage\, as the deal re
+ mains subject to market conditions following the investor call process.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CANTOR FITZGERALD LP (CANTOR)</p><p><strong>Roadshow:</strong
+ > URL: http://www.netroadshow.com | Password: CANTOR2026 | Direct Link: ht
+ tp://www.netroadshow.com/nrs/home/#!/?show=f3ed0b09</p><p><strong>Deal con
+ text:</strong><br>Cantor Fitzgerald\, L.P. is conducting fixed income inve
+ stor calls on October 6th\, 2026\, ahead of a potential 144A/Reg S (withou
+ t Registration Rights) senior unsecured notes offering\, with BofA Securit
+ ies coordinating logistics alongside co-arrangers Cantor Fitzgerald &amp\;
+  Co.\, Citizens JMP Securities\, LLC\, KeyBanc Capital Markets\, PNC Capit
+ al Markets LLC\, and Wells Fargo Securities\, LLC. The issuer carries inve
+ stment grade ratings of Baa3 (Stable) / BBB- (Stable) / BBB- (Positive) fr
+ om Moody's\, S&amp\;P\, and Fitch respectively. No size\, tenor\, or prici
+ ng terms have been disclosed at this stage\, as the deal remains subject t
+ o market conditions following the investor call process.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,15 +1,5 @@
 [
   {
-    "id": "2aa2924e-c554-4177-897b-6bb5072f7d12",
-    "issuerName": "JEFFERIES FINL GROUP INC",
-    "alertedAt": "2026-07-07T12:01:01.488Z"
-  },
-  {
-    "id": "c5a25240-00cd-49d2-af2d-fa85fd0a6adf",
-    "issuerName": "KREDITANSTALT FUER WIEDERAUFBAU KFW",
-    "alertedAt": "2026-07-07T13:20:58.106Z"
-  },
-  {
     "id": "e9f86342-d362-45a2-98d4-da36b3000447",
     "issuerName": "GOVERNMENT OF MALAYSIA",
     "alertedAt": "2026-07-09T12:50:01.269Z"
@@ -453,5 +443,15 @@
     "id": "79d18595-aaba-451f-a3c4-7374f8605013",
     "issuerName": "CSLB HOLDINGS INC",
     "alertedAt": "2026-10-05T11:51:10.460Z"
+  },
+  {
+    "id": "398902d6-7eaf-47be-a8ef-ccd1952c2b74",
+    "issuerName": "CANTOR FITZGERALD LP",
+    "alertedAt": "2026-10-06T13:21:17.359Z"
+  },
+  {
+    "id": "0aca9d95-2b1a-488a-b20a-913375128853",
+    "issuerName": "BANCO DE CREDITO DEL PERU",
+    "alertedAt": "2026-10-06T13:21:20.882Z"
   }
 ]
