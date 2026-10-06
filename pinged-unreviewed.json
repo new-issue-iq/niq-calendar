@@ -1,25 +1,5 @@
 [
   {
-    "id": "d70b6378-cc58-45ff-bd5e-747ff4c58452",
-    "issuerName": "UNITED STATES STEEL CORP",
-    "pingedAt": "2026-07-06T10:30:53.669Z"
-  },
-  {
-    "id": "35ece6ed-5681-405a-a874-19ae938078d4",
-    "issuerName": "INTL FINANCE CORP IFC",
-    "pingedAt": "2026-07-06T12:20:54.075Z"
-  },
-  {
-    "id": "394ecdad-a908-4b93-977c-e1849776c848",
-    "issuerName": "SUNBELT RENTALS HOLDINGS INC",
-    "pingedAt": "2026-07-06T13:50:55.520Z"
-  },
-  {
-    "id": "c5a25240-00cd-49d2-af2d-fa85fd0a6adf",
-    "issuerName": "KREDITANSTALT FUER WIEDERAUFBAU KFW",
-    "pingedAt": "2026-07-07T13:10:52.186Z"
-  },
-  {
     "id": "e9f86342-d362-45a2-98d4-da36b3000447",
     "issuerName": "GOVERNMENT OF MALAYSIA",
     "pingedAt": "2026-07-09T12:21:02.847Z"
@@ -208,5 +188,10 @@
     "id": "ebbfecf4-85ac-4054-80f4-293dbde11331",
     "issuerName": "BAIN CAPITAL PRIVATE CREDIT",
     "pingedAt": "2026-09-30T13:00:50.665Z"
+  },
+  {
+    "id": "0aca9d95-2b1a-488a-b20a-913375128853",
+    "issuerName": "BANCO DE CREDITO DEL PERU",
+    "pingedAt": "2026-10-06T13:01:20.336Z"
   }
 ]
