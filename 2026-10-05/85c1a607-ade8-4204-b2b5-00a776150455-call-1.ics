@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:641d52d5ae8c635e-1@daily.newissueiq
+DTSTAMP:20261006T133702Z
+DTSTART;TZID=America/New_York:20261006T103000
+DTEND;TZID=America/New_York:20261006T111500
+SUMMARY:LYV — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: LIVE NATION ENTERTAINMENT INC (LYV)\nRoadshow: URL: https://dealro
+ adshow.finsight.com | Entry Code: LYVBONDS26 | Direct Link: https://dealro
+ adshow.finsight.com/e/LYVBONDS26 (available now)\n\nDeal context:\nLive Na
+ tion Entertainment\, Inc. (LYV) is launching a dual-tranche high yield off
+ ering totaling approximately $1.4 billion\, comprising $840 million in Sen
+ ior USD Notes and €500 million in Senior EUR Notes\, both with a 6NC2.5 st
+ ructure and rated Ba2/BB-. The deal is being led by JPMorgan (B&D) with a 
+ broad syndicate of joint bookrunners\, with IPT at High 7s for the USD tra
+ nche and High 6s for the EUR tranche. Proceeds will be used to fully redee
+ m the 6.5% Senior Secured Notes due 2027\, pay related fees and expenses\,
+  and for general corporate purposes\, with pricing expected Wednesday\, Oc
+ tober 7.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> LIVE NATION ENTERTAINMENT INC (LYV)</p><p><strong>Roadshow:</
+ strong> URL: https://dealroadshow.finsight.com | Entry Code: LYVBONDS26 | 
+ Direct Link: https://dealroadshow.finsight.com/e/LYVBONDS26 (available now
+ )</p><p><strong>Deal context:</strong><br>Live Nation Entertainment\, Inc.
+  (LYV) is launching a dual-tranche high yield offering totaling approximat
+ ely $1.4 billion\, comprising $840 million in Senior USD Notes and €500 mi
+ llion in Senior EUR Notes\, both with a 6NC2.5 structure and rated Ba2/BB-
+ . The deal is being led by JPMorgan (B&amp\;D) with a broad syndicate of j
+ oint bookrunners\, with IPT at High 7s for the USD tranche and High 6s for
+  the EUR tranche. Proceeds will be used to fully redeem the 6.5% Senior Se
+ cured Notes due 2027\, pay related fees and expenses\, and for general cor
+ porate purposes\, with pricing expected Wednesday\, October 7.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

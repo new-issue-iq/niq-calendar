@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7bca0765942f26b8-1@daily.newissueiq
+DTSTAMP:20261006T133702Z
+DTSTART;TZID=America/New_York:20261006T113000
+DTEND;TZID=America/New_York:20261006T121500
+SUMMARY:ECLIPSE ACQUISITIONS MERGER SUB INC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ECLIPSE ACQUISITIONS MERGER SUB INC\nRoadshow: URL: https://dealro
+ adshow.finsight.com | Entry Code: DSGHY2026 | Direct Link: https://dealroa
+ dshow.finsight.com/e/DSGHY2026\n\nDeal context:\nDistribution Solutions Gr
+ oup Inc. is issuing notes through Eclipse Acquisitions Merger Sub (an escr
+ ow issuer)\, with the obligation to be assumed by DSG following the consum
+ mation of a share acquisition and merger. The deal features an escrow stru
+ cture with a Special Mandatory Redemption at 100% of issue price if the sh
+ are acquisition does not close by December 31\, 2026. Key structural terms
+  include a make-whole call at T+50 for the first 2.25 years\, a declining 
+ premium call schedule starting at 50% of coupon ratably to par one year pr
+ ior to maturity\, an equity claw of up to 40% within the first 2.25 years\
+ , and a change of control put at 101.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ECLIPSE ACQUISITIONS MERGER SUB INC</p><p><strong>Roadshow:</
+ strong> URL: https://dealroadshow.finsight.com | Entry Code: DSGHY2026 | D
+ irect Link: https://dealroadshow.finsight.com/e/DSGHY2026</p><p><strong>De
+ al context:</strong><br>Distribution Solutions Group Inc. is issuing notes
+  through Eclipse Acquisitions Merger Sub (an escrow issuer)\, with the obl
+ igation to be assumed by DSG following the consummation of a share acquisi
+ tion and merger. The deal features an escrow structure with a Special Mand
+ atory Redemption at 100% of issue price if the share acquisition does not 
+ close by December 31\, 2026. Key structural terms include a make-whole cal
+ l at T+50 for the first 2.25 years\, a declining premium call schedule sta
+ rting at 50% of coupon ratably to par one year prior to maturity\, an equi
+ ty claw of up to 40% within the first 2.25 years\, and a change of control
+  put at 101.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
