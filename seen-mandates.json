@@ -453,5 +453,10 @@
     "id": "0aca9d95-2b1a-488a-b20a-913375128853",
     "issuerName": "BANCO DE CREDITO DEL PERU",
     "alertedAt": "2026-10-06T13:21:20.882Z"
+  },
+  {
+    "id": "32b66d3d-afea-46ce-8b2d-18e4a8137416",
+    "issuerName": "SCENTRE GROUP",
+    "alertedAt": "2026-10-07T11:11:08.952Z"
   }
 ]
