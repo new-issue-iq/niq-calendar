@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2b9414023e341033-1@daily.newissueiq
+DTSTAMP:20261007T132109Z
+DTSTART;TZID=America/New_York:20261006T100000
+DTEND;TZID=America/New_York:20261006T104500
+SUMMARY:H B FULLER — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: H B FULLER\nRoadshow: https://evercall.co/oacc/72959<https://urlde
+ fense.com/v3/__https:/evercall.co/oacc/72959__\;!!O2kDR7mm-zSJ!s-Jj6lP4GIs
+ WHc_PflRyj2BkDHIOR3pTUxp9E3ifPSRuvFLfysA0EguDynW8SApPRPKN-rpzHdYz-1bhQJ89_
+ w$>\n\nDeal context:\nH.B. Fuller Company is bringing a $950 million 8-yea
+ r Senior Unsecured Notes offering to market via 144A/Reg S for life format
+ \, with initial price talk in the high 7-8% range. The deal is acquisition
+ -related\, intended to fund the AMS Acquisition alongside an Additional Te
+ rm Loan and other available cash\, and includes a Special Mandatory Redemp
+ tion feature requiring $450 million of notes to be redeemed at par plus ac
+ crued interest if the acquisition does not close by June 25\, 2027 (extend
+ able up to one year from issue date). Goldman Sachs is acting as left lead
+  on a broad 11-bank syndicate\, with an investor call scheduled for Octobe
+ r 6\, 2026 at 10:00AM EST.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> H B FULLER</p><p><strong>Roadshow:</strong> https://evercall.
+ co/oacc/72959&lt\;https://urldefense.com/v3/__https:/evercall.co/oacc/7295
+ 9__\;!!O2kDR7mm-zSJ!s-Jj6lP4GIsWHc_PflRyj2BkDHIOR3pTUxp9E3ifPSRuvFLfysA0Eg
+ uDynW8SApPRPKN-rpzHdYz-1bhQJ89_w$&gt\;</p><p><strong>Deal context:</strong
+ ><br>H.B. Fuller Company is bringing a $950 million 8-year Senior Unsecure
+ d Notes offering to market via 144A/Reg S for life format\, with initial p
+ rice talk in the high 7-8% range. The deal is acquisition-related\, intend
+ ed to fund the AMS Acquisition alongside an Additional Term Loan and other
+  available cash\, and includes a Special Mandatory Redemption feature requ
+ iring $450 million of notes to be redeemed at par plus accrued interest if
+  the acquisition does not close by June 25\, 2027 (extendable up to one ye
+ ar from issue date). Goldman Sachs is acting as left lead on a broad 11-ba
+ nk syndicate\, with an investor call scheduled for October 6\, 2026 at 10:
+ 00AM EST.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

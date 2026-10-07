@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1ce83a8053589912-1@daily.newissueiq
+DTSTAMP:20261007T132109Z
+DTSTART;TZID=America/New_York:20261007T100000
+DTEND;TZID=America/New_York:20261007T104500
+SUMMARY:IART — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: INTEGRA LIFESCIENCES HOLDINGS CORP (IART)\nRoadshow: URL: https://
+ dealroadshow.finsight.com | Entry Code: IARTBOND2026 | Direct Link: https:
+ //dealroadshow.finsight.com/e/IARTBOND2026 (available now)\n\nDeal context
+ :\nIntegra LifeSciences Holdings Corporation is bringing a $500 million Se
+ nior Secured Notes offering to market\, structured as a 7NC3\, rated B2/B 
+ (Moody's/S&P)\, distributed via 144A/Reg S for life. Initial price talk is
+  set at 9.25-9.50%\, with pricing expected Friday\, October 9\, 2026. Proc
+ eeds will be used\, together with borrowings under the Credit Facilities\,
+  to refinance the Existing Credit Facility and pay related fees and expens
+ es\, in a broad 15-bank joint bookrunner deal led by JPMorgan.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> INTEGRA LIFESCIENCES HOLDINGS CORP (IART)</p><p><strong>Roads
+ how:</strong> URL: https://dealroadshow.finsight.com | Entry Code: IARTBON
+ D2026 | Direct Link: https://dealroadshow.finsight.com/e/IARTBOND2026 (ava
+ ilable now)</p><p><strong>Deal context:</strong><br>Integra LifeSciences H
+ oldings Corporation is bringing a $500 million Senior Secured Notes offeri
+ ng to market\, structured as a 7NC3\, rated B2/B (Moody's/S&amp\;P)\, dist
+ ributed via 144A/Reg S for life. Initial price talk is set at 9.25-9.50%\,
+  with pricing expected Friday\, October 9\, 2026. Proceeds will be used\, 
+ together with borrowings under the Credit Facilities\, to refinance the Ex
+ isting Credit Facility and pay related fees and expenses\, in a broad 15-b
+ ank joint bookrunner deal led by JPMorgan.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
