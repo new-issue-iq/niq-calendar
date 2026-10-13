@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5c850b24f2b81869-1@daily.newissueiq
+DTSTAMP:20261013T133110Z
+DTSTART;TZID=America/New_York:20261013T120000
+DTEND;TZID=America/New_York:20261013T125000
+SUMMARY:ATLAWAR — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ATLAS WAREHOUSE LENDING CO LP (ATLAWAR)\nRoadshow: URL: www.netroa
+ dshow.com | Entry Code: AWLC26 (not case sensitive) | Secure Link: https:/
+ /www.netroadshow.com/nrs/home/#!/?show=67124982 (Recommended)\n\nDeal cont
+ ext:\nAtlas Warehouse Lending Company\, L.P. ("ATWALD")\, an asset-backed 
+ lending firm rated A3/BBB+/A- (Moody's/S&P/Fitch)\, is arranging fixed inc
+ ome investor calls on October 13\, 2026\, ahead of a potential benchmark-s
+ ized 6NC5 fixed-to-floating rate\, step-up callable senior notes offering 
+ under Rule 144A with registration rights. The company\, carved out of Cred
+ it Suisse's Securitized Products Group in February 2023 and managed by an 
+ Apollo affiliate\, has approximately $9.2 billion of funded assets and ope
+ rates within the ~$45 billion Atlas WarehouseCo balance sheet. The deal is
+  at the Mandate stage with J.P. Morgan coordinating logistics alongside a 
+ broad syndicate of Joint Global Coordinators (J.P. Morgan\, Barclays\, BNP
+  PARIBAS\, RBC Capital Markets\, Wells Fargo Securities) and Active Bookru
+ nners (Citigroup\, HSBC\, Morgan Stanley\, SMBC Nikko\, Truist Securities\
+ , Standard Chartered Bank\, Apollo Global Securities LLC).
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ATLAS WAREHOUSE LENDING CO LP (ATLAWAR)</p><p><strong>Roadsho
+ w:</strong> URL: www.netroadshow.com | Entry Code: AWLC26 (not case sensit
+ ive) | Secure Link: https://www.netroadshow.com/nrs/home/#!/?show=67124982
+  (Recommended)</p><p><strong>Deal context:</strong><br>Atlas Warehouse Len
+ ding Company\, L.P. (&quot\;ATWALD&quot\;)\, an asset-backed lending firm 
+ rated A3/BBB+/A- (Moody's/S&amp\;P/Fitch)\, is arranging fixed income inve
+ stor calls on October 13\, 2026\, ahead of a potential benchmark-sized 6NC
+ 5 fixed-to-floating rate\, step-up callable senior notes offering under Ru
+ le 144A with registration rights. The company\, carved out of Credit Suiss
+ e's Securitized Products Group in February 2023 and managed by an Apollo a
+ ffiliate\, has approximately $9.2 billion of funded assets and operates wi
+ thin the ~$45 billion Atlas WarehouseCo balance sheet. The deal is at the 
+ Mandate stage with J.P. Morgan coordinating logistics alongside a broad sy
+ ndicate of Joint Global Coordinators (J.P. Morgan\, Barclays\, BNP PARIBAS
+ \, RBC Capital Markets\, Wells Fargo Securities) and Active Bookrunners (C
+ itigroup\, HSBC\, Morgan Stanley\, SMBC Nikko\, Truist Securities\, Standa
+ rd Chartered Bank\, Apollo Global Securities LLC).</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

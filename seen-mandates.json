@@ -1,10 +1,5 @@
 [
   {
-    "id": "eba84c6e-6d09-4b56-b6e3-2bf2cd474790",
-    "issuerName": "AFREXIMBANK",
-    "alertedAt": "2026-07-15T12:40:27.478Z"
-  },
-  {
     "id": "4f05cf05-1483-4303-bdee-886e8a6c3de9",
     "issuerName": "SOPAIPILLA INVESTOR LLC",
     "alertedAt": "2026-07-20T12:40:33.598Z"
@@ -428,5 +423,10 @@
     "id": "691c2466-2bf0-4f88-a657-3a3201e5c106",
     "issuerName": "SAMSUNG LIFE INSURANCE CO LTD",
     "alertedAt": "2026-10-13T11:51:09.994Z"
+  },
+  {
+    "id": "b3350d2d-6471-4551-a893-c8cd49c5901f",
+    "issuerName": "ATLAS WAREHOUSE LENDING CO LP",
+    "alertedAt": "2026-10-13T13:31:16.338Z"
   }
 ]
