@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:db38b44d13cee655-1@daily.newissueiq
+DTSTAMP:20261013T132217Z
+DTSTART;TZID=America/New_York:20261013T103000
+DTEND;TZID=America/New_York:20261013T111500
+SUMMARY:BPL — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BUCKEYE PARTNERS LP (BPL)\nRoadshow: https://www.netroadshow.com/e
+ vents/login/1PeTHmoj9r9cWkz6YArdil6lRwxkqeyRPbdty\n\nDeal context:\nBuckey
+ e Partners\, L.P.\, a Ba3/BB/BB-rated midstream MLP\, is bringing a $550M 
+ 5NC2 Senior Unsecured Notes offering to market via 144A/Reg S for Life for
+ mat\, with pricing expected on October 13\, 2026. Initial price talk is se
+ t at 'very low 7s\,' and proceeds will be used alongside cash on hand to r
+ edeem in full the outstanding 3.950% Senior Notes due December 2026\, effe
+ ctively refinancing near-term debt maturities. The deal is led by Truist a
+ s left lead with a broad syndicate of 10 joint bookrunners including CIBC\
+ , ING\, MUFG\, TD\, WFS\, Mizuho\, GS\, JPM\, and Santander\, with an inve
+ stor call scheduled for 10:30am ET on October 13th.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BUCKEYE PARTNERS LP (BPL)</p><p><strong>Roadshow:</strong> ht
+ tps://www.netroadshow.com/events/login/1PeTHmoj9r9cWkz6YArdil6lRwxkqeyRPbd
+ ty</p><p><strong>Deal context:</strong><br>Buckeye Partners\, L.P.\, a Ba3
+ /BB/BB-rated midstream MLP\, is bringing a $550M 5NC2 Senior Unsecured Not
+ es offering to market via 144A/Reg S for Life format\, with pricing expect
+ ed on October 13\, 2026. Initial price talk is set at 'very low 7s\,' and 
+ proceeds will be used alongside cash on hand to redeem in full the outstan
+ ding 3.950% Senior Notes due December 2026\, effectively refinancing near-
+ term debt maturities. The deal is led by Truist as left lead with a broad 
+ syndicate of 10 joint bookrunners including CIBC\, ING\, MUFG\, TD\, WFS\,
+  Mizuho\, GS\, JPM\, and Santander\, with an investor call scheduled for 1
+ 0:30am ET on October 13th.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d72e210a5894a908-1@daily.newissueiq
+DTSTAMP:20261013T132217Z
+DTSTART;TZID=America/New_York:20261013T110000
+DTEND;TZID=America/New_York:20261013T114500
+SUMMARY:SELECT WATER HOLDINGS LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SELECT WATER HOLDINGS LLC\nRoadshow: URL: https://dealroadshow.com
+  | Entry Code: WTTRBOND2026 | Direct Link: https://dealroadshow.finsight.c
+ om/e/WTTRBOND2026 (available 10 minutes prior)\n\nDeal context:\nSelect Wa
+ ter Holdings LLC is bringing an $800M senior notes offering (8NC3 structur
+ e with 50%\, 25%\, par call schedule) to market via a 144A/Reg S for life 
+ format\, with initial price talk of 7.75-8%. The deal includes a special m
+ andatory redemption feature tied to the closing of the Pilot Water Acquisi
+ tion — if the acquisition does not close by March 1\, 2027\, the issuer mu
+ st redeem the portion of notes exceeding $450M at par plus accrued interes
+ t. Proceeds will be used alongside cash on hand and revolving credit borro
+ wings to fund the Pilot Water Acquisition\, repay Pilot Water's existing i
+ ndebtedness\, repay the Term Loan Facility in full\, pay fees and expenses
+ \, and for general corporate purposes\, with pricing expected Thursday 10/
+ 15.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SELECT WATER HOLDINGS LLC</p><p><strong>Roadshow:</strong> UR
+ L: https://dealroadshow.com | Entry Code: WTTRBOND2026 | Direct Link: http
+ s://dealroadshow.finsight.com/e/WTTRBOND2026 (available 10 minutes prior)<
+ /p><p><strong>Deal context:</strong><br>Select Water Holdings LLC is bring
+ ing an $800M senior notes offering (8NC3 structure with 50%\, 25%\, par ca
+ ll schedule) to market via a 144A/Reg S for life format\, with initial pri
+ ce talk of 7.75-8%. The deal includes a special mandatory redemption featu
+ re tied to the closing of the Pilot Water Acquisition — if the acquisition
+  does not close by March 1\, 2027\, the issuer must redeem the portion of 
+ notes exceeding $450M at par plus accrued interest. Proceeds will be used 
+ alongside cash on hand and revolving credit borrowings to fund the Pilot W
+ ater Acquisition\, repay Pilot Water's existing indebtedness\, repay the T
+ erm Loan Facility in full\, pay fees and expenses\, and for general corpor
+ ate purposes\, with pricing expected Thursday 10/15.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
