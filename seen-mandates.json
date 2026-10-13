@@ -1,40 +1,5 @@
 [
   {
-    "id": "e9f86342-d362-45a2-98d4-da36b3000447",
-    "issuerName": "GOVERNMENT OF MALAYSIA",
-    "alertedAt": "2026-07-09T12:50:01.269Z"
-  },
-  {
-    "id": "d78acc43-9211-432e-9469-d3cc69c1e797",
-    "issuerName": "HEICO CORP",
-    "alertedAt": "2026-07-10T14:20:38.656Z"
-  },
-  {
-    "id": "e2ea5224-8121-402b-8be2-98bb029422eb",
-    "issuerName": "PARAGON BANKING GROUP PLC",
-    "alertedAt": "2026-07-13T10:10:49.512Z"
-  },
-  {
-    "id": "4573d945-6d90-440e-963c-b0ea991499d6",
-    "issuerName": "PINEWOOD",
-    "alertedAt": "2026-07-13T11:40:45.468Z"
-  },
-  {
-    "id": "34475d21-95c9-4ddb-962f-ae05a6844938",
-    "issuerName": "PETROQUIMICA COMODORO RIVADAVIA SA",
-    "alertedAt": "2026-07-13T13:00:48.368Z"
-  },
-  {
-    "id": "715ed60a-d541-4fc8-8590-0d371ba2f0e7",
-    "issuerName": "SBA COMM CORP",
-    "alertedAt": "2026-07-13T14:20:50.377Z"
-  },
-  {
-    "id": "54f88579-b73c-44f3-a1a4-6daec641e11d",
-    "issuerName": "BAYER AKTIENGESELLSCHAFT",
-    "alertedAt": "2026-07-14T12:40:21.866Z"
-  },
-  {
     "id": "eba84c6e-6d09-4b56-b6e3-2bf2cd474790",
     "issuerName": "AFREXIMBANK",
     "alertedAt": "2026-07-15T12:40:27.478Z"
@@ -458,5 +423,10 @@
     "id": "32b66d3d-afea-46ce-8b2d-18e4a8137416",
     "issuerName": "SCENTRE GROUP",
     "alertedAt": "2026-10-07T11:11:08.952Z"
+  },
+  {
+    "id": "691c2466-2bf0-4f88-a657-3a3201e5c106",
+    "issuerName": "SAMSUNG LIFE INSURANCE CO LTD",
+    "alertedAt": "2026-10-13T11:51:09.994Z"
   }
 ]
