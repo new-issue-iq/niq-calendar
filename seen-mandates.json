@@ -428,5 +428,10 @@
     "id": "b3350d2d-6471-4551-a893-c8cd49c5901f",
     "issuerName": "ATLAS WAREHOUSE LENDING CO LP",
     "alertedAt": "2026-10-13T13:31:16.338Z"
+  },
+  {
+    "id": "e42dc976-f55e-4ce7-8ca0-c57ad93b78ff",
+    "issuerName": "GEAR M NSW HCC PTY LTD",
+    "alertedAt": "2026-10-14T15:11:13.746Z"
   }
 ]

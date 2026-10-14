@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ac7371c71f3b63e8-4@daily.newissueiq
+DTSTAMP:20261014T151107Z
+DTSTART;TZID=America/New_York:20261015T100000
+DTEND;TZID=America/New_York:20261015T105000
+SUMMARY:GEAR M NSW HCC PTY LTD — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GEAR M NSW HCC PTY LTD\nRoadshow: https://www.covacap.com/s/1db777
+ da3d23e862b8f82123d77eba4b\n\nDeal context:\nGM3 is coming to market with 
+ a US$500M 144A/Reg S 5NC2 Senior Secured Notes offering\, with investor me
+ etings and calls scheduled across Australia\, EMEA\, US\, Singapore\, and 
+ Hong Kong from October 15–20\, 2026. The deal is at the Mandate/roadshow s
+ tage\, with logistics managed by Deutsche Bank and company representatives
+  including CEO Peter Baker\, CFO Brenton Kuss\, and Director of Group Fina
+ nce Jeremy Taylor. No pricing terms\, ratings\, or use of proceeds have be
+ en disclosed at this stage.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GEAR M NSW HCC PTY LTD</p><p><strong>Roadshow:</strong> https
+ ://www.covacap.com/s/1db777da3d23e862b8f82123d77eba4b</p><p><strong>Deal c
+ ontext:</strong><br>GM3 is coming to market with a US$500M 144A/Reg S 5NC2
+  Senior Secured Notes offering\, with investor meetings and calls schedule
+ d across Australia\, EMEA\, US\, Singapore\, and Hong Kong from October 15
+ –20\, 2026. The deal is at the Mandate/roadshow stage\, with logistics man
+ aged by Deutsche Bank and company representatives including CEO Peter Bake
+ r\, CFO Brenton Kuss\, and Director of Group Finance Jeremy Taylor. No pri
+ cing terms\, ratings\, or use of proceeds have been disclosed at this stag
+ e.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
