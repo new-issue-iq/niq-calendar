@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8a29a5d045cb6ec8-2@daily.newissueiq
+DTSTAMP:20261016T125041Z
+DTSTART;TZID=America/New_York:20261016T130000
+DTEND;TZID=America/New_York:20261016T140000
+SUMMARY:KMB — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: KIMBERLY-CLARK CORP (KMB)\nRoadshow: https://dealroadshow.finsight
+ .com/e/KMB2026 | Entry Code: KMB2026 | JP Morgan Event: https://markets.jp
+ morgan.com/event_booking/loadEvent?eventToken=142361_80f8d84d-befa-405f-b2
+ 24-ac8fa069d892\n\nDeal context:\nKimberly-Clark Corporation (Nasdaq: KMB)
+ \, rated A2 (negative)/A (negative) by Moody's and S&P respectively\, has 
+ mandated J.P. Morgan\, Citigroup\, and Morgan Stanley to arrange fixed inc
+ ome investor calls ahead of a USD-denominated 144A/Reg S senior unsecured 
+ offering with registration rights. The multi-tranche deal is expected to c
+ onsist of 2-\, 3-\, 5-\, Long 7-\, and 10-year fixed rate notes\, with inv
+ estor calls scheduled for Friday\, October 16th\, 2026. No size\, pricing\
+ , or spread guidance has been provided at this stage\, as the deal is in t
+ he mandate phase subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> KIMBERLY-CLARK CORP (KMB)</p><p><strong>Roadshow:</strong> ht
+ tps://dealroadshow.finsight.com/e/KMB2026 | Entry Code: KMB2026 | JP Morga
+ n Event: https://markets.jpmorgan.com/event_booking/loadEvent?eventToken=1
+ 42361_80f8d84d-befa-405f-b224-ac8fa069d892</p><p><strong>Deal context:</st
+ rong><br>Kimberly-Clark Corporation (Nasdaq: KMB)\, rated A2 (negative)/A 
+ (negative) by Moody's and S&amp\;P respectively\, has mandated J.P. Morgan
+ \, Citigroup\, and Morgan Stanley to arrange fixed income investor calls a
+ head of a USD-denominated 144A/Reg S senior unsecured offering with regist
+ ration rights. The multi-tranche deal is expected to consist of 2-\, 3-\, 
+ 5-\, Long 7-\, and 10-year fixed rate notes\, with investor calls schedule
+ d for Friday\, October 16th\, 2026. No size\, pricing\, or spread guidance
+  has been provided at this stage\, as the deal is in the mandate phase sub
+ ject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

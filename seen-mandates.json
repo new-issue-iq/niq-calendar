@@ -433,5 +433,10 @@
     "id": "e42dc976-f55e-4ce7-8ca0-c57ad93b78ff",
     "issuerName": "GEAR M NSW HCC PTY LTD",
     "alertedAt": "2026-10-14T15:11:13.746Z"
+  },
+  {
+    "id": "a9a848d5-ed2b-45b0-a256-10a0259253c8",
+    "issuerName": "KIMBERLY-CLARK CORP",
+    "alertedAt": "2026-10-16T12:50:48.367Z"
   }
 ]
