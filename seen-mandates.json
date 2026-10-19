@@ -1,20 +1,5 @@
 [
   {
-    "id": "4f05cf05-1483-4303-bdee-886e8a6c3de9",
-    "issuerName": "SOPAIPILLA INVESTOR LLC",
-    "alertedAt": "2026-07-20T12:40:33.598Z"
-  },
-  {
-    "id": "04b3de7d-5fc2-4ec6-8584-af54ced7594d",
-    "issuerName": "AES ESPANA B V",
-    "alertedAt": "2026-07-20T12:40:39.514Z"
-  },
-  {
-    "id": "5271bb02-e36b-42d4-b0d3-0468d25f5cfa",
-    "issuerName": "NOMAD FOODS BONDCO PLC",
-    "alertedAt": "2026-07-20T15:20:35.118Z"
-  },
-  {
     "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
     "issuerName": "ICICI BANK LTD",
     "alertedAt": "2026-07-21T20:20:34.270Z"
@@ -443,5 +428,10 @@
     "id": "8dce2389-b9d9-478a-b3c4-399acf3d7c3b",
     "issuerName": "GEOPARK LTD",
     "alertedAt": "2026-10-16T18:30:56.990Z"
+  },
+  {
+    "id": "0c01dbd4-3934-4be6-aa39-2d98fa489099",
+    "issuerName": "QUEENSLAND TREASURY CORP",
+    "alertedAt": "2026-10-19T12:11:17.770Z"
   }
 ]
