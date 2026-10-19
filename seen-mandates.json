@@ -443,5 +443,20 @@
     "id": "ac760ae0-f383-4190-95c8-c6f0243a70f8",
     "issuerName": "COMMONWEALTH OF THE BAHAMAS",
     "alertedAt": "2026-10-19T13:01:20.916Z"
+  },
+  {
+    "id": "ebb816b3-2f3c-4f27-a086-36bd984509b4",
+    "issuerName": "BAC INTL BANK INC",
+    "alertedAt": "2026-10-19T13:11:15.807Z"
+  },
+  {
+    "id": "b1a4d40d-7431-4df2-b3f6-14676cfbc1a8",
+    "issuerName": "WORKDAY INC",
+    "alertedAt": "2026-10-19T13:11:18.292Z"
+  },
+  {
+    "id": "e313a96b-2c0c-45fd-a32e-6bf04e878b55",
+    "issuerName": "CITADEL LP",
+    "alertedAt": "2026-10-19T13:11:20.257Z"
   }
 ]

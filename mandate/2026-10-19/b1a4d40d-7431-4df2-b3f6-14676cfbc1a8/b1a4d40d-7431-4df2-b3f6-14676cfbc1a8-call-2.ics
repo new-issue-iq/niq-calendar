@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:18ddf4aa556331dd-2@daily.newissueiq
+DTSTAMP:20261019T131115Z
+DTSTART;TZID=America/New_York:20261019T120000
+DTEND;TZID=America/New_York:20261019T124500
+SUMMARY:WDAY — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: WORKDAY INC (WDAY)\nRoadshow: Direct Link: https://dealroadshow.fi
+ nsight.com/e/WDAY2026 | URL: https://dealroadshow.finsight.com | Entry Cod
+ e: WDAY2026\n\nDeal context:\nWorkday\, Inc. (WDAY)\, rated Baa1/BBB+ (bot
+ h Stable)\, is conducting four fixed income investor calls on October 19\,
+  2026\, arranged by Morgan Stanley\, BofA Securities\, Barclays\, and Well
+ s Fargo Securities ahead of a potential USD-denominated SEC-registered sen
+ ior unsecured notes offering. The deal is at the Mandate stage with no siz
+ e\, tenor\, or pricing terms disclosed\, subject to market conditions. Mor
+ gan Stanley is coordinating logistics for the calls scheduled throughout t
+ he day from 11:00am to 2:45pm ET.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> WORKDAY INC (WDAY)</p><p><strong>Roadshow:</strong> Direct Li
+ nk: https://dealroadshow.finsight.com/e/WDAY2026 | URL: https://dealroadsh
+ ow.finsight.com | Entry Code: WDAY2026</p><p><strong>Deal context:</strong
+ ><br>Workday\, Inc. (WDAY)\, rated Baa1/BBB+ (both Stable)\, is conducting
+  four fixed income investor calls on October 19\, 2026\, arranged by Morga
+ n Stanley\, BofA Securities\, Barclays\, and Wells Fargo Securities ahead 
+ of a potential USD-denominated SEC-registered senior unsecured notes offer
+ ing. The deal is at the Mandate stage with no size\, tenor\, or pricing te
+ rms disclosed\, subject to market conditions. Morgan Stanley is coordinati
+ ng logistics for the calls scheduled throughout the day from 11:00am to 2:
+ 45pm ET.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

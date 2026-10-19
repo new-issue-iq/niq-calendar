@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:145e8c0c91d196a3-1@daily.newissueiq
+DTSTAMP:20261019T131118Z
+DTSTART;TZID=America/New_York:20261019T113000
+DTEND;TZID=America/New_York:20261019T121500
+SUMMARY:CITADL — Call 1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CITADEL LP (CITADL)\nRoadshow: Direct Link (Recommended): https://
+ dealroadshow.finsight.com/e/Citadel2026 | Link: https://dealroadshow.finsi
+ ght.com | Password: Citadel2026\n\nDeal context:\nCitadel Limited Partners
+ hip (CITADL)\, rated Baa2/BBB (stable) by Moody's and S&P respectively\, h
+ as mandated Morgan Stanley\, Goldman Sachs\, J.P. Morgan\, and Wells Fargo
+  to arrange a series of fixed income investor calls commencing October 19t
+ h\, with a potential senior unsecured notes offering under Rule 144A/Regul
+ ation S to follow subject to market conditions. The deal is at the Mandate
+  stage with no size\, tenor\, coupon\, or pricing terms disclosed\; invest
+ or calls are scheduled for October 19th with two telephonic sessions and a
+  pre-recorded electronic presentation available via Finsight. Citadel mana
+ ges approximately $77 billion in Investment Capital across five strategies
+  and is headquartered in Miami\, representing a well-established alternati
+ ve investment manager returning to the debt capital markets.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CITADEL LP (CITADL)</p><p><strong>Roadshow:</strong> Direct L
+ ink (Recommended): https://dealroadshow.finsight.com/e/Citadel2026 | Link:
+  https://dealroadshow.finsight.com | Password: Citadel2026</p><p><strong>D
+ eal context:</strong><br>Citadel Limited Partnership (CITADL)\, rated Baa2
+ /BBB (stable) by Moody's and S&amp\;P respectively\, has mandated Morgan S
+ tanley\, Goldman Sachs\, J.P. Morgan\, and Wells Fargo to arrange a series
+  of fixed income investor calls commencing October 19th\, with a potential
+  senior unsecured notes offering under Rule 144A/Regulation S to follow su
+ bject to market conditions. The deal is at the Mandate stage with no size\
+ , tenor\, coupon\, or pricing terms disclosed\; investor calls are schedul
+ ed for October 19th with two telephonic sessions and a pre-recorded electr
+ onic presentation available via Finsight. Citadel manages approximately $7
+ 7 billion in Investment Capital across five strategies and is headquartere
+ d in Miami\, representing a well-established alternative investment manage
+ r returning to the debt capital markets.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
