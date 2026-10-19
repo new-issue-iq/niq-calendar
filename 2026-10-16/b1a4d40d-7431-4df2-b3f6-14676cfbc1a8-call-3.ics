@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b354a9b14dc9a8ce-3@daily.newissueiq
+DTSTAMP:20261019T140119Z
+DTSTART;TZID=America/New_York:20261019T130000
+DTEND;TZID=America/New_York:20261019T134500
+SUMMARY:WDAY — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: WORKDAY INC (WDAY)\nRoadshow: Direct Link: https://dealroadshow.fi
+ nsight.com/e/WDAY2026 | URL: https://dealroadshow.finsight.com | Entry Cod
+ e: WDAY2026\n\nDeal context:\nWorkday\, Inc. (WDAY)\, rated Baa1/BBB+ (bot
+ h Stable)\, is conducting fixed income investor marketing via four investo
+ r calls on October 19\, 2026\, arranged by Morgan Stanley\, BofA Securitie
+ s\, Barclays\, and Wells Fargo Securities. A potential offering of USD-den
+ ominated SEC-registered senior unsecured notes may follow\, subject to mar
+ ket conditions\, with no size\, tenor\, or pricing terms disclosed at this
+  stage. This is a pre-deal mandate/marketing announcement representing Wor
+ kday's engagement with fixed income investors ahead of a potential benchma
+ rk bond issuance.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> WORKDAY INC (WDAY)</p><p><strong>Roadshow:</strong> Direct Li
+ nk: https://dealroadshow.finsight.com/e/WDAY2026 | URL: https://dealroadsh
+ ow.finsight.com | Entry Code: WDAY2026</p><p><strong>Deal context:</strong
+ ><br>Workday\, Inc. (WDAY)\, rated Baa1/BBB+ (both Stable)\, is conducting
+  fixed income investor marketing via four investor calls on October 19\, 2
+ 026\, arranged by Morgan Stanley\, BofA Securities\, Barclays\, and Wells 
+ Fargo Securities. A potential offering of USD-denominated SEC-registered s
+ enior unsecured notes may follow\, subject to market conditions\, with no 
+ size\, tenor\, or pricing terms disclosed at this stage. This is a pre-dea
+ l mandate/marketing announcement representing Workday's engagement with fi
+ xed income investors ahead of a potential benchmark bond issuance.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

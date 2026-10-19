@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6135163bc6c4a394-2@daily.newissueiq
+DTSTAMP:20261019T140119Z
+DTSTART;TZID=America/New_York:20261019T123000
+DTEND;TZID=America/New_York:20261019T131500
+SUMMARY:CITADL — Call 2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CITADEL LP (CITADL)\nRoadshow: Direct Link (Recommended): https://
+ dealroadshow.finsight.com/e/Citadel2026 | Link: https://dealroadshow.finsi
+ ght.com | Password: Citadel2026\n\nDeal context:\nCitadel Limited Partners
+ hip\, rated Baa2/BBB (stable) by Moody's and S&P respectively\, has mandat
+ ed Morgan Stanley\, Goldman Sachs\, J.P. Morgan\, and Wells Fargo to arran
+ ge fixed income investor calls commencing October 19\, 2026\, ahead of a p
+ otential senior unsecured notes offering under Rule 144A / Regulation S. T
+ he deal is at the Mandate stage with no size\, tenor\, or pricing terms di
+ sclosed\, as the offering remains subject to market conditions following t
+ he investor call process. Citadel manages approximately $77 billion in inv
+ estment capital across five strategies and is headquartered in Miami\, rep
+ resenting a bond offering from the prominent alternative investment manage
+ r founded by Kenneth Griffin in 1990.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CITADEL LP (CITADL)</p><p><strong>Roadshow:</strong> Direct L
+ ink (Recommended): https://dealroadshow.finsight.com/e/Citadel2026 | Link:
+  https://dealroadshow.finsight.com | Password: Citadel2026</p><p><strong>D
+ eal context:</strong><br>Citadel Limited Partnership\, rated Baa2/BBB (sta
+ ble) by Moody's and S&amp\;P respectively\, has mandated Morgan Stanley\, 
+ Goldman Sachs\, J.P. Morgan\, and Wells Fargo to arrange fixed income inve
+ stor calls commencing October 19\, 2026\, ahead of a potential senior unse
+ cured notes offering under Rule 144A / Regulation S. The deal is at the Ma
+ ndate stage with no size\, tenor\, or pricing terms disclosed\, as the off
+ ering remains subject to market conditions following the investor call pro
+ cess. Citadel manages approximately $77 billion in investment capital acro
+ ss five strategies and is headquartered in Miami\, representing a bond off
+ ering from the prominent alternative investment manager founded by Kenneth
+  Griffin in 1990.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
