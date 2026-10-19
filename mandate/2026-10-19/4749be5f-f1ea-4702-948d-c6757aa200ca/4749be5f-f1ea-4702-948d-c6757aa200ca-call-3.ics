@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c0694f9acd7d2996-3@daily.newissueiq
+DTSTAMP:20261019T142120Z
+DTSTART;TZID=America/New_York:20261019T150000
+DTEND;TZID=America/New_York:20261019T155000
+SUMMARY:FRABSP — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FRANKLIN BSP CAPITAL CORP (FRABSP)\nRoadshow: URL: https://dealroa
+ dshow.finsight.com\; Entry Code: FRKLNBSP | Direct Link: https://dealroads
+ how.finsight.com/e/FRKLNBSP\n\nDeal context:\nFranklin BSP Capital Corpora
+ tion (FBCC\, ticker: FRBP)\, a Business Development Company rated Baa3 (St
+ able) by Moody's and BBB- (Stable) by Fitch\, has engaged Wells Fargo Secu
+ rities\, BofA Securities\, J.P. Morgan Securities\, and SMBC Nikko to arra
+ nge a series of fixed income investor calls on October 19th\, 2026\, ahead
+  of a potential capital markets transaction. The deal is at the Mandate st
+ age with no specific bond terms disclosed\, and the transaction remains su
+ bject to market conditions. Three investor calls are scheduled throughout 
+ the day with a virtual roadshow presentation available.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FRANKLIN BSP CAPITAL CORP (FRABSP)</p><p><strong>Roadshow:</s
+ trong> URL: https://dealroadshow.finsight.com\; Entry Code: FRKLNBSP | Dir
+ ect Link: https://dealroadshow.finsight.com/e/FRKLNBSP</p><p><strong>Deal 
+ context:</strong><br>Franklin BSP Capital Corporation (FBCC\, ticker: FRBP
+ )\, a Business Development Company rated Baa3 (Stable) by Moody's and BBB-
+  (Stable) by Fitch\, has engaged Wells Fargo Securities\, BofA Securities\
+ , J.P. Morgan Securities\, and SMBC Nikko to arrange a series of fixed inc
+ ome investor calls on October 19th\, 2026\, ahead of a potential capital m
+ arkets transaction. The deal is at the Mandate stage with no specific bond
+  terms disclosed\, and the transaction remains subject to market condition
+ s. Three investor calls are scheduled throughout the day with a virtual ro
+ adshow presentation available.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

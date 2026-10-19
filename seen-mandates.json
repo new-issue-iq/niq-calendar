@@ -458,5 +458,15 @@
     "id": "e313a96b-2c0c-45fd-a32e-6bf04e878b55",
     "issuerName": "CITADEL LP",
     "alertedAt": "2026-10-19T13:11:20.257Z"
+  },
+  {
+    "id": "46d773fb-a337-4e39-b505-5e9cd7703cef",
+    "issuerName": "LADDER CAPITAL CORP",
+    "alertedAt": "2026-10-19T14:21:20.790Z"
+  },
+  {
+    "id": "4749be5f-f1ea-4702-948d-c6757aa200ca",
+    "issuerName": "FRANKLIN BSP CAPITAL CORP",
+    "alertedAt": "2026-10-19T14:21:23.737Z"
   }
 ]

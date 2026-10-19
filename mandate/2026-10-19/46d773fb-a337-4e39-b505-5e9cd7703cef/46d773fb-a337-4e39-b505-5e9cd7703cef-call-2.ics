@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:db8ba73da18b3634-2@daily.newissueiq
+DTSTAMP:20261019T142114Z
+DTSTART;TZID=America/New_York:20261019T143000
+DTEND;TZID=America/New_York:20261019T151500
+SUMMARY:LADDERC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: LADDER CAPITAL CORP (LADDERC)\nRoadshow: https://www.netroadshow.c
+ om/events/login/1PeTHmoj9svd6rtdLCRLVgLYdctAllXeenJ4t | https://www.netroa
+ dshow.com/events/login/1PeTHmohMRWIYPrBEEE7oyWwDCjJgM8bNMlgi\n\nDeal conte
+ xt:\nLadder Capital Corp (NYSE: LADR)\, an internally-managed investment g
+ rade REIT focused on originating first mortgage loans on commercial proper
+ ties\, has arranged a series of fixed income investor calls for October 19
+ th\, 2026\, coordinated by Wells Fargo Securities alongside BofA Securitie
+ s\, J.P. Morgan\, and Societe Generale. The calls are structured as Q&A se
+ ssions with senior management including the Co-Founder & President\, CFO\,
+  Head of Underwriting\, and Head of Capital Markets\, suggesting a pre-dea
+ l investor engagement ahead of a potential bond offering. No specific deal
+  terms\, size\, tenor\, or pricing have been disclosed at this stage\, ind
+ icating this is a Mandate-level announcement with the offering details to 
+ be determined subject to market conditions.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> LADDER CAPITAL CORP (LADDERC)</p><p><strong>Roadshow:</strong
+ > https://www.netroadshow.com/events/login/1PeTHmoj9svd6rtdLCRLVgLYdctAllX
+ eenJ4t | https://www.netroadshow.com/events/login/1PeTHmohMRWIYPrBEEE7oyWw
+ DCjJgM8bNMlgi</p><p><strong>Deal context:</strong><br>Ladder Capital Corp 
+ (NYSE: LADR)\, an internally-managed investment grade REIT focused on orig
+ inating first mortgage loans on commercial properties\, has arranged a ser
+ ies of fixed income investor calls for October 19th\, 2026\, coordinated b
+ y Wells Fargo Securities alongside BofA Securities\, J.P. Morgan\, and Soc
+ iete Generale. The calls are structured as Q&amp\;A sessions with senior m
+ anagement including the Co-Founder &amp\; President\, CFO\, Head of Underw
+ riting\, and Head of Capital Markets\, suggesting a pre-deal investor enga
+ gement ahead of a potential bond offering. No specific deal terms\, size\,
+  tenor\, or pricing have been disclosed at this stage\, indicating this is
+  a Mandate-level announcement with the offering details to be determined s
+ ubject to market conditions.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
