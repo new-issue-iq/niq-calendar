@@ -1,10 +1,5 @@
 [
   {
-    "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
-    "issuerName": "ICICI BANK LTD",
-    "alertedAt": "2026-07-21T20:20:34.270Z"
-  },
-  {
     "id": "0359fc03-e853-421f-b786-694d9f6a8fda",
     "issuerName": "BOOZ ALLEN HAMILTON INC",
     "alertedAt": "2026-07-27T12:41:24.790Z"
@@ -468,5 +463,15 @@
     "id": "4749be5f-f1ea-4702-948d-c6757aa200ca",
     "issuerName": "FRANKLIN BSP CAPITAL CORP",
     "alertedAt": "2026-10-19T14:21:23.737Z"
+  },
+  {
+    "id": "8e037be4-8596-4fdd-a7e9-23c97d8f3b91",
+    "issuerName": "ASB BANK LTD",
+    "alertedAt": "2026-10-20T11:21:14.546Z"
+  },
+  {
+    "id": "45805cdf-8708-420f-a83c-51c577fe33d2",
+    "issuerName": "KOMMUNALBANKEN NORWAY KBN",
+    "alertedAt": "2026-10-20T11:21:18.099Z"
   }
 ]
