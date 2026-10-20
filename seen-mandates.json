@@ -473,5 +473,10 @@
     "id": "45805cdf-8708-420f-a83c-51c577fe33d2",
     "issuerName": "KOMMUNALBANKEN NORWAY KBN",
     "alertedAt": "2026-10-20T11:21:18.099Z"
+  },
+  {
+    "id": "734eb1ae-9f02-4e30-aaab-ef951ca2f765",
+    "issuerName": "TELECOMMUNICATIONS SVCS OF TRINIDAD & TOBAGO LTD",
+    "alertedAt": "2026-10-20T18:31:14.016Z"
   }
 ]
