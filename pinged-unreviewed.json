@@ -1,10 +1,5 @@
 [
   {
-    "id": "ee025a89-4861-4716-9542-0d0b8ba542d0",
-    "issuerName": "ICICI BANK LTD",
-    "pingedAt": "2026-07-21T20:10:27.795Z"
-  },
-  {
     "id": "fc7d9b64-3bd5-418d-bd44-f9a9a1326b15",
     "issuerName": "CAPRI GLOBAL CAPITAL LTD",
     "pingedAt": "2026-07-30T11:01:14.784Z"
@@ -188,5 +183,10 @@
     "id": "ac760ae0-f383-4190-95c8-c6f0243a70f8",
     "issuerName": "COMMONWEALTH OF THE BAHAMAS",
     "pingedAt": "2026-10-19T12:52:55.050Z"
+  },
+  {
+    "id": "734eb1ae-9f02-4e30-aaab-ef951ca2f765",
+    "issuerName": "TELECOMMUNICATIONS SVCS OF TRINIDAD & TOBAGO LTD",
+    "pingedAt": "2026-10-20T15:21:13.454Z"
   }
 ]
