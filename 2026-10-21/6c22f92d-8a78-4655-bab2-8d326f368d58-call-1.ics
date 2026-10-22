@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a4957f05bf1f653c-1@daily.newissueiq
+DTSTAMP:20261022T134223Z
+DTSTART;TZID=America/New_York:20261022T113000
+DTEND;TZID=America/New_York:20261022T121500
+SUMMARY:GRANT THORNTON ADVISORS LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GRANT THORNTON ADVISORS LLC\nRoadshow: URL: https://dealroadshow.f
+ insight.com | Entry Code: GT2026 | Direct Link: https://dealroadshow.finsi
+ ght.com/e/GT2026\n\nDeal context:\nGrant Thornton Advisors LLC is launchin
+ g a dual-tranche high-yield offering totaling $2.25bn USD equivalent\, com
+ prising $1.75bn USD Senior Secured Notes and $500mm USD equivalent EUR Sen
+ ior Secured Notes (the EUR tranche replacing an existing EUR Term Loan B)\
+ , both rated B2/B+/BB+ and structured as 5NC2 with a declining call schedu
+ le (50%\, 25%\, par)\, with IPT of 10.5% area on the USD tranche and 9.5% 
+ area on the EUR tranche. Proceeds\, along with a TLB\, third-party preferr
+ ed\, and sponsor equity\, will fund the acquisition of CBIZ\, Inc.\, with 
+ a special mandatory redemption provision triggered if the merger does not 
+ close by the Outside Date. Pricing is expected Thursday\, October 22\, wit
+ h JPMorgan acting as Lead Left B&D on both tranches alongside a broad 14-b
+ ank joint bookrunner group.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GRANT THORNTON ADVISORS LLC</p><p><strong>Roadshow:</strong> 
+ URL: https://dealroadshow.finsight.com | Entry Code: GT2026 | Direct Link:
+  https://dealroadshow.finsight.com/e/GT2026</p><p><strong>Deal context:</s
+ trong><br>Grant Thornton Advisors LLC is launching a dual-tranche high-yie
+ ld offering totaling $2.25bn USD equivalent\, comprising $1.75bn USD Senio
+ r Secured Notes and $500mm USD equivalent EUR Senior Secured Notes (the EU
+ R tranche replacing an existing EUR Term Loan B)\, both rated B2/B+/BB+ an
+ d structured as 5NC2 with a declining call schedule (50%\, 25%\, par)\, wi
+ th IPT of 10.5% area on the USD tranche and 9.5% area on the EUR tranche. 
+ Proceeds\, along with a TLB\, third-party preferred\, and sponsor equity\,
+  will fund the acquisition of CBIZ\, Inc.\, with a special mandatory redem
+ ption provision triggered if the merger does not close by the Outside Date
+ . Pricing is expected Thursday\, October 22\, with JPMorgan acting as Lead
+  Left B&amp\;D on both tranches alongside a broad 14-bank joint bookrunner
+  group.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
