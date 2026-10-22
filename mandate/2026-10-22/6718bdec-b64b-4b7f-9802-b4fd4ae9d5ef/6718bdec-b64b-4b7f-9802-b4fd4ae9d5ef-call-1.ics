@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:946db8c4b1d66cda-1@daily.newissueiq
+DTSTAMP:20261022T135036Z
+DTSTART;TZID=America/New_York:20261023T080000
+DTEND;TZID=America/New_York:20261023T084500
+SUMMARY:GKP — call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GULF KEYSTONE PETROLEUM LTD (GKP)\n\nDeal context:\nGulf Keystone 
+ Petroleum Ltd (GKP)\, a London Stock Exchange and Euronext Growth Oslo-lis
+ ted oil producer operating the Shaikan Field in the Kurdistan Region of Ir
+ aq\, is launching a USD-denominated senior unsecured bond with an initial 
+ issue amount of USD 175 million and a maximum issue amount of USD 300 mill
+ ion (plus any Additional Bonds from a ShaMaran Rollover)\, with a 5-year t
+ enor and bullet maturity. The bond is structured to become senior secured 
+ from the Security Take-Up Date\, pari passu with the ShaMaran Bond\, and f
+ eatures a make-whole call for the first 30 months followed by a declining 
+ premium call schedule\, with proceeds earmarked for near-term Shaikan Fiel
+ d capex and general corporate purposes. The deal is at the Mandate stage\,
+  with investor roadshow calls scheduled for October 23 and 26\, 2026\, and
+  1-on-1 meetings available from October 22\, 2026\; the coupon rate remain
+ s to be determined.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GULF KEYSTONE PETROLEUM LTD (GKP)</p><p><strong>Deal context:
+ </strong><br>Gulf Keystone Petroleum Ltd (GKP)\, a London Stock Exchange a
+ nd Euronext Growth Oslo-listed oil producer operating the Shaikan Field in
+  the Kurdistan Region of Iraq\, is launching a USD-denominated senior unse
+ cured bond with an initial issue amount of USD 175 million and a maximum i
+ ssue amount of USD 300 million (plus any Additional Bonds from a ShaMaran 
+ Rollover)\, with a 5-year tenor and bullet maturity. The bond is structure
+ d to become senior secured from the Security Take-Up Date\, pari passu wit
+ h the ShaMaran Bond\, and features a make-whole call for the first 30 mont
+ hs followed by a declining premium call schedule\, with proceeds earmarked
+  for near-term Shaikan Field capex and general corporate purposes. The dea
+ l is at the Mandate stage\, with investor roadshow calls scheduled for Oct
+ ober 23 and 26\, 2026\, and 1-on-1 meetings available from October 22\, 20
+ 26\; the coupon rate remains to be determined.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
