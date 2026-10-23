@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:26393a2f7fff7821-3@daily.newissueiq
+DTSTAMP:20261023T123034Z
+DTSTART;TZID=America/New_York:20261023T131500
+DTEND;TZID=America/New_York:20261023T140000
+SUMMARY:UNITED RENTALS — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: UNITED RENTALS\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=e6
+ ffc7c0 | Passcode: United26 (not case-sensitive)\n\nDeal context:\nUnited 
+ Rentals\, Inc. (rated Ba1 Positive/BBB- Stable\, split-rated straddling IG
+ /HY) has mandated BofA Securities\, Goldman Sachs & Co. LLC\, and J.P. Mor
+ gan to arrange fixed income investor calls on October 23\, 2026\, ahead of
+  an expected SEC-registered\, USD-denominated senior unsecured fixed-rate 
+ multi-tranche offering across 3-Year\, 5-Year\, and 10-Year tenors. The de
+ al is subject to market conditions with no size or pricing terms disclosed
+  at this mandate stage. Goldman Sachs & Co. LLC is coordinating logistics 
+ for the investor call process\, with three call slots scheduled throughout
+  the day.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> UNITED RENTALS</p><p><strong>Roadshow:</strong> www.netroadsh
+ ow.com/nrs/home/#!/?show=e6ffc7c0 | Passcode: United26 (not case-sensitive
+ )</p><p><strong>Deal context:</strong><br>United Rentals\, Inc. (rated Ba1
+  Positive/BBB- Stable\, split-rated straddling IG/HY) has mandated BofA Se
+ curities\, Goldman Sachs &amp\; Co. LLC\, and J.P. Morgan to arrange fixed
+  income investor calls on October 23\, 2026\, ahead of an expected SEC-reg
+ istered\, USD-denominated senior unsecured fixed-rate multi-tranche offeri
+ ng across 3-Year\, 5-Year\, and 10-Year tenors. The deal is subject to mar
+ ket conditions with no size or pricing terms disclosed at this mandate sta
+ ge. Goldman Sachs &amp\; Co. LLC is coordinating logistics for the investo
+ r call process\, with three call slots scheduled throughout the day.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
