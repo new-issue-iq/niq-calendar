@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:be9bed56ffaa1651-2@daily.newissueiq
+DTSTAMP:20261026T210111Z
+DTSTART;TZID=America/New_York:20261026T130000
+DTEND;TZID=America/New_York:20261026T134500
+SUMMARY:CBRE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CBRE GROUP INC (CBRE)\nRoadshow: 12:00 PM – 12:45 PM ET: https://w
+ ww.netroadshow.com/events/login/1PeTHmohCEBeKgGykJEE75JJKQKHwKMvt2rVX | 1:
+ 00 PM – 1:45 PM ET: https://www.netroadshow.com/events/login/1PeTHmohEhGRk
+ W9P5PEY1xQeFARLtSXsMgQoa\n\nDeal context:\nCBRE Group\, Inc. (NYSE: CBRE)\
+ , the world's largest commercial real estate services and investment firm 
+ headquartered in Dallas\, has mandated Wells Fargo Securities\, BofA Secur
+ ities\, HSBC\, and J.P. Morgan to arrange a series of fixed income investo
+ r calls on October 26th\, 2026. The calls are focused on Q&A with an elect
+ ronic presentation\, featuring company participants Chandni Luthra (EVP\, 
+ Global Head of FP&A and IR) and Dan McCulley (SVP\, Global Treasurer). No 
+ specific deal size\, tenor\, pricing\, or security type has been disclosed
+  at this mandate stage\, indicating this is a pre-deal investor engagement
+  ahead of a potential bond offering.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CBRE GROUP INC (CBRE)</p><p><strong>Roadshow:</strong> 12:00 
+ PM – 12:45 PM ET: https://www.netroadshow.com/events/login/1PeTHmohCEBeKgG
+ ykJEE75JJKQKHwKMvt2rVX | 1:00 PM – 1:45 PM ET: https://www.netroadshow.com
+ /events/login/1PeTHmohEhGRkW9P5PEY1xQeFARLtSXsMgQoa</p><p><strong>Deal con
+ text:</strong><br>CBRE Group\, Inc. (NYSE: CBRE)\, the world's largest com
+ mercial real estate services and investment firm headquartered in Dallas\,
+  has mandated Wells Fargo Securities\, BofA Securities\, HSBC\, and J.P. M
+ organ to arrange a series of fixed income investor calls on October 26th\,
+  2026. The calls are focused on Q&amp\;A with an electronic presentation\,
+  featuring company participants Chandni Luthra (EVP\, Global Head of FP&am
+ p\;A and IR) and Dan McCulley (SVP\, Global Treasurer). No specific deal s
+ ize\, tenor\, pricing\, or security type has been disclosed at this mandat
+ e stage\, indicating this is a pre-deal investor engagement ahead of a pot
+ ential bond offering.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,10 +1,5 @@
 [
   {
-    "id": "bfd1f8e7-af07-4be5-8fd0-3f8f09153657",
-    "issuerName": "EMPRESA DISTRIBUIDORA Y COMERCIALIZADORA NORTE SA EDENOR SA",
-    "alertedAt": "2026-07-28T13:41:17.931Z"
-  },
-  {
     "id": "9762e56e-bbcd-40c2-838c-c2ff322fa174",
     "issuerName": "BANCO MULTIVA",
     "alertedAt": "2026-07-29T13:21:10.419Z"
@@ -488,5 +483,20 @@
     "id": "3dbf1f47-4fc8-4625-98f4-63e75f802969",
     "issuerName": "PEARL PETROLEUM CO LTD",
     "alertedAt": "2026-10-26T11:30:58.940Z"
+  },
+  {
+    "id": "1b959295-a53b-4502-8089-52036f3e26e4",
+    "issuerName": "BREAD FINL HOLDINGS INC",
+    "alertedAt": "2026-10-26T21:01:06.257Z"
+  },
+  {
+    "id": "92b925ae-f7e0-4f5a-80db-27ee646ec99a",
+    "issuerName": "MAIN STREET CAPITAL CORP",
+    "alertedAt": "2026-10-26T21:01:11.068Z"
+  },
+  {
+    "id": "b0209606-04b1-41bf-a912-772a323e6b56",
+    "issuerName": "CBRE GROUP INC",
+    "alertedAt": "2026-10-26T21:01:13.644Z"
   }
 ]

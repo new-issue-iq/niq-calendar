@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b74dddd1af461b18-2@daily.newissueiq
+DTSTAMP:20261026T210106Z
+DTSTART;TZID=America/New_York:20261026T130000
+DTEND;TZID=America/New_York:20261026T134500
+SUMMARY:MAISTR — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MAIN STREET CAPITAL CORP (MAISTR)\nRoadshow: https://www.netroadsh
+ ow.com/events/login/1PeTHmohVhLQHgR6Rl7Hc6zxicQVNDNmfqMZl\n\nDeal context:
+ \nMain Street Capital Corporation (MAIN)\, a Business Development Company 
+ rated BBB- (Stable) by both S&P and Fitch\, has mandated RBC Capital Marke
+ ts\, J.P. Morgan\, SMBC Nikko\, and Truist Securities to arrange a series 
+ of fixed income investor calls on October 26\, 2026\, ahead of a potential
+  capital markets transaction. The deal is at the Mandate stage with no spe
+ cific size\, tenor\, or pricing terms disclosed\, subject to market condit
+ ions. RBC Capital Markets is coordinating logistics for three investor cal
+ l slots scheduled throughout the day.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MAIN STREET CAPITAL CORP (MAISTR)</p><p><strong>Roadshow:</st
+ rong> https://www.netroadshow.com/events/login/1PeTHmohVhLQHgR6Rl7Hc6zxicQ
+ VNDNmfqMZl</p><p><strong>Deal context:</strong><br>Main Street Capital Cor
+ poration (MAIN)\, a Business Development Company rated BBB- (Stable) by bo
+ th S&amp\;P and Fitch\, has mandated RBC Capital Markets\, J.P. Morgan\, S
+ MBC Nikko\, and Truist Securities to arrange a series of fixed income inve
+ stor calls on October 26\, 2026\, ahead of a potential capital markets tra
+ nsaction. The deal is at the Mandate stage with no specific size\, tenor\,
+  or pricing terms disclosed\, subject to market conditions. RBC Capital Ma
+ rkets is coordinating logistics for three investor call slots scheduled th
+ roughout the day.</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
