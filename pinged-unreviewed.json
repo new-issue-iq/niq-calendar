@@ -203,5 +203,10 @@
     "id": "92b925ae-f7e0-4f5a-80db-27ee646ec99a",
     "issuerName": "MAIN STREET CAPITAL CORP",
     "pingedAt": "2026-10-26T13:50:55.343Z"
+  },
+  {
+    "id": "b0209606-04b1-41bf-a912-772a323e6b56",
+    "issuerName": "CBRE GROUP INC",
+    "pingedAt": "2026-10-26T14:00:56.195Z"
   }
 ]
