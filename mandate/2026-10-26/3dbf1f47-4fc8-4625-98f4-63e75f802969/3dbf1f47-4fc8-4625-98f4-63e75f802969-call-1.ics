@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bd75de5ee4add2ec-1@daily.newissueiq
+DTSTAMP:20261026T113048Z
+DTSTART;TZID=America/New_York:20261026T110000
+DTEND;TZID=America/New_York:20261026T114500
+SUMMARY:PEARL PETROLEUM CO LTD — Global Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PEARL PETROLEUM CO LTD\n\nDeal context:\nPearl Petroleum Company L
+ imited is pursuing a new 5-year senior secured bond offering of up to $500
+ M (floor $400M)\, having mandated DNB Carnegie and Pareto Securities as Jo
+ int Lead Managers to arrange global investor calls ahead of a potential tr
+ ansaction. Proceeds will primarily refinance the existing PPCL01 PRO $350M
+  senior secured bonds (ISIN NO0013387860)\, with additional use for a Debt
+  Service Retention Account\, capex\, and general corporate purposes. No pr
+ icing terms have been disclosed at this mandate stage\, with the deal subj
+ ect to market conditions and acceptable terms.
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PEARL PETROLEUM CO LTD</p><p><strong>Deal context:</strong><b
+ r>Pearl Petroleum Company Limited is pursuing a new 5-year senior secured 
+ bond offering of up to $500M (floor $400M)\, having mandated DNB Carnegie 
+ and Pareto Securities as Joint Lead Managers to arrange global investor ca
+ lls ahead of a potential transaction. Proceeds will primarily refinance th
+ e existing PPCL01 PRO $350M senior secured bonds (ISIN NO0013387860)\, wit
+ h additional use for a Debt Service Retention Account\, capex\, and genera
+ l corporate purposes. No pricing terms have been disclosed at this mandate
+  stage\, with the deal subject to market conditions and acceptable terms.<
+ /p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

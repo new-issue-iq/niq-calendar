@@ -1,15 +1,5 @@
 [
   {
-    "id": "0359fc03-e853-421f-b786-694d9f6a8fda",
-    "issuerName": "BOOZ ALLEN HAMILTON INC",
-    "alertedAt": "2026-07-27T12:41:24.790Z"
-  },
-  {
-    "id": "a2e1a92f-5980-4380-88d8-7ac896455ff5",
-    "issuerName": "CONSTELLATION INSURANCE INC",
-    "alertedAt": "2026-07-27T14:41:25.354Z"
-  },
-  {
     "id": "bfd1f8e7-af07-4be5-8fd0-3f8f09153657",
     "issuerName": "EMPRESA DISTRIBUIDORA Y COMERCIALIZADORA NORTE SA EDENOR SA",
     "alertedAt": "2026-07-28T13:41:17.931Z"
@@ -493,5 +483,10 @@
     "id": "db8bf52b-1697-4d1b-9ea2-ba288df244b9",
     "issuerName": "UNITED RENTALS",
     "alertedAt": "2026-10-23T12:30:41.239Z"
+  },
+  {
+    "id": "3dbf1f47-4fc8-4625-98f4-63e75f802969",
+    "issuerName": "PEARL PETROLEUM CO LTD",
+    "alertedAt": "2026-10-26T11:30:58.940Z"
   }
 ]
