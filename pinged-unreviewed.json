@@ -193,5 +193,15 @@
     "id": "3dbf1f47-4fc8-4625-98f4-63e75f802969",
     "issuerName": "PEARL PETROLEUM CO LTD",
     "pingedAt": "2026-10-26T10:10:51.625Z"
+  },
+  {
+    "id": "1b959295-a53b-4502-8089-52036f3e26e4",
+    "issuerName": "BREAD FINL HOLDINGS INC",
+    "pingedAt": "2026-10-26T13:50:55.192Z"
+  },
+  {
+    "id": "92b925ae-f7e0-4f5a-80db-27ee646ec99a",
+    "issuerName": "MAIN STREET CAPITAL CORP",
+    "pingedAt": "2026-10-26T13:50:55.343Z"
   }
 ]
