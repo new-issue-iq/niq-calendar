@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Singapore
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:SGT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ec0c611795070bb0-32@daily.newissueiq
+DTSTAMP:20261028T135133Z
+DTSTART;TZID=Asia/Singapore:20261019T113000
+DTEND;TZID=Asia/Singapore:20261019T123000
+SUMMARY:GMNSWH — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: GEAR M NSW HCC PTY LTD (GMNSWH)\nRoadshow: www.netroadshow.com/nrs
+ /home/#!/?show=5576100d\n\nDeal context:\nGEAR M NSW HCC PTY LTD 5NC2 $500
+ m — Announced\n• Issuer: GEAR M NSW HCC PTY LTD (GM3)\n• Ratings: S&P: BB-
+  / Fitch: BB-\n• Book Runners: Barc\, BofA\, DB\, Mandiri\n• Billing & Del
+ ivery: DB\n• Deal Terms: $500 million\; 5NC2\; WAL 4.6YR\; Senior Secured 
+ Notes\; 144A/Reg S\n• Call Structure: non-callable until October 31\, 2028
+ \; call schedule at 100\; make-whole call at T+50\n• Timing: pricing expec
+ ted AS EARLY AS NEXT WEEK\n• Use of Proceeds: TO REPAY OUSTANDING AMOUNTS 
+ OF THE ACQUISITION FACILITY\n• Investor Calls:\n  ◦ October 15\, 2026 · 14
+ :00–15:00 AEST\n  ◦ October 15\, 2026 · 15:15–16:15 AEST\n  ◦ October 15\,
+  2026 · 16:30–17:30 AEST\n  ◦ October 15\, 2026 · 12:00–12:50 BST\n  ◦ Oct
+ ober 15\, 2026 · 13:00–13:50 BST\n  ◦ October 15\, 2026 · 14:00–14:50 BST\
+ n  ◦ October 15\, 2026 · 15:00–15:50 BST\n  ◦ October 16\, 2026 · 13:00–14
+ :00 AEST\n  ◦ October 16\, 2026 · 14:15–15:15 AEST\n  ◦ October 16\, 2026 
+ · 15:30–16:30 AEST\n  ◦ October 16\, 2026 · 12:00–12:50 BST\n  ◦ October 1
+ 6\, 2026 · 13:00–13:50 BST\n  ◦ October 16\, 2026 · 14:00–14:50 BST\n  ◦ O
+ ctober 16\, 2026 · 15:00–15:50 BST\n  ◦ October 19\, 2026 · 09:00–10:00 SG
+ T\n  ◦ October 19\, 2026 · 10:15–11:15 SGT\n  ◦ October 19\, 2026 · 11:30–
+ 12:30 SGT\n  ◦ October 19\, 2026 · 14:00–15:00 SGT\n  ◦ October 19\, 2026 
+ · 15:15–16:15 SGT\n  ◦ October 20\, 2026 · 09:00–10:00 HKT\n  ◦ October 20
+ \, 2026 · 10:15–11:15 HKT\n  ◦ October 20\, 2026 · 11:30–12:30 HKT\n  ◦ Oc
+ tober 20\, 2026 · 14:00–15:00 HKT\n  ◦ October 20\, 2026 · 15:15–16:15 HKT
+ \n  ◦ October 20\, 2026 · 16:30–17:30 HKT\n• Roadshow: www.netroadshow.com
+ /nrs/home/#!/?show=5576100d\n• Progression:\n  ◦ Announced: $500m · 5NC2 ·
+  144A/Reg S
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> GEAR M NSW HCC PTY LTD (GMNSWH)</p><p><strong>Roadshow:</stro
+ ng> www.netroadshow.com/nrs/home/#!/?show=5576100d</p><p><strong>Deal cont
+ ext:</strong><br>GEAR M NSW HCC PTY LTD 5NC2 $500m — Announced<br>• Issuer
+ : GEAR M NSW HCC PTY LTD (GM3)<br>• Ratings: S&amp\;P: BB- / Fitch: BB-<br
+ >• Book Runners: Barc\, BofA\, DB\, Mandiri<br>• Billing &amp\; Delivery: 
+ DB<br>• Deal Terms: $500 million\; 5NC2\; WAL 4.6YR\; Senior Secured Notes
+ \; 144A/Reg S<br>• Call Structure: non-callable until October 31\, 2028\; 
+ call schedule at 100\; make-whole call at T+50<br>• Timing: pricing expect
+ ed AS EARLY AS NEXT WEEK<br>• Use of Proceeds: TO REPAY OUSTANDING AMOUNTS
+  OF THE ACQUISITION FACILITY<br>• Investor Calls:<br>  ◦ October 15\, 2026
+  · 14:00–15:00 AEST<br>  ◦ October 15\, 2026 · 15:15–16:15 AEST<br>  ◦ Oct
+ ober 15\, 2026 · 16:30–17:30 AEST<br>  ◦ October 15\, 2026 · 12:00–12:50 B
+ ST<br>  ◦ October 15\, 2026 · 13:00–13:50 BST<br>  ◦ October 15\, 2026 · 1
+ 4:00–14:50 BST<br>  ◦ October 15\, 2026 · 15:00–15:50 BST<br>  ◦ October 1
+ 6\, 2026 · 13:00–14:00 AEST<br>  ◦ October 16\, 2026 · 14:15–15:15 AEST<br
+ >  ◦ October 16\, 2026 · 15:30–16:30 AEST<br>  ◦ October 16\, 2026 · 12:00
+ –12:50 BST<br>  ◦ October 16\, 2026 · 13:00–13:50 BST<br>  ◦ October 16\, 
+ 2026 · 14:00–14:50 BST<br>  ◦ October 16\, 2026 · 15:00–15:50 BST<br>  ◦ O
+ ctober 19\, 2026 · 09:00–10:00 SGT<br>  ◦ October 19\, 2026 · 10:15–11:15 
+ SGT<br>  ◦ October 19\, 2026 · 11:30–12:30 SGT<br>  ◦ October 19\, 2026 · 
+ 14:00–15:00 SGT<br>  ◦ October 19\, 2026 · 15:15–16:15 SGT<br>  ◦ October 
+ 20\, 2026 · 09:00–10:00 HKT<br>  ◦ October 20\, 2026 · 10:15–11:15 HKT<br>
+   ◦ October 20\, 2026 · 11:30–12:30 HKT<br>  ◦ October 20\, 2026 · 14:00–1
+ 5:00 HKT<br>  ◦ October 20\, 2026 · 15:15–16:15 HKT<br>  ◦ October 20\, 20
+ 26 · 16:30–17:30 HKT<br>• Roadshow: www.netroadshow.com/nrs/home/#!/?show=
+ 5576100d<br>• Progression:<br>  ◦ Announced: $500m · 5NC2 · 144A/Reg S</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

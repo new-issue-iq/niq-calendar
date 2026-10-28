@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:19710101T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19710101T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:994e2238168d9d79-2@daily.newissueiq
+DTSTAMP:20261028T135133Z
+DTSTART;TZID=Europe/Berlin:20261015T150000
+DTEND;TZID=Europe/Berlin:20261015T154500
+SUMMARY:HIBUPU — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: HIBU PURCHASER INC (HIBUPU)\nRoadshow: https://www.netroadshow.com
+ /nrs/home/#!/?show=36effdb1\n\nDeal context:\nHIBU PURCHASER INC 4NC2 $450
+ m — Mandate\n• Issuer: HIBU PURCHASER INC (USA)\n• Guarantors: HIBU GROUP 
+ USA INC\, HIBU HOLDINGS USA INC\, HIBU INC\, HIBU PAY LLC\, REVLOCAL LLC\n
+ • Expected Ratings: S&P: B\n• Book Runners: Arctic\, DNB\n• Logistics: Arc
+ tic\n• Deal Terms: 4NC2 $450m\; Senior Secured Notes\; 144A/Reg S\; may fo
+ llow\, subject to market conditions\n• Use of Proceeds: Refinance the Exis
+ ting Debt\, fund the Initial Distribution and general corporate purposes\n
+ • Investor Calls:\n  ◦ October 15\, 2026 · 15:00 CEST — https://urldefense
+ .com/v3/__https:/teams.microsoft.com/meet/3973833968811987?p=B0eMmglJLe87t
+ dFlGm__\;!!G2LzpLiaFdozy4f_Gg!yKA6boLpmzQc-aGGjd3asYy7HE2ajx0_KK86jCeJ6agK
+ ROu3RIHn4OrqVRlKWC-Ot6GOsEf2HDLz0-Ge$\n  ◦ October 16\, 2026 · 15:00 CEST 
+ — https://urldefense.com/v3/__https:/teams.microsoft.com/meet/321703039320
+ 6250?p=V9ZzfDyCKr1sIKyfgU__\;!!G2LzpLiaFdozy4f_Gg!yKA6boLpmzQc-aGGjd3asYy7
+ HE2ajx0_KK86jCeJ6agKROu3RIHn4OrqVRlKWC-Ot6GOsEf2HDCapmUa$\n• Roadshow: htt
+ ps://www.netroadshow.com/nrs/home/#!/?show=36effdb1
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> HIBU PURCHASER INC (HIBUPU)</p><p><strong>Roadshow:</strong> 
+ https://www.netroadshow.com/nrs/home/#!/?show=36effdb1</p><p><strong>Deal 
+ context:</strong><br>HIBU PURCHASER INC 4NC2 $450m — Mandate<br>• Issuer: 
+ HIBU PURCHASER INC (USA)<br>• Guarantors: HIBU GROUP USA INC\, HIBU HOLDIN
+ GS USA INC\, HIBU INC\, HIBU PAY LLC\, REVLOCAL LLC<br>• Expected Ratings:
+  S&amp\;P: B<br>• Book Runners: Arctic\, DNB<br>• Logistics: Arctic<br>• D
+ eal Terms: 4NC2 $450m\; Senior Secured Notes\; 144A/Reg S\; may follow\, s
+ ubject to market conditions<br>• Use of Proceeds: Refinance the Existing D
+ ebt\, fund the Initial Distribution and general corporate purposes<br>• In
+ vestor Calls:<br>  ◦ October 15\, 2026 · 15:00 CEST — https://urldefense.c
+ om/v3/__https:/teams.microsoft.com/meet/3973833968811987?p=B0eMmglJLe87tdF
+ lGm__\;!!G2LzpLiaFdozy4f_Gg!yKA6boLpmzQc-aGGjd3asYy7HE2ajx0_KK86jCeJ6agKRO
+ u3RIHn4OrqVRlKWC-Ot6GOsEf2HDLz0-Ge$<br>  ◦ October 16\, 2026 · 15:00 CEST 
+ — https://urldefense.com/v3/__https:/teams.microsoft.com/meet/321703039320
+ 6250?p=V9ZzfDyCKr1sIKyfgU__\;!!G2LzpLiaFdozy4f_Gg!yKA6boLpmzQc-aGGjd3asYy7
+ HE2ajx0_KK86jCeJ6agKROu3RIHn4OrqVRlKWC-Ot6GOsEf2HDCapmUa$<br>• Roadshow: h
+ ttps://www.netroadshow.com/nrs/home/#!/?show=36effdb1</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

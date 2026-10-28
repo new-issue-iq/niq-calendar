@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e7357eddd64cca5a-1@daily.newissueiq
+DTSTAMP:20261028T135133Z
+DTSTART;TZID=America/New_York:20261026T103000
+DTEND;TZID=America/New_York:20261026T111500
+SUMMARY:KID — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: RESPIGHI HOLDCO SPA (KID)\nRoadshow: https://www.netroadshow.com/e
+ vents/login/1PeTHmohVkstjEZBkuXW0UgTufnCvQ4NlD99s\n\nDeal context:\nRESPIG
+ HI HOLDCO SPA Five-Tranche 6.05bn — Announced\n• Issuer: RESPIGHI HOLDCO S
+ PA (KID)\n• Ratings: Moody's: B1 / S&P: B+ / Fitch: BB-\n• Book Runners: D
+ B\, GS\, JPM\n• Billing & Delivery: 7NC1 FRN GS\, 5NC2 fixed DB\, 7NC3 fix
+ ed DB\, 5NC2 fixed JPM\, 7NC3 fixed JPM\n• Deal Terms: 6.05 billion\; five
+ -tranche (7NC1 FRN\, 5NC2 fixed\, 7NC3 fixed\, 5NC2 fixed and 7NC3 fixed)\
+ ; Senior Secured Notes\; 144A/Reg S\n• Call Structure:\n  ◦ 7NC1 FRN — par
+  call 12 months prior to maturity\n  ◦ 5NC2 fixed — non-callable until Oct
+ ober 31\, 2028\; call schedule at 100\n  ◦ 7NC3 fixed — non-callable until
+  October 31\, 2029\; call schedule at 100\n  ◦ 5NC2 fixed — non-callable u
+ ntil October 31\, 2028\; call schedule at 100\n  ◦ 7NC3 fixed — non-callab
+ le until October 31\, 2029\; call schedule at 100\n• Pricing:\n  ◦ 7NC1 FR
+ N — IPT E+400A (+/- 1/8)\, par\n  ◦ 5NC2 fixed — IPT High 6%s\n  ◦ 7NC3 fi
+ xed — IPT Low 7%s\n  ◦ 5NC2 fixed — IPT High 7%s\n  ◦ 7NC3 fixed — IPT Low
+  8%s\n• Timing: pricing expected October 26\, 2026\n• Use of Proceeds: Tog
+ ether with sponsors’ equity\, to support 100% stake acquisition in Recorda
+ ti\, refinance Recordati’s outstanding debt (other than leases)\, fund €20
+ 0m opening cash on b/s and pay transaction related fees and expense\n• Inv
+ estor Calls:\n  ◦ October 26\, 2026 · 13:30–14:15 UKT\n  ◦ October 26\, 20
+ 26 · 14:30 UKT — https://www.netroadshow.com/events/login/1PeTHmohVkstjEZB
+ kuXW0UgTufnCvQ4NlD99s\n• Roadshow: https://www.netroadshow.com/events/logi
+ n/1PeTHmohVkstjEZBkuXW0UgTufnCvQ4NlD99s\n• Progression:\n  ◦ Announced: 7N
+ C1 FRN / 5NC2 fixed / 7NC3 fixed / 5NC2 fixed / 7NC3 fixed · 144A/Reg S\n 
+  ◦ IPT: 7NC1 FRN E+400A (+/- 1/8)\, par\; 5NC2 fixed High 6%s\; 7NC3 fixed
+  Low 7%s\; 5NC2 fixed High 7%s\; 7NC3 fixed Low 8%s
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> RESPIGHI HOLDCO SPA (KID)</p><p><strong>Roadshow:</strong> ht
+ tps://www.netroadshow.com/events/login/1PeTHmohVkstjEZBkuXW0UgTufnCvQ4NlD9
+ 9s</p><p><strong>Deal context:</strong><br>RESPIGHI HOLDCO SPA Five-Tranch
+ e 6.05bn — Announced<br>• Issuer: RESPIGHI HOLDCO SPA (KID)<br>• Ratings: 
+ Moody's: B1 / S&amp\;P: B+ / Fitch: BB-<br>• Book Runners: DB\, GS\, JPM<b
+ r>• Billing &amp\; Delivery: 7NC1 FRN GS\, 5NC2 fixed DB\, 7NC3 fixed DB\,
+  5NC2 fixed JPM\, 7NC3 fixed JPM<br>• Deal Terms: 6.05 billion\; five-tran
+ che (7NC1 FRN\, 5NC2 fixed\, 7NC3 fixed\, 5NC2 fixed and 7NC3 fixed)\; Sen
+ ior Secured Notes\; 144A/Reg S<br>• Call Structure:<br>  ◦ 7NC1 FRN — par 
+ call 12 months prior to maturity<br>  ◦ 5NC2 fixed — non-callable until Oc
+ tober 31\, 2028\; call schedule at 100<br>  ◦ 7NC3 fixed — non-callable un
+ til October 31\, 2029\; call schedule at 100<br>  ◦ 5NC2 fixed — non-calla
+ ble until October 31\, 2028\; call schedule at 100<br>  ◦ 7NC3 fixed — non
+ -callable until October 31\, 2029\; call schedule at 100<br>• Pricing:<br>
+   ◦ 7NC1 FRN — IPT E+400A (+/- 1/8)\, par<br>  ◦ 5NC2 fixed — IPT High 6%s
+ <br>  ◦ 7NC3 fixed — IPT Low 7%s<br>  ◦ 5NC2 fixed — IPT High 7%s<br>  ◦ 7
+ NC3 fixed — IPT Low 8%s<br>• Timing: pricing expected October 26\, 2026<br
+ >• Use of Proceeds: Together with sponsors’ equity\, to support 100% stake
+  acquisition in Recordati\, refinance Recordati’s outstanding debt (other 
+ than leases)\, fund €200m opening cash on b/s and pay transaction related 
+ fees and expense<br>• Investor Calls:<br>  ◦ October 26\, 2026 · 13:30–14:
+ 15 UKT<br>  ◦ October 26\, 2026 · 14:30 UKT — https://www.netroadshow.com/
+ events/login/1PeTHmohVkstjEZBkuXW0UgTufnCvQ4NlD99s<br>• Roadshow: https://
+ www.netroadshow.com/events/login/1PeTHmohVkstjEZBkuXW0UgTufnCvQ4NlD99s<br>
+ • Progression:<br>  ◦ Announced: 7NC1 FRN / 5NC2 fixed / 7NC3 fixed / 5NC2
+  fixed / 7NC3 fixed · 144A/Reg S<br>  ◦ IPT: 7NC1 FRN E+400A (+/- 1/8)\, p
+ ar\; 5NC2 fixed High 6%s\; 7NC3 fixed Low 7%s\; 5NC2 fixed High 7%s\; 7NC3
+  fixed Low 8%s</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

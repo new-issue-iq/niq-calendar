@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f2a31b716b1927de-10@daily.newissueiq
+DTSTAMP:20261028T135133Z
+DTSTART;TZID=America/New_York:20261022T100000
+DTEND;TZID=America/New_York:20261022T105000
+SUMMARY:BENSPO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BENDING SPOONS OPERATIONS SPA (BENSPO)\nRoadshow: www.netroadshow.
+ com/nrs/home/#!/?show=630762e2\n\nDeal context:\nBENDING SPOONS OPERATIONS
+  SPA / BENDING SPOONS US INC Dual-Tranche €500m + $1.25bn — Guidance\n• Is
+ suers: BENDING SPOONS OPERATIONS SPA (5NC2 fixed)\, BENDING SPOONS US INC 
+ (5NC2 fixed)\n• Ratings: Moody's: Ba3 / S&P: BB- / Fitch: BB+\n• Book Runn
+ ers: AKROS\, ALLEN\, BNP\, Citi\, GS\, HSBC\, ISPIM\, JPM\, MUFG\, UCGIM\,
+  WFS\n• Billing & Delivery: 5NC2 fixed BNP\, 5NC2 fixed JPM\n• Deal Terms:
+  €500 million + $1.25 billion\; dual-tranche (5NC2 fixed and 5NC2 fixed)\;
+  Senior Secured Notes\; 144A/Reg S\n• Pricing:\n  ◦ 5NC2 fixed — guidance 
+ 8.75-9.00%\n  ◦ 5NC2 fixed — guidance 9.75-10.00%\n• Timing: pricing expec
+ ted October 28\, 2026\n• Use of Proceeds: Proceeds are intended   to be us
+ ed to fund future acquisitions\, for other general corporate purposes\,   
+ and to pay costs\, fees\, expenses\, and taxes in connection with the offe
+ rings\n• Investor Calls:\n  ◦ October 21\, 2026 · 12:00–12:50 CET\n  ◦ Oct
+ ober 21\, 2026 · 13:00–13:50 CET\n  ◦ October 21\, 2026 · 15:00–15:50 CET\
+ n  ◦ October 21\, 2026 · 16:00–16:50 CET\n  ◦ October 21\, 2026 · 17:00–17
+ :50 CET\n  ◦ October 21\, 2026 · 18:00–18:50 CET\n  ◦ October 22\, 2026 · 
+ 12:00–12:50 CET\n  ◦ October 22\, 2026 · 13:00–13:50 CET\n  ◦ October 22\,
+  2026 · 15:00–15:50 CET\n  ◦ October 22\, 2026 · 16:00–16:50 CET\n  ◦ Octo
+ ber 22\, 2026 · 17:00–17:50 CET\n  ◦ October 22\, 2026 · 18:00–18:50 CET\n
+   ◦ October 22\, 2026 · 19:00–19:50 CET\n  ◦ October 27\, 2026 · 13:00–14:
+ 00 UKT — https://www.netroadshow.com/events/login/1PeTHmoj9r9cfJhDxgpmuE9y
+ HvuMwuESw09pO\n  ◦ October 27\, 2026 · 14:00–15:00 UKT\n  ◦ GIC 27 Oct at 
+ 14:00 UKT / 10:00 NYT | Registration: https://www.netroadshow.com/events/l
+ ogin/1PeTHmoj9r9cfJhDxgpmuE9yHvuMwuESw09pO | Access Code: Visit www.netroa
+ dshow.com and enter the entry code: Bendingspoons2026 (not case-sensitive)
+ \n• Roadshow: www.netroadshow.com/nrs/home/#!/?show=630762e2\n• Progressio
+ n:\n  ◦ Announced: 5NC2 fixed / 5NC2 fixed · 144A/Reg S\n  ◦ IPT: 5NC2 fix
+ ed Low 9%s\; 5NC2 fixed Low 10%s\n  ◦ Guidance: 5NC2 fixed 8.75-9.00%\; 5N
+ C2 fixed 9.75-10.00%
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BENDING SPOONS OPERATIONS SPA (BENSPO)</p><p><strong>Roadshow
+ :</strong> www.netroadshow.com/nrs/home/#!/?show=630762e2</p><p><strong>De
+ al context:</strong><br>BENDING SPOONS OPERATIONS SPA / BENDING SPOONS US 
+ INC Dual-Tranche €500m + $1.25bn — Guidance<br>• Issuers: BENDING SPOONS O
+ PERATIONS SPA (5NC2 fixed)\, BENDING SPOONS US INC (5NC2 fixed)<br>• Ratin
+ gs: Moody's: Ba3 / S&amp\;P: BB- / Fitch: BB+<br>• Book Runners: AKROS\, A
+ LLEN\, BNP\, Citi\, GS\, HSBC\, ISPIM\, JPM\, MUFG\, UCGIM\, WFS<br>• Bill
+ ing &amp\; Delivery: 5NC2 fixed BNP\, 5NC2 fixed JPM<br>• Deal Terms: €500
+  million + $1.25 billion\; dual-tranche (5NC2 fixed and 5NC2 fixed)\; Seni
+ or Secured Notes\; 144A/Reg S<br>• Pricing:<br>  ◦ 5NC2 fixed — guidance 8
+ .75-9.00%<br>  ◦ 5NC2 fixed — guidance 9.75-10.00%<br>• Timing: pricing ex
+ pected October 28\, 2026<br>• Use of Proceeds: Proceeds are intended   to 
+ be used to fund future acquisitions\, for other general corporate purposes
+ \,   and to pay costs\, fees\, expenses\, and taxes in connection with the
+  offerings<br>• Investor Calls:<br>  ◦ October 21\, 2026 · 12:00–12:50 CET
+ <br>  ◦ October 21\, 2026 · 13:00–13:50 CET<br>  ◦ October 21\, 2026 · 15:
+ 00–15:50 CET<br>  ◦ October 21\, 2026 · 16:00–16:50 CET<br>  ◦ October 21\
+ , 2026 · 17:00–17:50 CET<br>  ◦ October 21\, 2026 · 18:00–18:50 CET<br>  ◦
+  October 22\, 2026 · 12:00–12:50 CET<br>  ◦ October 22\, 2026 · 13:00–13:5
+ 0 CET<br>  ◦ October 22\, 2026 · 15:00–15:50 CET<br>  ◦ October 22\, 2026 
+ · 16:00–16:50 CET<br>  ◦ October 22\, 2026 · 17:00–17:50 CET<br>  ◦ Octobe
+ r 22\, 2026 · 18:00–18:50 CET<br>  ◦ October 22\, 2026 · 19:00–19:50 CET<b
+ r>  ◦ October 27\, 2026 · 13:00–14:00 UKT — https://www.netroadshow.com/ev
+ ents/login/1PeTHmoj9r9cfJhDxgpmuE9yHvuMwuESw09pO<br>  ◦ October 27\, 2026 
+ · 14:00–15:00 UKT<br>  ◦ GIC 27 Oct at 14:00 UKT / 10:00 NYT | Registratio
+ n: https://www.netroadshow.com/events/login/1PeTHmoj9r9cfJhDxgpmuE9yHvuMwu
+ ESw09pO | Access Code: Visit www.netroadshow.com and enter the entry code:
+  Bendingspoons2026 (not case-sensitive)<br>• Roadshow: www.netroadshow.com
+ /nrs/home/#!/?show=630762e2<br>• Progression:<br>  ◦ Announced: 5NC2 fixed
+  / 5NC2 fixed · 144A/Reg S<br>  ◦ IPT: 5NC2 fixed Low 9%s\; 5NC2 fixed Low
+  10%s<br>  ◦ Guidance: 5NC2 fixed 8.75-9.00%\; 5NC2 fixed 9.75-10.00%</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
