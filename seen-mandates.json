@@ -1,35 +1,5 @@
 [
   {
-    "id": "9762e56e-bbcd-40c2-838c-c2ff322fa174",
-    "issuerName": "BANCO MULTIVA",
-    "alertedAt": "2026-07-29T13:21:10.419Z"
-  },
-  {
-    "id": "fc7d9b64-3bd5-418d-bd44-f9a9a1326b15",
-    "issuerName": "CAPRI GLOBAL CAPITAL LTD",
-    "alertedAt": "2026-07-30T11:41:29.801Z"
-  },
-  {
-    "id": "e2b6f3fa-6ed1-4478-bb97-a69a217f4f97",
-    "issuerName": "SKYWORKS SOLUTIONS INC",
-    "alertedAt": "2026-08-03T13:40:48.388Z"
-  },
-  {
-    "id": "f2933c01-040f-4fa0-9dcf-0fd604ee53b2",
-    "issuerName": "RWE AG",
-    "alertedAt": "2026-08-04T13:00:38.586Z"
-  },
-  {
-    "id": "b96e0346-aa24-4afc-9cde-f0c583ab1161",
-    "issuerName": "ICON PLC",
-    "alertedAt": "2026-08-04T13:21:01.694Z"
-  },
-  {
-    "id": "77dd4ada-2642-4388-84da-4c12b0d455aa",
-    "issuerName": "FRANKLIN RESOURCES INC",
-    "alertedAt": "2026-08-04T15:11:02.921Z"
-  },
-  {
     "id": "ca7d1c53-4359-408a-b35c-a0d876078763",
     "issuerName": "MASTEC INC",
     "alertedAt": "2026-08-05T13:30:58.775Z"
@@ -498,5 +468,13 @@
     "id": "b0209606-04b1-41bf-a912-772a323e6b56",
     "issuerName": "CBRE GROUP INC",
     "alertedAt": "2026-10-26T21:01:13.644Z"
+  },
+  {
+    "id": "c6fe3e32-d45c-4d0d-8e2d-aa234b874150",
+    "aliases": [
+      "c6fe3e32-d45c-4d0d-8e2d-aa234b874150"
+    ],
+    "issuerName": "MIDCAP FINANCIAL ISSUER TRUST",
+    "alertedAt": "2026-11-02T15:41:07.981Z"
   }
 ]

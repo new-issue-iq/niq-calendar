@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:43dd5aff06ad0389-4@daily.newissueiq
+DTSTAMP:20261102T154103Z
+DTSTART;TZID=America/New_York:20261102T150000
+DTEND;TZID=America/New_York:20261102T155000
+SUMMARY:MIDCAP — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MIDCAP FINANCIAL ISSUER TRUST (MIDCAP)\nRoadshow: www.netroadshow.
+ com/nrs/home/#!/?show=633e268f\n\nDeal context:\nMIDCAP FINANCIAL ISSUER T
+ RUST USD Benchmark — Mandate\n• Issuer: MIDCAP FINANCIAL ISSUER TRUST (MID
+ CAP)\n• Expected Ratings: Moody's: Baa2 / Kroll: A-\n• Book Runners: Citi\
+ , JPM\, TFC\, WFS\n• Logistics: JPM\n• Deal Terms: USD benchmark\; Senior 
+ Unsecured Notes\; 144A\; may follow\, subject to market conditions\n• Inve
+ stor Calls:\n  ◦ November 2\, 2026 · 12:00–12:50 ET\n  ◦ November 2\, 2026
+  · 13:00–13:50 ET\n  ◦ November 2\, 2026 · 14:00–14:50 ET\n  ◦ November 2\
+ , 2026 · 15:00–15:50 ET\n• Roadshow: www.netroadshow.com/nrs/home/#!/?show
+ =633e268f
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MIDCAP FINANCIAL ISSUER TRUST (MIDCAP)</p><p><strong>Roadshow
+ :</strong> www.netroadshow.com/nrs/home/#!/?show=633e268f</p><p><strong>De
+ al context:</strong><br>MIDCAP FINANCIAL ISSUER TRUST USD Benchmark — Mand
+ ate<br>• Issuer: MIDCAP FINANCIAL ISSUER TRUST (MIDCAP)<br>• Expected Rati
+ ngs: Moody's: Baa2 / Kroll: A-<br>• Book Runners: Citi\, JPM\, TFC\, WFS<b
+ r>• Logistics: JPM<br>• Deal Terms: USD benchmark\; Senior Unsecured Notes
+ \; 144A\; may follow\, subject to market conditions<br>• Investor Calls:<b
+ r>  ◦ November 2\, 2026 · 12:00–12:50 ET<br>  ◦ November 2\, 2026 · 13:00–
+ 13:50 ET<br>  ◦ November 2\, 2026 · 14:00–14:50 ET<br>  ◦ November 2\, 202
+ 6 · 15:00–15:50 ET<br>• Roadshow: www.netroadshow.com/nrs/home/#!/?show=63
+ 3e268f</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
