@@ -476,5 +476,13 @@
     ],
     "issuerName": "MIDCAP FINANCIAL ISSUER TRUST",
     "alertedAt": "2026-11-02T15:41:07.981Z"
+  },
+  {
+    "id": "8c11c9c5-6006-45ab-977c-b3a9902f42bd",
+    "aliases": [
+      "8c11c9c5-6006-45ab-977c-b3a9902f42bd"
+    ],
+    "issuerName": "META PLATFORMS INC",
+    "alertedAt": "2026-11-02T16:11:19.054Z"
   }
 ]

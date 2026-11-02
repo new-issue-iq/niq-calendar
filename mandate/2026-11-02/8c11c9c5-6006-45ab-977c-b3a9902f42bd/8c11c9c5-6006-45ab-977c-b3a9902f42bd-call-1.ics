@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b4cac0102cdf5937-1@daily.newissueiq
+DTSTAMP:20261102T161115Z
+DTSTART;TZID=America/New_York:20261102T130000
+DTEND;TZID=America/New_York:20261102T133000
+SUMMARY:META — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: META PLATFORMS INC (META)\nRoadshow: www.netroadshow.com/nrs/home/
+ #!/?show=27e9494b\n\nDeal context:\nMETA PLATFORMS INC 11-Tranche Benchmar
+ k — Mandate\n• Issuer: META PLATFORMS INC\n• Expected Ratings: Moody's: Aa
+ 3 / S&P: AA-\n• Book Runners: Citi\, MS\n• Logistics: MS\n• Deal Terms: 11
+ -tranche (5-year\, 7-year\, 10-year\, 20-year\, 30-year\, 4-year\, 6-year\
+ , 8-year\, 12-year\, 18-year and 38-year) benchmark\; Senior Unsecured Not
+ es\; SEC Registered\; may follow\, subject to market conditions\n• Investo
+ r Calls:\n  ◦ November 2\, 2026 · 18:00–18:30 UKT — https://www.netroadsho
+ w.com/events/login/1PeTHmohTl3V2aEZQvp1qhFY2pokF80rilh7i\n  ◦ November 2\,
+  2026 · 18:45–19:15 UKT — https://www.netroadshow.com/events/login/1PeTHmo
+ hLxx7YqciSrREqvI6TE1qphCyLgHWp\n  ◦ November 2\, 2026 · 19:30–20:00 UKT — 
+ https://www.netroadshow.com/events/login/1PeTHmoj7R2kEPdAL69ZehH9DBVuUwHiX
+ C5NV\n  ◦ November 3\, 2026 · 09:30–10:00 UKT — https://www.netroadshow.co
+ m/events/login/1PeTHmoj9u6EGfydIFDsKiwDjjGPA8yt2yn0G\n  ◦ November 3\, 202
+ 6 · 10:10–10:40 UKT — https://www.netroadshow.com/events/login/1PeTHmohJXE
+ k9SWSLv8kehAghAOmAmury20jz\n  ◦ November 3\, 2026 · 10:50–11:20 UKT — http
+ s://www.netroadshow.com/events/login/1PeTHmohJbqgHwv6Qdu3qLLA55VGmQWWH669G
+ \n  ◦ November 3\, 2026 · 11:30–12:00 UKT — https://www.netroadshow.com/ev
+ ents/login/1PeTHmohWBrqKnKp6TJUJhOamvwHKu9iwYFNQ\n• Roadshow: www.netroads
+ how.com/nrs/home/#!/?show=27e9494b
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> META PLATFORMS INC (META)</p><p><strong>Roadshow:</strong> ww
+ w.netroadshow.com/nrs/home/#!/?show=27e9494b</p><p><strong>Deal context:</
+ strong><br>META PLATFORMS INC 11-Tranche Benchmark — Mandate<br>• Issuer: 
+ META PLATFORMS INC<br>• Expected Ratings: Moody's: Aa3 / S&amp\;P: AA-<br>
+ • Book Runners: Citi\, MS<br>• Logistics: MS<br>• Deal Terms: 11-tranche (
+ 5-year\, 7-year\, 10-year\, 20-year\, 30-year\, 4-year\, 6-year\, 8-year\,
+  12-year\, 18-year and 38-year) benchmark\; Senior Unsecured Notes\; SEC R
+ egistered\; may follow\, subject to market conditions<br>• Investor Calls:
+ <br>  ◦ November 2\, 2026 · 18:00–18:30 UKT — https://www.netroadshow.com/
+ events/login/1PeTHmohTl3V2aEZQvp1qhFY2pokF80rilh7i<br>  ◦ November 2\, 202
+ 6 · 18:45–19:15 UKT — https://www.netroadshow.com/events/login/1PeTHmohLxx
+ 7YqciSrREqvI6TE1qphCyLgHWp<br>  ◦ November 2\, 2026 · 19:30–20:00 UKT — ht
+ tps://www.netroadshow.com/events/login/1PeTHmoj7R2kEPdAL69ZehH9DBVuUwHiXC5
+ NV<br>  ◦ November 3\, 2026 · 09:30–10:00 UKT — https://www.netroadshow.co
+ m/events/login/1PeTHmoj9u6EGfydIFDsKiwDjjGPA8yt2yn0G<br>  ◦ November 3\, 2
+ 026 · 10:10–10:40 UKT — https://www.netroadshow.com/events/login/1PeTHmohJ
+ XEk9SWSLv8kehAghAOmAmury20jz<br>  ◦ November 3\, 2026 · 10:50–11:20 UKT — 
+ https://www.netroadshow.com/events/login/1PeTHmohJbqgHwv6Qdu3qLLA55VGmQWWH
+ 669G<br>  ◦ November 3\, 2026 · 11:30–12:00 UKT — https://www.netroadshow.
+ com/events/login/1PeTHmohWBrqKnKp6TJUJhOamvwHKu9iwYFNQ<br>• Roadshow: www.
+ netroadshow.com/nrs/home/#!/?show=27e9494b</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
