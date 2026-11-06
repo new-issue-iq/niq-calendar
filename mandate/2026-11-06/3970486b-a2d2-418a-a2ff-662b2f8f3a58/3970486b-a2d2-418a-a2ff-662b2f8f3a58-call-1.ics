@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ad427072f4c8f6ee-1@daily.newissueiq
+DTSTAMP:20261106T142104Z
+DTSTART;TZID=America/New_York:20261106T110000
+DTEND;TZID=America/New_York:20261106T114500
+SUMMARY:STE — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STERIS IRISH FINCO UNLIMITED CO (STE)\nRoadshow: https://dealroads
+ how.finsight.com\n\nDeal context:\nSTERIS IRISH FINCO UNLIMITED CO — Manda
+ te\n• Issuer: STERIS IRISH FINCO UNLIMITED CO (STE)\n• Expected Ratings: M
+ oody's: Baa1 / S&P: BBB / Fitch: BBB\n• Book Runners: Citi\, GS\, JPM\n• L
+ ogistics: JPM\n• Deal Terms: USD\; Senior Unsecured Notes\; SEC Registered
+ \; may follow\, subject to market conditions\n• Investor Calls:\n  ◦ Novem
+ ber 6\, 2026 · 11:00–11:45 ET\n  ◦ November 6\, 2026 · 12:00–12:45 ET\n  ◦
+  November 6\, 2026 · 13:00–13:45 ET\n• Roadshow: https://dealroadshow.fins
+ ight.com
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STERIS IRISH FINCO UNLIMITED CO (STE)</p><p><strong>Roadshow:
+ </strong> https://dealroadshow.finsight.com</p><p><strong>Deal context:</s
+ trong><br>STERIS IRISH FINCO UNLIMITED CO — Mandate<br>• Issuer: STERIS IR
+ ISH FINCO UNLIMITED CO (STE)<br>• Expected Ratings: Moody's: Baa1 / S&amp\
+ ;P: BBB / Fitch: BBB<br>• Book Runners: Citi\, GS\, JPM<br>• Logistics: JP
+ M<br>• Deal Terms: USD\; Senior Unsecured Notes\; SEC Registered\; may fol
+ low\, subject to market conditions<br>• Investor Calls:<br>  ◦ November 6\
+ , 2026 · 11:00–11:45 ET<br>  ◦ November 6\, 2026 · 12:00–12:45 ET<br>  ◦ N
+ ovember 6\, 2026 · 13:00–13:45 ET<br>• Roadshow: https://dealroadshow.fins
+ ight.com</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

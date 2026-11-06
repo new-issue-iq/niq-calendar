@@ -1,15 +1,5 @@
 [
   {
-    "id": "1b8962a0-6966-4b92-bcf1-3687921bda3f",
-    "issuerName": "THE MOSAIC CO",
-    "alertedAt": "2026-08-07T13:01:08.075Z"
-  },
-  {
-    "id": "86e10f77-a104-4107-804f-b33deb1aa704",
-    "issuerName": "THE CLEVELAND ELECTRIC ILLUMINATING CO",
-    "alertedAt": "2026-08-07T13:11:06.486Z"
-  },
-  {
     "id": "d1be324b-e175-4e7c-be1e-c9fdbf6135fe",
     "issuerName": "ILLINOIS TOOL WORKS INC",
     "alertedAt": "2026-08-10T13:00:40.841Z"
@@ -487,5 +477,13 @@
     ],
     "issuerName": "EMPRESAS PÚBLICAS DE MEDELLIN ESP",
     "alertedAt": "2026-11-03T15:41:04.377Z"
+  },
+  {
+    "id": "3970486b-a2d2-418a-a2ff-662b2f8f3a58",
+    "aliases": [
+      "3970486b-a2d2-418a-a2ff-662b2f8f3a58"
+    ],
+    "issuerName": "STERIS IRISH FINCO UNLIMITED CO",
+    "alertedAt": "2026-11-06T14:21:08.277Z"
   }
 ]
