@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:51c01f9d6dfea9b7-1@daily.newissueiq
+DTSTAMP:20261109T141028Z
+DTSTART;TZID=America/New_York:20261109T120000
+DTEND;TZID=America/New_York:20261109T124500
+SUMMARY:FOXA — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FOX CORP (FOXA)\nRoadshow: https://dealroadshow.finsight.com/e/FOX
+ 2026\n\nDeal context:\nFOX CORP USD 7-Tranche — Mandate\n• Issuer: FOX COR
+ P (FOXA)\n• Expected Ratings: Moody's: Baa2 / S&P: BBB\n• Book Runners: Ci
+ ti\, DB\, GS\, JPM\, MS\n• Logistics: MS\n• Deal Terms: USD 7-tranche (3-y
+ ear\, 5-year\, 7-year\, 10-year\, 20-year\, 30-year and 40-year)\; Senior 
+ Unsecured Notes\; SEC Registered\; may follow\, subject to market conditio
+ ns\n• Timing: fixed income investor calls to be held today\, Monday\, Nove
+ mber 9th\n• Investor Calls:\n  ◦ November 9\, 2026 · 09:00–10:00 PT — http
+ s://evercall.co/oacc/25911\n  ◦ November 9\, 2026 · 10:00–11:00 PT — https
+ ://evercall.co/oacc/50401\n  ◦ November 9\, 2026 · 11:00–12:00 PT — https:
+ //evercall.co/oacc/77770\n• Roadshow: https://dealroadshow.finsight.com/e/
+ FOX2026
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FOX CORP (FOXA)</p><p><strong>Roadshow:</strong> https://deal
+ roadshow.finsight.com/e/FOX2026</p><p><strong>Deal context:</strong><br>FO
+ X CORP USD 7-Tranche — Mandate<br>• Issuer: FOX CORP (FOXA)<br>• Expected 
+ Ratings: Moody's: Baa2 / S&amp\;P: BBB<br>• Book Runners: Citi\, DB\, GS\,
+  JPM\, MS<br>• Logistics: MS<br>• Deal Terms: USD 7-tranche (3-year\, 5-ye
+ ar\, 7-year\, 10-year\, 20-year\, 30-year and 40-year)\; Senior Unsecured 
+ Notes\; SEC Registered\; may follow\, subject to market conditions<br>• Ti
+ ming: fixed income investor calls to be held today\, Monday\, November 9th
+ <br>• Investor Calls:<br>  ◦ November 9\, 2026 · 09:00–10:00 PT — https://
+ evercall.co/oacc/25911<br>  ◦ November 9\, 2026 · 10:00–11:00 PT — https:/
+ /evercall.co/oacc/50401<br>  ◦ November 9\, 2026 · 11:00–12:00 PT — https:
+ //evercall.co/oacc/77770<br>• Roadshow: https://dealroadshow.finsight.com/
+ e/FOX2026</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

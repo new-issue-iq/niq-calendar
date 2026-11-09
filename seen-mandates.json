@@ -1,55 +1,5 @@
 [
   {
-    "id": "d1be324b-e175-4e7c-be1e-c9fdbf6135fe",
-    "issuerName": "ILLINOIS TOOL WORKS INC",
-    "alertedAt": "2026-08-10T13:00:40.841Z"
-  },
-  {
-    "id": "b32dcc1e-2794-48c3-a814-254717dfafc9",
-    "issuerName": "BLUE OWL CAPITAL CORP",
-    "alertedAt": "2026-08-10T13:10:42.556Z"
-  },
-  {
-    "id": "3b96aeea-b253-4762-92b9-af070f4ffde4",
-    "issuerName": "MARTIN MARIETTA MATERIALS INC",
-    "alertedAt": "2026-08-10T13:20:38.439Z"
-  },
-  {
-    "id": "e5f2a44f-e980-4897-b5b0-373b1cc3db89",
-    "issuerName": "UNIVERSAL HEALTH SVCS INC",
-    "alertedAt": "2026-08-10T13:20:41.098Z"
-  },
-  {
-    "id": "77d6757f-06de-4cc0-82b8-8afc18567a1a",
-    "issuerName": "ALEXANDRIA REAL ESTATE EQUITIES INC",
-    "alertedAt": "2026-08-10T13:40:50.361Z"
-  },
-  {
-    "id": "87df0d19-1441-4b6e-84e8-ae743b3c0ddf",
-    "issuerName": "INTERCONTINENTAL EXCHANGE INC",
-    "alertedAt": "2026-08-10T13:50:37.256Z"
-  },
-  {
-    "id": "1577c316-fc63-4113-9bb3-a852095f332f",
-    "issuerName": "ONE GAS INC",
-    "alertedAt": "2026-08-10T13:50:39.905Z"
-  },
-  {
-    "id": "27bca74c-8c76-4280-8a8e-0447a7c6e248",
-    "issuerName": "HARBOUR ENERGY",
-    "alertedAt": "2026-08-10T14:10:42.224Z"
-  },
-  {
-    "id": "636d060a-9e16-47fb-9fd4-d338650b2f8b",
-    "issuerName": "HALEON PLC",
-    "alertedAt": "2026-08-11T13:20:58.281Z"
-  },
-  {
-    "id": "85c18010-6cbe-47b9-aaf5-a306f53856e2",
-    "issuerName": "CABOT CORPORATION",
-    "alertedAt": "2026-08-11T13:40:50.944Z"
-  },
-  {
     "id": "f5bc1d6c-4e5b-4035-9e6a-ebb521b67601",
     "issuerName": "BARINGS PRIVATE CREDIT CORP",
     "alertedAt": "2026-08-12T14:10:47.972Z"
@@ -485,5 +435,21 @@
     ],
     "issuerName": "STERIS IRISH FINCO UNLIMITED CO",
     "alertedAt": "2026-11-06T14:21:08.277Z"
+  },
+  {
+    "id": "08c69b26-0257-4a49-ae8c-38efb2bdd9aa",
+    "aliases": [
+      "08c69b26-0257-4a49-ae8c-38efb2bdd9aa"
+    ],
+    "issuerName": "ENVISTA HOLDINGS CORP",
+    "alertedAt": "2026-11-09T14:10:28.805Z"
+  },
+  {
+    "id": "79c1eaa2-5e2d-49e1-affd-06e7e95ab0f8",
+    "aliases": [
+      "79c1eaa2-5e2d-49e1-affd-06e7e95ab0f8"
+    ],
+    "issuerName": "FOX CORP",
+    "alertedAt": "2026-11-09T14:10:30.189Z"
   }
 ]
