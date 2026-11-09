@@ -459,5 +459,13 @@
     ],
     "issuerName": "PINNACLE BANK",
     "alertedAt": "2026-11-09T14:40:35.298Z"
+  },
+  {
+    "id": "3ab86bcd-5900-4183-b255-15aa0bf510c1",
+    "aliases": [
+      "3ab86bcd-5900-4183-b255-15aa0bf510c1"
+    ],
+    "issuerName": "ENGIE SA",
+    "alertedAt": "2026-11-09T15:00:36.011Z"
   }
 ]

@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cf031262a9bc80e3-3@daily.newissueiq
+DTSTAMP:20261109T150029Z
+DTSTART;TZID=America/New_York:20261109T123000
+DTEND;TZID=America/New_York:20261109T131500
+SUMMARY:ENGIFP — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ENGIE SA (ENGIFP)\nRoadshow: www.netroadshow.com/nrs/home/#!/?show
+ =ec3523d0\n\nDeal context:\nENGIE SA USD Three-Tranche Green Format Benchm
+ ark — Mandate\n• Issuer: ENGIE SA (ENGIFP)\n• Expected Ratings: Moody's: B
+ aa1 / S&P: BBB+ / Fitch: A-\n• Book Runners: Barc\, CACIB\, Citi\, JPM\, M
+ UFG\, RBC\n• Logistics: Barc\n• Deal Terms: USD three-tranche (3-year\, 10
+ -year and 30-year) Green Format benchmark\; Senior Unsecured Notes\; 144A/
+ Reg S\; may follow\, subject to market conditions\n• Investor Calls:\n  ◦ 
+ November 9\, 2026 · 10:30 ET — https://www.netroadshow.com/events/login/1P
+ eTHmojHADpWM9Gbvv8Ndmlhw8oxaaSSJVfa\n  ◦ November 9\, 2026 · 11:30 ET — ht
+ tps://www.netroadshow.com/events/login/1PeTHmohEg4wEHb3rV2m7lwPuJJd3Mbtyf7
+ sn\n  ◦ November 9\, 2026 · 12:30 ET — https://www.netroadshow.com/events/
+ login/1PeTHmojHAD7Mfe8WmwOFlTNSuDGEU9WkhvMo\n  ◦ November 9\, 2026 · 14:00
+  ET — https://www.netroadshow.com/events/login/1PeTHmohVhFAoJtzEq9i1bc1uzm
+ Lra7GdgplY\n  ◦ November 9\, 2026 · 15:00 ET — https://www.netroadshow.com
+ /events/login/1PeTHmohH5iFmlBDdf5AaOC9Wi6L2FApnqDWj\n  ◦ November 10\, 202
+ 6 · 08:00 UKT — https://www.netroadshow.com/events/login/1PeTHmohYcDPsamJz
+ TZHWqc19Nmcoe6rwqqpk\n  ◦ November 10\, 2026 · 09:00 UKT — https://www.net
+ roadshow.com/events/login/1PeTHmojFCr6I8b5q9E7KHGNjnBWQqsXHhUJ9\n  ◦ Novem
+ ber 10\, 2026 · 10:00 UKT — https://www.netroadshow.com/events/login/1PeTH
+ mohYCIU4eNducFwL9SlySZhgtIqH472i\n• Roadshow: www.netroadshow.com/nrs/home
+ /#!/?show=ec3523d0
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ENGIE SA (ENGIFP)</p><p><strong>Roadshow:</strong> www.netroa
+ dshow.com/nrs/home/#!/?show=ec3523d0</p><p><strong>Deal context:</strong><
+ br>ENGIE SA USD Three-Tranche Green Format Benchmark — Mandate<br>• Issuer
+ : ENGIE SA (ENGIFP)<br>• Expected Ratings: Moody's: Baa1 / S&amp\;P: BBB+ 
+ / Fitch: A-<br>• Book Runners: Barc\, CACIB\, Citi\, JPM\, MUFG\, RBC<br>•
+  Logistics: Barc<br>• Deal Terms: USD three-tranche (3-year\, 10-year and 
+ 30-year) Green Format benchmark\; Senior Unsecured Notes\; 144A/Reg S\; ma
+ y follow\, subject to market conditions<br>• Investor Calls:<br>  ◦ Novemb
+ er 9\, 2026 · 10:30 ET — https://www.netroadshow.com/events/login/1PeTHmoj
+ HADpWM9Gbvv8Ndmlhw8oxaaSSJVfa<br>  ◦ November 9\, 2026 · 11:30 ET — https:
+ //www.netroadshow.com/events/login/1PeTHmohEg4wEHb3rV2m7lwPuJJd3Mbtyf7sn<b
+ r>  ◦ November 9\, 2026 · 12:30 ET — https://www.netroadshow.com/events/lo
+ gin/1PeTHmojHAD7Mfe8WmwOFlTNSuDGEU9WkhvMo<br>  ◦ November 9\, 2026 · 14:00
+  ET — https://www.netroadshow.com/events/login/1PeTHmohVhFAoJtzEq9i1bc1uzm
+ Lra7GdgplY<br>  ◦ November 9\, 2026 · 15:00 ET — https://www.netroadshow.c
+ om/events/login/1PeTHmohH5iFmlBDdf5AaOC9Wi6L2FApnqDWj<br>  ◦ November 10\,
+  2026 · 08:00 UKT — https://www.netroadshow.com/events/login/1PeTHmohYcDPs
+ amJzTZHWqc19Nmcoe6rwqqpk<br>  ◦ November 10\, 2026 · 09:00 UKT — https://w
+ ww.netroadshow.com/events/login/1PeTHmojFCr6I8b5q9E7KHGNjnBWQqsXHhUJ9<br> 
+  ◦ November 10\, 2026 · 10:00 UKT — https://www.netroadshow.com/events/log
+ in/1PeTHmohYCIU4eNducFwL9SlySZhgtIqH472i<br>• Roadshow: www.netroadshow.co
+ m/nrs/home/#!/?show=ec3523d0</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
