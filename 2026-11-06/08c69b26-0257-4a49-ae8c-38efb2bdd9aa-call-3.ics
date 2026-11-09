@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:95020ff24a9bbc2e-3@daily.newissueiq
+DTSTAMP:20261109T142015Z
+DTSTART;TZID=America/New_York:20261109T140000
+DTEND;TZID=America/New_York:20261109T144500
+SUMMARY:NVST — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ENVISTA HOLDINGS CORP (NVST)\nRoadshow: https://dealroadshow.finsi
+ ght.com\n\nDeal context:\nENVISTA HOLDINGS CORP USD Benchmark — Mandate\n•
+  Issuer: ENVISTA HOLDINGS CORP (NVST)\n• Expected Ratings: Moody's: Baa3 /
+  S&P: BBB-\n• Book Runners: BofA\, JPM\, WFS\n• Logistics: JPM\n• Deal Ter
+ ms: USD benchmark\; Senior Unsecured Notes\; SEC Registered\; may follow\,
+  subject to market conditions\n• Investor Calls:\n  ◦ November 9\, 2026 · 
+ 12:00–12:45 ET\n  ◦ November 9\, 2026 · 13:00–13:45 ET\n  ◦ November 9\, 2
+ 026 · 14:00–14:45 ET\n• Roadshow: https://dealroadshow.finsight.com
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ENVISTA HOLDINGS CORP (NVST)</p><p><strong>Roadshow:</strong>
+  https://dealroadshow.finsight.com</p><p><strong>Deal context:</strong><br
+ >ENVISTA HOLDINGS CORP USD Benchmark — Mandate<br>• Issuer: ENVISTA HOLDIN
+ GS CORP (NVST)<br>• Expected Ratings: Moody's: Baa3 / S&amp\;P: BBB-<br>• 
+ Book Runners: BofA\, JPM\, WFS<br>• Logistics: JPM<br>• Deal Terms: USD be
+ nchmark\; Senior Unsecured Notes\; SEC Registered\; may follow\, subject t
+ o market conditions<br>• Investor Calls:<br>  ◦ November 9\, 2026 · 12:00–
+ 12:45 ET<br>  ◦ November 9\, 2026 · 13:00–13:45 ET<br>  ◦ November 9\, 202
+ 6 · 14:00–14:45 ET<br>• Roadshow: https://dealroadshow.finsight.com</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

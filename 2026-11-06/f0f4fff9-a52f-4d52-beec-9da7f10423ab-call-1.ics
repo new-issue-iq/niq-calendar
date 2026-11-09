@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6c723358123abd69-1@daily.newissueiq
+DTSTAMP:20261109T142015Z
+DTSTART;TZID=America/New_York:20261109T110000
+DTEND;TZID=America/New_York:20261109T114500
+SUMMARY:PTON — Global Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PELOTON INTERACTIVE INC (PTON)\nRoadshow: https://evercall.co/oacc
+ /13946\n\nDeal context:\nPELOTON INTERACTIVE INC 5.25NC2.25 $600m — Announ
+ ced\n• Issuer: PELOTON INTERACTIVE INC\n• Ratings: Moody's: Ba3 / S&P: BB 
+ / Fitch: BB+\n• Book Runners: CFG\, GS\, JPM\, KEY\n• Billing & Delivery: 
+ GS\n• Deal Terms: $600 million\; 5.25NC2.25\; Senior Secured Notes\; 144A/
+ Reg S\n• Pricing: IPT Low-Mid 9%\n• Timing: pricing expected This Weeks Bu
+ siness\n• Use of Proceeds: The Issuer intends to use the net proceeds from
+  this offering\, together with cash on hand\, to complete the Credit Facil
+ ities Refinancing and to pay fees and expenses related thereto. Any remain
+ ing net proceeds will be used for general corporate purposes\, which may i
+ nclude\, among other things\, repurchases of our Class A common stock\, ca
+ pital expenditures\, working capital\, acquisitions and other business opp
+ ortunities\n• Investor Calls:\n  ◦ November 9\, 2026 · 11:00 ET\n• Roadsho
+ w: https://evercall.co/oacc/13946\n• Progression:\n  ◦ Announced: $600m · 
+ 5.25NC2.25 · 144A/Reg S\n  ◦ IPT: Low-Mid 9%
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PELOTON INTERACTIVE INC (PTON)</p><p><strong>Roadshow:</stron
+ g> https://evercall.co/oacc/13946</p><p><strong>Deal context:</strong><br>
+ PELOTON INTERACTIVE INC 5.25NC2.25 $600m — Announced<br>• Issuer: PELOTON 
+ INTERACTIVE INC<br>• Ratings: Moody's: Ba3 / S&amp\;P: BB / Fitch: BB+<br>
+ • Book Runners: CFG\, GS\, JPM\, KEY<br>• Billing &amp\; Delivery: GS<br>•
+  Deal Terms: $600 million\; 5.25NC2.25\; Senior Secured Notes\; 144A/Reg S
+ <br>• Pricing: IPT Low-Mid 9%<br>• Timing: pricing expected This Weeks Bus
+ iness<br>• Use of Proceeds: The Issuer intends to use the net proceeds fro
+ m this offering\, together with cash on hand\, to complete the Credit Faci
+ lities Refinancing and to pay fees and expenses related thereto. Any remai
+ ning net proceeds will be used for general corporate purposes\, which may 
+ include\, among other things\, repurchases of our Class A common stock\, c
+ apital expenditures\, working capital\, acquisitions and other business op
+ portunities<br>• Investor Calls:<br>  ◦ November 9\, 2026 · 11:00 ET<br>• 
+ Roadshow: https://evercall.co/oacc/13946<br>• Progression:<br>  ◦ Announce
+ d: $600m · 5.25NC2.25 · 144A/Reg S<br>  ◦ IPT: Low-Mid 9%</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

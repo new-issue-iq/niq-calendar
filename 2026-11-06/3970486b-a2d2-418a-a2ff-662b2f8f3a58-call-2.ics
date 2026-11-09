@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:86256d324acce957-2@daily.newissueiq
+DTSTAMP:20261109T142015Z
+DTSTART;TZID=America/New_York:20261106T120000
+DTEND;TZID=America/New_York:20261106T124500
+SUMMARY:STE — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: STERIS IRISH FINCO UNLIMITED CO (STE)\nRoadshow: https://dealroads
+ how.finsight.com\n\nDeal context:\nSTERIS IRISH FINCO UNLIMITED CO / STERI
+ S IRISH FINCO UNLTD CO USD Dual-Tranche Benchmark — Announced\n• Issuers: 
+ STERIS IRISH FINCO UNLIMITED CO (STE\; 7yr)\, STERIS IRISH FINCO UNLTD CO 
+ (10yr)\n• Ratings: Moody's: Baa1 / S&P: BBB / Fitch: BBB\n• Book Runners: 
+ Citi\, GS\, JPM\n• Billing & Delivery: JPM\n• Deal Terms: USD benchmark\; 
+ dual-tranche (7-year and 10-year)\; Senior Unsecured Notes\; SEC Registere
+ d\n• Call Structure:\n  ◦ 7yr — par call 2 months prior to maturity\n  ◦ 1
+ 0yr — par call 3 months prior to maturity\n• Pricing:\n  ◦ 7yr — IPT T+120
+ A\n  ◦ 10yr — IPT T+130A\n• Timing: pricing expected November 9\, 2026\; s
+ ettlement on November 24\, 2026 (T+10)\n• Use of Proceeds: We intend to us
+ e the net proceeds from this offering\, together with  borrowings under th
+ e Delayed Draw Term Loan and cash on hand\, to  fund the Purchase Price\, 
+ transaction expenses\, general corporate  expenses and working capital nee
+ ds. This offering is not conditioned  on the consummation of the Acquisiti
+ on. However\, if a Special  Mandatory Redemption Event occurs\, the Issuer
+  will be required to  redeem the notes\n• Investor Calls:\n  ◦ November 6\
+ , 2026 · 11:00–11:45 ET\n  ◦ November 6\, 2026 · 12:00–12:45 ET\n  ◦ Novem
+ ber 6\, 2026 · 13:00–13:45 ET\n• Roadshow: https://dealroadshow.finsight.c
+ om\n• Progression:\n  ◦ Announced: USD benchmark · 7yr / 10yr · SEC Regist
+ ered\n  ◦ IPT: 7yr T+120A\; 10yr T+130A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> STERIS IRISH FINCO UNLIMITED CO (STE)</p><p><strong>Roadshow:
+ </strong> https://dealroadshow.finsight.com</p><p><strong>Deal context:</s
+ trong><br>STERIS IRISH FINCO UNLIMITED CO / STERIS IRISH FINCO UNLTD CO US
+ D Dual-Tranche Benchmark — Announced<br>• Issuers: STERIS IRISH FINCO UNLI
+ MITED CO (STE\; 7yr)\, STERIS IRISH FINCO UNLTD CO (10yr)<br>• Ratings: Mo
+ ody's: Baa1 / S&amp\;P: BBB / Fitch: BBB<br>• Book Runners: Citi\, GS\, JP
+ M<br>• Billing &amp\; Delivery: JPM<br>• Deal Terms: USD benchmark\; dual-
+ tranche (7-year and 10-year)\; Senior Unsecured Notes\; SEC Registered<br>
+ • Call Structure:<br>  ◦ 7yr — par call 2 months prior to maturity<br>  ◦ 
+ 10yr — par call 3 months prior to maturity<br>• Pricing:<br>  ◦ 7yr — IPT 
+ T+120A<br>  ◦ 10yr — IPT T+130A<br>• Timing: pricing expected November 9\,
+  2026\; settlement on November 24\, 2026 (T+10)<br>• Use of Proceeds: We i
+ ntend to use the net proceeds from this offering\, together with  borrowin
+ gs under the Delayed Draw Term Loan and cash on hand\, to  fund the Purcha
+ se Price\, transaction expenses\, general corporate  expenses and working 
+ capital needs. This offering is not conditioned  on the consummation of th
+ e Acquisition. However\, if a Special  Mandatory Redemption Event occurs\,
+  the Issuer will be required to  redeem the notes<br>• Investor Calls:<br>
+   ◦ November 6\, 2026 · 11:00–11:45 ET<br>  ◦ November 6\, 2026 · 12:00–12
+ :45 ET<br>  ◦ November 6\, 2026 · 13:00–13:45 ET<br>• Roadshow: https://de
+ alroadshow.finsight.com<br>• Progression:<br>  ◦ Announced: USD benchmark 
+ · 7yr / 10yr · SEC Registered<br>  ◦ IPT: 7yr T+120A\; 10yr T+130A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
