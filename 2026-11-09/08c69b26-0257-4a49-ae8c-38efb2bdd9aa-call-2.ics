@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:017d565d4523e067-2@daily.newissueiq
+DTSTAMP:20261110T142536Z
+DTSTART;TZID=America/New_York:20261109T130000
+DTEND;TZID=America/New_York:20261109T134500
+SUMMARY:NVST — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ENVISTA HOLDINGS CORP (NVST)\nRoadshow: https://dealroadshow.finsi
+ ght.com\n\nDeal context:\nENVISTA HOLDINGS CORP 7-Year $400m — Announced\n
+ • Issuer: ENVISTA HOLDINGS CORP (NVST)\n• Ratings: Moody's: Baa3 / S&P: BB
+ B-\n• Book Runners: BofA\, JPM\, WFS\n• Billing & Delivery: JPM\n• Deal Te
+ rms: $400 million\; 7-year\; Senior Unsecured Notes\; SEC Registered\n• Ca
+ ll Structure: par call 2 months prior to maturity\n• Pricing: IPT T+175A\n
+ • Timing: pricing expected November 10\, 2026\; settlement on November 24\
+ , 2026 (T+9)\n• Use of Proceeds: We intend to use the net proceeds of this
+  offering\, together with cash on hand\, (i) to repay the 2028 Term Loan a
+ nd (ii) for general corporate purposes\n• Investor Calls:\n  ◦ November 9\
+ , 2026 · 12:00–12:45 ET\n  ◦ November 9\, 2026 · 13:00–13:45 ET\n  ◦ Novem
+ ber 9\, 2026 · 14:00–14:45 ET\n• Roadshow: https://dealroadshow.finsight.c
+ om — Passcode: ENVISTA2026\n• Progression:\n  ◦ Announced: $400m · 7yr · S
+ EC Registered\n  ◦ IPT: T+175A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ENVISTA HOLDINGS CORP (NVST)</p><p><strong>Roadshow:</strong>
+  https://dealroadshow.finsight.com</p><p><strong>Deal context:</strong><br
+ >ENVISTA HOLDINGS CORP 7-Year $400m — Announced<br>• Issuer: ENVISTA HOLDI
+ NGS CORP (NVST)<br>• Ratings: Moody's: Baa3 / S&amp\;P: BBB-<br>• Book Run
+ ners: BofA\, JPM\, WFS<br>• Billing &amp\; Delivery: JPM<br>• Deal Terms: 
+ $400 million\; 7-year\; Senior Unsecured Notes\; SEC Registered<br>• Call 
+ Structure: par call 2 months prior to maturity<br>• Pricing: IPT T+175A<br
+ >• Timing: pricing expected November 10\, 2026\; settlement on November 24
+ \, 2026 (T+9)<br>• Use of Proceeds: We intend to use the net proceeds of t
+ his offering\, together with cash on hand\, (i) to repay the 2028 Term Loa
+ n and (ii) for general corporate purposes<br>• Investor Calls:<br>  ◦ Nove
+ mber 9\, 2026 · 12:00–12:45 ET<br>  ◦ November 9\, 2026 · 13:00–13:45 ET<b
+ r>  ◦ November 9\, 2026 · 14:00–14:45 ET<br>• Roadshow: https://dealroadsh
+ ow.finsight.com — Passcode: ENVISTA2026<br>• Progression:<br>  ◦ Announced
+ : $400m · 7yr · SEC Registered<br>  ◦ IPT: T+175A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

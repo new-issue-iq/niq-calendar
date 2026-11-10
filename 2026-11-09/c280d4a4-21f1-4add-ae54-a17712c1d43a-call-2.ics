@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d04ccb851969aab5-2@daily.newissueiq
+DTSTAMP:20261110T142536Z
+DTSTART;TZID=America/New_York:20261109T120000
+DTEND;TZID=America/New_York:20261109T124500
+SUMMARY:PNFP — Call #2
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PINNACLE BANK (PNFP)\nRoadshow: www.netroadshow.com\n\nDeal contex
+ t:\nPINNACLE BANK USD 11NC10 Fix-To-Float Benchmark — Announced\n• Issuer:
+  PINNACLE BANK (PNFP)\n• Ratings: S&P: BBB- / Fitch: BBB-\n• Book Runners:
+  BofA\, Citi\, JPM\n• Billing & Delivery: BofA\n• Deal Terms: USD benchmar
+ k\; 11NC10 fix-to-float\; Subordinated Notes\; 3(a)(2)\n• Call Structure: 
+ par call 12 months prior to maturity\n• Pricing: IPT T+250A\n• Timing: pri
+ cing expected November 10\, 2026\; settlement on November 18\, 2026 (T+5)\
+ n• Use of Proceeds: General Corporate Purposes\n• Investor Calls:\n  ◦ Nov
+ ember 9\, 2026 · 11:00–11:45 ET — https://www.netroadshow.com/events/login
+ /1PeTHmohTihDuLV9GRMchKIjwt1xKQmwdL8lg\n  ◦ November 9\, 2026 · 12:00–12:4
+ 5 ET — https://www.netroadshow.com/events/login/1PeTHmohYb2L21dGloS8W8kGhS
+ UIisNJl1xvp\n  ◦ November 9\, 2026 · 13:00–13:45 ET — https://www.netroads
+ how.com/events/login/1PeTHmojK4b5r8An0c5P7O95DQIVUKWPiZqWU\n• Roadshow: ww
+ w.netroadshow.com\n• Progression:\n  ◦ Announced: USD benchmark · 11NC10 f
+ ix-to-float · 3(a)(2)\n  ◦ IPT: T+250A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PINNACLE BANK (PNFP)</p><p><strong>Roadshow:</strong> www.net
+ roadshow.com</p><p><strong>Deal context:</strong><br>PINNACLE BANK USD 11N
+ C10 Fix-To-Float Benchmark — Announced<br>• Issuer: PINNACLE BANK (PNFP)<b
+ r>• Ratings: S&amp\;P: BBB- / Fitch: BBB-<br>• Book Runners: BofA\, Citi\,
+  JPM<br>• Billing &amp\; Delivery: BofA<br>• Deal Terms: USD benchmark\; 1
+ 1NC10 fix-to-float\; Subordinated Notes\; 3(a)(2)<br>• Call Structure: par
+  call 12 months prior to maturity<br>• Pricing: IPT T+250A<br>• Timing: pr
+ icing expected November 10\, 2026\; settlement on November 18\, 2026 (T+5)
+ <br>• Use of Proceeds: General Corporate Purposes<br>• Investor Calls:<br>
+   ◦ November 9\, 2026 · 11:00–11:45 ET — https://www.netroadshow.com/event
+ s/login/1PeTHmohTihDuLV9GRMchKIjwt1xKQmwdL8lg<br>  ◦ November 9\, 2026 · 1
+ 2:00–12:45 ET — https://www.netroadshow.com/events/login/1PeTHmohYb2L21dGl
+ oS8W8kGhSUIisNJl1xvp<br>  ◦ November 9\, 2026 · 13:00–13:45 ET — https://w
+ ww.netroadshow.com/events/login/1PeTHmojK4b5r8An0c5P7O95DQIVUKWPiZqWU<br>•
+  Roadshow: www.netroadshow.com<br>• Progression:<br>  ◦ Announced: USD ben
+ chmark · 11NC10 fix-to-float · 3(a)(2)<br>  ◦ IPT: T+250A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:STANDARD
+DTSTART:19710101T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19710101T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:afd74c48d493b128-6@daily.newissueiq
+DTSTAMP:20261110T142536Z
+DTSTART;TZID=Europe/London:20261110T080000
+DTEND;TZID=Europe/London:20261110T084500
+SUMMARY:ENGIFP — Call #6
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ENGIE SA (ENGIFP)\nRoadshow: www.netroadshow.com/nrs/home/#!/?show
+ =ec3523d0\n\nDeal context:\nENGIE SA USD Three-Tranche Green Bond Benchmar
+ k — Announced\n• Issuer: ENGIE SA (ENGIFP)\n• Ratings: Moody's: Baa1 / S&P
+ : BBB+ / Fitch: A-\n• Book Runners: Barc\, CACIB\, Citi\, JPM\, MUFG\, RBC
+ \n• Billing & Delivery: Citi\n• Deal Terms: USD benchmark\; three-tranche 
+ (5-year\, 10-year and 30-year)\; Green Bond\; Senior Unsecured Notes\; 144
+ A/Reg S\n• Call Structure:\n  ◦ 5yr — par call 1 month prior to maturity\n
+   ◦ 10yr — par call 3 months prior to maturity\n  ◦ 30yr — par call 6 mont
+ hs prior to maturity\n• Pricing:\n  ◦ 5yr — IPT T+105-110\n  ◦ 10yr — IPT 
+ T+145-150\n  ◦ 30yr — IPT T+160-165\n• Timing: pricing expected November 1
+ 0\, 2026\; settlement on November 18\, 2026 (T+5)\n• Use of Proceeds: Gene
+ ral Corporate Purposes\n• Investor Calls:\n  ◦ November 9\, 2026 · 10:30–1
+ 1:15 ET — https://www.netroadshow.com/events/login/1PeTHmojHADpWM9Gbvv8Ndm
+ lhw8oxaaSSJVfa\n  ◦ November 9\, 2026 · 11:30–12:15 ET — https://www.netro
+ adshow.com/events/login/1PeTHmohEg4wEHb3rV2m7lwPuJJd3Mbtyf7sn\n  ◦ Novembe
+ r 9\, 2026 · 12:30–13:15 ET — https://www.netroadshow.com/events/login/1Pe
+ THmojHAD7Mfe8WmwOFlTNSuDGEU9WkhvMo\n  ◦ November 9\, 2026 · 14:00 ET — htt
+ ps://www.netroadshow.com/events/login/1PeTHmohVhFAoJtzEq9i1bc1uzmLra7Gdgpl
+ Y\n  ◦ November 9\, 2026 · 15:00 ET — https://www.netroadshow.com/events/l
+ ogin/1PeTHmohH5iFmlBDdf5AaOC9Wi6L2FApnqDWj\n  ◦ November 10\, 2026 · 08:00
+ –08:45 UKT — https://www.netroadshow.com/events/login/1PeTHmohYcDPsamJzTZH
+ Wqc19Nmcoe6rwqqpk\n  ◦ November 10\, 2026 · 09:00–09:45 UKT — https://www.
+ netroadshow.com/events/login/1PeTHmojFCr6I8b5q9E7KHGNjnBWQqsXHhUJ9\n  ◦ No
+ vember 10\, 2026 · 10:00–10:45 UKT — https://www.netroadshow.com/events/lo
+ gin/1PeTHmohYCIU4eNducFwL9SlySZhgtIqH472i\n• Roadshow: www.netroadshow.com
+ /nrs/home/#!/?show=ec3523d0\n• Progression:\n  ◦ Announced: USD benchmark 
+ · 5yr / 10yr / 30yr · 144A/Reg S\n  ◦ IPT: 5yr T+105-110\; 10yr T+145-150\
+ ; 30yr T+160-165
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ENGIE SA (ENGIFP)</p><p><strong>Roadshow:</strong> www.netroa
+ dshow.com/nrs/home/#!/?show=ec3523d0</p><p><strong>Deal context:</strong><
+ br>ENGIE SA USD Three-Tranche Green Bond Benchmark — Announced<br>• Issuer
+ : ENGIE SA (ENGIFP)<br>• Ratings: Moody's: Baa1 / S&amp\;P: BBB+ / Fitch: 
+ A-<br>• Book Runners: Barc\, CACIB\, Citi\, JPM\, MUFG\, RBC<br>• Billing 
+ &amp\; Delivery: Citi<br>• Deal Terms: USD benchmark\; three-tranche (5-ye
+ ar\, 10-year and 30-year)\; Green Bond\; Senior Unsecured Notes\; 144A/Reg
+  S<br>• Call Structure:<br>  ◦ 5yr — par call 1 month prior to maturity<br
+ >  ◦ 10yr — par call 3 months prior to maturity<br>  ◦ 30yr — par call 6 m
+ onths prior to maturity<br>• Pricing:<br>  ◦ 5yr — IPT T+105-110<br>  ◦ 10
+ yr — IPT T+145-150<br>  ◦ 30yr — IPT T+160-165<br>• Timing: pricing expect
+ ed November 10\, 2026\; settlement on November 18\, 2026 (T+5)<br>• Use of
+  Proceeds: General Corporate Purposes<br>• Investor Calls:<br>  ◦ November
+  9\, 2026 · 10:30–11:15 ET — https://www.netroadshow.com/events/login/1PeT
+ HmojHADpWM9Gbvv8Ndmlhw8oxaaSSJVfa<br>  ◦ November 9\, 2026 · 11:30–12:15 E
+ T — https://www.netroadshow.com/events/login/1PeTHmohEg4wEHb3rV2m7lwPuJJd3
+ Mbtyf7sn<br>  ◦ November 9\, 2026 · 12:30–13:15 ET — https://www.netroadsh
+ ow.com/events/login/1PeTHmojHAD7Mfe8WmwOFlTNSuDGEU9WkhvMo<br>  ◦ November 
+ 9\, 2026 · 14:00 ET — https://www.netroadshow.com/events/login/1PeTHmohVhF
+ AoJtzEq9i1bc1uzmLra7GdgplY<br>  ◦ November 9\, 2026 · 15:00 ET — https://w
+ ww.netroadshow.com/events/login/1PeTHmohH5iFmlBDdf5AaOC9Wi6L2FApnqDWj<br> 
+  ◦ November 10\, 2026 · 08:00–08:45 UKT — https://www.netroadshow.com/even
+ ts/login/1PeTHmohYcDPsamJzTZHWqc19Nmcoe6rwqqpk<br>  ◦ November 10\, 2026 ·
+  09:00–09:45 UKT — https://www.netroadshow.com/events/login/1PeTHmojFCr6I8
+ b5q9E7KHGNjnBWQqsXHhUJ9<br>  ◦ November 10\, 2026 · 10:00–10:45 UKT — http
+ s://www.netroadshow.com/events/login/1PeTHmohYCIU4eNducFwL9SlySZhgtIqH472i
+ <br>• Roadshow: www.netroadshow.com/nrs/home/#!/?show=ec3523d0<br>• Progre
+ ssion:<br>  ◦ Announced: USD benchmark · 5yr / 10yr / 30yr · 144A/Reg S<br
+ >  ◦ IPT: 5yr T+105-110\; 10yr T+145-150\; 30yr T+160-165</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

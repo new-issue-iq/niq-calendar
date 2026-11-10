@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f6b68320f22f77cf-3@daily.newissueiq
+DTSTAMP:20261110T142536Z
+DTSTART;TZID=America/New_York:20261109T140000
+DTEND;TZID=America/New_York:20261109T144500
+SUMMARY:FOXA — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FOX CORP (FOXA)\nRoadshow: https://dealroadshow.finsight.com/e/FOX
+ 2026\n\nDeal context:\nFOX CORP USD 7-Tranche Benchmark — Announced\n• Iss
+ uer: FOX CORP (FOXA)\n• Ratings: Moody's: Baa2 / S&P: BBB\n• Book Runners:
+  Citi\, DB\, GS\, JPM\, MS\n• Billing & Delivery: 3yr DB\, 5yr DB\, 7yr GS
+ \, 10yr JPM\, 20yr Citi\, 30yr MS\, 40yr MS\n• Deal Terms: USD benchmark\;
+  7-tranche (3-year\, 5-year\, 7-year\, 10-year\, 20-year\, 30-year and 40-
+ year)\; Senior Unsecured Notes\; SEC Registered\n• Call Structure:\n  ◦ 3y
+ r — par call 1 month prior to maturity\n  ◦ 5yr — par call 1 month prior t
+ o maturity\n  ◦ 7yr — par call 2 months prior to maturity\n  ◦ 10yr — par 
+ call 3 months prior to maturity\n  ◦ 20yr — par call 6 months prior to mat
+ urity\n  ◦ 30yr — par call 6 months prior to maturity\n  ◦ 40yr — par call
+  6 months prior to maturity\n• Pricing:\n  ◦ 3yr — IPT T+115\n  ◦ 5yr — IP
+ T T+135\n  ◦ 7yr — IPT T+155\n  ◦ 10yr — IPT T+170\n  ◦ 20yr — IPT T+200\n
+   ◦ 30yr — IPT T+210\n  ◦ 40yr — IPT T+225\n• Timing: pricing expected Nov
+ ember 10\, 2026\; settlement on November 13\, 2026 (T+2)\n• Use of Proceed
+ s: To repay all outstanding borrowings under the Bridge Facility\, with an
+ y remaining net proceeds to be used for general corporate purposes\n• Inve
+ stor Calls:\n  ◦ November 9\, 2026 · 09:00–09:45 PT — https://evercall.co/
+ oacc/25911\n  ◦ November 9\, 2026 · 10:00–10:45 PT — https://evercall.co/o
+ acc/50401\n  ◦ November 9\, 2026 · 11:00–11:45 PT — https://evercall.co/oa
+ cc/77770\n  ◦ Call #1 – 9:00am PT / 12:00pm ET – https://evercall.co/oacc/
+ 25911\n  ◦ Call #2 – 10:00am PT / 1:00pm ET – https://evercall.co/oacc/504
+ 01\n  ◦ Call #3 – 11:00am PT / 2:00pm ET – https://evercall.co/oacc/77770\
+ n• Roadshow: https://dealroadshow.finsight.com/e/FOX2026\n• Progression:\n
+   ◦ Announced: USD benchmark · 3yr / 5yr / 7yr / 10yr / 20yr / 30yr / 40yr
+  · SEC Registered\n  ◦ IPT: 3yr T+115\; 5yr T+135\; 7yr T+155\; 10yr T+170
+ \; 20yr T+200\; 30yr T+210\; 40yr T+225
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FOX CORP (FOXA)</p><p><strong>Roadshow:</strong> https://deal
+ roadshow.finsight.com/e/FOX2026</p><p><strong>Deal context:</strong><br>FO
+ X CORP USD 7-Tranche Benchmark — Announced<br>• Issuer: FOX CORP (FOXA)<br
+ >• Ratings: Moody's: Baa2 / S&amp\;P: BBB<br>• Book Runners: Citi\, DB\, G
+ S\, JPM\, MS<br>• Billing &amp\; Delivery: 3yr DB\, 5yr DB\, 7yr GS\, 10yr
+  JPM\, 20yr Citi\, 30yr MS\, 40yr MS<br>• Deal Terms: USD benchmark\; 7-tr
+ anche (3-year\, 5-year\, 7-year\, 10-year\, 20-year\, 30-year and 40-year)
+ \; Senior Unsecured Notes\; SEC Registered<br>• Call Structure:<br>  ◦ 3yr
+  — par call 1 month prior to maturity<br>  ◦ 5yr — par call 1 month prior 
+ to maturity<br>  ◦ 7yr — par call 2 months prior to maturity<br>  ◦ 10yr —
+  par call 3 months prior to maturity<br>  ◦ 20yr — par call 6 months prior
+  to maturity<br>  ◦ 30yr — par call 6 months prior to maturity<br>  ◦ 40yr
+  — par call 6 months prior to maturity<br>• Pricing:<br>  ◦ 3yr — IPT T+11
+ 5<br>  ◦ 5yr — IPT T+135<br>  ◦ 7yr — IPT T+155<br>  ◦ 10yr — IPT T+170<br
+ >  ◦ 20yr — IPT T+200<br>  ◦ 30yr — IPT T+210<br>  ◦ 40yr — IPT T+225<br>•
+  Timing: pricing expected November 10\, 2026\; settlement on November 13\,
+  2026 (T+2)<br>• Use of Proceeds: To repay all outstanding borrowings unde
+ r the Bridge Facility\, with any remaining net proceeds to be used for gen
+ eral corporate purposes<br>• Investor Calls:<br>  ◦ November 9\, 2026 · 09
+ :00–09:45 PT — https://evercall.co/oacc/25911<br>  ◦ November 9\, 2026 · 1
+ 0:00–10:45 PT — https://evercall.co/oacc/50401<br>  ◦ November 9\, 2026 · 
+ 11:00–11:45 PT — https://evercall.co/oacc/77770<br>  ◦ Call #1 – 9:00am PT
+  / 12:00pm ET – https://evercall.co/oacc/25911<br>  ◦ Call #2 – 10:00am PT
+  / 1:00pm ET – https://evercall.co/oacc/50401<br>  ◦ Call #3 – 11:00am PT 
+ / 2:00pm ET – https://evercall.co/oacc/77770<br>• Roadshow: https://dealro
+ adshow.finsight.com/e/FOX2026<br>• Progression:<br>  ◦ Announced: USD benc
+ hmark · 3yr / 5yr / 7yr / 10yr / 20yr / 30yr / 40yr · SEC Registered<br>  
+ ◦ IPT: 3yr T+115\; 5yr T+135\; 7yr T+155\; 10yr T+170\; 20yr T+200\; 30yr 
+ T+210\; 40yr T+225</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4cfb012462934a25-1@daily.newissueiq
+DTSTAMP:20261110T142536Z
+DTSTART;TZID=America/New_York:20261110T100000
+DTEND;TZID=America/New_York:20261110T104500
+SUMMARY:NLSN — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NEPTUNE BIDCO US INC (NLSN)\n\nDeal context:\nNEPTUNE BIDCO US INC
+  7NC3 $1.4bn — Announced\n• Issuer: NEPTUNE BIDCO US INC\n• Guarantors: Th
+ e Notes will be\, jointly and severally\, unconditionally guaranteed on a 
+ senior secured basis by Parent and each existing and future wholly-owned s
+ ubsidiary of the Issuer that guarantees the Issuer’s obligations under the
+  Issuer’s 2029 Notes\, 2031 Notes and February 2033 Notes and the First Li
+ en Debt Facilities\n• Ratings: Moody's: B3 / S&P: B / Fitch: BB-\n• Book R
+ unners: Barc\, BMO\, BNP\, BofA\, Citi\, GS\, HSBC\, JEF\, KKR\, MIZUHO\, 
+ MS\, MUFG\, Nomura\, TFC\, UBS\n• Billing & Delivery: Citi\n• Deal Terms: 
+ $1.4 billion\; 7NC3\; Senior Secured Notes\; 144A/Reg S\n• Call Structure:
+  make-whole call at T+50\n• Pricing: IPT 10.750%A\n• Timing: pricing expec
+ ted November 10\, 2026\; settlement on November 30\, 2026 (T+12)\n• Use of
+  Proceeds: Proceeds will be used\, together with borrowings under our Term
+  Loan B\, an equity contribution from our Equity Investors\, and cash on h
+ and\, to fund the purchase price for the pending acquisition of DoubleVeri
+ fy Holdings\, Inc. (the "Acquisition") and to pay related fees and expense
+ s\n• Investor Calls:\n  ◦ Date: Tuesday\, November 10th Time: 10:00 AM ET 
+ Webcast Link: https://events.q4inc.com/attendee/216659722 Dial-In Details:
+  North America (Toll-Free): +1 833-461-5787 International (Toll): +1 585-5
+ 42-9983 Access Code: 216 659 722\n• Progression:\n  ◦ Announced: $1.4bn · 
+ 7NC3 · 144A/Reg S\n  ◦ IPT: 10.750%A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NEPTUNE BIDCO US INC (NLSN)</p><p><strong>Deal context:</stro
+ ng><br>NEPTUNE BIDCO US INC 7NC3 $1.4bn — Announced<br>• Issuer: NEPTUNE B
+ IDCO US INC<br>• Guarantors: The Notes will be\, jointly and severally\, u
+ nconditionally guaranteed on a senior secured basis by Parent and each exi
+ sting and future wholly-owned subsidiary of the Issuer that guarantees the
+  Issuer’s obligations under the Issuer’s 2029 Notes\, 2031 Notes and Febru
+ ary 2033 Notes and the First Lien Debt Facilities<br>• Ratings: Moody's: B
+ 3 / S&amp\;P: B / Fitch: BB-<br>• Book Runners: Barc\, BMO\, BNP\, BofA\, 
+ Citi\, GS\, HSBC\, JEF\, KKR\, MIZUHO\, MS\, MUFG\, Nomura\, TFC\, UBS<br>
+ • Billing &amp\; Delivery: Citi<br>• Deal Terms: $1.4 billion\; 7NC3\; Sen
+ ior Secured Notes\; 144A/Reg S<br>• Call Structure: make-whole call at T+5
+ 0<br>• Pricing: IPT 10.750%A<br>• Timing: pricing expected November 10\, 2
+ 026\; settlement on November 30\, 2026 (T+12)<br>• Use of Proceeds: Procee
+ ds will be used\, together with borrowings under our Term Loan B\, an equi
+ ty contribution from our Equity Investors\, and cash on hand\, to fund the
+  purchase price for the pending acquisition of DoubleVerify Holdings\, Inc
+ . (the &quot\;Acquisition&quot\;) and to pay related fees and expenses<br>
+ • Investor Calls:<br>  ◦ Date: Tuesday\, November 10th Time: 10:00 AM ET W
+ ebcast Link: https://events.q4inc.com/attendee/216659722 Dial-In Details: 
+ North America (Toll-Free): +1 833-461-5787 International (Toll): +1 585-54
+ 2-9983 Access Code: 216 659 722<br>• Progression:<br>  ◦ Announced: $1.4bn
+  · 7NC3 · 144A/Reg S<br>  ◦ IPT: 10.750%A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
