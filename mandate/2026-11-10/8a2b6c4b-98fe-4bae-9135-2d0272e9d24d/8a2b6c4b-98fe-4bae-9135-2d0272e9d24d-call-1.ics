@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f8023592edea3dd1-1@daily.newissueiq
+DTSTAMP:20261110T160031Z
+DTSTART;TZID=America/New_York:20261112T100000
+DTEND;TZID=America/New_York:20261112T104500
+SUMMARY:APG — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: API GROUP (APG)\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=6
+ 7538da5\n\nDeal context:\nAPI GROUP 5-Year — Mandate\n• Issuer: API GROUP 
+ (APG)\n• Book Runners: Barc\, JPM\n• Deal Terms: 5-year\; Senior Unsecured
+  Notes\; may follow\, subject to market conditions\n• Investor Calls:\n  ◦
+  November 12\, 2026 · 15:00 UKT — https://www.netroadshow.com/events/login
+ /1PeTHmojCnCl4PubUTAMLetIGMU6bxgSie3Cy\n• Roadshow: www.netroadshow.com/nr
+ s/home/#!/?show=67538da5
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> API GROUP (APG)</p><p><strong>Roadshow:</strong> www.netroads
+ how.com/nrs/home/#!/?show=67538da5</p><p><strong>Deal context:</strong><br
+ >API GROUP 5-Year — Mandate<br>• Issuer: API GROUP (APG)<br>• Book Runners
+ : Barc\, JPM<br>• Deal Terms: 5-year\; Senior Unsecured Notes\; may follow
+ \, subject to market conditions<br>• Investor Calls:<br>  ◦ November 12\, 
+ 2026 · 15:00 UKT — https://www.netroadshow.com/events/login/1PeTHmojCnCl4P
+ ubUTAMLetIGMU6bxgSie3Cy<br>• Roadshow: www.netroadshow.com/nrs/home/#!/?sh
+ ow=67538da5</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
