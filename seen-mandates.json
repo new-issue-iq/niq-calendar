@@ -465,5 +465,21 @@
     ],
     "issuerName": "API GROUP",
     "alertedAt": "2026-11-10T16:00:36.665Z"
+  },
+  {
+    "id": "22cc3994-abd8-467e-83b9-4a1b3d562c9d",
+    "aliases": [
+      "22cc3994-abd8-467e-83b9-4a1b3d562c9d"
+    ],
+    "issuerName": "ACG HOLDCO 1 PLC",
+    "alertedAt": "2026-11-11T12:20:29.936Z"
+  },
+  {
+    "id": "64d295b0-4e56-42cd-8c5e-2a8ee6b51dbc",
+    "aliases": [
+      "64d295b0-4e56-42cd-8c5e-2a8ee6b51dbc"
+    ],
+    "issuerName": "RIVERSTONE INTERNATIONAL HOLDINGS LTD",
+    "alertedAt": "2026-11-11T12:20:32.244Z"
   }
 ]

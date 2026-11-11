@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f1f68b1f9dd1a184-1@daily.newissueiq
+DTSTAMP:20261111T122024Z
+DTSTART;TZID=America/New_York:20261112T090000
+DTEND;TZID=America/New_York:20261112T094500
+SUMMARY:ACGHO — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: ACG HOLDCO 1 PLC (ACGHO)\nRoadshow: https://newsweb.oslobors.no/me
+ ssage/686184\n\nDeal context:\nACG HOLDCO 1 PLC 4-Year $300m — Mandate\n• 
+ Issuer: ACG HOLDCO 1 PLC (ACGHO)\n• Book Runners: Clarksons\n• Logistics: 
+ Clarksons\n• Deal Terms: 4-year $300m\; Senior Secured Notes\; may follow\
+ , subject to market conditions\n• Use of Proceeds: repay in full the Issue
+ r's existing USD 200m senior secured bond at the applicable call premium\,
+  finance capital expenditure\, fund the acquisition cost of the Keskek Lic
+ ence\, and support general corporate purposes\n• Timing: A senior secured 
+ bond issue may follow\, subject to inter alia market conditions.\n• Invest
+ or Calls:\n  ◦ November 12\, 2026 · 09:00 UTC — https://events.teams.micro
+ soft.com/event/5e5435de-2539-4f13-9467-c097af2e8404@ced47db0-d73a-4514-a74
+ d-63af7885ff7d?source=copyLinkLegacyShareEventDialog\n  ◦ November 13\, 20
+ 26 · 14:00 UTC — https://events.teams.microsoft.com/event/ef9bc4c7-0eeb-45
+ 21-81d0-5191046b4679@ced47db0-d73a-4514-a74d-63af7885ff7d?source=copyLinkL
+ egacyShareEventDialog\n• Roadshow: https://newsweb.oslobors.no/message/686
+ 184
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> ACG HOLDCO 1 PLC (ACGHO)</p><p><strong>Roadshow:</strong> htt
+ ps://newsweb.oslobors.no/message/686184</p><p><strong>Deal context:</stron
+ g><br>ACG HOLDCO 1 PLC 4-Year $300m — Mandate<br>• Issuer: ACG HOLDCO 1 PL
+ C (ACGHO)<br>• Book Runners: Clarksons<br>• Logistics: Clarksons<br>• Deal
+  Terms: 4-year $300m\; Senior Secured Notes\; may follow\, subject to mark
+ et conditions<br>• Use of Proceeds: repay in full the Issuer's existing US
+ D 200m senior secured bond at the applicable call premium\, finance capita
+ l expenditure\, fund the acquisition cost of the Keskek Licence\, and supp
+ ort general corporate purposes<br>• Timing: A senior secured bond issue ma
+ y follow\, subject to inter alia market conditions.<br>• Investor Calls:<b
+ r>  ◦ November 12\, 2026 · 09:00 UTC — https://events.teams.microsoft.com/
+ event/5e5435de-2539-4f13-9467-c097af2e8404@ced47db0-d73a-4514-a74d-63af788
+ 5ff7d?source=copyLinkLegacyShareEventDialog<br>  ◦ November 13\, 2026 · 14
+ :00 UTC — https://events.teams.microsoft.com/event/ef9bc4c7-0eeb-4521-81d0
+ -5191046b4679@ced47db0-d73a-4514-a74d-63af7885ff7d?source=copyLinkLegacySh
+ areEventDialog<br>• Roadshow: https://newsweb.oslobors.no/message/686184</
+ p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
