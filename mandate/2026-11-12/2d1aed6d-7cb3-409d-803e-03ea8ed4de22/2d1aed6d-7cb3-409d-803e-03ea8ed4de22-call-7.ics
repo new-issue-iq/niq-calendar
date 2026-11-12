@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:24d6fbba1ddf7fb8-7@daily.newissueiq
+DTSTAMP:20261112T114042Z
+DTSTART;TZID=America/New_York:20261113T100000
+DTEND;TZID=America/New_York:20261113T104500
+SUMMARY:AME — Call #7
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AMETEK INC (AME)\nRoadshow: www.netroadshow.com/nrs/home/#!/?show=
+ 379e1382\n\nDeal context:\nAMETEK INC Four-Tranche Benchmark — Mandate\n• 
+ Issuer: AMETEK INC (AME)\n• Expected Ratings: Moody's: A3 / S&P: BBB+\n• B
+ ook Runners: BNP\, BofA\, JPM\, PNC\, Scotia\, TFC\, WFS\n• Logistics: Bof
+ A\n• Deal Terms: four-tranche (T1\, 4-year\, 8-year and T4) benchmark\; Se
+ nior Unsecured Notes\; SEC Registered\; may follow\, subject to market con
+ ditions\n• Investor Calls:\n  ◦ November 12\, 2026 · 09:00 ET — https://ww
+ w.netroadshow.com/events/login/1PeTHmojEkg3HYucJ6luLEX9tjNIUw1jg61s9\n  ◦ 
+ November 12\, 2026 · 10:00 ET — https://www.netroadshow.com/events/login/1
+ PeTHmohYc7Ha6TEm6mBawpWwUp1Xg4PeLGTq\n  ◦ November 12\, 2026 · 12:00 ET — 
+ https://www.netroadshow.com/events/login/1PeTHmohY84VtKrahPgNko8OsjHIopjS4
+ xXbH\n  ◦ November 12\, 2026 · 13:00 ET — https://www.netroadshow.com/even
+ ts/login/1PeTHmohOr4DcK7dMVV7DhBA0jxyAM3lQcYtA\n  ◦ November 13\, 2026 · 0
+ 7:00 ET — https://www.netroadshow.com/events/login/1PeTHmohTGWuY1bQtEbadCD
+ RddtPrb586WXpv\n  ◦ November 13\, 2026 · 08:00 ET — https://www.netroadsho
+ w.com/events/login/1PeTHmohVkBDGl5Vj7B725lOrl7dFS7d8wnG2\n  ◦ November 13\
+ , 2026 · 10:00 ET — https://www.netroadshow.com/events/login/1PeTHmojHfQst
+ PgF8ZBtGaNrMjHaUwAgdX0dV\n  ◦ November 13\, 2026 · 11:00 ET — https://www.
+ netroadshow.com/events/login/1PeTHmoj7UTLBOL1EMaexnBmIpLS3B4P73Isa\n• Road
+ show: www.netroadshow.com/nrs/home/#!/?show=379e1382
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AMETEK INC (AME)</p><p><strong>Roadshow:</strong> www.netroad
+ show.com/nrs/home/#!/?show=379e1382</p><p><strong>Deal context:</strong><b
+ r>AMETEK INC Four-Tranche Benchmark — Mandate<br>• Issuer: AMETEK INC (AME
+ )<br>• Expected Ratings: Moody's: A3 / S&amp\;P: BBB+<br>• Book Runners: B
+ NP\, BofA\, JPM\, PNC\, Scotia\, TFC\, WFS<br>• Logistics: BofA<br>• Deal 
+ Terms: four-tranche (T1\, 4-year\, 8-year and T4) benchmark\; Senior Unsec
+ ured Notes\; SEC Registered\; may follow\, subject to market conditions<br
+ >• Investor Calls:<br>  ◦ November 12\, 2026 · 09:00 ET — https://www.netr
+ oadshow.com/events/login/1PeTHmojEkg3HYucJ6luLEX9tjNIUw1jg61s9<br>  ◦ Nove
+ mber 12\, 2026 · 10:00 ET — https://www.netroadshow.com/events/login/1PeTH
+ mohYc7Ha6TEm6mBawpWwUp1Xg4PeLGTq<br>  ◦ November 12\, 2026 · 12:00 ET — ht
+ tps://www.netroadshow.com/events/login/1PeTHmohY84VtKrahPgNko8OsjHIopjS4xX
+ bH<br>  ◦ November 12\, 2026 · 13:00 ET — https://www.netroadshow.com/even
+ ts/login/1PeTHmohOr4DcK7dMVV7DhBA0jxyAM3lQcYtA<br>  ◦ November 13\, 2026 ·
+  07:00 ET — https://www.netroadshow.com/events/login/1PeTHmohTGWuY1bQtEbad
+ CDRddtPrb586WXpv<br>  ◦ November 13\, 2026 · 08:00 ET — https://www.netroa
+ dshow.com/events/login/1PeTHmohVkBDGl5Vj7B725lOrl7dFS7d8wnG2<br>  ◦ Novemb
+ er 13\, 2026 · 10:00 ET — https://www.netroadshow.com/events/login/1PeTHmo
+ jHfQstPgF8ZBtGaNrMjHaUwAgdX0dV<br>  ◦ November 13\, 2026 · 11:00 ET — http
+ s://www.netroadshow.com/events/login/1PeTHmoj7UTLBOL1EMaexnBmIpLS3B4P73Isa
+ <br>• Roadshow: www.netroadshow.com/nrs/home/#!/?show=379e1382</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

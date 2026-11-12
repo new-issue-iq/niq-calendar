@@ -481,5 +481,13 @@
     ],
     "issuerName": "RIVERSTONE INTERNATIONAL HOLDINGS LTD",
     "alertedAt": "2026-11-11T12:20:32.244Z"
+  },
+  {
+    "id": "2d1aed6d-7cb3-409d-803e-03ea8ed4de22",
+    "aliases": [
+      "2d1aed6d-7cb3-409d-803e-03ea8ed4de22"
+    ],
+    "issuerName": "AMETEK INC",
+    "alertedAt": "2026-11-12T11:40:49.560Z"
   }
 ]
