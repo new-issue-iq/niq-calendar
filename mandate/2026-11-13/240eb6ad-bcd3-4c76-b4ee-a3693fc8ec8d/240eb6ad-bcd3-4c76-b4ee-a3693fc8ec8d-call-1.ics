@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0b859e0a1c88bf35-1@daily.newissueiq
+DTSTAMP:20261113T141045Z
+DTSTART;TZID=America/New_York:20261113T110000
+DTEND;TZID=America/New_York:20261113T114500
+SUMMARY:LPLA — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: LPL HOLDINGS INC (LPLA)\nRoadshow: https://dealroadshow.finsight.c
+ om/e/LPLFH26\n\nDeal context:\nLPL HOLDINGS INC USD 3-Year — Mandate\n• Is
+ suer: LPL HOLDINGS INC (LPLA)\n• Expected Ratings: Moody's: Baa3 / S&P: BB
+ B- / Fitch: BBB\n• Book Runners: CFG\, Citi\, JPM\, TFC\, USB\n• Logistics
+ : USB\n• Deal Terms: USD 3-year\; Senior Unsecured Notes\; SEC Registered\
+ ; may follow\, subject to market conditions\n• Investor Calls:\n  ◦ Novemb
+ er 13\, 2026 · 11:00–11:45 ET — https://evercall.co/oacc/69678\n  ◦ Novemb
+ er 13\, 2026 · 14:00–14:45 ET — https://evercall.co/oacc/30281\n• Roadshow
+ : https://dealroadshow.finsight.com/e/LPLFH26
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> LPL HOLDINGS INC (LPLA)</p><p><strong>Roadshow:</strong> http
+ s://dealroadshow.finsight.com/e/LPLFH26</p><p><strong>Deal context:</stron
+ g><br>LPL HOLDINGS INC USD 3-Year — Mandate<br>• Issuer: LPL HOLDINGS INC 
+ (LPLA)<br>• Expected Ratings: Moody's: Baa3 / S&amp\;P: BBB- / Fitch: BBB<
+ br>• Book Runners: CFG\, Citi\, JPM\, TFC\, USB<br>• Logistics: USB<br>• D
+ eal Terms: USD 3-year\; Senior Unsecured Notes\; SEC Registered\; may foll
+ ow\, subject to market conditions<br>• Investor Calls:<br>  ◦ November 13\
+ , 2026 · 11:00–11:45 ET — https://evercall.co/oacc/69678<br>  ◦ November 1
+ 3\, 2026 · 14:00–14:45 ET — https://evercall.co/oacc/30281<br>• Roadshow: 
+ https://dealroadshow.finsight.com/e/LPLFH26</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

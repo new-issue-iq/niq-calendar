@@ -489,5 +489,13 @@
     ],
     "issuerName": "AMETEK INC",
     "alertedAt": "2026-11-12T11:40:49.560Z"
+  },
+  {
+    "id": "240eb6ad-bcd3-4c76-b4ee-a3693fc8ec8d",
+    "aliases": [
+      "240eb6ad-bcd3-4c76-b4ee-a3693fc8ec8d"
+    ],
+    "issuerName": "LPL HOLDINGS INC",
+    "alertedAt": "2026-11-13T14:10:54.684Z"
   }
 ]
