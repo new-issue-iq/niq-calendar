@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f599e252e79c5ead-2@daily.newissueiq
+DTSTAMP:20261116T142304Z
+DTSTART;TZID=America/New_York:20261113T110000
+DTEND;TZID=America/New_York:20261113T114500
+SUMMARY:LPLA — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: LPL HOLDINGS INC (LPLA)\nRoadshow: https://dealroadshow.finsight.c
+ om/e/LPLFH26\n\nDeal context:\nLPL HOLDINGS INC USD 3-Year Benchmark — Ann
+ ounced\n• Issuer: LPL HOLDINGS INC (LPLA)\n• Guarantor: LPL FINANCIAL HOLD
+ INGS INC\n• Ratings: Moody's: Baa3 / S&P: BBB- / Fitch: BBB\n• Book Runner
+ s: CFG\, Citi\, JPM\, TFC\, USB\n• Billing & Delivery: USB\n• Deal Terms: 
+ USD benchmark\; 3-year\; Senior Unsecured Notes\; SEC Registered\n• Call S
+ tructure: par call 1 month prior to maturity\n• Pricing: IPT T+135A\n• Tim
+ ing: pricing expected November 16\, 2026\; settlement on November 18\, 202
+ 6 (T+2)\n• Use of Proceeds: To repay outstanding borrowings under the Revo
+ lving Credit Facility and for general corporate purposes\n• Investor Calls
+ :\n  ◦ November 13\, 2026 · 11:00–11:45 ET — https://evercall.co/oacc/6967
+ 8\n  ◦ November 13\, 2026 · 14:00–14:45 ET — https://evercall.co/oacc/3028
+ 1\n• Roadshow: https://dealroadshow.finsight.com/e/LPLFH26\n• Progression:
+ \n  ◦ Announced: USD benchmark · 3yr · SEC Registered\n  ◦ IPT: T+135A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> LPL HOLDINGS INC (LPLA)</p><p><strong>Roadshow:</strong> http
+ s://dealroadshow.finsight.com/e/LPLFH26</p><p><strong>Deal context:</stron
+ g><br>LPL HOLDINGS INC USD 3-Year Benchmark — Announced<br>• Issuer: LPL H
+ OLDINGS INC (LPLA)<br>• Guarantor: LPL FINANCIAL HOLDINGS INC<br>• Ratings
+ : Moody's: Baa3 / S&amp\;P: BBB- / Fitch: BBB<br>• Book Runners: CFG\, Cit
+ i\, JPM\, TFC\, USB<br>• Billing &amp\; Delivery: USB<br>• Deal Terms: USD
+  benchmark\; 3-year\; Senior Unsecured Notes\; SEC Registered<br>• Call St
+ ructure: par call 1 month prior to maturity<br>• Pricing: IPT T+135A<br>• 
+ Timing: pricing expected November 16\, 2026\; settlement on November 18\, 
+ 2026 (T+2)<br>• Use of Proceeds: To repay outstanding borrowings under the
+  Revolving Credit Facility and for general corporate purposes<br>• Investo
+ r Calls:<br>  ◦ November 13\, 2026 · 11:00–11:45 ET — https://evercall.co/
+ oacc/69678<br>  ◦ November 13\, 2026 · 14:00–14:45 ET — https://evercall.c
+ o/oacc/30281<br>• Roadshow: https://dealroadshow.finsight.com/e/LPLFH26<br
+ >• Progression:<br>  ◦ Announced: USD benchmark · 3yr · SEC Registered<br>
+   ◦ IPT: T+135A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:675fb33a459d65d8-1@daily.newissueiq
+DTSTAMP:20261116T142304Z
+DTSTART;TZID=America/New_York:20261117T110000
+DTEND;TZID=America/New_York:20261117T114500
+SUMMARY:DE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: MOZART MERGER SUB DE INC (DE)\nRoadshow: https://dealroadshow.fins
+ ight.com/e/MOZARTFIN\n\nDeal context:\nMOZART MERGER SUB DE INC 7NC3 $650m
+  — Announced\n• Issuer: MOZART MERGER SUB DE INC (DE)\n• Guarantor: MOZART
+  PARENT LLC\n• Ratings: Moody's: B2 / S&P: B- / Fitch: BB\n• Book Runners:
+  Citi\, COF\, JEF\, JPM\, RBC\, UBS\n• Billing & Delivery: JPM\n• Deal Ter
+ ms: $650 million\; 7NC3\; Senior Secured Notes\; 144A/Reg S\n• Call Struct
+ ure: make-whole call at T+50\n• Pricing: IPT 9%A\n• Timing: pricing expect
+ ed November 17\, 2026\n• Use of Proceeds: Support the take private acquisi
+ tion of CCC Intelligent Solutions Holdings Inc. by GTCR and Elliott\, refi
+ nancing of existing indebtedness and pay related fees and expenses\n• Inve
+ stor Calls:\n  ◦ November 17\, 2026 · 11:00 ET — Passcode: 13564\n  ◦ Inve
+ stor call at 11 AM ET\, details below Participant Access Code: 13564 Parti
+ cipant US Toll-Free #: +1-888-700-7550 Participant US (Local) #: +1-929-27
+ 2-1574 Participant International #: +44-20-3393-2871\n• Roadshow: https://
+ dealroadshow.finsight.com/e/MOZARTFIN\n• Progression:\n  ◦ Announced: $650
+ m · 7NC3 · 144A/Reg S\n  ◦ IPT: 9%A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> MOZART MERGER SUB DE INC (DE)</p><p><strong>Roadshow:</strong
+ > https://dealroadshow.finsight.com/e/MOZARTFIN</p><p><strong>Deal context
+ :</strong><br>MOZART MERGER SUB DE INC 7NC3 $650m — Announced<br>• Issuer:
+  MOZART MERGER SUB DE INC (DE)<br>• Guarantor: MOZART PARENT LLC<br>• Rati
+ ngs: Moody's: B2 / S&amp\;P: B- / Fitch: BB<br>• Book Runners: Citi\, COF\
+ , JEF\, JPM\, RBC\, UBS<br>• Billing &amp\; Delivery: JPM<br>• Deal Terms:
+  $650 million\; 7NC3\; Senior Secured Notes\; 144A/Reg S<br>• Call Structu
+ re: make-whole call at T+50<br>• Pricing: IPT 9%A<br>• Timing: pricing exp
+ ected November 17\, 2026<br>• Use of Proceeds: Support the take private ac
+ quisition of CCC Intelligent Solutions Holdings Inc. by GTCR and Elliott\,
+  refinancing of existing indebtedness and pay related fees and expenses<br
+ >• Investor Calls:<br>  ◦ November 17\, 2026 · 11:00 ET — Passcode: 13564<
+ br>  ◦ Investor call at 11 AM ET\, details below Participant Access Code: 
+ 13564 Participant US Toll-Free #: +1-888-700-7550 Participant US (Local) #
+ : +1-929-272-1574 Participant International #: +44-20-3393-2871<br>• Roads
+ how: https://dealroadshow.finsight.com/e/MOZARTFIN<br>• Progression:<br>  
+ ◦ Announced: $650m · 7NC3 · 144A/Reg S<br>  ◦ IPT: 9%A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

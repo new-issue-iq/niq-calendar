@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b181a517009153cc-1@daily.newissueiq
+DTSTAMP:20261116T142304Z
+DTSTART;TZID=America/New_York:20261117T110000
+DTEND;TZID=America/New_York:20261117T114500
+SUMMARY:SAN MATEO MIDSTREAM LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SAN MATEO MIDSTREAM LLC\nRoadshow: https://dealroadshow.finsight.c
+ om/e/SANMATEO2026\n\nDeal context:\nSAN MATEO MIDSTREAM LLC 5NC2 $750m — A
+ nnounced\n• Issuer: SAN MATEO MIDSTREAM LLC\n• Book Runners: Academy\, Bof
+ A\, CFG\, COF\, FITB\, JPM\, KEY\, MIZUHO\, MUFG\, PNC\, RBC\, TD\, TFC\, 
+ WFS\n• Billing & Delivery: JPM\n• Deal Terms: $750 million\; 5NC2\; Senior
+  Unsecured Notes\; 144A/Reg S\n• Pricing: IPT 7.25-7.375%\n• Timing: prici
+ ng expected November 17\, 2026\n• Use of Proceeds: Fully repay the Term Lo
+ an A and partially repay the Revolving Credit Facility\n• Investor Calls:\
+ n  ◦ November 17\, 2026 · 11:00 ET — Passcode: 55893\n  ◦ Investor call at
+  11 AM ET\, details below Participant Access Code: 55893 Participant US To
+ ll-Free #: +1-888-700-7550 Participant US (Local) #: +1-929-272-1574 Parti
+ cipant International #: +44-20-3393-2871\n• Roadshow: https://dealroadshow
+ .finsight.com/e/SANMATEO2026\n• Progression:\n  ◦ Announced: $750m · 5NC2 
+ · 144A/Reg S\n  ◦ IPT: 7.25-7.375%
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SAN MATEO MIDSTREAM LLC</p><p><strong>Roadshow:</strong> http
+ s://dealroadshow.finsight.com/e/SANMATEO2026</p><p><strong>Deal context:</
+ strong><br>SAN MATEO MIDSTREAM LLC 5NC2 $750m — Announced<br>• Issuer: SAN
+  MATEO MIDSTREAM LLC<br>• Book Runners: Academy\, BofA\, CFG\, COF\, FITB\
+ , JPM\, KEY\, MIZUHO\, MUFG\, PNC\, RBC\, TD\, TFC\, WFS<br>• Billing &amp
+ \; Delivery: JPM<br>• Deal Terms: $750 million\; 5NC2\; Senior Unsecured N
+ otes\; 144A/Reg S<br>• Pricing: IPT 7.25-7.375%<br>• Timing: pricing expec
+ ted November 17\, 2026<br>• Use of Proceeds: Fully repay the Term Loan A a
+ nd partially repay the Revolving Credit Facility<br>• Investor Calls:<br> 
+  ◦ November 17\, 2026 · 11:00 ET — Passcode: 55893<br>  ◦ Investor call at
+  11 AM ET\, details below Participant Access Code: 55893 Participant US To
+ ll-Free #: +1-888-700-7550 Participant US (Local) #: +1-929-272-1574 Parti
+ cipant International #: +44-20-3393-2871<br>• Roadshow: https://dealroadsh
+ ow.finsight.com/e/SANMATEO2026<br>• Progression:<br>  ◦ Announced: $750m ·
+  5NC2 · 144A/Reg S<br>  ◦ IPT: 7.25-7.375%</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

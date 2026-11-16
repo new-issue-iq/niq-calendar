@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0e7c9ef7d9479031-3@daily.newissueiq
+DTSTAMP:20261116T142304Z
+DTSTART;TZID=America/New_York:20261116T120000
+DTEND;TZID=America/New_York:20261116T124500
+SUMMARY:SUFP — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SCHNEIDER ELECTRIC SE (SUFP)\nRoadshow: https://dealroadshow.finsi
+ ght.com/e/SUFP26USD\n\nDeal context:\nSCHNEIDER ELECTRIC SE USD 8-Tranche 
+ Benchmark — Mandate\n• Issuer: SCHNEIDER ELECTRIC SE (SUFP)\n• Expected Ra
+ tings: Moody's: A2 / S&P: A\n• Book Runners: BBVA\, BofA\, JPM\, MS\, MUFG
+ \, SANTAN\, SOCGEN\, StanChart\n• Logistics: MS\n• Deal Terms: USD 8-tranc
+ he (2yr fixed\, 3yr fixed\, 3yr FRN\, 5yr fixed\, 7yr fixed\, 10yr fixed\,
+  20yr fixed and 30yr fixed) benchmark\; Senior Unsecured Notes\; 144A/Reg 
+ S\; may follow\, subject to market conditions\n• Investor Calls:\n  ◦ Nove
+ mber 16\, 2026 · 10:00 EST — https://evercall.co/oacc/44073\n  ◦ November 
+ 16\, 2026 · 11:00 EST — https://evercall.co/oacc/25353\n  ◦ November 16\, 
+ 2026 · 12:00 EST — https://evercall.co/oacc/14645\n  ◦ November 16\, 2026 
+ · 13:00 EST — https://evercall.co/oacc/41235\n• Roadshow: https://dealroad
+ show.finsight.com/e/SUFP26USD
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SCHNEIDER ELECTRIC SE (SUFP)</p><p><strong>Roadshow:</strong>
+  https://dealroadshow.finsight.com/e/SUFP26USD</p><p><strong>Deal context:
+ </strong><br>SCHNEIDER ELECTRIC SE USD 8-Tranche Benchmark — Mandate<br>• 
+ Issuer: SCHNEIDER ELECTRIC SE (SUFP)<br>• Expected Ratings: Moody's: A2 / 
+ S&amp\;P: A<br>• Book Runners: BBVA\, BofA\, JPM\, MS\, MUFG\, SANTAN\, SO
+ CGEN\, StanChart<br>• Logistics: MS<br>• Deal Terms: USD 8-tranche (2yr fi
+ xed\, 3yr fixed\, 3yr FRN\, 5yr fixed\, 7yr fixed\, 10yr fixed\, 20yr fixe
+ d and 30yr fixed) benchmark\; Senior Unsecured Notes\; 144A/Reg S\; may fo
+ llow\, subject to market conditions<br>• Investor Calls:<br>  ◦ November 1
+ 6\, 2026 · 10:00 EST — https://evercall.co/oacc/44073<br>  ◦ November 16\,
+  2026 · 11:00 EST — https://evercall.co/oacc/25353<br>  ◦ November 16\, 20
+ 26 · 12:00 EST — https://evercall.co/oacc/14645<br>  ◦ November 16\, 2026 
+ · 13:00 EST — https://evercall.co/oacc/41235<br>• Roadshow: https://dealro
+ adshow.finsight.com/e/SUFP26USD</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

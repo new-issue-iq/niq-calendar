@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:de0909b04ebd05f7-1@daily.newissueiq
+DTSTAMP:20261116T142304Z
+DTSTART;TZID=America/New_York:20261116T110000
+DTEND;TZID=America/New_York:20261116T114500
+SUMMARY:FOURPOINT RESOURCES INTERMEDIATE HOLDINGS LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: FOURPOINT RESOURCES INTERMEDIATE HOLDINGS LLC\nRoadshow: https://w
+ ww.netroadshow.com/events/login/1PeTHmohMTAkRvRBLUXM3HPf8fNxRpcBr449b\n\nD
+ eal context:\nFOURPOINT RESOURCES INTERMEDIATE HOLDINGS LLC 5NC2 $550m — A
+ nnounced\n• Issuer: FOURPOINT RESOURCES INTERMEDIATE HOLDINGS LLC\n• Book 
+ Runners: BofA\, COF\, FITB\, JPM\, KEY\, PNC\, TFC\, WFS\n• Billing & Deli
+ very: WFS\n• Deal Terms: $550 million\; 5NC2\; Senior Unsecured Notes\; 14
+ 4A/Reg S\n• Timing: pricing expected November 17\, 2026\; settlement on No
+ vember 23\, 2026 (T+4)\n• Use of Proceeds: Repay in full outstanding borro
+ wings under the Issuer's Second Lien Credit Facility\, including the relat
+ ed prepayment premium and repay a portion of the outstanding borrowings un
+ der the Issuer's Revolving Credit Facility\, together with the payment of 
+ transaction fees and expenses\n• Investor Calls:\n  ◦ November 16\, 2026 ·
+  11:00 ET\n• Roadshow: https://www.netroadshow.com/events/login/1PeTHmohMT
+ AkRvRBLUXM3HPf8fNxRpcBr449b\n• Progression:\n  ◦ Announced: $550m · 5NC2 ·
+  144A/Reg S
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> FOURPOINT RESOURCES INTERMEDIATE HOLDINGS LLC</p><p><strong>R
+ oadshow:</strong> https://www.netroadshow.com/events/login/1PeTHmohMTAkRvR
+ BLUXM3HPf8fNxRpcBr449b</p><p><strong>Deal context:</strong><br>FOURPOINT R
+ ESOURCES INTERMEDIATE HOLDINGS LLC 5NC2 $550m — Announced<br>• Issuer: FOU
+ RPOINT RESOURCES INTERMEDIATE HOLDINGS LLC<br>• Book Runners: BofA\, COF\,
+  FITB\, JPM\, KEY\, PNC\, TFC\, WFS<br>• Billing &amp\; Delivery: WFS<br>•
+  Deal Terms: $550 million\; 5NC2\; Senior Unsecured Notes\; 144A/Reg S<br>
+ • Timing: pricing expected November 17\, 2026\; settlement on November 23\
+ , 2026 (T+4)<br>• Use of Proceeds: Repay in full outstanding borrowings un
+ der the Issuer's Second Lien Credit Facility\, including the related prepa
+ yment premium and repay a portion of the outstanding borrowings under the 
+ Issuer's Revolving Credit Facility\, together with the payment of transact
+ ion fees and expenses<br>• Investor Calls:<br>  ◦ November 16\, 2026 · 11:
+ 00 ET<br>• Roadshow: https://www.netroadshow.com/events/login/1PeTHmohMTAk
+ RvRBLUXM3HPf8fNxRpcBr449b<br>• Progression:<br>  ◦ Announced: $550m · 5NC2
+  · 144A/Reg S</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

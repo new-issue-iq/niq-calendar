@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5d72c6b301f56012-1@daily.newissueiq
+DTSTAMP:20261116T142304Z
+DTSTART;TZID=America/New_York:20260331T103000
+DTEND;TZID=America/New_York:20260331T111500
+SUMMARY:SKE — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SKEENA RESOURCES LTD (SKE)\nRoadshow: https://www.netroadshow.com/
+ events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2RteRCK\n\nDeal context:\nSKEENA 
+ RESOURCES LTD 5NC2 $750m — Guidance\n• Issuer: SKEENA RESOURCES LTD (SKE)\
+ n• Ratings: Moody's: Caa1 / S&P: B-\n• Book Runners: BMO\, BofA\, GS\, JEF
+ \, JPM\, KKR\, UBS\n• Billing & Delivery: BofA\n• Deal Terms: $750 million
+ \; 5NC2\; Senior Secured Notes\; 144A/Reg S\n• Pricing: guidance 8.75%A\n•
+  Timing: pricing expected April 1\, 2026\n• Use of Proceeds: Net proceeds 
+ intended to be used to complete the Stream Buy-Down\, to fund the Interest
+  Reserve Account and the Disbursement Account\, for the payment of related
+  transaction fees and expenditures and to add cash to our balance sheet\, 
+ which may be used for\, among other things\, general corporate purposes\n•
+  Investor Calls:\n  ◦ March 31\, 2026 · 10:30 ET — https://www.netroadshow
+ .com/events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2RteRCK — Passcode: SKE2026\
+ n  ◦ Tuesday\, March 31st at 10:30 AM ET Replay Link: https://www.netroads
+ how.com/events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2RteRCK Slides Only: www.
+ netroadshow.com<http://www.netroadshow.com> Entry Code: SKE2026\n• Roadsho
+ w: https://www.netroadshow.com/events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2R
+ teRCK — Passcode: SKE2026\n• Progression:\n  ◦ Announced: 5NC2 · 144A/Reg 
+ S\n  ◦ Guidance: 8.75%A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SKEENA RESOURCES LTD (SKE)</p><p><strong>Roadshow:</strong> h
+ ttps://www.netroadshow.com/events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2RteRC
+ K</p><p><strong>Deal context:</strong><br>SKEENA RESOURCES LTD 5NC2 $750m 
+ — Guidance<br>• Issuer: SKEENA RESOURCES LTD (SKE)<br>• Ratings: Moody's: 
+ Caa1 / S&amp\;P: B-<br>• Book Runners: BMO\, BofA\, GS\, JEF\, JPM\, KKR\,
+  UBS<br>• Billing &amp\; Delivery: BofA<br>• Deal Terms: $750 million\; 5N
+ C2\; Senior Secured Notes\; 144A/Reg S<br>• Pricing: guidance 8.75%A<br>• 
+ Timing: pricing expected April 1\, 2026<br>• Use of Proceeds: Net proceeds
+  intended to be used to complete the Stream Buy-Down\, to fund the Interes
+ t Reserve Account and the Disbursement Account\, for the payment of relate
+ d transaction fees and expenditures and to add cash to our balance sheet\,
+  which may be used for\, among other things\, general corporate purposes<b
+ r>• Investor Calls:<br>  ◦ March 31\, 2026 · 10:30 ET — https://www.netroa
+ dshow.com/events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2RteRCK — Passcode: SKE
+ 2026<br>  ◦ Tuesday\, March 31st at 10:30 AM ET Replay Link: https://www.n
+ etroadshow.com/events/login/LE9zwo4AqXQWrFJhX5MkpOG7vp6v2RteRCK Slides Onl
+ y: www.netroadshow.com&lt\;http://www.netroadshow.com&gt\; Entry Code: SKE
+ 2026<br>• Roadshow: https://www.netroadshow.com/events/login/LE9zwo4AqXQWr
+ FJhX5MkpOG7vp6v2RteRCK — Passcode: SKE2026<br>• Progression:<br>  ◦ Announ
+ ced: 5NC2 · 144A/Reg S<br>  ◦ Guidance: 8.75%A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
