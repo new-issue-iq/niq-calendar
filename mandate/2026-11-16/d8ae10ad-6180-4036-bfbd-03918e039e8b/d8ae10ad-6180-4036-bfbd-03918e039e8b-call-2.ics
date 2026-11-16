@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9a847a7e05b724d3-2@daily.newissueiq
+DTSTAMP:20261116T142134Z
+DTSTART;TZID=America/New_York:20261116T124500
+DTEND;TZID=America/New_York:20261116T133000
+SUMMARY:BASINE — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)\nRoadshow: www.netroadsh
+ ow.com/nrs/home/#!/?show=e69c69dd\n\nDeal context:\nBASIN ELECTRIC POWER C
+ OOPERATIVE — Mandate\n• Issuer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)\
+ n• Book Runners: BMO\, BofA\, RBC\n• Logistics: RBC\n• Deal Terms: 144A/Re
+ g S\; may follow\, subject to market conditions\n• Investor Calls:\n  ◦ No
+ vember 16\, 2026 · 12:00–12:45 ET\n  ◦ November 16\, 2026 · 13:00–13:45 ET
+ \n  ◦ November 16\, 2026 · 14:00–14:45 ET\n• Roadshow: www.netroadshow.com
+ /nrs/home/#!/?show=e69c69dd
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BASIN ELECTRIC POWER COOPERATIVE (BASINE)</p><p><strong>Roads
+ how:</strong> www.netroadshow.com/nrs/home/#!/?show=e69c69dd</p><p><strong
+ >Deal context:</strong><br>BASIN ELECTRIC POWER COOPERATIVE — Mandate<br>•
+  Issuer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)<br>• Book Runners: BMO\
+ , BofA\, RBC<br>• Logistics: RBC<br>• Deal Terms: 144A/Reg S\; may follow\
+ , subject to market conditions<br>• Investor Calls:<br>  ◦ November 16\, 2
+ 026 · 12:00–12:45 ET<br>  ◦ November 16\, 2026 · 13:00–13:45 ET<br>  ◦ Nov
+ ember 16\, 2026 · 14:00–14:45 ET<br>• Roadshow: www.netroadshow.com/nrs/ho
+ me/#!/?show=e69c69dd</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

@@ -503,5 +503,21 @@
     ],
     "issuerName": "SCHNEIDER ELECTRIC SE",
     "alertedAt": "2026-11-16T13:01:32.694Z"
+  },
+  {
+    "id": "b555b670-d956-4488-8bfb-08689a2a041f",
+    "aliases": [
+      "b555b670-d956-4488-8bfb-08689a2a041f"
+    ],
+    "issuerName": "NEVADA POWER CO",
+    "alertedAt": "2026-11-16T14:21:34.063Z"
+  },
+  {
+    "id": "d8ae10ad-6180-4036-bfbd-03918e039e8b",
+    "aliases": [
+      "d8ae10ad-6180-4036-bfbd-03918e039e8b"
+    ],
+    "issuerName": "BASIN ELECTRIC POWER COOPERATIVE",
+    "alertedAt": "2026-11-16T14:21:37.515Z"
   }
 ]

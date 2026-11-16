@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:faeb053331fbb6bb-1@daily.newissueiq
+DTSTAMP:20261116T142125Z
+DTSTART;TZID=America/New_York:20261116T120000
+DTEND;TZID=America/New_York:20261116T124500
+SUMMARY:BRKHEC — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NEVADA POWER CO (BRKHEC)\nRoadshow: https://dealroadshow.finsight.
+ com/e/NPC2026\n\nDeal context:\nNEVADA POWER CO USD Dual-Tranche — Mandate
+ \n• Issuer: NEVADA POWER CO (BRKHEC)\n• Expected Ratings: Moody's: A2 / S&
+ P: A\n• Book Runners: BofA\, CIBC\, Citi\, MUFG\, SMBC\, USB\n• Logistics:
+  MUFG\n• Deal Terms: USD dual-tranche (T1 and T2 fixed-rate-reset)\; Junio
+ r Subordinated Notes\; SEC Registered\; may follow\, subject to market con
+ ditions\n• Investor Calls:\n  ◦ November 16\, 2026 · 12:00–12:45 ET — http
+ s://evercall.co/oacc/15846\n  ◦ November 16\, 2026 · 13:00–13:45 ET — http
+ s://evercall.co/oacc/80092\n  ◦ November 16\, 2026 · 14:00–14:45 ET — http
+ s://evercall.co/oacc/15902\n• Roadshow: https://dealroadshow.finsight.com/
+ e/NPC2026
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NEVADA POWER CO (BRKHEC)</p><p><strong>Roadshow:</strong> htt
+ ps://dealroadshow.finsight.com/e/NPC2026</p><p><strong>Deal context:</stro
+ ng><br>NEVADA POWER CO USD Dual-Tranche — Mandate<br>• Issuer: NEVADA POWE
+ R CO (BRKHEC)<br>• Expected Ratings: Moody's: A2 / S&amp\;P: A<br>• Book R
+ unners: BofA\, CIBC\, Citi\, MUFG\, SMBC\, USB<br>• Logistics: MUFG<br>• D
+ eal Terms: USD dual-tranche (T1 and T2 fixed-rate-reset)\; Junior Subordin
+ ated Notes\; SEC Registered\; may follow\, subject to market conditions<br
+ >• Investor Calls:<br>  ◦ November 16\, 2026 · 12:00–12:45 ET — https://ev
+ ercall.co/oacc/15846<br>  ◦ November 16\, 2026 · 13:00–13:45 ET — https://
+ evercall.co/oacc/80092<br>  ◦ November 16\, 2026 · 14:00–14:45 ET — https:
+ //evercall.co/oacc/15902<br>• Roadshow: https://dealroadshow.finsight.com/
+ e/NPC2026</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
