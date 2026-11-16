@@ -519,5 +519,21 @@
     ],
     "issuerName": "BASIN ELECTRIC POWER COOPERATIVE",
     "alertedAt": "2026-11-16T14:21:37.515Z"
+  },
+  {
+    "id": "32e35e9d-1be2-499b-9ab6-0540fd1c32f4",
+    "aliases": [
+      "32e35e9d-1be2-499b-9ab6-0540fd1c32f4"
+    ],
+    "issuerName": "CONSTELLATION ENERGY GENERATION LLC",
+    "alertedAt": "2026-11-16T14:31:26.231Z"
+  },
+  {
+    "id": "5a13ee14-c7a9-4c4c-82d5-8e0eaf212b02",
+    "aliases": [
+      "5a13ee14-c7a9-4c4c-82d5-8e0eaf212b02"
+    ],
+    "issuerName": "PROVINCE OF ONTARIO",
+    "alertedAt": "2026-11-16T14:31:31.104Z"
   }
 ]
