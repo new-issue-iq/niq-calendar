@@ -535,5 +535,13 @@
     ],
     "issuerName": "PROVINCE OF ONTARIO",
     "alertedAt": "2026-11-16T14:31:31.104Z"
+  },
+  {
+    "id": "4b8f8e2f-1968-491d-9079-2b4c05417145",
+    "aliases": [
+      "4b8f8e2f-1968-491d-9079-2b4c05417145"
+    ],
+    "issuerName": "RESTAURANT BRANDS INTERNATIONAL INC",
+    "alertedAt": "2026-11-16T14:41:27.802Z"
   }
 ]

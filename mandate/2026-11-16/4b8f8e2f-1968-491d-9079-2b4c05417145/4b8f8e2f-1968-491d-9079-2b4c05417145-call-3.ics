@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:be3358b1c4a15d0b-3@daily.newissueiq
+DTSTAMP:20261116T144118Z
+DTSTART;TZID=America/New_York:20261116T140000
+DTEND;TZID=America/New_York:20261116T144500
+SUMMARY:RBI — Call #3
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: RESTAURANT BRANDS INTERNATIONAL INC (RBI)\nRoadshow: https://dealr
+ oadshow.finsight.com/e/RBI2026\n\nDeal context:\nRESTAURANT BRANDS INTERNA
+ TIONAL INC USD Dual-Tranche — Mandate\n• Issuer: RESTAURANT BRANDS INTERNA
+ TIONAL INC (RBI)\n• Expected Ratings: Moody's: Ba1 / S&P: BBB- / Fitch: BB
+ B-\n• Book Runners: JPM\, MS\, RBC\n• Logistics: JPM\n• Deal Terms: USD du
+ al-tranche (5-year and 10-year)\; Senior Secured Notes\; SEC Registered\; 
+ may follow\, subject to market conditions\n• Investor Calls:\n  ◦ November
+  16\, 2026 · 11:00–11:45 ET\n  ◦ November 16\, 2026 · 13:00–13:45 ET\n  ◦ 
+ November 16\, 2026 · 14:00–14:45 ET\n• Roadshow: https://dealroadshow.fins
+ ight.com/e/RBI2026
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> RESTAURANT BRANDS INTERNATIONAL INC (RBI)</p><p><strong>Roads
+ how:</strong> https://dealroadshow.finsight.com/e/RBI2026</p><p><strong>De
+ al context:</strong><br>RESTAURANT BRANDS INTERNATIONAL INC USD Dual-Tranc
+ he — Mandate<br>• Issuer: RESTAURANT BRANDS INTERNATIONAL INC (RBI)<br>• E
+ xpected Ratings: Moody's: Ba1 / S&amp\;P: BBB- / Fitch: BBB-<br>• Book Run
+ ners: JPM\, MS\, RBC<br>• Logistics: JPM<br>• Deal Terms: USD dual-tranche
+  (5-year and 10-year)\; Senior Secured Notes\; SEC Registered\; may follow
+ \, subject to market conditions<br>• Investor Calls:<br>  ◦ November 16\, 
+ 2026 · 11:00–11:45 ET<br>  ◦ November 16\, 2026 · 13:00–13:45 ET<br>  ◦ No
+ vember 16\, 2026 · 14:00–14:45 ET<br>• Roadshow: https://dealroadshow.fins
+ ight.com/e/RBI2026</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
