@@ -1,15 +1,5 @@
 [
   {
-    "id": "828b57e4-e5d3-470d-95e3-83fcdbf8e125",
-    "issuerName": "TRACTOR SUPPLY CO",
-    "alertedAt": "2026-08-17T13:51:02.529Z"
-  },
-  {
-    "id": "8d13c63b-3d8a-4508-b213-36c980793fda",
-    "issuerName": "MARKEL GROUP INC",
-    "alertedAt": "2026-08-17T13:51:05.819Z"
-  },
-  {
     "id": "f7d7cff1-76a5-4e24-80e0-16a4d91d53fb",
     "issuerName": "HDFC BANK LTD",
     "alertedAt": "2026-08-19T10:51:09.150Z"
@@ -497,5 +487,21 @@
     ],
     "issuerName": "LPL HOLDINGS INC",
     "alertedAt": "2026-11-13T14:10:54.684Z"
+  },
+  {
+    "id": "02225309-be06-43b9-a517-974312b4b0a7",
+    "aliases": [
+      "02225309-be06-43b9-a517-974312b4b0a7"
+    ],
+    "issuerName": "BANK OF N T BUTTERFIELD & SON LTD",
+    "alertedAt": "2026-11-16T13:01:30.475Z"
+  },
+  {
+    "id": "ceef71f9-379a-4244-ab1f-98037b48bf8c",
+    "aliases": [
+      "ceef71f9-379a-4244-ab1f-98037b48bf8c"
+    ],
+    "issuerName": "SCHNEIDER ELECTRIC SE",
+    "alertedAt": "2026-11-16T13:01:32.694Z"
   }
 ]
