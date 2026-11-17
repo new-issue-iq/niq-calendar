@@ -22,7 +22,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3b03d35aae801147-2@daily.newissueiq
-DTSTAMP:20261117T141951Z
+DTSTAMP:20261117T144544Z
 DTSTART;TZID=America/New_York:20261116T110000
 DTEND;TZID=America/New_York:20261116T114500
 SUMMARY:SUFP — Investor Call
@@ -31,31 +31,33 @@ DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
  ght.com/e/SUFP26USD\n\nDeal context:\nSCHNEIDER ELECTRIC SE USD 8-Tranche 
  Benchmark — Announced\n• Issuer: SCHNEIDER ELECTRIC SE (SUFP)\n• Ratings: 
  Moody's: A2 / S&P: A\n• Book Runners: BBVA\, BofA\, JPM\, MS\, MUFG\, SANT
- AN\, SOCGEN\, StanChart\n• Billing & Delivery: MS\n• Deal Terms: USD bench
- mark\; 8-tranche (2yr fixed\, 3yr FRN\, 3yr fixed\, 5yr fixed\, 7yr fixed\
- , 10yr fixed\, 20yr fixed and 30yr fixed)\; Senior Unsecured Notes\; 144A/
- Reg S\n• Call Structure:\n  ◦ 2yr fixed — par call 1 month prior to maturi
- ty\n  ◦ 3yr FRN — none\n  ◦ 3yr fixed — par call 1 month prior to maturity
- \n  ◦ 5yr fixed — par call 1 month prior to maturity\n  ◦ 7yr fixed — par 
- call 2 months prior to maturity\n  ◦ 10yr fixed — par call 3 months prior 
- to maturity\n  ◦ 20yr fixed — par call 6 months prior to maturity\n  ◦ 30y
- r fixed — par call 6 months prior to maturity\n• Pricing:\n  ◦ 2yr fixed —
-  IPT T+70A\n  ◦ 3yr FRN — IPT SOFR Equiv\n  ◦ 3yr fixed — IPT T+80A\n  ◦ 5
- yr fixed — IPT T+95A\n  ◦ 7yr fixed — IPT T+105A\n  ◦ 10yr fixed — IPT T+1
- 15A\n  ◦ 20yr fixed — IPT T+120A\n  ◦ 30yr fixed — IPT T+125A\n• Timing: p
- ricing expected November 17\, 2026\; settlement on November 24\, 2026 (T+5
- )\n• Use of Proceeds: The net proceeds of the offering of the Notes will b
- e used to fund a portion of the cash consideration for the Acquisition or 
- used for general corporate purposes\n• Investor Calls:\n  ◦ November 16\, 
- 2026 · 10:00 EST — https://evercall.co/oacc/44073\n  ◦ November 16\, 2026 
- · 11:00 EST — https://evercall.co/oacc/25353\n  ◦ November 16\, 2026 · 12:
- 00 EST — https://evercall.co/oacc/14645\n  ◦ November 16\, 2026 · 13:00 ES
- T — https://evercall.co/oacc/41235\n• Roadshow: https://dealroadshow.finsi
- ght.com/e/SUFP26USD\n• Progression:\n  ◦ Announced: USD benchmark · 2yr fi
- xed / 3yr FRN / 3yr fixed / 5yr fixed / 7yr fixed / 10yr fixed / 20yr fixe
- d / 30yr fixed · 144A/Reg S\n  ◦ IPT: 2yr fixed T+70A\; 3yr FRN SOFR Equiv
- \; 3yr fixed T+80A\; 5yr fixed T+95A\; 7yr fixed T+105A\; 10yr fixed T+115
- A\; 20yr fixed T+120A\; 30yr fixed T+125A
+ AN\, SOCGEN\, StanChart\n• Billing & Delivery: 2yr fixed MS\, 3yr FRN JPM\
+ , 3yr fixed MS\, 5yr fixed JPM\, 7yr fixed JPM\, 10yr fixed MS\, 20yr fixe
+ d MS\, 30yr fixed JPM\n• Deal Terms: USD benchmark\; 8-tranche (2yr fixed\
+ , 3yr FRN\, 3yr fixed\, 5yr fixed\, 7yr fixed\, 10yr fixed\, 20yr fixed an
+ d 30yr fixed)\; Senior Unsecured Notes\; 144A/Reg S\n• Call Structure:\n  
+ ◦ 2yr fixed — par call 1 month prior to maturity\n  ◦ 3yr FRN — none\n  ◦ 
+ 3yr fixed — par call 1 month prior to maturity\n  ◦ 5yr fixed — par call 1
+  month prior to maturity\n  ◦ 7yr fixed — par call 2 months prior to matur
+ ity\n  ◦ 10yr fixed — par call 3 months prior to maturity\n  ◦ 20yr fixed 
+ — par call 6 months prior to maturity\n  ◦ 30yr fixed — par call 6 months 
+ prior to maturity\n• Pricing:\n  ◦ 2yr fixed — IPT T+70A\n  ◦ 3yr FRN — IP
+ T SOFR Equiv\n  ◦ 3yr fixed — IPT T+80A\n  ◦ 5yr fixed — IPT T+95A\n  ◦ 7y
+ r fixed — IPT T+105A\n  ◦ 10yr fixed — IPT T+115A\n  ◦ 20yr fixed — IPT T+
+ 120A\n  ◦ 30yr fixed — IPT T+125A\n• Timing: pricing expected November 17\
+ , 2026\; settlement on November 24\, 2026 (T+5)\n• Use of Proceeds: The ne
+ t proceeds of the offering of the Notes will be used to fund a portion of 
+ the cash consideration for the Acquisition or used for general corporate p
+ urposes\n• Investor Calls:\n  ◦ November 16\, 2026 · 10:00 EST — https://e
+ vercall.co/oacc/44073\n  ◦ November 16\, 2026 · 11:00 EST — https://everca
+ ll.co/oacc/25353\n  ◦ November 16\, 2026 · 12:00 EST — https://evercall.co
+ /oacc/14645\n  ◦ November 16\, 2026 · 13:00 EST — https://evercall.co/oacc
+ /41235\n• Roadshow: https://dealroadshow.finsight.com/e/SUFP26USD\n• Progr
+ ession:\n  ◦ Announced: USD benchmark · 2yr fixed / 3yr FRN / 3yr fixed / 
+ 5yr fixed / 7yr fixed / 10yr fixed / 20yr fixed / 30yr fixed · 144A/Reg S\
+ n  ◦ IPT: 2yr fixed T+70A\; 3yr FRN SOFR Equiv\; 3yr fixed T+80A\; 5yr fix
+ ed T+95A\; 7yr fixed T+105A\; 10yr fixed T+115A\; 20yr fixed T+120A\; 30yr
+  fixed T+125A
 X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
  h out to your dealer to confirm timing and availability</p><p><strong>Issu
  er:</strong> SCHNEIDER ELECTRIC SE (SUFP)</p><p><strong>Roadshow:</strong>
@@ -63,32 +65,33 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
  </strong><br>SCHNEIDER ELECTRIC SE USD 8-Tranche Benchmark — Announced<br>
  • Issuer: SCHNEIDER ELECTRIC SE (SUFP)<br>• Ratings: Moody's: A2 / S&amp\;
  P: A<br>• Book Runners: BBVA\, BofA\, JPM\, MS\, MUFG\, SANTAN\, SOCGEN\, 
- StanChart<br>• Billing &amp\; Delivery: MS<br>• Deal Terms: USD benchmark\
- ; 8-tranche (2yr fixed\, 3yr FRN\, 3yr fixed\, 5yr fixed\, 7yr fixed\, 10y
- r fixed\, 20yr fixed and 30yr fixed)\; Senior Unsecured Notes\; 144A/Reg S
- <br>• Call Structure:<br>  ◦ 2yr fixed — par call 1 month prior to maturit
- y<br>  ◦ 3yr FRN — none<br>  ◦ 3yr fixed — par call 1 month prior to matur
- ity<br>  ◦ 5yr fixed — par call 1 month prior to maturity<br>  ◦ 7yr fixed
-  — par call 2 months prior to maturity<br>  ◦ 10yr fixed — par call 3 mont
- hs prior to maturity<br>  ◦ 20yr fixed — par call 6 months prior to maturi
- ty<br>  ◦ 30yr fixed — par call 6 months prior to maturity<br>• Pricing:<b
- r>  ◦ 2yr fixed — IPT T+70A<br>  ◦ 3yr FRN — IPT SOFR Equiv<br>  ◦ 3yr fix
- ed — IPT T+80A<br>  ◦ 5yr fixed — IPT T+95A<br>  ◦ 7yr fixed — IPT T+105A<
- br>  ◦ 10yr fixed — IPT T+115A<br>  ◦ 20yr fixed — IPT T+120A<br>  ◦ 30yr 
- fixed — IPT T+125A<br>• Timing: pricing expected November 17\, 2026\; sett
- lement on November 24\, 2026 (T+5)<br>• Use of Proceeds: The net proceeds 
- of the offering of the Notes will be used to fund a portion of the cash co
- nsideration for the Acquisition or used for general corporate purposes<br>
- • Investor Calls:<br>  ◦ November 16\, 2026 · 10:00 EST — https://evercall
- .co/oacc/44073<br>  ◦ November 16\, 2026 · 11:00 EST — https://evercall.co
- /oacc/25353<br>  ◦ November 16\, 2026 · 12:00 EST — https://evercall.co/oa
- cc/14645<br>  ◦ November 16\, 2026 · 13:00 EST — https://evercall.co/oacc/
- 41235<br>• Roadshow: https://dealroadshow.finsight.com/e/SUFP26USD<br>• Pr
- ogression:<br>  ◦ Announced: USD benchmark · 2yr fixed / 3yr FRN / 3yr fix
- ed / 5yr fixed / 7yr fixed / 10yr fixed / 20yr fixed / 30yr fixed · 144A/R
- eg S<br>  ◦ IPT: 2yr fixed T+70A\; 3yr FRN SOFR Equiv\; 3yr fixed T+80A\; 
- 5yr fixed T+95A\; 7yr fixed T+105A\; 10yr fixed T+115A\; 20yr fixed T+120A
- \; 30yr fixed T+125A</p>
+ StanChart<br>• Billing &amp\; Delivery: 2yr fixed MS\, 3yr FRN JPM\, 3yr f
+ ixed MS\, 5yr fixed JPM\, 7yr fixed JPM\, 10yr fixed MS\, 20yr fixed MS\, 
+ 30yr fixed JPM<br>• Deal Terms: USD benchmark\; 8-tranche (2yr fixed\, 3yr
+  FRN\, 3yr fixed\, 5yr fixed\, 7yr fixed\, 10yr fixed\, 20yr fixed and 30y
+ r fixed)\; Senior Unsecured Notes\; 144A/Reg S<br>• Call Structure:<br>  ◦
+  2yr fixed — par call 1 month prior to maturity<br>  ◦ 3yr FRN — none<br> 
+  ◦ 3yr fixed — par call 1 month prior to maturity<br>  ◦ 5yr fixed — par c
+ all 1 month prior to maturity<br>  ◦ 7yr fixed — par call 2 months prior t
+ o maturity<br>  ◦ 10yr fixed — par call 3 months prior to maturity<br>  ◦ 
+ 20yr fixed — par call 6 months prior to maturity<br>  ◦ 30yr fixed — par c
+ all 6 months prior to maturity<br>• Pricing:<br>  ◦ 2yr fixed — IPT T+70A<
+ br>  ◦ 3yr FRN — IPT SOFR Equiv<br>  ◦ 3yr fixed — IPT T+80A<br>  ◦ 5yr fi
+ xed — IPT T+95A<br>  ◦ 7yr fixed — IPT T+105A<br>  ◦ 10yr fixed — IPT T+11
+ 5A<br>  ◦ 20yr fixed — IPT T+120A<br>  ◦ 30yr fixed — IPT T+125A<br>• Timi
+ ng: pricing expected November 17\, 2026\; settlement on November 24\, 2026
+  (T+5)<br>• Use of Proceeds: The net proceeds of the offering of the Notes
+  will be used to fund a portion of the cash consideration for the Acquisit
+ ion or used for general corporate purposes<br>• Investor Calls:<br>  ◦ Nov
+ ember 16\, 2026 · 10:00 EST — https://evercall.co/oacc/44073<br>  ◦ Novemb
+ er 16\, 2026 · 11:00 EST — https://evercall.co/oacc/25353<br>  ◦ November 
+ 16\, 2026 · 12:00 EST — https://evercall.co/oacc/14645<br>  ◦ November 16\
+ , 2026 · 13:00 EST — https://evercall.co/oacc/41235<br>• Roadshow: https:/
+ /dealroadshow.finsight.com/e/SUFP26USD<br>• Progression:<br>  ◦ Announced:
+  USD benchmark · 2yr fixed / 3yr FRN / 3yr fixed / 5yr fixed / 7yr fixed /
+  10yr fixed / 20yr fixed / 30yr fixed · 144A/Reg S<br>  ◦ IPT: 2yr fixed T
+ +70A\; 3yr FRN SOFR Equiv\; 3yr fixed T+80A\; 5yr fixed T+95A\; 7yr fixed 
+ T+105A\; 10yr fixed T+115A\; 20yr fixed T+120A\; 30yr fixed T+125A</p>
 LOCATION:Conference Call
 END:VEVENT
 END:VCALENDAR

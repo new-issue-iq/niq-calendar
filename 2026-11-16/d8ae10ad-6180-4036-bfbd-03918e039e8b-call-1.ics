@@ -22,40 +22,40 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:83c1817f933511aa-1@daily.newissueiq
-DTSTAMP:20261117T141951Z
+DTSTAMP:20261117T144544Z
 DTSTART;TZID=America/New_York:20261116T120000
 DTEND;TZID=America/New_York:20261116T124500
 SUMMARY:BASINE — Call #1
 DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
  Issuer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)\nRoadshow: www.netroadsh
- ow.com/nrs/home/#!/?show=e69c69dd\n\nDeal context:\nBASIN ELECTRIC POWER C
- OOPERATIVE USD 30-Year — Announced\n• Issuer: BASIN ELECTRIC POWER COOPERA
- TIVE (BASINE)\n• Ratings: Moody's: A3 / S&P: A / Fitch: A\n• Book Runners:
-  BMO\, BofA\, RBC\n• Billing & Delivery: RBC\n• Deal Terms: 30-year\; Firs
- t Mortgage Bonds\; 144A/Reg S\n• Call Structure: par call 6 months prior t
- o maturity\n• Pricing: IPT T+135A\n• Timing: pricing expected November 17\
- , 2026\; settlement on November 24\, 2026 (T+5)\n• Use of Proceeds: Genera
- l Corporate Purposes\, Capital Expenditures\n• Investor Calls:\n  ◦ Novemb
- er 16\, 2026 · 12:00–12:45 ET\n  ◦ November 16\, 2026 · 13:00–13:45 ET\n  
- ◦ November 16\, 2026 · 14:00–14:45 ET\n• Roadshow: www.netroadshow.com/nrs
- /home/#!/?show=e69c69dd\n• Progression:\n  ◦ Announced: 30yr · 144A/Reg S\
- n  ◦ IPT: T+135A
+ ow.com\n\nDeal context:\nBASIN ELECTRIC POWER COOPERATIVE USD 30-Year Benc
+ hmark — Announced\n• Issuer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)\n• 
+ Ratings: Moody's: A3 / S&P: A / Fitch: A\n• Book Runners: BMO\, BofA\, RBC
+ \n• Billing & Delivery: RBC\n• Deal Terms: USD benchmark\; 30-year\; First
+  Mortgage Bonds\; 144A/Reg S\n• Call Structure: par call 6 months prior to
+  maturity\n• Pricing: IPT T+135A\n• Timing: pricing expected November 17\,
+  2026\; settlement on November 24\, 2026 (T+5)\n• Use of Proceeds: General
+  Corporate Purposes\, Capital Expenditures\n• Investor Calls:\n  ◦ Novembe
+ r 16\, 2026 · 12:00–12:45 ET\n  ◦ November 16\, 2026 · 13:00–13:45 ET\n  ◦
+  November 16\, 2026 · 14:00–14:45 ET\n• Roadshow: www.netroadshow.com — Pa
+ sscode: BASIN26\n• Progression:\n  ◦ Announced: USD benchmark · 30yr · 144
+ A/Reg S\n  ◦ IPT: T+135A
 X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
  h out to your dealer to confirm timing and availability</p><p><strong>Issu
  er:</strong> BASIN ELECTRIC POWER COOPERATIVE (BASINE)</p><p><strong>Roads
- how:</strong> www.netroadshow.com/nrs/home/#!/?show=e69c69dd</p><p><strong
- >Deal context:</strong><br>BASIN ELECTRIC POWER COOPERATIVE USD 30-Year — 
- Announced<br>• Issuer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)<br>• Rati
- ngs: Moody's: A3 / S&amp\;P: A / Fitch: A<br>• Book Runners: BMO\, BofA\, 
- RBC<br>• Billing &amp\; Delivery: RBC<br>• Deal Terms: 30-year\; First Mor
- tgage Bonds\; 144A/Reg S<br>• Call Structure: par call 6 months prior to m
- aturity<br>• Pricing: IPT T+135A<br>• Timing: pricing expected November 17
- \, 2026\; settlement on November 24\, 2026 (T+5)<br>• Use of Proceeds: Gen
- eral Corporate Purposes\, Capital Expenditures<br>• Investor Calls:<br>  ◦
-  November 16\, 2026 · 12:00–12:45 ET<br>  ◦ November 16\, 2026 · 13:00–13:
- 45 ET<br>  ◦ November 16\, 2026 · 14:00–14:45 ET<br>• Roadshow: www.netroa
- dshow.com/nrs/home/#!/?show=e69c69dd<br>• Progression:<br>  ◦ Announced: 3
- 0yr · 144A/Reg S<br>  ◦ IPT: T+135A</p>
+ how:</strong> www.netroadshow.com</p><p><strong>Deal context:</strong><br>
+ BASIN ELECTRIC POWER COOPERATIVE USD 30-Year Benchmark — Announced<br>• Is
+ suer: BASIN ELECTRIC POWER COOPERATIVE (BASINE)<br>• Ratings: Moody's: A3 
+ / S&amp\;P: A / Fitch: A<br>• Book Runners: BMO\, BofA\, RBC<br>• Billing 
+ &amp\; Delivery: RBC<br>• Deal Terms: USD benchmark\; 30-year\; First Mort
+ gage Bonds\; 144A/Reg S<br>• Call Structure: par call 6 months prior to ma
+ turity<br>• Pricing: IPT T+135A<br>• Timing: pricing expected November 17\
+ , 2026\; settlement on November 24\, 2026 (T+5)<br>• Use of Proceeds: Gene
+ ral Corporate Purposes\, Capital Expenditures<br>• Investor Calls:<br>  ◦ 
+ November 16\, 2026 · 12:00–12:45 ET<br>  ◦ November 16\, 2026 · 13:00–13:4
+ 5 ET<br>  ◦ November 16\, 2026 · 14:00–14:45 ET<br>• Roadshow: www.netroad
+ show.com — Passcode: BASIN26<br>• Progression:<br>  ◦ Announced: USD bench
+ mark · 30yr · 144A/Reg S<br>  ◦ IPT: T+135A</p>
 LOCATION:Conference Call
 END:VEVENT
 END:VCALENDAR
