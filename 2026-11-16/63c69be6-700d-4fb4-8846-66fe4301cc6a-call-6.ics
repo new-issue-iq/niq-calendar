@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:STANDARD
+DTSTART:19710101T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19710101T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2515b40aca29a86a-6@daily.newissueiq
+DTSTAMP:20261117T141951Z
+DTSTART;TZID=Europe/London:20261118T110000
+DTEND;TZID=Europe/London:20261118T114500
+SUMMARY:AKZANA — Call #6
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: AKZO NOBEL INC (AKZANA)\nRoadshow: https://dealroadshow.finsight.c
+ om/e/AKZO2026\n\nDeal context:\nAKZO NOBEL INC USD 10-Year Benchmark — Man
+ date\n• Issuer: AKZO NOBEL INC (AKZANA)\n• Guarantor: AKZO NOBEL NV\n• Exp
+ ected Ratings: Moody's: Baa3 / S&P: BBB\n• Book Runners: BNP\, BofA\, Citi
+ \, MS\, SMBC\n• Logistics: Citi\n• Deal Terms: USD 10-year benchmark\; Sen
+ ior Unsecured Notes\; 144A/Reg S\; may follow\, subject to market conditio
+ ns\n• Use of Proceeds: net proceeds of this offering are intended to be us
+ ed for general corporate purposes and may also be used to refinance\, from
+  time to time\, in whole or in part\, (i) Axalta's 2029 Dollar Term Loans\
+ , (ii) Axalta's outstanding $500 million senior notes due 2027\, (iii) Axa
+ lta's outstanding $700 million senior notes due 2029 and/or (iv) Axalta's 
+ outstanding $500 million senior notes due 2031\, in each case following th
+ e completion of the Merger\n• Investor Calls:\n  ◦ November 17\, 2026 · 10
+ :00–10:45 ET — https://evercall.co/oacc/74134\n  ◦ November 17\, 2026 · 11
+ :00–11:45 ET — https://evercall.co/oacc/41103\n  ◦ November 17\, 2026 · 12
+ :00–12:45 ET — https://evercall.co/oacc/26769\n  ◦ November 17\, 2026 · 13
+ :00–13:45 ET — https://evercall.co/oacc/19927\n  ◦ November 18\, 2026 · 10
+ :00–10:45 UKT — https://evercall.co/oacc/66393\n  ◦ November 18\, 2026 · 1
+ 1:00–11:45 UKT — https://evercall.co/oacc/69185\n• Roadshow: https://dealr
+ oadshow.finsight.com/e/AKZO2026
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> AKZO NOBEL INC (AKZANA)</p><p><strong>Roadshow:</strong> http
+ s://dealroadshow.finsight.com/e/AKZO2026</p><p><strong>Deal context:</stro
+ ng><br>AKZO NOBEL INC USD 10-Year Benchmark — Mandate<br>• Issuer: AKZO NO
+ BEL INC (AKZANA)<br>• Guarantor: AKZO NOBEL NV<br>• Expected Ratings: Mood
+ y's: Baa3 / S&amp\;P: BBB<br>• Book Runners: BNP\, BofA\, Citi\, MS\, SMBC
+ <br>• Logistics: Citi<br>• Deal Terms: USD 10-year benchmark\; Senior Unse
+ cured Notes\; 144A/Reg S\; may follow\, subject to market conditions<br>• 
+ Use of Proceeds: net proceeds of this offering are intended to be used for
+  general corporate purposes and may also be used to refinance\, from time 
+ to time\, in whole or in part\, (i) Axalta's 2029 Dollar Term Loans\, (ii)
+  Axalta's outstanding $500 million senior notes due 2027\, (iii) Axalta's 
+ outstanding $700 million senior notes due 2029 and/or (iv) Axalta's outsta
+ nding $500 million senior notes due 2031\, in each case following the comp
+ letion of the Merger<br>• Investor Calls:<br>  ◦ November 17\, 2026 · 10:0
+ 0–10:45 ET — https://evercall.co/oacc/74134<br>  ◦ November 17\, 2026 · 11
+ :00–11:45 ET — https://evercall.co/oacc/41103<br>  ◦ November 17\, 2026 · 
+ 12:00–12:45 ET — https://evercall.co/oacc/26769<br>  ◦ November 17\, 2026 
+ · 13:00–13:45 ET — https://evercall.co/oacc/19927<br>  ◦ November 18\, 202
+ 6 · 10:00–10:45 UKT — https://evercall.co/oacc/66393<br>  ◦ November 18\, 
+ 2026 · 11:00–11:45 UKT — https://evercall.co/oacc/69185<br>• Roadshow: htt
+ ps://dealroadshow.finsight.com/e/AKZO2026</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

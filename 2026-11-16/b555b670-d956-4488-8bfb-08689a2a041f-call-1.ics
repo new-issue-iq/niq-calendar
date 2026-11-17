@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:faeb053331fbb6bb-1@daily.newissueiq
+DTSTAMP:20261117T141951Z
+DTSTART;TZID=America/New_York:20261116T120000
+DTEND;TZID=America/New_York:20261116T124500
+SUMMARY:BRKHEC — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: NEVADA POWER CO (BRKHEC)\nRoadshow: https://dealroadshow.finsight.
+ com/e/NPC2026\n\nDeal context:\nNEVADA POWER CO Dual-Tranche $350m — Annou
+ nced\n• Issuer: NEVADA POWER CO (BRKHEC)\n• Ratings: Moody's: A2 / S&P: A\
+ n• Book Runners: BofA\, CIBC\, Citi\, MUFG\, SMBC\, USB\n• Billing & Deliv
+ ery: MUFG\n• Deal Terms: $350 million\; dual-tranche (10-year and perpetua
+ l fixed-rate-reset)\; SEC Registered\n• Call Structure:\n  ◦ 10yr — par ca
+ ll 3 months prior to maturity\n  ◦ Perp fixed-rate-reset — none\n• Pricing
+ :\n  ◦ 10yr — IPT T+110A\n• Timing: pricing expected November 17\, 2026\; 
+ settlement on November 19\, 2026 (T+2)\n• Use of Proceeds: (see red) To fu
+ nd capital expenditures\, to reduce equity to levels closer to those appro
+ ved by the Public Utilities Commission of Nevada by paying dividends to it
+ s parent company\, NV Energy\, Inc.\, to repay short-term debt\, and for g
+ eneral corporate purposes\n• Investor Calls:\n  ◦ November 16\, 2026 · 12:
+ 00–12:45 ET — https://evercall.co/oacc/15846\n  ◦ November 16\, 2026 · 13:
+ 00–13:45 ET — https://evercall.co/oacc/80092\n  ◦ November 16\, 2026 · 14:
+ 00–14:45 ET — https://evercall.co/oacc/15902\n  ◦ November 17\, 2026 · 13:
+ 00–13:45 ET — https://evercall.co/oacc/80092\n• Roadshow: https://dealroad
+ show.finsight.com/e/NPC2026\n• Progression:\n  ◦ Announced: $350m · 10yr /
+  Perp fixed-rate-reset · SEC Registered\n  ◦ IPT: 10yr T+110A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> NEVADA POWER CO (BRKHEC)</p><p><strong>Roadshow:</strong> htt
+ ps://dealroadshow.finsight.com/e/NPC2026</p><p><strong>Deal context:</stro
+ ng><br>NEVADA POWER CO Dual-Tranche $350m — Announced<br>• Issuer: NEVADA 
+ POWER CO (BRKHEC)<br>• Ratings: Moody's: A2 / S&amp\;P: A<br>• Book Runner
+ s: BofA\, CIBC\, Citi\, MUFG\, SMBC\, USB<br>• Billing &amp\; Delivery: MU
+ FG<br>• Deal Terms: $350 million\; dual-tranche (10-year and perpetual fix
+ ed-rate-reset)\; SEC Registered<br>• Call Structure:<br>  ◦ 10yr — par cal
+ l 3 months prior to maturity<br>  ◦ Perp fixed-rate-reset — none<br>• Pric
+ ing:<br>  ◦ 10yr — IPT T+110A<br>• Timing: pricing expected November 17\, 
+ 2026\; settlement on November 19\, 2026 (T+2)<br>• Use of Proceeds: (see r
+ ed) To fund capital expenditures\, to reduce equity to levels closer to th
+ ose approved by the Public Utilities Commission of Nevada by paying divide
+ nds to its parent company\, NV Energy\, Inc.\, to repay short-term debt\, 
+ and for general corporate purposes<br>• Investor Calls:<br>  ◦ November 16
+ \, 2026 · 12:00–12:45 ET — https://evercall.co/oacc/15846<br>  ◦ November 
+ 16\, 2026 · 13:00–13:45 ET — https://evercall.co/oacc/80092<br>  ◦ Novembe
+ r 16\, 2026 · 14:00–14:45 ET — https://evercall.co/oacc/15902<br>  ◦ Novem
+ ber 17\, 2026 · 13:00–13:45 ET — https://evercall.co/oacc/80092<br>• Roads
+ how: https://dealroadshow.finsight.com/e/NPC2026<br>• Progression:<br>  ◦ 
+ Announced: $350m · 10yr / Perp fixed-rate-reset · SEC Registered<br>  ◦ IP
+ T: 10yr T+110A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

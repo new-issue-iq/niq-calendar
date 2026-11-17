@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:448ace88f874c239-1@daily.newissueiq
+DTSTAMP:20261117T141951Z
+DTSTART;TZID=America/New_York:20261117T140000
+DTEND;TZID=America/New_York:20261117T150000
+SUMMARY:EXPE — Call #1
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: EXPEDIA GROUP INC (EXPE)\nRoadshow: https://evercall.co/oacc/64891
+ \n\nDeal context:\nEXPEDIA GROUP INC USD Benchmark — Mandate\n• Issuer: EX
+ PEDIA GROUP INC (EXPE)\n• Expected Ratings: Moody's: Baa2 / S&P: BBB / Fit
+ ch: BBB\n• Book Runners: BofA\, Citi\n• Logistics: Citi\n• Deal Terms: USD
+  benchmark\; Senior Unsecured Notes\; SEC Registered\; may follow\, subjec
+ t to market conditions\n• Investor Calls:\n  ◦ April 6\, 2026 · 14:00–15:0
+ 0 ET — https://evercall.co/oacc/64891\n• Roadshow: https://evercall.co/oac
+ c/64891
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> EXPEDIA GROUP INC (EXPE)</p><p><strong>Roadshow:</strong> htt
+ ps://evercall.co/oacc/64891</p><p><strong>Deal context:</strong><br>EXPEDI
+ A GROUP INC USD Benchmark — Mandate<br>• Issuer: EXPEDIA GROUP INC (EXPE)<
+ br>• Expected Ratings: Moody's: Baa2 / S&amp\;P: BBB / Fitch: BBB<br>• Boo
+ k Runners: BofA\, Citi<br>• Logistics: Citi<br>• Deal Terms: USD benchmark
+ \; Senior Unsecured Notes\; SEC Registered\; may follow\, subject to marke
+ t conditions<br>• Investor Calls:<br>  ◦ April 6\, 2026 · 14:00–15:00 ET —
+  https://evercall.co/oacc/64891<br>• Roadshow: https://evercall.co/oacc/64
+ 891</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
