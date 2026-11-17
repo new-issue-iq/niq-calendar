@@ -546,5 +546,13 @@
     ],
     "issuerName": "AKZO NOBEL INC",
     "alertedAt": "2026-11-17T13:51:12.163Z"
+  },
+  {
+    "id": "1eacfc8a-07c9-43ac-86b8-4a2dba2cf235",
+    "aliases": [
+      "1eacfc8a-07c9-43ac-86b8-4a2dba2cf235"
+    ],
+    "issuerName": "MILLICOM INTERNATIONAL CELLULAR SA",
+    "alertedAt": "2026-11-17T14:21:07.460Z"
   }
 ]
