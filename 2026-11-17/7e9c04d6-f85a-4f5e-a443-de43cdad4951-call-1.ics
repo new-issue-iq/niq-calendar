@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6e172bb327e3ae6c-1@daily.newissueiq
+DTSTAMP:20261118T153102Z
+DTSTART;TZID=America/New_York:20261116T100000
+DTEND;TZID=America/New_York:20261116T104500
+SUMMARY:PFPT — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: PROOFPOINT INC (PFPT)\nRoadshow: https://dealroadshow.finsight.com
+ /e/PEACHNOTE26\n\nDeal context:\nPROOFPOINT INC 5NC2 $1.25bn — Guidance\n•
+  Issuer: PROOFPOINT INC (PFPT)\n• Book Runners: BMO\, BNP\, HSBC\, JEF\, J
+ PM\, MIZUHO\, MS\, RBC\, SPC\, TFC\, UBS\, USB\, WFS\n• Billing & Delivery
+ : JPM\n• Deal Terms: $1.25 billion\; 5NC2\; Senior Secured Notes\; 144A/Re
+ g S\n• Pricing: guidance 8.75%A\n• Timing: pricing expected November 18\, 
+ 2026\n• Use of Proceeds: To partially finance the acquisition of Varonis\,
+  and to pay any related fees and expenses\n• Investor Calls:\n  ◦ November
+  16\, 2026 · 10:00 ET\n  ◦ Investor call at 10 AM ET\, details below Confe
+ rence ID: 63052 Participant US Toll-Free #: +1 888-700-7550 Participant US
+  (Local) #: +1 929-272-1574 Participant International #: +44-203-393-2871\
+ n• Roadshow: https://dealroadshow.finsight.com/e/PEACHNOTE26\n• Progressio
+ n:\n  ◦ Announced: $1.25bn · 5NC2 · 144A/Reg S\n  ◦ IPT: Low 9s\n  ◦ Guida
+ nce: 8.75%A
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> PROOFPOINT INC (PFPT)</p><p><strong>Roadshow:</strong> https:
+ //dealroadshow.finsight.com/e/PEACHNOTE26</p><p><strong>Deal context:</str
+ ong><br>PROOFPOINT INC 5NC2 $1.25bn — Guidance<br>• Issuer: PROOFPOINT INC
+  (PFPT)<br>• Book Runners: BMO\, BNP\, HSBC\, JEF\, JPM\, MIZUHO\, MS\, RB
+ C\, SPC\, TFC\, UBS\, USB\, WFS<br>• Billing &amp\; Delivery: JPM<br>• Dea
+ l Terms: $1.25 billion\; 5NC2\; Senior Secured Notes\; 144A/Reg S<br>• Pri
+ cing: guidance 8.75%A<br>• Timing: pricing expected November 18\, 2026<br>
+ • Use of Proceeds: To partially finance the acquisition of Varonis\, and t
+ o pay any related fees and expenses<br>• Investor Calls:<br>  ◦ November 1
+ 6\, 2026 · 10:00 ET<br>  ◦ Investor call at 10 AM ET\, details below Confe
+ rence ID: 63052 Participant US Toll-Free #: +1 888-700-7550 Participant US
+  (Local) #: +1 929-272-1574 Participant International #: +44-203-393-2871<
+ br>• Roadshow: https://dealroadshow.finsight.com/e/PEACHNOTE26<br>• Progre
+ ssion:<br>  ◦ Announced: $1.25bn · 5NC2 · 144A/Reg S<br>  ◦ IPT: Low 9s<br
+ >  ◦ Guidance: 8.75%A</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

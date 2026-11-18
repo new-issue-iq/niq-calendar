@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:555954e41c3b65ef-1@daily.newissueiq
+DTSTAMP:20261118T153102Z
+DTSTART;TZID=America/New_York:20261118T110000
+DTEND;TZID=America/New_York:20261118T114500
+SUMMARY:CVI — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: CVR ENERGY INC (CVI)\nRoadshow: https://www.netroadshow.com/events
+ /login/1PeTHmohMS6p8A2boP74NqcZgKHJ0ipp381zS\n\nDeal context:\nCVR ENERGY 
+ INC 5.25NC2 $1.25bn — Announced\n• Issuer: CVR ENERGY INC (CVI)\n• Ratings
+ : Moody's: B2 / S&P: BB- / Fitch: BB-\n• Book Runners: Barc\, Citi\, MIZUH
+ O\, RF\, USB\, WFS\n• Billing & Delivery: Barc\n• Deal Terms: $1.25 billio
+ n\; 5.25NC2\; Senior Secured Notes\; 144A/Reg S\n• Pricing: IPT 8.75-9%\n•
+  Timing: pricing expected November 19\, 2026\n• Use of Proceeds: In additi
+ on to a new $1\,250 million Term Loan B\, proceeds will be used to finance
+  the acquisition of an integrated PADD II Northern Tier system from MPC fo
+ r ~$4.2bn\n• Investor Calls:\n  ◦ November 18\, 2026 · 11:00 ET — https://
+ www.netroadshow.com/events/login/1PeTHmohMS6p8A2boP74NqcZgKHJ0ipp381zS\n• 
+ Roadshow: https://www.netroadshow.com/events/login/1PeTHmohMS6p8A2boP74Nqc
+ ZgKHJ0ipp381zS\n• Progression:\n  ◦ Announced: $1.25bn · 5.25NC2 · 144A/Re
+ g S\n  ◦ IPT: 8.75-9%
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> CVR ENERGY INC (CVI)</p><p><strong>Roadshow:</strong> https:/
+ /www.netroadshow.com/events/login/1PeTHmohMS6p8A2boP74NqcZgKHJ0ipp381zS</p
+ ><p><strong>Deal context:</strong><br>CVR ENERGY INC 5.25NC2 $1.25bn — Ann
+ ounced<br>• Issuer: CVR ENERGY INC (CVI)<br>• Ratings: Moody's: B2 / S&amp
+ \;P: BB- / Fitch: BB-<br>• Book Runners: Barc\, Citi\, MIZUHO\, RF\, USB\,
+  WFS<br>• Billing &amp\; Delivery: Barc<br>• Deal Terms: $1.25 billion\; 5
+ .25NC2\; Senior Secured Notes\; 144A/Reg S<br>• Pricing: IPT 8.75-9%<br>• 
+ Timing: pricing expected November 19\, 2026<br>• Use of Proceeds: In addit
+ ion to a new $1\,250 million Term Loan B\, proceeds will be used to financ
+ e the acquisition of an integrated PADD II Northern Tier system from MPC f
+ or ~$4.2bn<br>• Investor Calls:<br>  ◦ November 18\, 2026 · 11:00 ET — htt
+ ps://www.netroadshow.com/events/login/1PeTHmohMS6p8A2boP74NqcZgKHJ0ipp381z
+ S<br>• Roadshow: https://www.netroadshow.com/events/login/1PeTHmohMS6p8A2b
+ oP74NqcZgKHJ0ipp381zS<br>• Progression:<br>  ◦ Announced: $1.25bn · 5.25NC
+ 2 · 144A/Reg S<br>  ◦ IPT: 8.75-9%</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

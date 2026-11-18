@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bb4b472223e19af3-1@daily.newissueiq
+DTSTAMP:20261118T153102Z
+DTSTART;TZID=America/New_York:20261118T103000
+DTEND;TZID=America/New_York:20261118T111500
+SUMMARY:SOLAR MTS HOLDINGS LLC — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: SOLAR MTS HOLDINGS LLC\nRoadshow: https://www.netroadshow.com/even
+ ts/login/1PeTHmohTihnIIbGRy61wEba1Lkfl9BbeGyAq\n\nDeal context:\nSOLAR MTS
+  HOLDINGS LLC 8NC3 $500m — Announced\n• Issuer: SOLAR MTS HOLDINGS LLC\n• 
+ Book Runners: BNP\, BofA\, CFG\, Citi\, COF\, GS\, HBAN\, MUFG\, PNC\, TFC
+ \, USB\n• Billing & Delivery: BofA\n• Deal Terms: $500 million\; 8NC3\; Se
+ nior Unsecured Notes\; 144A/Reg S\n• Timing: pricing expected Roadshow thr
+ ough tomorrow\n• Use of Proceeds: Net proceeds from the offering\, along w
+ ith proceeds from borrowings under the Company's concurrent Senior Secured
+  Credit Facilities\, intended to be used to fund a portion of the cash dis
+ tribution to be made to KBR in the connection with the spin-off\, and to p
+ ay associated fees and expenses\n• Investor Calls:\n  ◦ November 18\, 2026
+  · 10:30 ET — https://www.netroadshow.com/events/login/1PeTHmohTihnIIbGRy6
+ 1wEba1Lkfl9BbeGyAq — Passcode: TZIC2026\n  ◦ Wednesday\, November 18th at 
+ 10:30 AM ET CALL INFO + SLIDES: https://www.netroadshow.com/events/login/1
+ PeTHmohTihnIIbGRy61wEba1Lkfl9BbeGyAq (recommended) or Visit https://www.ne
+ troadshow.com/ and enter the Entry Code: TZIC2026 Replay Stream: https://w
+ ww.netroadshow.com/events/login/1PeTHmohTihnIIbGRy61wEba1Lkfl9BbeGyAq\n• R
+ oadshow: https://www.netroadshow.com/events/login/1PeTHmohTihnIIbGRy61wEba
+ 1Lkfl9BbeGyAq\n• Progression:\n  ◦ Announced: $500m · 8NC3 · 144A/Reg S
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> SOLAR MTS HOLDINGS LLC</p><p><strong>Roadshow:</strong> https
+ ://www.netroadshow.com/events/login/1PeTHmohTihnIIbGRy61wEba1Lkfl9BbeGyAq<
+ /p><p><strong>Deal context:</strong><br>SOLAR MTS HOLDINGS LLC 8NC3 $500m 
+ — Announced<br>• Issuer: SOLAR MTS HOLDINGS LLC<br>• Book Runners: BNP\, B
+ ofA\, CFG\, Citi\, COF\, GS\, HBAN\, MUFG\, PNC\, TFC\, USB<br>• Billing &
+ amp\; Delivery: BofA<br>• Deal Terms: $500 million\; 8NC3\; Senior Unsecur
+ ed Notes\; 144A/Reg S<br>• Timing: pricing expected Roadshow through tomor
+ row<br>• Use of Proceeds: Net proceeds from the offering\, along with proc
+ eeds from borrowings under the Company's concurrent Senior Secured Credit 
+ Facilities\, intended to be used to fund a portion of the cash distributio
+ n to be made to KBR in the connection with the spin-off\, and to pay assoc
+ iated fees and expenses<br>• Investor Calls:<br>  ◦ November 18\, 2026 · 1
+ 0:30 ET — https://www.netroadshow.com/events/login/1PeTHmohTihnIIbGRy61wEb
+ a1Lkfl9BbeGyAq — Passcode: TZIC2026<br>  ◦ Wednesday\, November 18th at 10
+ :30 AM ET CALL INFO + SLIDES: https://www.netroadshow.com/events/login/1Pe
+ THmohTihnIIbGRy61wEba1Lkfl9BbeGyAq (recommended) or Visit https://www.netr
+ oadshow.com/ and enter the Entry Code: TZIC2026 Replay Stream: https://www
+ .netroadshow.com/events/login/1PeTHmohTihnIIbGRy61wEba1Lkfl9BbeGyAq<br>• R
+ oadshow: https://www.netroadshow.com/events/login/1PeTHmohTihnIIbGRy61wEba
+ 1Lkfl9BbeGyAq<br>• Progression:<br>  ◦ Announced: $500m · 8NC3 · 144A/Reg 
+ S</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

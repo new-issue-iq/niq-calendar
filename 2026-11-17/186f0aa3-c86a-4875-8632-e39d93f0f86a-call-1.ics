@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a2f1ac25e94acc04-1@daily.newissueiq
+DTSTAMP:20261118T153102Z
+DTSTART;TZID=America/New_York:20261116T103000
+DTEND;TZID=America/New_York:20261116T111500
+SUMMARY:EFOR — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: EVERFORTH INC (EFOR)\nRoadshow: https://www.netroadshow.com/events
+ /login/1PeTHmojHerWdqECRKbvss33i0IgMAHe2dxfr\n\nDeal context:\nEVERFORTH I
+ NC 5NC2 $500m — Announced\n• Issuer: EVERFORTH INC (EFOR)\n• Ratings: Mood
+ y's: Ba3 / S&P: BB\n• Book Runners: BofA\, JPM\, TFC\, WFS\n• Billing & De
+ livery: TFC\n• Deal Terms: $500 million\; 5NC2\; Senior Unsecured Notes\; 
+ 144A/Reg S\n• Pricing: IPT Mid 10s\n• Timing: pricing expected November 18
+ \, 2026\; settlement on December 3\, 2026 (T+10)\n• Use of Proceeds: Net p
+ roceeds from the sale of Notes\, together with a draw under its existing r
+ evolving credit facility\, will be used to redeem the existing 4.625% Seni
+ or Unsecured Notes due 2028 and pay related fees and expenses\n• Investor 
+ Calls:\n  ◦ November 16\, 2026 · 10:30 ET — https://www.netroadshow.com/ev
+ ents/login/1PeTHmojHerWdqECRKbvss33i0IgMAHe2dxfr — Passcode: 591426\n• Roa
+ dshow: https://www.netroadshow.com/events/login/1PeTHmojHerWdqECRKbvss33i0
+ IgMAHe2dxfr\n• Progression:\n  ◦ Announced: $500m · 5NC2 · 144A/Reg S\n  ◦
+  IPT: Mid 10s
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> EVERFORTH INC (EFOR)</p><p><strong>Roadshow:</strong> https:/
+ /www.netroadshow.com/events/login/1PeTHmojHerWdqECRKbvss33i0IgMAHe2dxfr</p
+ ><p><strong>Deal context:</strong><br>EVERFORTH INC 5NC2 $500m — Announced
+ <br>• Issuer: EVERFORTH INC (EFOR)<br>• Ratings: Moody's: Ba3 / S&amp\;P: 
+ BB<br>• Book Runners: BofA\, JPM\, TFC\, WFS<br>• Billing &amp\; Delivery:
+  TFC<br>• Deal Terms: $500 million\; 5NC2\; Senior Unsecured Notes\; 144A/
+ Reg S<br>• Pricing: IPT Mid 10s<br>• Timing: pricing expected November 18\
+ , 2026\; settlement on December 3\, 2026 (T+10)<br>• Use of Proceeds: Net 
+ proceeds from the sale of Notes\, together with a draw under its existing 
+ revolving credit facility\, will be used to redeem the existing 4.625% Sen
+ ior Unsecured Notes due 2028 and pay related fees and expenses<br>• Invest
+ or Calls:<br>  ◦ November 16\, 2026 · 10:30 ET — https://www.netroadshow.c
+ om/events/login/1PeTHmojHerWdqECRKbvss33i0IgMAHe2dxfr — Passcode: 591426<b
+ r>• Roadshow: https://www.netroadshow.com/events/login/1PeTHmojHerWdqECRKb
+ vss33i0IgMAHe2dxfr<br>• Progression:<br>  ◦ Announced: $500m · 5NC2 · 144A
+ /Reg S<br>  ◦ IPT: Mid 10s</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR

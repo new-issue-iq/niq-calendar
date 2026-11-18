@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a42933f34a89c5a9-6@daily.newissueiq
+DTSTAMP:20261118T153102Z
+DTSTART;TZID=America/New_York:20261116T110000
+DTEND;TZID=America/New_York:20261116T115000
+SUMMARY:NTB — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BANK OF N T BUTTERFIELD & SON LTD (NTB)\nRoadshow: https://www.net
+ roadshow.com\n\nDeal context:\nBANK OF N T BUTTERFIELD & SON LTD USD 10NC5
+  Fix-To-Float Benchmark — Mandate\n• Issuer: BANK OF N T BUTTERFIELD & SON
+  LTD\n• Expected Ratings: Moody's: Baa1 / S&P: BBB  / KBRA: BBB\n• Book Ru
+ nners: Barc\, BofA\n• Logistics: Barc\n• Deal Terms: USD 10NC5 fix-to-floa
+ t benchmark\; Subordinated Notes\; SEC Registered\; may follow\, subject t
+ o market conditions\n• Investor Calls:\n  ◦ November 16\, 2026 · 10:00–10:
+ 50 ET — https://www.netroadshow.com/session1\n  ◦ November 16\, 2026 · 11:
+ 00–11:50 ET — https://www.netroadshow.com/session2\n  ◦ November 16\, 2026
+  · 13:00–13:50 ET — https://www.netroadshow.com/session3\n  ◦ November 16\
+ , 2026 · 14:00–14:50 ET — https://www.netroadshow.com/session4\n• Roadshow
+ : https://www.netroadshow.com
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BANK OF N T BUTTERFIELD &amp\; SON LTD (NTB)</p><p><strong>Ro
+ adshow:</strong> https://www.netroadshow.com</p><p><strong>Deal context:</
+ strong><br>BANK OF N T BUTTERFIELD &amp\; SON LTD USD 10NC5 Fix-To-Float B
+ enchmark — Mandate<br>• Issuer: BANK OF N T BUTTERFIELD &amp\; SON LTD<br>
+ • Expected Ratings: Moody's: Baa1 / S&amp\;P: BBB  / KBRA: BBB<br>• Book R
+ unners: Barc\, BofA<br>• Logistics: Barc<br>• Deal Terms: USD 10NC5 fix-to
+ -float benchmark\; Subordinated Notes\; SEC Registered\; may follow\, subj
+ ect to market conditions<br>• Investor Calls:<br>  ◦ November 16\, 2026 · 
+ 10:00–10:50 ET — https://www.netroadshow.com/session1<br>  ◦ November 16\,
+  2026 · 11:00–11:50 ET — https://www.netroadshow.com/session2<br>  ◦ Novem
+ ber 16\, 2026 · 13:00–13:50 ET — https://www.netroadshow.com/session3<br> 
+  ◦ November 16\, 2026 · 14:00–14:50 ET — https://www.netroadshow.com/sessi
+ on4<br>• Roadshow: https://www.netroadshow.com</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
