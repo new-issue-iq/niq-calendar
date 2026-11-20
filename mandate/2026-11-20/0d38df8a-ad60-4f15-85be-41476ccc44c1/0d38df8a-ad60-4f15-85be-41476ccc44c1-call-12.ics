@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Issue IQ//Daily Report//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1fc6159fc907da62-12@daily.newissueiq
+DTSTAMP:20261120T133058Z
+DTSTART;TZID=America/New_York:20261124T080000
+DTEND;TZID=America/New_York:20261124T084500
+SUMMARY:BI — Investor Call
+DESCRIPTION:Reach out to your dealer to confirm timing and availability\n\n
+ Issuer: BOROUGE GROUP INTERNATIONAL (BI)\n\nDeal context:\nBOROUGE GROUP I
+ NTERNATIONAL — Mandate\n• Issuer: BOROUGE GROUP INTERNATIONAL (BI)\n• Expe
+ cted Ratings: Moody's: Baa1 / S&P: A / Fitch: A-\n• Book Runners: Barc\, C
+ iti\, FAB\, GS\, HSBC\, JPM\, MIZUHO\, SOCGEN\, UCGIM\n• Logistics: Barc\n
+ • Investor Calls:\n  ◦ November 23\, 2026 · 09:00–09:45 UTC\n  ◦ November 
+ 23\, 2026 · 10:00–10:45 UTC\n  ◦ November 23\, 2026 · 11:00–11:45 UTC\n  ◦
+  November 23\, 2026 · 12:00–12:45 UTC\n  ◦ November 23\, 2026 · 13:00–13:4
+ 5 UTC\n  ◦ November 23\, 2026 · 14:00–14:45 UTC\n  ◦ November 23\, 2026 · 
+ 15:00–15:45 UTC\n  ◦ November 23\, 2026 · 16:00–16:45 UTC\n  ◦ November 23
+ \, 2026 · 17:00–17:45 UTC\n  ◦ November 23\, 2026 · 18:00–18:45 UTC\n  ◦ N
+ ovember 23\, 2026 · 19:00–19:45 UTC\n  ◦ November 24\, 2026 · 08:00–08:45 
+ UTC\n  ◦ November 24\, 2026 · 09:00–09:45 UTC\n  ◦ November 24\, 2026 · 10
+ :00–10:45 UTC\n  ◦ November 24\, 2026 · 11:00–11:45 UTC\n  ◦ November 24\,
+  2026 · 15:00–15:45 UTC\n  ◦ November 24\, 2026 · 16:00–16:45 UTC\n  ◦ Nov
+ ember 24\, 2026 · 17:00–17:45 UTC\n  ◦ November 24\, 2026 · 18:00–18:45 UT
+ C\n  ◦ November 24\, 2026 · 19:00–19:45 UTC\n  ◦ November 25\, 2026 · 08:0
+ 0–08:45 UTC\n  ◦ November 25\, 2026 · 09:00–09:45 UTC\n  ◦ November 26\, 2
+ 026 · 07:00–07:45 UTC\n  ◦ November 26\, 2026 · 08:00–08:45 UTC\n  ◦ Novem
+ ber 26\, 2026 · 09:00–09:45 UTC
+X-ALT-DESC;FMTTYPE=text/html:<p style="color:#FF0000\;margin:0 0 12px">Reac
+ h out to your dealer to confirm timing and availability</p><p><strong>Issu
+ er:</strong> BOROUGE GROUP INTERNATIONAL (BI)</p><p><strong>Deal context:<
+ /strong><br>BOROUGE GROUP INTERNATIONAL — Mandate<br>• Issuer: BOROUGE GRO
+ UP INTERNATIONAL (BI)<br>• Expected Ratings: Moody's: Baa1 / S&amp\;P: A /
+  Fitch: A-<br>• Book Runners: Barc\, Citi\, FAB\, GS\, HSBC\, JPM\, MIZUHO
+ \, SOCGEN\, UCGIM<br>• Logistics: Barc<br>• Investor Calls:<br>  ◦ Novembe
+ r 23\, 2026 · 09:00–09:45 UTC<br>  ◦ November 23\, 2026 · 10:00–10:45 UTC<
+ br>  ◦ November 23\, 2026 · 11:00–11:45 UTC<br>  ◦ November 23\, 2026 · 12
+ :00–12:45 UTC<br>  ◦ November 23\, 2026 · 13:00–13:45 UTC<br>  ◦ November 
+ 23\, 2026 · 14:00–14:45 UTC<br>  ◦ November 23\, 2026 · 15:00–15:45 UTC<br
+ >  ◦ November 23\, 2026 · 16:00–16:45 UTC<br>  ◦ November 23\, 2026 · 17:0
+ 0–17:45 UTC<br>  ◦ November 23\, 2026 · 18:00–18:45 UTC<br>  ◦ November 23
+ \, 2026 · 19:00–19:45 UTC<br>  ◦ November 24\, 2026 · 08:00–08:45 UTC<br> 
+  ◦ November 24\, 2026 · 09:00–09:45 UTC<br>  ◦ November 24\, 2026 · 10:00–
+ 10:45 UTC<br>  ◦ November 24\, 2026 · 11:00–11:45 UTC<br>  ◦ November 24\,
+  2026 · 15:00–15:45 UTC<br>  ◦ November 24\, 2026 · 16:00–16:45 UTC<br>  ◦
+  November 24\, 2026 · 17:00–17:45 UTC<br>  ◦ November 24\, 2026 · 18:00–18
+ :45 UTC<br>  ◦ November 24\, 2026 · 19:00–19:45 UTC<br>  ◦ November 25\, 2
+ 026 · 08:00–08:45 UTC<br>  ◦ November 25\, 2026 · 09:00–09:45 UTC<br>  ◦ N
+ ovember 26\, 2026 · 07:00–07:45 UTC<br>  ◦ November 26\, 2026 · 08:00–08:4
+ 5 UTC<br>  ◦ November 26\, 2026 · 09:00–09:45 UTC</p>
+LOCATION:Conference Call
+END:VEVENT
+END:VCALENDAR
